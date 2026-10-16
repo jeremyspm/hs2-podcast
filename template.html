@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+<meta name="theme-color" content="#0e1420"/>
+<meta name="robots" content="noindex"/>
+<title>HS2 SAQ Podcast</title>
+<link rel="icon" type="image/png" href="audio/cover-t3.png"/>
+<link rel="alternate" type="application/rss+xml" title="HS2 Test 3 — Every SAQ" href="feed-t3.xml"/>
+<link rel="alternate" type="application/rss+xml" title="HS2 Final — Every case SAQ" href="feed-final.xml"/>
+<style>
+/* built by podcast.py from template.html: edit this file, never index.html. Same paper colour and bars as the HS2 pages. */
+:root{
+  --paper:#2563eb;
+  --bg:color-mix(in srgb,var(--paper) 7%,#0e1420); --bg2:color-mix(in srgb,var(--paper) 7%,#141c2b); --card:#182133; --card2:#1e2941;
+  --line:#27324a; --line2:#33405c;
+  --tx:#e8eef7; --tx2:#9fb0c8; --tx3:#6d7f9c;
+  --acc:color-mix(in srgb,var(--paper) 70%,#fff); --acc2:var(--paper);
+  --good:#39d98a; --hard:#ffce54;
+  --r:16px; --maxw:760px; --bar:150px;
+}
+html[data-theme="light"]{
+  --bg:color-mix(in srgb,var(--paper) 7%,#eef2f8); --bg2:color-mix(in srgb,var(--paper) 7%,#e3e9f3); --card:#ffffff; --card2:#f4f7fc;
+  --line:#dbe3ef; --line2:#c7d3e6;
+  --tx:#16202f; --tx2:#4a5a72; --tx3:#7d8ca5;
+  --acc:color-mix(in srgb,var(--paper) 88%,#000); --acc2:color-mix(in srgb,var(--paper) 76%,#000);
+  --good:#128a55; --hard:#a9791a;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{margin:0;min-height:100%}
+body{background:linear-gradient(180deg,var(--bg),var(--bg2)) fixed;color:var(--tx);
+  font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;
+  padding:env(safe-area-inset-top) env(safe-area-inset-right) 0 env(safe-area-inset-left)}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:26px 16px calc(var(--bar) + 40px + env(safe-area-inset-bottom))}
+a{color:var(--acc)}
+button{font-family:inherit;cursor:pointer;border:none;color:inherit;background:none;font-size:inherit}
+.top{display:flex;align-items:center;gap:10px;margin:-26px -16px 18px;padding:10px 16px;border-radius:0 0 16px 16px;color:#fff;
+  background:linear-gradient(100deg,color-mix(in srgb,var(--paper) 72%,#000),color-mix(in srgb,var(--paper) 88%,#000));
+  box-shadow:0 4px 18px -8px color-mix(in srgb,var(--paper) 60%,transparent)}
+.top a.back{font-size:13px;font-weight:700;text-decoration:none;color:#fff;border:1px solid rgb(255 255 255 / .3);border-radius:9px;padding:7px 12px;background:rgb(255 255 255 / .1)}
+.top a.back:hover{background:rgb(255 255 255 / .2)}
+.iconbtn{width:38px;height:38px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:17px;margin-left:auto;
+  color:#fff;background:rgb(255 255 255 / .1);border:1px solid rgb(255 255 255 / .3)}
+.idcard{position:relative;overflow:hidden;margin:0 0 16px;padding:20px 22px;border-radius:18px;color:#fff;
+  background:radial-gradient(90% 130% at 100% 0%,rgb(255 255 255 / .2),transparent 60%),
+    linear-gradient(135deg,color-mix(in srgb,var(--paper) 94%,#fff),color-mix(in srgb,var(--paper) 72%,#000));
+  box-shadow:0 14px 34px -16px color-mix(in srgb,var(--paper) 80%,transparent)}
+.idcard .idic{position:absolute;right:4px;bottom:-30px;font-size:8rem;line-height:1;opacity:.2;transform:rotate(-12deg);pointer-events:none}
+.idcard small{position:relative;display:block;font-size:.72rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:rgb(255 255 255 / .86)}
+.idcard h1{position:relative;font-size:clamp(2.3rem,7vw,3.4rem);line-height:.95;margin:6px 0 10px;font-weight:900;letter-spacing:-.03em;text-transform:uppercase}
+.idcard p{position:relative;color:rgb(255 255 255 / .92);margin:0;font-size:14.5px}
+@media (max-width:560px){ .idcard{padding:14px 16px;border-radius:14px} .idcard .idic{font-size:5.5rem;bottom:-18px} .idcard h1{font-size:2.1rem;margin:4px 0 8px} .idcard p{font-size:13px} }
+/* the two episodes */
+.seg{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:0 0 10px}
+.seg button{background:var(--card);border:1px solid var(--line);border-radius:13px;padding:11px 12px;text-align:left;line-height:1.3}
+.seg button b{display:block;font-size:15.5px}
+.seg button span{font-size:12px;color:var(--tx3)}
+.seg button[aria-selected="true"]{border-color:var(--acc);background:color-mix(in srgb,var(--acc) 14%,var(--card));box-shadow:0 0 0 1px var(--acc) inset}
+.seg button[aria-selected="true"] span{color:var(--tx2)}
+.when{font-size:13px;color:var(--tx2);margin:0 0 4px}
+.blurb{font-size:13px;color:var(--tx3);margin:0 0 14px}
+.dlrow{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 12px}
+.dlrow .btn{flex:1 1 150px;justify-content:center;flex-direction:column;gap:1px;padding:9px 12px;text-align:center}
+.dlrow .btn+.btn{margin-left:0}
+.dlrow small{font-size:11.5px;font-weight:600;opacity:.85}
+.howto{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px}
+.howto span{font-size:12px;color:var(--tx2);background:var(--card);border:1px solid var(--line);border-radius:999px;padding:4px 10px}
+.bar{height:6px;border-radius:5px;background:var(--line);overflow:hidden;margin:0 0 6px}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--acc2),var(--acc));width:0;transition:width .25s}
+.count{font-size:12px;color:var(--tx3);margin:0 0 12px;display:flex;justify-content:space-between;gap:10px}
+.count button{color:var(--tx3);text-decoration:underline;font-size:12px}
+/* the tracks */
+.list{list-style:none;margin:0;padding:0}
+.row{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:0 0 8px;overflow:hidden}
+.row.cur{border-color:color-mix(in srgb,var(--acc) 70%,transparent);box-shadow:0 0 0 1px color-mix(in srgb,var(--acc) 40%,transparent) inset}
+.rhead{display:flex;align-items:center;gap:11px;padding:11px 12px}
+.play{flex:1;display:flex;align-items:center;gap:11px;min-width:0;text-align:left;padding:0}
+.num{flex:none;width:34px;height:34px;border-radius:10px;background:var(--card2);border:1px solid var(--line2);display:flex;align-items:center;justify-content:center;
+  font-size:13px;font-weight:800;color:var(--tx2);font-variant-numeric:tabular-nums}
+.row.cur .num{background:var(--acc2);border-color:var(--acc2);color:#fff}
+.row.done .num{background:color-mix(in srgb,var(--good) 18%,var(--card2));border-color:color-mix(in srgb,var(--good) 55%,transparent);color:var(--good)}
+.row.cur.done .num{background:var(--acc2);border-color:var(--acc2);color:#fff}
+.tw{flex:1;min-width:0}
+.tt{display:block;font-size:15px;line-height:1.35;font-weight:600}
+.tm{display:block;font-size:12px;color:var(--tx3);margin-top:2px}
+.tm .ok{color:var(--good);font-weight:700}
+.dl{flex:none;width:36px;height:36px;border-radius:10px;display:flex;align-items:center;justify-content:center;color:var(--tx3);text-decoration:none;font-size:17px;border:1px solid transparent}
+.dl:hover{color:var(--acc);border-color:var(--line2)}
+.eq{display:inline-flex;gap:2px;align-items:flex-end;height:13px}
+.eq i{width:3px;background:#fff;border-radius:1px;animation:eq .9s ease-in-out infinite}
+.eq i:nth-child(2){animation-delay:-.3s}.eq i:nth-child(3){animation-delay:-.6s}
+@keyframes eq{0%,100%{height:3px}50%{height:13px}}
+.paused .eq i{animation:none;height:6px}
+@media (prefers-reduced-motion:reduce){.eq i{animation:none;height:8px}}
+/* what she asks, under the track that is playing */
+.body{border-top:1px solid var(--line);padding:12px 14px 14px;font-size:14px}
+.body h4{margin:0 0 4px;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--tx3)}
+.scen{color:var(--tx2);font-size:13.5px;margin:0 0 10px}
+.scen summary{cursor:pointer;color:var(--tx3);font-size:12.5px}
+.item{padding:9px 0}
+.item+.item{border-top:1px dashed var(--line)}
+.ask{margin:0;color:var(--tx)}
+.ask .mk{font-size:11.5px;font-weight:700;color:var(--acc);white-space:nowrap}
+.hook{margin:6px 0 0;font-size:13px;color:var(--hard)}
+.held{display:inline-block;margin:4px 0 0;font-size:11px;font-weight:700;color:var(--hard);border:1px solid color-mix(in srgb,var(--hard) 40%,transparent);border-radius:6px;padding:0 6px}
+.ans{margin:8px 0 0;padding:9px 11px;border-radius:10px;background:var(--card2);border:1px solid var(--line)}
+.ans .gh{font-size:12px;font-weight:700;color:var(--tx2);margin:6px 0 2px}
+.ans .gh:first-child{margin-top:0}
+.ans ul{margin:0;padding-left:18px}
+.ans li{margin:1px 0;font-size:13.5px}
+.reveal{margin-top:10px;font-size:13px;font-weight:700;color:var(--acc);border:1px solid color-mix(in srgb,var(--acc) 45%,transparent);border-radius:9px;padding:7px 12px;background:color-mix(in srgb,var(--acc) 8%,transparent)}
+/* ways to listen */
+.share{margin:26px 0 0;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:16px}
+.share h2{font-size:16px;margin:0 0 4px}
+.share>p{margin:0 0 10px;font-size:13.5px;color:var(--tx2)}
+.opt{padding:11px 0;border-top:1px solid var(--line)}
+.opt b{display:block;font-size:14.5px;margin-bottom:2px}
+.opt p{margin:0 0 8px;font-size:13.5px;color:var(--tx2)}
+.btn{display:inline-flex;align-items:center;gap:6px;font-size:13.5px;font-weight:700;color:#fff;background:var(--acc2);border-radius:10px;padding:9px 14px;text-decoration:none}
+.btn.ghost{color:var(--acc);background:transparent;border:1px solid color-mix(in srgb,var(--acc) 45%,transparent)}
+.btn+.btn{margin-left:6px}
+.tiny{font-size:12px;color:var(--tx3);margin:6px 0 0}
+.foot{margin:22px 0 0;font-size:12px;color:var(--tx3);text-align:center}
+/* the player, pinned to the bottom */
+.player{position:fixed;left:0;right:0;bottom:0;z-index:30;background:color-mix(in srgb,var(--card) 92%,transparent);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  border-top:1px solid var(--line2);padding:10px 16px calc(10px + env(safe-area-inset-bottom));box-shadow:0 -10px 30px -18px rgb(0 0 0 / .6)}
+.pin{max-width:var(--maxw);margin:0 auto}
+.pt{display:flex;align-items:baseline;gap:8px;font-size:14px;min-width:0}
+.pt b{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.pt span{flex:none;color:var(--tx3);font-size:12px;font-variant-numeric:tabular-nums}
+.seek{display:flex;align-items:center;gap:8px;margin:6px 0 2px;font-size:11.5px;color:var(--tx3);font-variant-numeric:tabular-nums}
+.seek input{flex:1;accent-color:var(--acc2);height:22px;min-width:0}
+.ctrls{display:flex;align-items:center;justify-content:space-between;gap:6px}
+.cb{width:44px;height:44px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:18px;color:var(--tx)}
+.cb:hover{background:var(--card2)}
+.cb small{font-size:10px;font-weight:800;margin-left:-2px}
+.cb.big{width:54px;height:54px;border-radius:50%;background:var(--acc2);color:#fff;font-size:22px}
+.cb.big:hover{background:color-mix(in srgb,var(--acc2) 85%,#fff)}
+.chip{font-size:12px;font-weight:700;padding:7px 10px;border-radius:999px;border:1px solid var(--line2);color:var(--tx2);background:var(--card2);white-space:nowrap}
+.chip.on{border-color:var(--acc);color:var(--acc);background:color-mix(in srgb,var(--acc) 12%,var(--card2))}
+.side{display:flex;gap:6px;align-items:center}
+@media (max-width:420px){ .cb{width:40px} .chip{padding:7px 8px;font-size:11.5px} }
+.toast{position:fixed;left:50%;bottom:calc(var(--bar) + 18px + env(safe-area-inset-bottom));transform:translateX(-50%);z-index:40;background:var(--tx);color:var(--bg);
+  font-size:13px;font-weight:600;padding:8px 14px;border-radius:999px;box-shadow:0 6px 20px rgb(0 0 0 / .3);max-width:90vw;text-align:center}
+</style>
+<script>
+/* theme before paint: the saved choice, else the device's */
+(function(){var t;try{t=localStorage.getItem('hs2pod-theme')}catch(e){}
+  if(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme: light)').matches)t='light';
+  if(t==='light')document.documentElement.setAttribute('data-theme','light');})();
+</script>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <a class="back" href="https://jeremyspm.github.io/" title="All the BN2 study tools">‹ All tools</a>
+    <button class="iconbtn" id="btnTheme" title="Light or dark" aria-label="Switch light or dark">◐</button>
+  </div>
+  <div class="idcard"><span class="idic" aria-hidden="true">🎧</span><small>Health Science 2 · 722.541</small><h1>SAQ Podcast</h1>
+    <p>Every written question for Test 3 and the final, read aloud. One track per question: tap one, loop it until it sticks, move on.</p></div>
+
+  <div class="seg" role="tablist" id="seg"></div>
+  <p class="when" id="when"></p>
+  <p class="blurb" id="blurb"></p>
+  <div class="dlrow">
+    <a class="btn" id="dlFull" href="#">⤓ Download the MP3<small id="dlFullN"></small></a>
+    <button class="btn ghost" id="zip2">⤓ One MP3 per question<small id="zip2N"></small></button>
+  </div>
+  <div class="howto"><span>🔔 a chime starts each question</span><span>🗣️ the second voice is the examiner</span><span>⏸ pause when it asks “once more”, and answer first</span></div>
+  <div class="bar"><i id="prog"></i></div>
+  <div class="count"><span id="count"></span><button id="clear" hidden>clear ticks</button></div>
+  <ol class="list" id="list"></ol>
+
+  <section class="share">
+    <h2>Listen anywhere</h2>
+    <p>No special app needed. Every question is its own MP3, so any player can skip to it and repeat it.</p>
+    <div class="opt"><b>Right here</b><p>This page keeps your place, plays the next question by itself, and works with your lock screen and earbuds: skip on your headphones jumps a whole question.</p></div>
+    <div class="opt"><b>Download the MP3s</b><p>Two ways. The whole episode as one MP3, to play start to finish anywhere (apps that read chapters will show every question). Or one MP3 per question, zipped: put the folder in any music or files app, and use its own “repeat one” on the question you’re repping.</p>
+      <a class="btn" id="dlFull2" href="#">⤓ The whole episode</a><button class="btn ghost" id="zip">⤓ One per question <span id="zipn"></span></button>
+      <p class="tiny" id="zipmsg">Or use the ⤓ beside any one question.</p></div>
+    <div class="opt"><b>In a podcast app</b><p>Each question shows up as its own episode, downloads for offline, and remembers where you stopped. In Apple Podcasts: Library, ⋯, Follow a Show by URL. Pocket Casts and AntennaPod: search, then paste the link.</p>
+      <button class="btn ghost" id="feed">Copy the podcast link</button><p class="tiny" id="feedurl"></p></div>
+  </section>
+  <p class="foot" id="foot"></p>
+</div>
+
+<div class="player" id="player" hidden>
+  <div class="pin">
+    <div class="pt"><span id="pNum"></span><b id="pTitle"></b></div>
+    <div class="seek"><span id="tCur">0:00</span><input type="range" id="seekr" min="0" max="1000" value="0" aria-label="Position in this question"/><span id="tDur">0:00</span></div>
+    <div class="ctrls">
+      <div class="side"><button class="chip" id="spd" title="Playback speed">1×</button></div>
+      <button class="cb" id="prev" title="Previous question" aria-label="Previous question">⏮</button>
+      <button class="cb" id="back" title="Back 15 seconds" aria-label="Back 15 seconds">↺<small>15</small></button>
+      <button class="cb big" id="pp" title="Play or pause" aria-label="Play">▶</button>
+      <button class="cb" id="fwd" title="Forward 15 seconds" aria-label="Forward 15 seconds">↻<small>15</small></button>
+      <button class="cb" id="next" title="Next question" aria-label="Next question">⏭</button>
+      <div class="side"><button class="chip" id="rep" title="Repeat">Play through</button></div>
+    </div>
+  </div>
+</div>
+<div class="toast" id="toast" hidden></div>
+<audio id="au" preload="metadata"></audio>
+
+<script>
+const DATA = /*@DATA@*/;
+const $ = id => document.getElementById(id);
+const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const mmss = s => { s = Math.max(0, Math.round(s || 0)); return Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0'); };
+const hm = s => { const m = Math.round(s / 60); return m >= 60 ? Math.floor(m / 60) + ' h ' + String(m % 60).padStart(2, '0') : m + ' min'; };
+
+/* everything kept between visits: per viewer, in this browser only (wrapped, so a blocked store just means no memory) */
+const KEY = 'hs2pod';
+let S = {ep: DATA.episodes[0].id, n: {}, pos: {}, done: {}, speed: 1, rep: 'off'};
+try { const s = JSON.parse(localStorage.getItem(KEY) || 'null'); if (s && typeof s === 'object') S = {...S, ...s}; } catch (e) {}
+let saveT = 0;
+const save = (now) => { clearTimeout(saveT); const w = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {} };
+  if (now) w(); else saveT = setTimeout(w, 400); };
+
+const EP = id => DATA.episodes.find(e => e.id === id) || DATA.episodes[0];
+const au = $('au');
+/* #t3 or #final (the hub's links) opens that episode */
+{ const h = location.hash.slice(1); if (DATA.episodes.some(e => e.id === h)) S.ep = h; }
+let ep = EP(S.ep), cur = null, plays = 0, shown = {};
+
+const SPEEDS = [0.9, 1, 1.15, 1.3, 1.5, 1.75, 2];
+const REPS = [['off', 'Play through'], ['one', 'Loop this one'], ['x2', 'Each ×2'], ['x3', 'Each ×3']];
+
+function toast(msg) { const t = $('toast'); t.textContent = msg; t.hidden = false; clearTimeout(toast.t); toast.t = setTimeout(() => t.hidden = true, 2200); }
+
+function seg() {
+  $('seg').innerHTML = DATA.episodes.map(e => `<button role="tab" aria-selected="${e.id === ep.id}" data-ep="${e.id}">
+    <b>${esc(e.short)}</b><span>${e.chapters.length} track${e.chapters.length === 1 ? '' : 's'} · ${hm(e.dur)}</span></button>`).join('');
+}
+
+function doneSet(e) { return new Set(S.done[e.id] || []); }
+
+function rowBody(c) {
+  let h = '';
+  if (c.scen) h += `<details class="scen"><summary>The case, as she wrote it</summary><p>${esc(c.scen.replace(/^[^—]*—\s*/, ''))}</p></details>`;
+  if (c.rapid) return h + `<p class="scen">Every one-breath answer from this episode, back to back: the night-before track.</p>`;
+  if (!c.show.length) return h + `<p class="scen">Listen first: this track sets up the episode.</p>`;
+  h += '<h4>What she asks</h4>';
+  for (const it of c.show) {
+    h += `<div class="item"><p class="ask">${esc(it.ask)} ${it.marks ? `<span class="mk">${it.marks} mark${it.marks === 1 ? '' : 's'}</span>` : ''}</p>`;
+    if (it.held) h += `<span class="held">her answer isn’t posted yet: these lines are the podcast’s</span>`;
+    if (it.hook && shown[c.n]) h += `<p class="hook">${esc(it.hook)}</p>`;
+    if (shown[c.n]) h += `<div class="ans">${it.groups.map(g => (g.h ? `<div class="gh">${esc(g.h)}</div>` : '') + `<ul>${g.t.map(t => `<li>${esc(t)}</li>`).join('')}</ul>`).join('')}</div>`;
+    h += '</div>';
+  }
+  return h + `<button class="reveal" data-reveal="${c.n}">${shown[c.n] ? 'Hide the answer' : 'Show the answer'}</button>`;
+}
+
+function list() {
+  const dn = doneSet(ep), playing = !au.paused;
+  $('list').innerHTML = ep.chapters.map(c => {
+    const isCur = cur && cur.n === c.n, isDone = dn.has(c.n);
+    const name = `${String(c.n).padStart(2, '0')} ${c.title}`.replace(/[\\/:*?"<>|]+/g, '').replace(/\s+/g, ' ');
+    return `<li class="row${isCur ? ' cur' : ''}${isDone ? ' done' : ''}${isCur && !playing ? ' paused' : ''}" id="r${c.n}">
+      <div class="rhead"><button class="play" data-n="${c.n}" aria-label="Play ${esc(c.title)}">
+        <span class="num">${isCur ? '<span class="eq"><i></i><i></i><i></i></span>' : isDone ? '✓' : c.n}</span>
+        <span class="tw"><span class="tt">${esc(c.title)}</span>
+        <span class="tm">${c.marks ? c.marks + ' marks · ' : ''}${mmss(c.dur)}${isDone ? ' · <span class="ok">heard</span>' : ''}${S.pos[ep.id + '-' + c.n] > 5 && !isCur ? ' · paused at ' + mmss(S.pos[ep.id + '-' + c.n]) : ''}</span></span></button>
+        <a class="dl" href="${esc(c.file)}" download="${esc(name)}.mp3" title="Download this one" aria-label="Download ${esc(c.title)}">⤓</a></div>
+      ${isCur ? `<div class="body">${rowBody(c)}</div>` : ''}</li>`;
+  }).join('');
+  const n = dn.size;
+  $('prog').style.width = (100 * n / ep.chapters.length) + '%';
+  $('count').textContent = `${n} of ${ep.chapters.length} heard all the way through`;
+  $('clear').hidden = !n;
+}
+
+function header() {
+  $('when').textContent = ep.when;
+  $('blurb').textContent = ep.blurb;
+  const mb = b => Math.max(1, Math.round(b / 1e6)) + ' MB';
+  $('zipn').textContent = `(${ep.chapters.length} MP3s, ${mb(ep.chapters.reduce((s, c) => s + c.bytes, 0))})`;
+  $('zip2N').textContent = `a zip of ${ep.chapters.length}, ${mb(ep.chapters.reduce((s, c) => s + c.bytes, 0))}`;
+  for (const id of ['dlFull', 'dlFull2']) {
+    const a = $(id);
+    if (ep.full) { a.href = ep.full.file + '?v=' + ep.full.ver; a.setAttribute('download', ep.zip + '.mp3'); a.hidden = false; }
+    else a.hidden = true;
+  }
+  $('dlFullN').textContent = ep.full ? `the whole episode, ${hm(ep.dur)}, ${mb(ep.full.bytes)}` : '';
+  $('feedurl').textContent = new URL(ep.feed, location.href).href;
+  $('foot').textContent = `Read by Kokoro, a voice that runs on a laptop. Answers from her decks, model answers, recorded sessions and quiz keys, via the Paper Sims’ SAQ trainers. Built ${DATA.built}.`;
+}
+
+function render() { seg(); header(); list(); }
+
+/* ── playing ── */
+function load(c, opts = {}) {
+  cur = c; plays = opts.keepPlays ? plays : 0;
+  S.ep = ep.id; S.n[ep.id] = c.n; save();
+  au.src = c.file + '?v=' + c.ver;
+  au.playbackRate = S.speed;
+  const at = opts.from != null ? opts.from : (S.pos[ep.id + '-' + c.n] || 0);
+  const go = () => { if (at > 0 && at < c.dur - 3) au.currentTime = at; au.removeEventListener('loadedmetadata', go); };
+  au.addEventListener('loadedmetadata', go);
+  $('player').hidden = false;
+  $('pNum').textContent = String(c.n).padStart(2, '0') + '/' + ep.chapters.length;
+  $('pTitle').textContent = c.title;
+  $('tDur').textContent = mmss(c.dur);
+  meta();
+  list();
+  if (opts.play) au.play().catch(() => {});
+  if (opts.scroll) { const r = $('r' + c.n); if (r) r.scrollIntoView({block: 'nearest', behavior: 'smooth'}); }
+}
+
+function meta() {
+  if (!('mediaSession' in navigator) || !cur) return;
+  try {
+    navigator.mediaSession.metadata = new MediaMetadata({title: cur.title, artist: 'HS2 SAQ Podcast', album: ep.title,
+      artwork: [{src: new URL(ep.cover, location.href).href, sizes: '1400x1400', type: 'image/png'}]});
+  } catch (e) {}
+}
+
+function step(d) {
+  if (!cur) return load(ep.chapters[0], {play: true});
+  const i = ep.chapters.findIndex(c => c.n === cur.n) + d;
+  if (i < 0) return seekTo(0);
+  if (i >= ep.chapters.length) { au.pause(); toast('That was the last one.'); return; }
+  S.pos[ep.id + '-' + cur.n] = 0;
+  load(ep.chapters[i], {play: true, from: 0, scroll: true});
+}
+function prev() { if (au.currentTime > 4) seekTo(0); else step(-1); }
+function seekTo(t) { au.currentTime = Math.max(0, Math.min(t, (au.duration || cur.dur) - 0.5)); }
+function toggle() { if (!cur) return load(ep.chapters[0], {play: true}); au.paused ? au.play().catch(() => {}) : au.pause(); }
+
+au.addEventListener('play', () => { $('pp').textContent = '❚❚'; $('pp').setAttribute('aria-label', 'Pause'); list(); });
+au.addEventListener('pause', () => { $('pp').textContent = '▶'; $('pp').setAttribute('aria-label', 'Play'); if (cur) { S.pos[ep.id + '-' + cur.n] = au.currentTime; save(true); } list(); });
+let dragging = false;
+au.addEventListener('timeupdate', () => {
+  if (!cur) return;
+  const d = au.duration || cur.dur;
+  if (!dragging) $('seekr').value = Math.round(1000 * au.currentTime / d);
+  $('tCur').textContent = mmss(au.currentTime);
+  S.pos[ep.id + '-' + cur.n] = au.currentTime; save();
+  if (au.currentTime > d - 8) markDone(cur.n);
+  if ('mediaSession' in navigator && navigator.mediaSession.setPositionState && isFinite(d)) {
+    try { navigator.mediaSession.setPositionState({duration: d, playbackRate: au.playbackRate, position: Math.min(au.currentTime, d)}); } catch (e) {}
+  }
+});
+au.addEventListener('ended', () => {
+  markDone(cur.n);
+  S.pos[ep.id + '-' + cur.n] = 0; plays++;
+  const want = {one: Infinity, x2: 2, x3: 3}[S.rep] || 1;
+  if (plays < want) { au.currentTime = 0; au.play().catch(() => {}); toast(S.rep === 'one' ? 'Again…' : `Again (${plays + 1} of ${want})`); return; }
+  step(1);
+});
+
+function markDone(n) {
+  const d = S.done[ep.id] || (S.done[ep.id] = []);
+  if (!d.includes(n)) { d.push(n); save(); list(); }
+}
+
+$('seekr').addEventListener('input', () => { dragging = true; $('tCur').textContent = mmss($('seekr').value / 1000 * (au.duration || cur.dur)); });
+$('seekr').addEventListener('change', () => { dragging = false; seekTo($('seekr').value / 1000 * (au.duration || cur.dur)); });
+$('pp').onclick = toggle;
+$('prev').onclick = prev;
+$('next').onclick = () => step(1);
+$('back').onclick = () => seekTo(au.currentTime - 15);
+$('fwd').onclick = () => seekTo(au.currentTime + 15);
+const spdLabel = () => $('spd').textContent = (S.speed === 1 ? '1' : String(S.speed)) + '×';
+$('spd').onclick = () => { S.speed = SPEEDS[(SPEEDS.indexOf(S.speed) + 1) % SPEEDS.length] || 1; au.playbackRate = S.speed; spdLabel(); save(); };
+const repLabel = () => { const r = REPS.find(r => r[0] === S.rep) || REPS[0]; $('rep').textContent = r[1]; $('rep').classList.toggle('on', S.rep !== 'off'); };
+$('rep').onclick = () => { const i = REPS.findIndex(r => r[0] === S.rep); S.rep = REPS[(i + 1) % REPS.length][0]; plays = 0; repLabel(); save();
+  toast({off: 'Plays straight through to the next question', one: 'Loops this question until you change it', x2: 'Plays each question twice, then moves on', x3: 'Plays each question three times, then moves on'}[S.rep]); };
+
+$('list').addEventListener('click', e => {
+  const r = e.target.closest('[data-reveal]');
+  if (r) { const n = +r.dataset.reveal; shown[n] = !shown[n]; list(); return; }
+  const b = e.target.closest('.play');
+  if (!b) return;
+  const c = ep.chapters.find(c => c.n === +b.dataset.n);
+  if (cur && cur.n === c.n && S.ep === ep.id) return toggle();
+  if (cur) S.pos[S.ep + '-' + cur.n] = au.currentTime;
+  load(c, {play: true});
+});
+$('seg').addEventListener('click', e => {
+  const b = e.target.closest('[data-ep]'); if (!b || b.dataset.ep === ep.id) return;
+  if (cur) { S.pos[ep.id + '-' + cur.n] = au.currentTime; au.pause(); }
+  ep = EP(b.dataset.ep); S.ep = ep.id; save();
+  const n = S.n[ep.id], c = ep.chapters.find(c => c.n === n);
+  cur = null; render();
+  if (c) load(c); else { $('player').hidden = true; au.removeAttribute('src'); }
+});
+$('clear').onclick = () => { if (confirm('Clear the “heard” ticks for this episode?')) { S.done[ep.id] = []; save(); list(); } };
+$('btnTheme').onclick = () => { const l = document.documentElement.getAttribute('data-theme') === 'light';
+  if (l) document.documentElement.removeAttribute('data-theme'); else document.documentElement.setAttribute('data-theme', 'light');
+  try { localStorage.setItem('hs2pod-theme', l ? 'dark' : 'light'); } catch (e) {} };
+$('feed').onclick = async () => {
+  const url = new URL(ep.feed, location.href).href;
+  try { await navigator.clipboard.writeText(url); toast('Podcast link copied'); } catch (e) { prompt('Copy this link into your podcast app:', url); }
+};
+
+/* every MP3 of this episode in one zip, packed in the browser (no second copy of the audio on the server) */
+$('zip').onclick = $('zip2').onclick = async () => {
+  const say = $('zipmsg'), btns = [$('zip'), $('zip2')];
+  const msg = {set textContent(t) { say.textContent = t; const o = $('toast'); o.textContent = t; o.hidden = false; clearTimeout(toast.t);
+    toast.t = setTimeout(() => o.hidden = true, 3500); }};
+  const btn = {set disabled(v) { btns.forEach(b => b.disabled = v); }};
+  btn.disabled = true;
+  try {
+    if (!window.JSZip) await new Promise((ok, no) => { const s = document.createElement('script');
+      s.src = 'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js'; s.onload = ok; s.onerror = () => no(new Error('could not load the zip tool')); document.head.appendChild(s); });
+    const z = new JSZip(), dir = z.folder(ep.zip);
+    for (const [i, c] of ep.chapters.entries()) {
+      msg.textContent = `Fetching ${i + 1} of ${ep.chapters.length}…`;
+      const r = await fetch(c.file + '?v=' + c.ver); if (!r.ok) throw new Error('track ' + c.n + ' would not download');
+      dir.file(`${String(c.n).padStart(2, '0')} ${c.title}`.replace(/[\\/:*?"<>|]+/g, '').replace(/\s+/g, ' ') + '.mp3', await r.arrayBuffer());
+    }
+    msg.textContent = 'Packing…';
+    const blob = await z.generateAsync({type: 'blob', compression: 'STORE'});
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = ep.zip + '.zip';
+    document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 4000);
+    msg.textContent = 'Done. Unzip it, then add the folder to your music or files app.';
+  } catch (e) { msg.textContent = 'That didn’t work (' + e.message + '). Use the ⤓ beside each question instead.'; }
+  btn.disabled = false;
+};
+
+document.addEventListener('keydown', e => {
+  if (e.target.closest('input,textarea') || e.metaKey || e.ctrlKey || e.altKey) return;
+  if (e.key === ' ') { e.preventDefault(); toggle(); }
+  else if (e.key === 'ArrowLeft') seekTo(au.currentTime - 15);
+  else if (e.key === 'ArrowRight') seekTo(au.currentTime + 15);
+  else if (e.key === 'n') step(1);
+  else if (e.key === 'p') prev();
+});
+if ('mediaSession' in navigator) {
+  const h = (a, f) => { try { navigator.mediaSession.setActionHandler(a, f); } catch (e) {} };
+  h('play', () => au.play()); h('pause', () => au.pause());
+  h('previoustrack', prev); h('nexttrack', () => step(1));
+  h('seekbackward', d => seekTo(au.currentTime - (d.seekOffset || 15)));
+  h('seekforward', d => seekTo(au.currentTime + (d.seekOffset || 15)));
+  h('seekto', d => seekTo(d.seekTime));
+}
+window.addEventListener('pagehide', () => { if (cur) S.pos[ep.id + '-' + cur.n] = au.currentTime; save(true); });
+
+spdLabel(); repLabel(); render();
+{ const n = S.n[ep.id], c = ep.chapters.find(c => c.n === n); if (c) load(c); }
+</script>
+</body>
+</html>

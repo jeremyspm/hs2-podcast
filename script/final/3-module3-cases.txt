@@ -1,0 +1,232 @@
+% The final, part 3: cases 13, 14 and 15. Answers follow hs2-final's built DATA: her Fertility quiz (211050, named by her
+% Anatomy Mondays 15 page as case 13's model answer), her recorded 31 May 2024 session (case 14 keyed 10/10 on screen;
+% case 15's modes of inheritance), and her 4 Oct 2026 post 413286. The seven starred questions she has not answered (three
+% in case 13, four in case 15) are held in the sim; here each is answered from her module content, and said to be.
+
+# Case 13, part 1: the kit, ovulation, and the cycle graph
+@ case: c13
+@ q: qb04815257c q2baad665ae q22b21b3a98 q574fdc480d qc184f15557
+@ say: Case 13, ovulation and the cycle graph
+
+Q: Exam case 13. Fertility.
+
+Q: Rose and Simon are seeing the nurse at their GP clinic, because they've decided to start trying to conceive. Rose has been on the Depo Provera injection as contraception for the past two years. As her nurse, you advise that it could take a little while for her normal cycle to settle after coming off this hormonal contraceptive. Rose takes your advice to track her cycle, after learning there are only a few days each month when she's fertile. She has also bought an ovulation predictor kit, and some pregnancy tests.
+
+Her Anatomy Mondays page names her fertility quiz as this case's model answer, so these answers are her quiz keys. And in her session, she said the cycle graph is in the exam, though the labels may be taken away. So know each curve by its shape. LH peaks just before ovulation. Progesterone is low, then peaks in the second half. And FSH goes with the follicular and proliferative phases. Her phrase: keep the F's together.
+
+Q: One mark. What is an ovulation predictor kit? What does it show?
+
+It shows when ovulation is about to happen, because it picks up the sharp peak in luteinising hormone, LH, in the urine, just before ovulation.
+
+Q: Four marks. What occurs during ovulation?
+
+The hook: an LH peak, the follicle bursts, and the oocyte goes out toward the fimbriae.
+
+A secondary oocyte is released from the ovary. Ovulation is triggered by a peak in LH. The ovarian wall ruptures when the fluid-filled Graafian follicle, the tertiary follicle, bursts. And the force of the fluid pushes the oocyte out of the ovary, toward the fimbriae of the fallopian tube.
+
+[pause 1]
+
+Q: One mark. Using the image, on what days of her cycle is a female fertile?
+
+Days ten to seventeen.
+
+Q: Two marks. Can you explain why the hormone levels change over the course of the menstrual cycle?
+
+Because each hormone is driving a different process. FSH, for the follicles to develop. Oestrogen, for the uterine lining to thicken. LH, for ovulation. And progesterone, for the uterus to prepare for implantation and pregnancy.
+
+Q: Two marks. How would pregnancy change the hormone levels graph?
+
+The hormone drop at roughly day twenty-one wouldn't happen, with successful implantation and pregnancy. The oestrogen and progesterone levels keep rising.
+
+Q: Once more. Ovulation, and the graph.
+
+[pause 2]
+
+{recap} The ovulation predictor kit catches the peak in LH in the urine, just before ovulation. At ovulation, an LH peak makes the Graafian follicle burst, the ovarian wall ruptures, and a secondary oocyte is pushed out toward the fimbriae of the fallopian tube. The fertile days: ten to seventeen. Each hormone drives its own process: FSH grows the follicles, oestrogen thickens the lining, LH triggers ovulation, and progesterone prepares for implantation. In pregnancy, the drop at about day twenty-one doesn't happen: oestrogen and progesterone keep rising.
+
+# Case 13, part 2: contraception, and the three she hasn't answered
+@ case: c13
+@ q: qa128d9123e q87e6a25512
+@ held: Male and female fertility are different: what are some of the key factors in male and female fertility? || Male: enough sperm that move well and are the right shape; FSH, LH and testosterone; testes kept cooler than the body | Female: age; regular ovulation (FSH, LH, oestrogen, progesterone in balance); open fallopian tubes; a healthy uterine lining | Both: smoking, alcohol, weight, stress and STIs lower fertility; after Depo Provera the cycle can take months to return
+@ held: What are the functions of the sex hormones in the human body? || FSH: grows the follicles; drives spermatogenesis | LH: triggers ovulation and forms the corpus luteum; makes the Leydig cells produce testosterone | Oestrogen: follicle growth, reproductive organs, breasts, hips, pelvis; rebuilds the endometrium (proliferative phase) | Progesterone: readies the endometrium for implantation (secretory phase); develops the breast alveoli in pregnancy | Testosterone: spermatogenesis, male secondary sex characteristics, muscle, bone, libido
+@ held: Injections of FSH usually form part of IVF. What is IVF, when would it be appropriate, and what is the purpose of the FSH injections? || IVF, in vitro fertilisation: eggs are collected and fertilised by sperm in a lab, and the embryo is placed in the uterus | When: blocked or damaged fallopian tubes, low sperm count or movement, ovulation problems, endometriosis, unexplained infertility | FSH injections: make several follicles grow at once, so several eggs can be collected
+@ say: Case 13, contraception and the open questions
+
+Q: Exam case 13, continued. Contraception, and the three starred questions she hasn't answered yet.
+
+Q: Three marks. Hormonal methods of contraception tend to affect a female's fertility by using progesterone. How do we use the normal functions of progesterone to prevent pregnancy?
+
+The hook: stop ovulation, block the sperm, fake a pregnancy.
+
+It prevents ovulation, by stopping LH from being released. It thickens the cervical mucus, which keeps the sperm out. And it imitates pregnancy, by keeping progesterone levels high.
+
+[pause 1]
+
+Q: Six marks. Contraception can be hormonal or non-hormonal. Summarise the differences in a table: the method, how it prevents pregnancy, and whether it prevents STIs.
+
+The hook: hormones stop ovulation, a condom is a barrier, and only the condom stops STIs.
+
+Hormonal methods. The pill, and the Jadelle implant, which slowly releases the hormones, may prevent ovulation from happening. The mini pill, which is progesterone only, prevents ovulation by stopping LH being released, thickens the cervical mucus to keep the sperm out, and imitates pregnancy by keeping progesterone high. Do hormonal methods prevent STIs? No. Pregnancy only. There's no barrier.
+
+Non-hormonal methods. Condoms form a barrier that prevents the semen from getting into the woman's body. They protect against both pregnancy and STIs, like gonorrhoea, syphilis and HIV. But not pubic lice, which live in the pubic hair the condom doesn't cover. The IUD may prevent implantation of the conceptus in the endometrium, and it protects against pregnancy only.
+
+Filing the IUD under non-hormonal is the Paper Sim's own reading, because some IUDs do carry hormones. But her session's point stands either way: only the condom also protects against STIs.
+
+[pause 1]
+
+Q: Now the three starred questions she hasn't posted answers to. They're still fair game in the exam, so here's a sound answer for each, built from her module content.
+
+Q: One. Male and female fertility are different. What are some of the key factors in male and female fertility?
+
+For a male: enough sperm, that move well and are the right shape. The hormones that drive sperm production: FSH, LH and testosterone. And testes kept a little cooler than the rest of the body, which is why they sit in the scrotum. For a female: age, because the number and quality of eggs fall over time. Regular ovulation, which needs FSH, LH, oestrogen and progesterone in balance. Open fallopian tubes, so the egg and sperm can meet. And a healthy uterine lining for implantation. For both: smoking, alcohol, weight, stress and sexually transmitted infections can all lower fertility. And for Rose: after Depo Provera, her cycle can take months to return.
+
+[pause 1]
+
+Q: Two. What are the functions of the sex hormones in the human body?
+
+You already have this one, from Test 3. FSH grows the follicles in a female, and drives spermatogenesis in a male. LH triggers ovulation and forms the corpus luteum, and in a male it makes the Leydig cells produce testosterone. Oestrogen drives follicle growth, grows the reproductive organs and the breasts, lays fat on the hips, widens the pelvis, and rebuilds the endometrium in the proliferative phase. Progesterone readies the endometrium for implantation, in the secretory phase, and develops the breast alveoli in pregnancy. And testosterone drives spermatogenesis and the male secondary sex characteristics: more muscle, denser bone, and libido.
+
+[pause 1]
+
+Q: Three. Injections of the hormone FSH usually form part of IVF. What is IVF, when would it be appropriate, and what is the purpose of the FSH injections?
+
+IVF is in vitro fertilisation. In vitro means in glass: the eggs are collected from the ovaries, fertilised by sperm in a lab, and the embryo is placed into the uterus. It's appropriate when the fallopian tubes are blocked or damaged, when the sperm count or movement is low, with ovulation problems, endometriosis, or unexplained infertility, or when simpler treatments haven't worked. The FSH injections stimulate the ovaries to grow several follicles at once, instead of the usual one a month. Her session says FSH is for the growth of the follicles. More follicles means more eggs to collect, and a better chance of a healthy embryo.
+
+Q: Once more. Contraception, and the three open questions.
+
+[pause 2]
+
+{recap} Progesterone contraception stops ovulation by blocking LH, thickens the cervical mucus to keep sperm out, and imitates pregnancy. Hormonal methods, the pill, the Jadelle implant and the mini pill, prevent pregnancy only. Condoms are a barrier, and the only method that also stops STIs, though not pubic lice. The IUD may prevent implantation, and prevents pregnancy only. Fertility needs healthy sperm and hormones in a male, and regular ovulation, open tubes and a healthy lining in a female. IVF fertilises eggs in a lab and places the embryo in the uterus, and the FSH injections grow several follicles at once, so more eggs can be collected.
+
+# Case 14, part 1: rods, cones, and red-green colour blindness
+@ case: c14
+@ q: q5d6f4349bd
+@ say: Case 14, rods, cones and colour blindness
+
+Q: Exam case 14. Red-green colour blindness.
+
+Q: Simon is colour blind, which affects his ability to tell colours apart, most of all red and green. He wants to understand why he has it, when neither of his parents do. He's also heard that it's more common in males, and is wondering if he'll pass it on to any sons he might have.
+
+Two tracks. Her recorded session talks this whole case through, and keys her quiz ten out of ten on screen, so these answers are hers.
+
+Q: Seven marks. What is red-green colour blindness? Distinguish between cones and rods, and where they're found in the eye. Distinguish their functions, using photopic, scotopic, colour, central and peripheral vision. And define red-green colour blindness in terms of the inability to observe certain light frequencies.
+
+The hook: cones see colour, so red-green colour blindness is faulty red and green cones.
+
+Cones are for colour vision: central vision, in good light, and much more detailed.
+
+Rods are for non-colour vision: black, white, and the grey scale. They're more sensitive to light, so they work even in dim light.
+
+Where they are: the macula has both cones and rods. The fovea has only cones.
+
+[pause 1]
+
+Red-green colour blindness is a genetic defect, an anomaly rather than a disease, that causes dysfunction of the cones of the retina. It affects the L cones, for long wavelength, red light, and the M cones, for medium wavelength, green light. So red and green are hard to tell apart. It can be detected with a colour-blindness test.
+
+And in the question's own words: cones are photopic, for bright light, colour and central vision. Rods are scotopic, for dim light, and peripheral vision. She says good light and dim light; photopic and scotopic are the question's names for the same idea.
+
+Q: Once more. Rods, cones, and colour blindness.
+
+[pause 2]
+
+{recap} Cones: colour, central vision, in good light, with more detail: photopic. Rods: the grey scale, more sensitive to light, working in dim light and for peripheral vision: scotopic. The macula has both; the fovea has only cones. Red-green colour blindness is a genetic defect of the retina's cones: faulty L cones, for long wavelength red light, and M cones, for medium wavelength green, so red and green are hard to tell apart. A colour-blindness test detects it.
+
+# Case 14, part 2: Simon's family
+@ case: c14
+@ q: q7ba91dd4e8 q19afbec7de qdc3c89bb6a q0bb9168466 q6b53df75d1
+@ say: Case 14, Simon's family
+
+Q: Exam case 14, continued. Simon's family.
+
+Q: Seven marks. Draw a pedigree chart showing Simon, his mum, his dad, his maternal grandmother, who is not colour blind, his maternal grandfather, who is colour blind, his maternal aunt, who is colour blind, and his maternal uncle, who is not. Can you track how Simon inherited it, when neither of his parents is colour blind?
+
+Write each genotype on the X chromosome. X big B is normal vision. X little b carries the colour blindness. A man has one X and a Y. A woman has two X's.
+
+The hook: Grandad's X little b goes to a carrier mum, and then to Simon. His dad only gives him a Y.
+
+His maternal grandfather: X little b, Y. A man, colour blind, and the condition is recessive.
+
+His maternal grandmother: X big B, X little b. A carrier. She isn't colour blind, but she has a colour-blind daughter, so she must carry one.
+
+His maternal aunt: X little b, X little b. A colour-blind woman has the defect on both of her X chromosomes.
+
+[pause 1]
+
+Simon's mum: X big B, X little b. A carrier. She passed it to Simon, but her normal X big B gives her normal vision.
+
+Simon's dad: X big B, Y. He isn't colour blind, so he has the normal X.
+
+His maternal uncle: X big B, Y. Not colour blind.
+
+And Simon: X little b, Y. His X little b came from his mum. His dad gave him only a Y.
+
+[pause 1]
+
+Q: Six marks. Given all that, how is red-green colour blindness inherited?
+
+X-linked recessive. The genes for the L and M cones, red and green, are on the X chromosome. It's often carried by mothers, and expressed in fifty per cent of their sons. It only shows when all the X chromosomes are affected, so a woman needs both. Fathers never pass it to their sons, because they only give their sons a Y. Fathers always pass the affected X to all of their daughters. And it can skip a generation.
+
+That's her "better answer", from her post on what to study for the exam.
+
+[pause 1]
+
+Q: Two marks. Will Simon pass red-green colour blindness on to his children? How?
+
+To none of his sons: they get his Y. And to all of his daughters, as unaffected carriers: each daughter gets his X little b. Her quiz key, word for word: to none of his sons, but to all his daughters, who will be unaffected carriers.
+
+And her quiz asks for his mum's genotype as a multiple choice. The answer: X little b, X big B. She carried it over to Simon, but her normal X big B gave her normal vision.
+
+Q: Once more. Simon's family.
+
+[pause 2]
+
+{recap} Grandfather, X little b, Y: colour blind. Grandmother, X big B, X little b: a carrier, because she has a colour-blind daughter. Aunt, X little b, X little b. Uncle, X big B, Y. Mum, X big B, X little b: a carrier, with normal vision. Dad, X big B, Y. Simon, X little b, Y: his X came from his mum, and his Y from his dad. It's X-linked recessive: carried by mothers, shown in half of their sons, a woman needs both X's, fathers never pass it to sons and always pass it to daughters, and it can skip a generation. Simon will pass it to none of his sons, and to all of his daughters, as unaffected carriers.
+
+# Case 15: cystic fibrosis, Huntington's, and the two whānau
+@ case: c15
+@ q: qd942840085
+@ held: For the pedigree chart of the Harris whānau, state the genotype and phenotype of every person. || Cystic fibrosis is autosomal recessive: every affected person is rr | Unaffected parents of an affected child are carriers: Rr | Unaffected children of two carriers: RR or Rr | Phenotype: affected, or unaffected (carrier)
+@ held: There are two sisters who are the youngest members of this whānau. What is the chance they could pass this condition on to their children? What circumstances would have to occur? || A child is affected only if BOTH parents pass on an r | So the sister must carry r, and so must her partner | Carrier × carrier (Rr × Rr): 25% affected, 50% carriers | Affected sister (rr) × carrier: 50% for each child; × RR partner: 0% affected
+@ held: For the pedigree chart of the Anderson whānau, state the genotype and phenotype of every person. || Huntington's is autosomal dominant: every affected person is Hh (rarely HH) | Every unaffected person is hh | No healthy carriers; every affected person has an affected parent
+@ held: There are 6 cousins in the youngest generation of this whānau. What is the chance that they could pass this condition on to their children? || An unaffected cousin (hh): 0%, no H to pass on | An affected cousin (Hh) with an hh partner: 50% for each child
+@ say: Case 15, genetic diseases
+
+Q: Exam case 15. Genetic diseases.
+
+Q: You're working in a rural GP clinic, alongside two families with genetic diseases. The Harris whānau has cystic fibrosis. The Anderson whānau has Huntington's disease. You want to understand how these diseases pass from person to person, and how they might affect any future children born into these families.
+
+One answered question, and four more on her two whānau charts, whose model answers are still hidden on Canvas. So you'll get the method for those: whatever the chart looks like, you'll be able to work it.
+
+Q: Six marks. What are the modes of inheritance of Huntington's disease and cystic fibrosis? Explain both: the chromosome type, the pattern of inheritance, and what this means.
+
+Cystic fibrosis: autosomal recessive, on chromosome seven. It skips generations, and people can be carriers. The affected person is little r little r: homozygous recessive.
+
+Huntington's disease: autosomal dominant, on chromosome four. It's expressed whenever the dominant allele is present, so in every generation someone is expected to have it. The affected person is big R little r, or big R big R.
+
+When she marked a student's answer to this in her session, she added one thing in red: the answer must name the affected person's genotype. So always finish with it. Little r little r for cystic fibrosis. Big R little r, or big R big R, for Huntington's.
+
+[pause 1]
+
+Q: Now her two charts. Her model answers aren't posted yet, so here's how to work them. For the Harris whānau's chart, cystic fibrosis, state the genotype and phenotype of every person.
+
+Cystic fibrosis is recessive, so start with the shaded people. Every affected person is little r little r. Next, the parents of an affected child who aren't affected themselves: each of them must have given a little r, so they're carriers, big R little r. Then the unaffected children of two carriers: big R big R, or big R little r. You can't tell which from the chart, so write both. For the phenotype, write affected, or unaffected. To be precise, an unaffected carrier.
+
+Q: The two youngest sisters of the Harris whānau. What's the chance they pass this condition on to their children, and what circumstances would have to occur?
+
+The circumstance first: a child can only be affected if both parents pass on a little r. So the sister has to carry a little r, and so does her partner. If a sister is a carrier and her partner is a carrier, it's the classic cross: twenty-five per cent affected, fifty per cent carriers, twenty-five per cent clear. If a sister is affected, little r little r, every child gets a little r from her, so with a carrier partner it's a fifty per cent chance for each child. And with a big R big R partner, none of the children are affected, though they'll be carriers.
+
+[pause 1]
+
+Q: For the Anderson whānau's chart, Huntington's, state the genotype and phenotype of every person.
+
+Huntington's is dominant, so it's the other way round. On her chart the letters may be R and little r, or H and little h; the logic is the same. Every affected person is big H little h, or rarely big H big H. Every unaffected person is little h little h. There are no healthy carriers. And every affected person should have an affected parent.
+
+Q: The six cousins in the youngest generation of the Anderson whānau. What's the chance they could pass it on to their children?
+
+Go cousin by cousin. An unaffected cousin is little h little h, so the chance is zero: they have no big H to pass on. An affected cousin is big H little h, and with an unaffected partner, it's a fifty per cent chance for each child. One real-world catch: Huntington's usually shows in adulthood, so a young cousin might not show it yet. But on a chart, go by the shading.
+
+Q: Once more. Case 15.
+
+[pause 2]
+
+{recap} Cystic fibrosis is autosomal recessive, on chromosome seven: it skips generations, there are carriers, and the affected person is little r little r. Huntington's is autosomal dominant, on chromosome four: it shows in every generation, and the affected person is big R little r, or big R big R. On a recessive chart, label the affected people little r little r first; their unaffected parents are carriers. A child is affected only if both parents pass on a little r: two carriers give twenty-five per cent. On a dominant chart, affected is big H little h and unaffected is little h little h. An unaffected cousin can't pass it on; an affected one has a fifty per cent chance with each child.

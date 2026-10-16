@@ -1,0 +1,290 @@
+% Test 3, part 3: the special senses, light and sound (hs2-test3/content/saq-senses.json). Taste and smell are her two
+% chemical-senses learning outcomes, word for word; her quizzes never asked them.
+
+# The three regions of the ear
+@ saq: ear-regions
+@ say: The three regions of the ear
+
+Q: The three regions of the ear. Four and a half marks.
+
+Q: What are the three regions of the ear? Describe their structures and their functions.
+
+Four and a half marks means about nine half-mark facts. Three regions, three facts each.
+
+The hook: the outer ear collects, the middle ear amplifies, and the inner ear senses. And the inner ear does two jobs: the cochlea hears, and the vestibular apparatus balances.
+
+The outer ear, or external ear. The pinna, the external auditory canal, and the tympanic membrane, which is the eardrum. Glands in the canal make cerumen, which is earwax. Its function: it collects sound and directs it onto the eardrum, and the pinna also helps you locate where a sound is coming from.
+
+The middle ear. An air-filled cavity in the temporal bone, holding the ossicles: the malleus, the incus and the stapes. Its function: it amplifies sound, passing it from the large eardrum to the much smaller oval window. It also has the Eustachian tube, also called the pharyngotympanic tube, running to the nasopharynx, which equalises pressure. And two small muscles, the tensor tympani and the stapedius, which dampen loud sounds.
+
+[pause 1]
+
+The inner ear. The bony labyrinth in the temporal bone, filled with perilymph, and inside it the membranous labyrinth, filled with endolymph. It has two parts. The cochlea, for hearing: its organ of Corti turns sound vibration into nerve impulses. And the vestibular apparatus, which is the vestibule and the semicircular canals, for equilibrium, or balance.
+
+[pause 1]
+
+The traps. Only the inner ear does balance. The outer and middle ear are for hearing only. Second: the Eustachian tube equalises pressure. It's why your ears pop on a plane. It doesn't carry sound. Third: perilymph is in the bony labyrinth, on the outside. Endolymph is inside the membranous labyrinth. Endo means inside.
+
+Q: Once more. The three regions of the ear.
+
+[pause 2]
+
+{recap} The outer ear: the pinna, the external auditory canal with its cerumen, and the tympanic membrane. It collects sound onto the eardrum and helps locate it. The middle ear: air-filled, in the temporal bone, with the ossicles, which amplify sound onto the oval window. The Eustachian tube equalises pressure, and two small muscles dampen loud sounds. The inner ear: a bony labyrinth of perilymph around a membranous labyrinth of endolymph. The cochlea, with its organ of Corti, hears. The vestibular apparatus balances.
+
+# How hearing happens
+@ saq: hearing
+@ say: How hearing happens
+
+Q: How hearing occurs. Four marks.
+
+Q: Discuss how hearing occurs in humans, from the sound wave arriving at the ear, to the sound being perceived.
+
+This one is a chain. Get the links in order, and the marks fall out.
+
+The hook: collect, amplify, ripple, bend, fire, hear.
+
+Collect. In the outer ear, the pinna collects sound waves and channels them along the external auditory canal to the tympanic membrane, which vibrates.
+
+Amplify. In the middle ear, the vibration passes to the ossicles: malleus, then incus, then stapes. They amplify it onto the much smaller oval window.
+
+Ripple. In the inner ear, the oval window vibrates the perilymph in the scala vestibuli and the scala tympani, and that passes the vibration on to the endolymph in the scala media, the cochlear duct.
+
+[pause 1]
+
+Bend. The basilar membrane moves, and the hair cells of the organ of Corti bend against the tectorial membrane.
+
+Fire. Bending the hairs is transduction. The hair cells are mechanoreceptors, and they turn the vibration into nerve impulses.
+
+Hear. The impulses travel along the cochlear branch of the vestibulocochlear nerve, cranial nerve eight, to the auditory cortex in the temporal lobe, where the sound is heard.
+
+[pause 1]
+
+The traps. It's the middle ear that amplifies: the ossicles. Her student-marked feedback slips and says the inner ear. Her deck says the middle ear, so write middle. Second: the hair cells sit on the basilar membrane, and bend against the tectorial membrane. Third: the auditory cortex is in the temporal lobe. The occipital lobe is vision.
+
+Q: Once more. How hearing happens.
+
+[pause 2]
+
+{recap} The pinna collects sound down the canal, and the tympanic membrane vibrates. The ossicles, malleus, incus and stapes, amplify it onto the oval window. That moves the perilymph, then the endolymph, and the basilar membrane moves, so the hair cells of the organ of Corti bend against the tectorial membrane. That's transduction into nerve impulses, which travel along nerve eight to the auditory cortex in the temporal lobe.
+
+# Static and dynamic equilibrium
+@ saq: equilibrium
+@ say: Static and dynamic equilibrium
+
+Q: Static versus dynamic equilibrium. Four marks.
+
+Q: What is the difference between static and dynamic equilibrium? How, and where, is each one detected?
+
+The hook: static is gravity and straight lines, in the vestibule, where little stones slide. Dynamic is spinning, in the semicircular canals, where fluid swings a gel cap.
+
+What they share. Both are sensed in the vestibular apparatus of the inner ear, by hair cells, which are mechanoreceptors. The hair cells fire when fluid, the endolymph, or a jelly mass moves and bends their hairs.
+
+Static equilibrium is the position of your head in response to gravity, and to straight-line movement. Tilting your head. Moving forwards or backwards. Going up in a lift. It's detected by the maculae, in the utricle and the saccule, which together make up the vestibule. The hairs there are embedded in a jelly otolith membrane, studded with tiny stones called otoliths. When you tilt your head, the stones slide and bend the hairs.
+
+[pause 1]
+
+Dynamic equilibrium is balance while your head is rotating: turning, or spinning. It's detected by the crista ampullaris, in the ampulla at the base of each semicircular canal. Rotation moves the endolymph, which swings a gel cap called the cupula, and that bends the hairs.
+
+Both send impulses along the vestibular branch of cranial nerve eight, to the brain stem and the cerebellum. And signals that fire with no real movement cause vertigo.
+
+[pause 1]
+
+The traps. Static is the vestibule: the utricle, the saccule, the maculae, the otoliths. Dynamic is the semicircular canals: the ampulla, the crista, the cupula. Swap them and you lose both marks. Second: static doesn't mean no movement at all. A lift going up is static, because it's a straight line. Dynamic means rotation. Third: the cochlea is for hearing, not balance.
+
+Q: Once more. Static and dynamic equilibrium.
+
+[pause 2]
+
+{recap} Both are sensed by hair cells in the vestibular apparatus of the inner ear, and sent along nerve eight to the brain stem and cerebellum. Static equilibrium is head position relative to gravity, and straight-line movement. It's detected by the maculae in the utricle and saccule, where otoliths slide when the head tilts. Dynamic equilibrium is balance during rotation. It's detected by the crista ampullaris in each semicircular canal, where the endolymph swings the cupula and bends the hairs.
+
+# The three layers of the eye
+@ saq: eye-layers
+@ say: The three layers of the eye
+
+Q: The three layers of the eye. Four and a half marks.
+
+Q: What are the three layers, or tunics, of the eye? Give their structures and their functions.
+
+The hook, from the outside in: the tough coat, the blood coat, and the seeing coat.
+
+The tough coat is the fibrous tunic, on the outside. It has two parts. The white sclera, which protects the eye and anchors the muscles that move it. And the clear cornea at the front, which lets light in, and does about eighty per cent of the refraction.
+
+The blood coat is the vascular tunic, also called the uvea, in the middle. It has three parts. The choroid: pigmented and rich in blood vessels. It nourishes the other layers, and stops light scattering. The ciliary body: its ciliary muscles and suspensory ligaments hold the lens and change its shape, and its processes make the aqueous humour. And the iris: its circular and radial muscles control the size of the pupil, and so how much light gets in.
+
+[pause 1]
+
+The seeing coat is the neural tunic, the retina, on the inside. Its outer pigmented layer absorbs light and stops it scattering. Its inner neural layer has three layers of neurons: the photoreceptors, rods and cones, then bipolar cells, then ganglion cells, whose axons leave the eye as the optic nerve, cranial nerve two. The photoreceptors turn light into nerve impulses.
+
+[pause 1]
+
+The traps. The cornea, not the lens, does most of the refraction: about eighty per cent. Second: the choroid belongs to the middle, vascular tunic, not the retina. Third: the rods and cones are in the neural layer. The pigmented layer only absorbs light.
+
+Q: Once more. The three layers of the eye.
+
+[pause 2]
+
+{recap} The fibrous tunic: the sclera, which protects the eye and anchors its muscles, and the cornea, which does about eighty per cent of the refraction. The vascular tunic: the choroid, rich in blood vessels, which nourishes the eye; the ciliary body, which holds the lens, changes its shape, and makes aqueous humour; and the iris, which controls pupil size. The neural tunic, the retina: a pigmented layer that absorbs light, then photoreceptors, rods and cones, then bipolar cells, then ganglion cells, whose axons form the optic nerve.
+
+# Near vision: the three changes
+@ saq: accommodation
+@ say: Near vision
+
+Q: Near vision. Three marks.
+
+Q: What changes occur in the eye to allow near vision? And how is this undone for distant vision?
+
+Three marks, three changes. Picture yourself reading a book held close to your face.
+
+The hook: bulge, shrink, cross. The lens bulges, the pupils shrink, and the eyes cross inwards. Look out of the window, and all three undo.
+
+Bulge. The ciliary muscle contracts, the suspensory ligaments go slack, and the elastic lens recoils into a rounder shape, so it bends light more. That's accommodation of the lens.
+
+Shrink. The pupils constrict. The circular, sphincter muscles of the iris contract.
+
+Cross. The eyes converge: both eyeballs rotate medially, turning inwards toward the near object.
+
+[pause 1]
+
+Why it's needed. Light from a near object arrives as diverging rays. Light from more than six metres away arrives as parallel rays. The near rays need more bending to land on the retina.
+
+For distant vision, all three undo. The ciliary muscle relaxes, the lens flattens, the pupils dilate, and the eyes look straight ahead.
+
+[pause 1]
+
+The traps. For near vision, the pupil constricts. Her student-marked feedback says it dilates, but her own quiz key and both of her decks say constricts. Write constricts. Second: the ciliary muscle contracts to make the lens bulge. Her true or false trap says it contracts to flatten the lens. That's false. Third: one of her slides calls the lens biconcave. It's biconvex.
+
+Q: Once more. Near vision.
+
+[pause 2]
+
+{recap} The ciliary muscle contracts, so the lens bulges and gets rounder: accommodation. The pupils constrict. The eyes converge, turning inwards. For distant vision, all three undo: the ciliary muscle relaxes, the lens flattens, and the pupils dilate. Near light arrives diverging; from over six metres away it's parallel.
+
+# Myopia, hyperopia and astigmatism
+@ saq: refraction-errors
+@ say: Myopia, hyperopia and astigmatism
+
+Q: Myopia, hyperopia and astigmatism. Five marks.
+
+Q: Explain how myopia, emmetropia and hyperopia differ, and how each error is corrected. What is astigmatism?
+
+The hook: myopia, my world is up close. Short-sighted. The focus falls short, in front of the retina, and a concave lens pushes it back. Hyperopia: the focus overshoots, behind the retina, and a convex lens pulls it forward.
+
+Emmetropia is normal vision. Parallel light rays are focused on the retina.
+
+Myopia is short-sightedness. Light from distant objects focuses in front of the retina, usually because the eyeball is too long. Near things are clear, and far things are blurred. It's corrected with a concave lens, which diverges the light, spreading it out, and moves the focus back onto the retina.
+
+[pause 1]
+
+Hyperopia is long-sightedness. Light from near objects focuses behind the retina, usually because the eyeball is too short. Far things are clearer than near ones. It's corrected with a convex lens, which converges the light and moves the focus forward onto the retina.
+
+Astigmatism: the cornea or the lens is curved unevenly, more in one direction than another. So light focuses at several points, and vision is blurred at all distances. It's corrected with glasses or contact lenses, or with laser surgery.
+
+[pause 1]
+
+The traps. Myopia: short-sighted, concave. Hyperopia: long-sighted, convex. Swapping the lenses is the commonest slip. Second: say where the image falls, in front of or behind the retina. That's the mark, not just "blurry". Third: astigmatism doesn't depend on distance. It's blurred near and far.
+
+Q: Once more. Myopia, hyperopia and astigmatism.
+
+[pause 2]
+
+{recap} Emmetropia: light is focused on the retina. Myopia, short-sighted: distant light focuses in front of the retina because the eyeball is too long, and a concave lens diverges the light. Hyperopia, long-sighted: near light focuses behind the retina because the eyeball is too short, and a convex lens converges the light. Astigmatism: the cornea or lens is curved unevenly, so light focuses at several points and everything is blurred. Glasses, contacts, or laser surgery.
+
+# Waves: light and sound
+@ saq: waves
+@ say: Waves of light and sound
+
+Q: Waves of light and sound. Four marks.
+
+Q: Explain amplitude, wavelength and frequency, and how we experience each one. Compare light and sound waves, and explain the difference between reflection and refraction of light.
+
+The hook: amplitude is how tall, so loud or bright. Wavelength is peak to peak, so colour. Frequency is how many per second, so pitch. Reflection bounces, refraction bends.
+
+Amplitude is the height of the wave: how far it moves from rest. In sound we experience it as loudness, measured in decibels. In light, as brightness.
+
+Wavelength is the distance from one peak to the next. In light, it decides the colour we see. Visible light is measured in nanometres.
+
+Frequency is the number of waves passing per second, measured in hertz. As frequency goes up, wavelength goes down. In sound, we hear frequency as pitch. Humans hear about twenty to twenty thousand hertz.
+
+[pause 1]
+
+Light versus sound. Light is electromagnetic, and needs no medium: it can cross a vacuum. Sound is a mechanical pressure wave, made of compressions and rarefactions, and it needs a medium: a gas, a liquid, or a solid.
+
+Reflection: light bounces back off a flat, opaque surface, like a mirror. A coloured object reflects only its own wavelengths, and absorbs the rest.
+
+Refraction: light bends when it passes into a medium of a different density, because it slows down there. A rainbow in raindrops. And in your own eye, the cornea and the lens refract light to focus it on the retina.
+
+[pause 1]
+
+The traps. Loudness is amplitude, and pitch is frequency. Her quizzes swap them to catch you. Second: a higher frequency means a shorter wavelength. Third: sound can't travel through a vacuum. Light can.
+
+Q: Once more. Waves.
+
+[pause 2]
+
+{recap} Amplitude is the wave's height: loudness in decibels, or brightness. Wavelength is peak to peak: the colour of light. Frequency is waves per second, in hertz: the pitch of sound, and a higher frequency means a shorter wavelength. Light is electromagnetic and needs no medium; sound is a mechanical pressure wave that needs one. Reflection: light bounces back, like a mirror. Refraction: light bends as it slows in a different density, like a rainbow, or the cornea and lens focusing light.
+
+# Taste: the taste buds
+@ saq: taste
+@ say: Taste
+
+Q: Taste. Five marks.
+
+Q: Briefly describe the structure of the taste buds, and discuss the physiology of taste sensation.
+
+This one is her learning outcome, word for word. Her quizzes never asked it, which is exactly why it's worth having ready.
+
+The hook: buds on the papillae, chemicals in the saliva, nerves seven, nine and ten, and up to the insula.
+
+Taste, or gustation, is a chemical sense. Taste buds are chemoreceptors, stimulated by chemicals dissolved in the saliva.
+
+The structure. The tongue carries papillae. Fungiform, which are mushroom-shaped. Vallate, surrounded by a moat. Filiform, thread-shaped. And foliate, leaf-shaped. The taste buds are specialised structures on the papillae. Each taste bud is a cluster of gustatory cells, about fifty to a hundred and twenty-five chemoreceptors, inside a capsule of supporting cells. Their gustatory hairs poke out into the taste pore.
+
+Five tastes: sweet, sour, salty, bitter, and umami, which is savoury.
+
+[pause 1]
+
+The pathway. The facial nerve, cranial nerve seven, carries taste from the front two-thirds of the tongue. The glossopharyngeal nerve, nine, carries the back third. And the vagus nerve, ten, carries the very back. They go to the brain stem, then up to the thalamus, the insula, and the frontal lobe. The amygdala and the hypothalamus add the emotional response, and appetite.
+
+Flavour is taste plus smell. Chewing releases aroma molecules, which travel from the back of the mouth up into the nasal cavity, and the brain combines the two.
+
+[pause 1]
+
+The traps. Taste buds are chemoreceptors. One of her true or false statements says they're photoreceptors. False. Second: filiform papillae carry no taste buds. They're for texture. The buds are on the fungiform, vallate and foliate papillae. Third: the facial nerve is the front two-thirds, and the glossopharyngeal is the back third.
+
+Q: Once more. Taste.
+
+[pause 2]
+
+{recap} Taste is a chemical sense: taste buds are chemoreceptors for chemicals dissolved in saliva. They sit on the papillae, fungiform, vallate and foliate, and each bud is a cluster of gustatory cells in a supporting capsule, with gustatory hairs in the taste pore. Five tastes: sweet, sour, salty, bitter and umami. The facial nerve carries the front two-thirds, the glossopharyngeal the back third, and the vagus the very back, to the brain stem, the thalamus, the insula and the frontal lobe. Flavour is taste plus smell.
+
+# Smell: the olfactory epithelium
+@ saq: smell
+@ say: Smell
+
+Q: Smell. Five marks.
+
+Q: Briefly describe the structure of the olfactory epithelium, and discuss the physiology of olfaction.
+
+Taste's twin, and also her learning outcome, word for word.
+
+The hook: roof, mucus, receptor, cribriform plate, bulb, temporal lobe.
+
+The structure. The olfactory epithelium lies in the roof of the nasal cavity. It sits so high that most of the air you breathe never reaches it, which is why you sniff. It holds the olfactory receptor neurons, which are chemoreceptors with olfactory cilia. Plus supporting cells, and basal cells, which regularly replace the receptor neurons.
+
+Olfaction. Odourants are breathed in, and dissolve in the mucus covering the olfactory epithelium. Then they bind to receptors on the olfactory receptor neurons, which starts a signal. The neurons' axons pass up through the cribriform plate as cranial nerve one, the olfactory nerve, and synapse in the olfactory bulb.
+
+[pause 1]
+
+The olfactory bulbs lie under the frontal lobe, and the olfactory tract carries the signal on. The primary olfactory cortex, in the temporal lobe, identifies the smell. The amygdala ties smell to emotion, and the hippocampus ties it to memory. That's why a smell can bring a memory straight back.
+
+Complete loss of smell is anosmia. Partial loss is hyposmia.
+
+[pause 1]
+
+The traps. Smell is cranial nerve one, the olfactory nerve. Two is the optic nerve. One of her true or false statements says the second cranial nerve. False. Second: the receptors are the olfactory receptor cells and their cilia, not the basal or supporting cells. Third: it's in the roof of the nasal cavity.
+
+Q: Once more. Smell.
+
+[pause 2]
+
+{recap} The olfactory epithelium is in the roof of the nasal cavity, which is why you sniff. It has olfactory receptor neurons with cilia, supporting cells, and basal cells that replace the neurons. Odourants dissolve in the mucus and bind the receptors. The axons pass through the cribriform plate as cranial nerve one, and synapse in the olfactory bulb, under the frontal lobe. The primary olfactory cortex in the temporal lobe identifies the smell; the amygdala adds emotion, and the hippocampus memory. Total loss is anosmia; partial loss is hyposmia.

@@ -1,0 +1,160 @@
+% Test 3, part 4: reproduction (hs2-test3/content/saq-repro.json). The cycles answer is built from her Repro Female deck:
+% she posted no model answer for that essay.
+
+# Making sperm and eggs
+@ saq: gametogenesis
+@ say: Making sperm and eggs
+
+Q: Making sperm and eggs. Four marks.
+
+Q: Describe the gamete production process in males and in females. What hormone from the brain drives this?
+
+The hook. Sperm start at puberty, never stop, and one cell makes four. Eggs start before birth, pause, go one a month, finish only if a sperm gets in, and one cell makes one.
+
+Males first: spermatogenesis. It happens in the seminiferous tubules of the testes, continuously, from puberty on. Spermatogonia divide by mitosis into primary spermatocytes. Meiosis one gives secondary spermatocytes. Meiosis two gives spermatids. Then comes spermiogenesis: they lose most of their cytoplasm and grow a tail. One primary spermatocyte, four sperm.
+
+[pause 1]
+
+Females: oogenesis. It starts in fetal life. Oogonia divide by mitosis into primary oocytes, which begin meiosis one, and then stop, arrested in prophase one, until puberty. There are about two million of them at birth. From puberty, each month one primary oocyte finishes meiosis one, giving a secondary oocyte and the first polar body. The secondary oocyte arrests again, in metaphase two, and that's what is ovulated. Meiosis two is only completed if a sperm enters it, giving one ovum and a second polar body. And egg production ends at menopause.
+
+The hormone: FSH, follicle-stimulating hormone, from the anterior pituitary, working together with LH.
+
+[pause 1]
+
+The traps. One primary spermatocyte makes four sperm. One primary oocyte makes only one egg; the rest are polar bodies. Second: eggs start before birth, and sperm start at puberty. Third: the egg only finishes meiosis two after a sperm gets in.
+
+Q: Once more. Making sperm and eggs.
+
+[pause 2]
+
+{recap} Spermatogenesis happens in the seminiferous tubules, continuously from puberty. Spermatogonia divide by mitosis into primary spermatocytes, then meiosis one and two give spermatids, which become four sperm. Oogenesis starts in fetal life: primary oocytes arrest in prophase one until puberty. From puberty, one a month completes meiosis one and is ovulated, and meiosis two finishes only if a sperm enters, giving one ovum. Both are driven by FSH from the anterior pituitary, with LH.
+
+# The ovarian and uterine cycles
+@ saq: cycles
+@ say: The ovarian and uterine cycles
+
+Q: The ovarian and uterine cycles. Six marks.
+
+Q: Describe the phases of the ovarian and uterine cycles in the female, and how the hormones link them.
+
+She posted no model answer for this one, so this answer is built straight from her Repro Female deck. It's six marks, and it comes back in the final, in the fertility case, so it's worth the effort.
+
+Two cycles run side by side: the ovary's, and the uterus's. Day one is the first day of the period.
+
+The hook. The ovary: grow, pop, yellow body, white scar. The uterus: shed, rebuild, get ready.
+
+The ovary first. The follicular phase, days one to fourteen. FSH from the anterior pituitary makes a follicle grow: primordial, primary, secondary, and then a mature Graafian follicle. Its granulosa cells secrete oestrogen.
+
+Ovulation, mid-cycle, at about day fourteen. A surge of LH makes the Graafian follicle rupture and release the secondary oocyte. That's the pop.
+
+The luteal phase, days fourteen to twenty-eight. The ruptured follicle becomes the corpus luteum, the yellow body, which secretes progesterone, and some oestrogen. If there's no pregnancy, it breaks down after about ten days into the corpus albicans, the white scar.
+
+[pause 1]
+
+Now the uterus. The menstrual phase, days one to five. Progesterone falls, the spiral arteries spasm, and the stratum functionalis of the endometrium is shed.
+
+The proliferative phase, days six to fourteen. Rising oestrogen from the growing follicle rebuilds the endometrium.
+
+The secretory phase, days fifteen to twenty-eight. Progesterone from the corpus luteum turns the endometrium into a gland-rich lining, ready for implantation. If no embryo implants, the corpus luteum breaks down, progesterone falls, and menstruation starts again. That fall in progesterone is the link that restarts both cycles.
+
+[pause 1]
+
+The traps. The follicular phase goes with FSH and oestrogen. The luteal phase goes with the corpus luteum and progesterone. Second: proliferative is oestrogen, and secretory is progesterone. Third: only the stratum functionalis is shed. The stratum basalis stays, and grows the next one.
+
+Q: Once more. Both cycles.
+
+[pause 2]
+
+{recap} The ovarian cycle. In the follicular phase, FSH makes a follicle grow into a Graafian follicle, which secretes oestrogen. At ovulation, around day fourteen, an LH surge ruptures it and releases the secondary oocyte. In the luteal phase the corpus luteum secretes progesterone, and without a pregnancy it becomes the corpus albicans. The uterine cycle. In the menstrual phase, progesterone falls and the stratum functionalis is shed. In the proliferative phase, oestrogen rebuilds it. In the secretory phase, progesterone readies it for implantation. With no implantation, progesterone falls, and menstruation starts again.
+
+# Male versus female: the comparison table
+@ saq: male-female-table
+@ say: The male versus female table
+
+Q: The male versus female table. Six marks.
+
+Q: Tabulate the differences between the male and female reproductive systems, looking at: the function of LH, the function of FSH, the timing of gamete production, the size of the gametes, the timing of meiosis, and the mobility of the gametes.
+
+Six rows, two columns, and one line in each box. Every row has to be a contrast. A row with the same words in both columns scores nothing.
+
+Row one, LH. In females, it triggers ovulation, and forms the corpus luteum. In males, it stimulates the Leydig cells to make testosterone.
+
+Row two, FSH. In females, it stimulates follicle development. In males, it stimulates spermatogenesis, through the Sertoli cells.
+
+Row three, the timing of gamete production. Females start in fetal life, and release eggs from puberty to menopause. Males start at puberty, and keep going for life.
+
+[pause 1]
+
+Row four, size. The egg is the largest cell in the body, full of cytoplasm. The sperm is the smallest, with almost none.
+
+Row five, the timing of meiosis. In males it's continuous, and one spermatocyte gives four sperm. In females it stops and starts, arresting in prophase one and again in metaphase two, and one oocyte gives one egg, plus polar bodies.
+
+Row six, mobility. Sperm are motile: they swim with a tail. The egg can't move itself. It's carried along the fallopian tube by cilia, and by peristalsis.
+
+[pause 1]
+
+The traps. LH in males goes to the Leydig cells, to make testosterone. Her student-marked feedback slips and says oestrogen. Her Male Repro deck says testosterone, twice. Write testosterone. Second: millions of sperm, but one egg a month. Third: only the sperm moves itself.
+
+Q: Once more. The six rows.
+
+[pause 2]
+
+{recap} LH: in females it triggers ovulation; in males the Leydig cells make testosterone. FSH: follicle development, or spermatogenesis via the Sertoli cells. Timing: females start in fetal life and release eggs from puberty to menopause; males go from puberty, for life. Size: the egg is the largest cell, the sperm the smallest. Meiosis: in females it stops and starts and gives one egg; in males it's continuous and gives four sperm. Mobility: the egg is carried by cilia; the sperm swims.
+
+# Hormonal control of sperm, and testosterone
+@ saq: male-hormones
+@ say: Male hormones and testosterone
+
+Q: The hormonal control of spermatogenesis, and testosterone. Five marks.
+
+Q: Describe the hormonal control of spermatogenesis, and the physiological effects of testosterone during puberty.
+
+The hook: GnRH, then FSH and LH. L for Leydig, T for testosterone. S for Sertoli, I for inhibin.
+
+From the brain. The hypothalamus releases GnRH, gonadotropin-releasing hormone, which makes the anterior pituitary release FSH and LH.
+
+At the testes. LH stimulates the Leydig cells, also called interstitial cells, to make testosterone, a lipid-soluble hormone made from cholesterol. Testosterone enhances spermatogenesis. FSH acts on the Sertoli cells, also called sustentacular cells, which nourish the developing sperm and support spermatogenesis.
+
+[pause 1]
+
+Negative feedback. Testosterone switches off the hypothalamus, so there's less GnRH, and the anterior pituitary, so there's less LH. Inhibin, from the Sertoli cells, switches off FSH. That keeps the sperm count steady.
+
+Testosterone at puberty. It grows the reproductive organs to adult size, and brings the secondary sex characteristics: pubic, axillary and facial hair, a deeper voice, a bigger chest, and thicker, oilier skin. It increases bone density and skeletal muscle mass. And it's the basis of libido, in both males and females.
+
+[pause 1]
+
+The traps. Leydig cells make testosterone, driven by LH. Sertoli cells nourish the sperm and make inhibin, driven by FSH. Don't swap them. Second: inhibin controls FSH, while testosterone controls GnRH and LH. Third: give the chain in order. Hypothalamus, pituitary, testes.
+
+Q: Once more. The male hormones.
+
+[pause 2]
+
+{recap} The hypothalamus releases GnRH, so the anterior pituitary releases FSH and LH. LH stimulates the Leydig cells to make testosterone, which enhances spermatogenesis. FSH acts on the Sertoli cells, which nourish the sperm. Testosterone feeds back to switch off GnRH and LH, and inhibin from the Sertoli cells switches off FSH. At puberty, testosterone grows the reproductive organs, and brings pubic, axillary and facial hair, a deeper voice, more bone density and muscle mass, and libido.
+
+# Oestrogen, progesterone and the pill
+@ saq: ovary-hormones
+@ say: Oestrogen, progesterone and the pill
+
+Q: Oestrogen, progesterone, and the pill. Five marks.
+
+Q: Describe the physiological effects of oestrogen and progesterone, including the female secondary sex characteristics, and explain how the contraceptive pill prevents pregnancy.
+
+The hook: oestrogen builds, and progesterone prepares. The pill works three ways: no egg, a mucus plug, and a thin lining.
+
+Oestrogen, from the granulosa cells of the follicle, rises at puberty. It promotes oogenesis and follicle growth, and grows the uterine tubes, the uterus and the vagina to adult size. Its secondary sex characteristics: breast growth, fat laid down on the hips and breasts, a wider, lighter pelvis, and axillary and pubic hair. And in each cycle, oestrogen rebuilds the endometrium, in the proliferative phase.
+
+Progesterone, from the corpus luteum, prepares the endometrium for implantation, in the secretory phase. And in pregnancy, it develops the breast lobules and alveoli.
+
+[pause 1]
+
+The pill contains synthetic oestrogen and progestin, which is a synthetic progesterone, either combined, or progestin alone. It prevents pregnancy three ways. It stops ovulation. It thickens the cervical mucus, so sperm can't get into the uterus. And it thins the endometrium, so a fertilised egg can't implant.
+
+[pause 1]
+
+The traps. Oestrogen: the ducts, the fat, the pelvis, the proliferative phase. Progesterone: the alveoli, the secretory phase, pregnancy. Second: the pill works three ways, so name all three for full marks. Third: progestin is the synthetic form of progesterone.
+
+Q: Once more. Oestrogen, progesterone, and the pill.
+
+[pause 2]
+
+{recap} Oestrogen rises at puberty and drives follicle growth. It grows the uterine tubes, uterus and vagina; it brings breast growth, fat on the hips and breasts, a wider, lighter pelvis, and axillary and pubic hair; and it rebuilds the endometrium in the proliferative phase. Progesterone, from the corpus luteum, readies the lining for implantation, and in pregnancy develops the lobules and alveoli. The pill, synthetic oestrogen and progestin, stops ovulation, thickens the cervical mucus, and thins the endometrium.

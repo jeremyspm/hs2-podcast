@@ -1,0 +1,127 @@
+% Test 3, part 2: the rest of genetics, from her student-marked SAQ quiz (hs2-test3/content/saq-gen.json).
+
+# Using a Punnett square
+@ saq: punnett
+@ say: The Punnett square
+
+Q: Using a Punnett square. Four marks.
+
+Q: Explain how a Punnett square is used to predict offspring. Work a cross of big B little b with big B little b, where brown eyes, big B, are dominant over blue, little b. Then work a codominant blood group cross: I A little i, crossed with I B little i.
+
+Genetics problems are the biggest pile of marks in her Module 3 quizzes, and this is the tool for nearly all of them.
+
+The hook: one parent across the top, one down the side, and one letter from each into every box.
+
+What it shows. Genes come in pairs of alleles, one from each parent. A Punnett square shows all the possible combinations of the parents' alleles at fertilisation, so it predicts the probability of each genotype in the offspring.
+
+How to draw it. One parent's two alleles go across the top. The other parent's two alleles go down the side. Fill each of the four boxes with one allele from the top and one from the side.
+
+[pause 1]
+
+Cross one: big B little b, crossed with big B little b. The boxes: one big B big B, two big B little b, and one little b little b. One to two to one. As percentages, that's twenty-five per cent homozygous dominant, fifty per cent heterozygous, and twenty-five per cent homozygous recessive. Now the phenotype. Big B big B and big B little b both show the dominant trait, so it's seventy-five per cent brown, twenty-five per cent blue. Only little b little b shows blue.
+
+Cross two, the blood groups. This is codominance: I A and I B are both expressed, and little i, which gives group O, is recessive. I A little i, crossed with I B little i. The four boxes: I A I B, which is group A B. I A little i, group A. I B little i, group B. And little i little i, group O. Twenty-five per cent each. That's how four children can have four different blood groups.
+
+[pause 1]
+
+The traps. Genotype is the letters. Phenotype is what shows: brown or blue, or the blood group. When she asks for both, give both. Second: each box is a probability for each child, not a count of real children. Third, the words: heterozygous is two different letters, big B little b. Homozygous is two the same.
+
+Q: Once more. The Punnett square, and both crosses.
+
+[pause 2]
+
+{recap} Alleles come in pairs, one from each parent, and the Punnett square shows every possible combination, so the probability of each. One parent across the top, the other down the side. Big B little b crossed with big B little b gives one to two to one: twenty-five per cent homozygous dominant, fifty heterozygous, twenty-five homozygous recessive. So seventy-five per cent brown, twenty-five blue. In codominance, I A and I B are both expressed: I A little i crossed with I B little i gives group A B, group A, group B and group O, twenty-five per cent each.
+
+# Patterns of inheritance
+@ saq: inheritance-patterns
+@ say: Patterns of inheritance
+
+Q: Patterns of inheritance. Four marks.
+
+Q: Briefly explain these patterns of inheritance, with an example of each: codominance, incomplete dominance, polygenic inheritance, and mitochondrial inheritance.
+
+Four patterns, four marks, and an example for each. Her 2023 revision deck puts them in a four-column table, and that's the shape to write it in.
+
+The hook: co means both show. Incomplete means a blend. Poly means many genes. Mito means mum only.
+
+Codominance. Both alleles are fully expressed in the heterozygote, each making its own protein. The example is the A B O blood groups: I A and I B together give group A B, with both the A and the B antigens on the red cells.
+
+Incomplete dominance. One allele doesn't completely mask the other, so the heterozygote is somewhere in between. Her example is sickle cell. The heterozygote has both normal and sickle-shaped cells, with about a third of the haemoglobin abnormal, and more resistance to malaria.
+
+[pause 1]
+
+Polygenic inheritance. Many genes control one trait, so you get a continuous range, a bell curve, rather than neat categories. Examples: height, skin colour, and eye colour.
+
+Mitochondrial inheritance. The genes in mitochondrial DNA are passed on only by the mother, to all of her children, sons and daughters. Fathers never pass it on. These disorders can turn up in both sexes, in every generation, but how severe they are varies, because of the bottleneck effect: symptoms only appear once the mutated mitochondrial DNA passes a threshold, often sixty to ninety per cent. One example is LHON, which damages the optic nerve.
+
+[pause 1]
+
+The traps. Codominance and incomplete dominance are the pair she uses to catch you. Codominance: both shown in full, like A B blood. Incomplete: a blend. Second: her decks put sickle cell under incomplete dominance, so write it her way. Third: mitochondrial means from the mother to all her children. Never from the father.
+
+Q: Once more. The four patterns.
+
+[pause 2]
+
+{recap} Codominance: both alleles are fully expressed, like A B blood, where I A and I B together give group A B. Incomplete dominance: one allele doesn't fully mask the other, so the heterozygote is in between, like sickle cell carriers with both normal and sickle cells. Polygenic: many genes control one trait, giving a continuous range, like height and skin colour. Mitochondrial: mitochondrial DNA comes only from the mother, to all her children, and severity varies because of the bottleneck effect.
+
+# Karyotypes and aneuploidy
+@ saq: karyotype
+@ say: Karyotypes and aneuploidy
+
+Q: Karyotypes and aneuploidy. Four marks.
+
+Q: What is a human karyotype, and how many chromosomes does it show? What is aneuploidy? Give two examples, and explain how aneuploidy arises.
+
+The hook: forty-six is twenty-three pairs. One too many, or one too few, is aneuploidy, and it comes from a pair failing to split in meiosis.
+
+A karyotype is a picture of a cell's chromosomes, taken at metaphase, arranged into numbered homologous pairs, by decreasing size. It's the complete diploid set.
+
+Humans have forty-six chromosomes, which is twenty-three pairs: twenty-two pairs of autosomes, and one pair of sex chromosomes. X X in a female, X Y in a male.
+
+Aneuploidy is an abnormal number of chromosomes in a cell. Too many, or too few.
+
+[pause 1]
+
+Two examples. Down syndrome, which is trisomy twenty-one: three copies of chromosome twenty-one, so forty-seven chromosomes. And Turner syndrome: only one X, so forty-five. Edwards syndrome, trisomy eighteen, is another.
+
+How it arises: non-disjunction. A pair of chromosomes, or its chromatids, fails to separate in anaphase of meiosis, one or two. So a gamete gets one chromosome too many, or one too few, and so does the zygote it makes.
+
+[pause 1]
+
+The traps. Forty-six chromosomes is twenty-three pairs: twenty-two pairs of autosomes, plus one pair of sex chromosomes. "Twenty-three autosomes" is wrong. Second: Turner is forty-five, Down is forty-seven. Third: non-disjunction happens in meiosis, when the gametes are made.
+
+Q: Once more. Karyotypes and aneuploidy.
+
+[pause 2]
+
+{recap} A karyotype is a picture of the chromosomes in numbered homologous pairs: forty-six chromosomes, twenty-three pairs, twenty-two pairs of autosomes plus X X or X Y. Aneuploidy is an abnormal number of chromosomes. Down syndrome is trisomy twenty-one, forty-seven chromosomes. Turner syndrome is forty-five, with only one X. It arises from non-disjunction in meiosis: a pair fails to separate, so a gamete gets one too many, or one too few.
+
+# Detecting and treating genetic disease
+@ saq: gene-tech
+@ say: Detecting and treating genetic disease
+
+Q: Detecting and treating genetic disease. Four marks.
+
+Q: Explain some of the ways genetic abnormalities are detected, including genetic testing and fetal testing, and what genetic engineering and gene therapy are.
+
+The hook: look, sample, change, treat. Look at the DNA. Sample the baby. Change the DNA. Treat the patient.
+
+Look. Genetic testing reads a person's DNA, often from a blood sample, for genes or variants that cause disease. For example, a karyotype, which looks at the chromosomes. Or a molecular karyotype, called a CGH array, which checks thousands of positions for missing or extra DNA.
+
+Sample the baby. There are two fetal tests. Chorionic villus sampling, or CVS: tissue is taken from the placenta, at eight to twelve weeks. And amniocentesis: amniotic fluid is taken, at fourteen to twenty weeks. In both, the fetal cells are examined for chromosomal and genetic disorders.
+
+[pause 1]
+
+Change. Genetic engineering is the deliberate alteration of DNA, to change an organism's genetic make-up. Her example: bacteria altered to make insulin.
+
+Treat. Gene therapy is the treatment of a genetic disease by inserting genetic material into the patient's cells, carried in by a vector.
+
+[pause 1]
+
+The traps. CVS is earlier, eight to twelve weeks, from the placenta. Amniocentesis is later, fourteen to twenty weeks, from the fluid. Second: genetic engineering changes DNA in any organism, while gene therapy treats a patient. Third: a karyotype shows the number and shape of the chromosomes. It can't see a single-gene change like Huntington's.
+
+Q: Once more. Detecting and treating genetic disease.
+
+[pause 2]
+
+{recap} Genetic testing reads a person's DNA, often from a blood sample: a karyotype, or a CGH array for missing or extra DNA. Chorionic villus sampling takes placenta at eight to twelve weeks. Amniocentesis takes amniotic fluid at fourteen to twenty weeks. Both check the fetal cells. Genetic engineering is the deliberate alteration of DNA, like bacteria altered to make insulin. Gene therapy treats a genetic disease by inserting genetic material into the patient's cells.

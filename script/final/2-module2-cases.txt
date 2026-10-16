@@ -1,0 +1,394 @@
+% The final, part 2: cases 6, 8, 9 and 10. Answers follow hs2-final's built DATA: her 2024 answer decks (diabetes,
+% joints and inflammation, the NS deck), her recorded 30 and 31 May 2024 sessions, Emma's exam-prep page, and her formative
+% case test 211092. Case 8's "compare bursitis and arthritis" is held in the sim (no answer of hers): here it is answered from
+% her two separate answers, and said to be.
+
+# Case 6, part 1: what insulin does
+@ case: c6
+@ q: q7c2ef5ce3b qcb61f37c64 qf5747c02f3 q59b26e3655 q3f9f8bc08e qcc94a0c925 q801b095ea3
+@ say: Case 6, what insulin does
+
+Q: Exam case 6. Diabetes.
+
+Q: Larry has recently been diagnosed with type 2 diabetes mellitus, an endocrine disorder, after what seems to be many years of uncontrolled hyperglycaemia. He must measure his blood sugar every day as he works with his diabetes nurse, and he'll need insulin injections and other medications. Larry is a little overwhelmed, and isn't sure what this insulin is for. As his nurse, you need a robust understanding of what insulin does. In type 1 diabetes the body fails to make insulin. In type 2, the body can't respond to insulin when it's secreted.
+
+Case 6 is two tracks. This one is insulin itself.
+
+Q: Two marks. Where in the body, specifically, is insulin made?
+
+In the endocrine pancreas, in the islets of Langerhans. Specifically, the beta cells of the islets make insulin, which lowers blood sugar: after a meal, it tells the body to store the extra glucose. The alpha cells make glucagon. Her memory trick: glucagon goes with the alpha cells. Think of the A in both.
+
+Q: Three marks. What hormone, or hormones, act in opposition to insulin, and where are they made?
+
+The hook: glucagon first, then the stress pair, adrenaline and cortisol, then growth and thyroid.
+
+Glucagon, from the alpha cells of the pancreas, which raises blood glucose. Adrenaline, also called epinephrine, from the adrenal medulla, and cortisol, from the adrenal cortex. Both of those run the stress response, fight or flight and long-term stress, when the body needs ready access to glucose. And growth hormone, from the anterior pituitary, and the thyroid hormones, which are tied to metabolism. Changes in them can raise blood sugar too.
+
+[pause 1]
+
+Q: Four marks. Explain what insulin does at a cellular level. Think about how it travels in the body, what it binds to, and what happens.
+
+The hook: travel, bind, move GLUT 4, let glucose in.
+
+Insulin travels through the body in the blood. It binds to insulin receptors on the surface of insulin-sensitive cells. Once it's bound, a cascade of events inside the cell moves the GLUT 4 transporter from inside the cell into the cell membrane. And in the membrane, GLUT 4 is a transport protein that lets glucose move into the cell, down its concentration gradient, by facilitated diffusion.
+
+[pause 1]
+
+Q: One mark each. Insulin's role in the liver. In the muscles. And in the fat tissue.
+
+The liver: it stimulates the conversion of glucose to glycogen, the storage form of glucose, by glycogenesis. Enzymes join the glucose molecules together into the larger glycogen polysaccharide.
+
+The muscles: the same. Glucose to glycogen, by glycogenesis. Her formative test words it another way: insulin stimulates muscle cells to insert GLUT 4 into the membrane, to let glucose in. Both are true, so give the one the question is after.
+
+The fat tissue: it stimulates the conversion of glucose to fat, by lipogenesis. Fat is the most efficient storage form: more energy in a smaller space.
+
+[pause 1]
+
+Her formative test has three more blanks on this, and they're easy marks if the words are ready. Glycogenesis, glucose to glycogen, is stimulated by insulin. Glycogenolysis, breaking glycogen down, is stimulated by glucagon. And gluconeogenesis and glycogenolysis together are stimulated by glucagon and epinephrine.
+
+Q: Once more. What insulin does.
+
+[pause 2]
+
+{recap} Insulin is made by the beta cells of the islets of Langerhans, in the endocrine pancreas, and it lowers blood sugar; the alpha cells make glucagon. Its opponents: glucagon, adrenaline from the adrenal medulla, cortisol from the adrenal cortex, growth hormone, and the thyroid hormones. At a cell, insulin travels in the blood, binds its receptor, and a cascade moves GLUT 4 into the membrane, letting glucose in by facilitated diffusion. In the liver and muscles it drives glycogenesis, glucose to glycogen. In fat tissue, lipogenesis.
+
+# Case 6, part 2: glucagon, the day graph, and the tired pancreas
+@ case: c6
+@ q: q0572a11608 q17bb2237b5 q3fab2a8864 q838ff03a2c q4913c1cade
+@ say: Case 6, glucagon and the day graph
+
+Q: Exam case 6, continued. Glucagon, the blood sugar day, and the tired pancreas.
+
+These five aren't starred, but they sit inside the yellow case, and her deck answers every one of them, on slides thirty-one to thirty-four. Her helpline says an unstarred question can still be asked.
+
+Q: Three marks. What other molecules also influence blood glucose levels?
+
+Glucagon, and it raises blood glucose three ways. It stimulates the breakdown of glycogen: glycogenolysis. It stimulates the breakdown of fats: lipolysis. And it stimulates the liver to make new glucose from non-glucose sources: gluconeogenesis.
+
+Q: Four marks. Insulin is designed to only be high after a meal, so in normal function it follows a pattern like the diagram. Can you describe the normal blood glucose level over the day? What about insulin?
+
+Blood glucose changes over the day with your meals, especially carbs and sugar: it rises after each meal. But there's always a background level of insulin. Insulin is never at zero. Blood glucose is never at zero either: it stays within the normal range. And her two words for insulin: basal insulin is the background level, and bolus insulin is what's released, or given, after meals.
+
+[pause 1]
+
+Q: One mark. In normal blood sugar regulation, does the blood glucose level go above the normal range?
+
+No. It shouldn't exceed the normal range.
+
+Q: Two marks. What happens overnight? And what could that mean for the morning?
+
+Blood glucose drops to its lowest overnight. And breakfast is breaking the fast: you wake up hungry, because your body has run out of glycogen.
+
+[pause 1]
+
+Q: Three marks. When the body's cells are resistant to the insulin signal, the pancreas tries to compensate by making more insulin. All that overwork can damage it, so now it struggles to make enough. What would happen in the body now, and how might we need to intervene?
+
+Pancreatic fatigue: damage to the pancreas from overworking. Then low insulin levels, so blood glucose regulation is impaired. That's type 2 diabetes mellitus, and the person might end up on insulin. Which is exactly where Larry is.
+
+Q: Once more. Glucagon, and the day.
+
+[pause 2]
+
+{recap} Glucagon raises blood glucose three ways: glycogenolysis, lipolysis, and gluconeogenesis in the liver. Over the day, blood glucose follows your meals, but it never hits zero and stays in the normal range, and insulin never hits zero either. Basal insulin is the background; bolus insulin comes after meals. Normally, blood glucose never goes above the normal range. It's lowest overnight, so breakfast breaks the fast. Insulin resistance overworks the pancreas until it fatigues and makes too little insulin: type 2 diabetes, and possibly insulin injections.
+
+# Case 8, part 1: the joint, A to H
+@ case: c8
+@ q: q3873615069 q65fcfbe6de q5b554b25dd q5c099e3af1 q2c0b3dca7c
+@ held: Compare and contrast bursitis and arthritis. || Both: inflammation, with pain and swelling around a joint | Bursitis: the bursa, a fluid-filled sac outside the joint; often from overuse or pressure; usually settles | Arthritis: the joint itself, wearing the articular cartilage and inflaming the synovial membrane; usually long-term
+@ say: Case 8, the joint
+
+Q: Exam case 8. Joints and arthritis.
+
+Q: Shannon is thirty, and has had a series of joint problems. She's had bursitis in her hip in the past, and now has pain mainly in her knee and hip joints, and her hands. She has recently been diagnosed with rheumatoid arthritis. She's concerned she's too young for arthritis, even though she's fairly active and has been an athlete most of her life. Part of her treatment plan is prednisone, a synthetic corticosteroid, similar to cortisol. Cortisol is part of the body's long-term stress response.
+
+Case 8 is two tracks, and this one is the joint itself. She was clear in her session: the diagrams in the case studies will be in the exam, and she's promising you. This joint is definitely in, though it might be numbered instead of lettered.
+
+Q: Nine marks. Use the diagram to name the lettered structures of the joint, with the function of each.
+
+Nine structures, a name and a job each. The hook, in letter order: muscle, enthesis, fluid, bursa, capsule, tendon, bone, cartilage, ligament.
+
+Letter A, top left, is muscle. It contracts and acts on the bones, making the angle between them smaller or larger. Her answer deck letters the muscle as I, but the workbook figure letters it A. Go by the figure in front of you.
+
+The other two A labels, top right and at the bottom, mark the enthesis: where the ligaments attach to the bone.
+
+B is synovial fluid. It lubricates the joint.
+
+C is a bursa. It reduces friction: it's a lubricated, fluid-filled sac between bone and soft tissue.
+
+D is the joint capsule. It holds the bones together.
+
+[pause 1]
+
+E is a tendon. It joins muscle to bone.
+
+F is bone. It acts as a lever, and articulates at joints.
+
+G is hyaline cartilage. It reduces friction, and absorbs shock.
+
+H is a ligament. It holds bones together.
+
+[pause 1]
+
+Her formative test drills the same diagram. B is synovial fluid, responsible for lubricating the joint. G is hyaline cartilage, and it is not responsible for secreting synovial fluid. The part arthritis mainly affects is G, the cartilage. And osteoarthritis occurs most often in the elderly, because of wear and tear.
+
+Q: Two marks. The knee and hip are both synovial joints. What are the benefits to the body of a synovial joint?
+
+Synovial joints are freely movable. They're the most freely moving type of joint in the body. Without them, we'd have very limited movement.
+
+Q: Two marks. What kind of synovial joint are the hip and the knee? The shoulder and the elbow?
+
+The shoulder and the hip are ball-and-socket joints: a ball moving in a socket. The knee and the elbow are hinge joints: they can only open and close, like a door.
+
+[pause 1]
+
+Q: Two marks. What is bursitis?
+
+A bursa is a thin, lubricated, fluid-filled sac between a bone and the soft tissue around it, the tendons and muscles. It's a cushion to reduce friction. In bursitis, it becomes inflamed and swollen. Then it has the opposite effect, and it's painful.
+
+Q: And one she hasn't answered anywhere yet. Compare and contrast bursitis and arthritis.
+
+Her answer isn't posted, so this is built from her two separate answers. What they share: both are inflammation, with pain and swelling around a joint, and both can limit movement. Where they differ. Bursitis is in the bursa, a fluid sac outside the joint, often from overuse, pressure or injury, and it usually settles. Arthritis is in the joint itself. In her words, arthritis wears away the articular cartilage and inflames the synovial membrane. And it's usually long-term. Shannon has had both: bursitis in her hip before, and rheumatoid arthritis now.
+
+Q: Once more. The joint.
+
+[pause 2]
+
+{recap} The joint, letter by letter: muscle contracts to move the bones; the enthesis is where ligaments attach; synovial fluid lubricates; a bursa reduces friction; the joint capsule holds the bones together; a tendon joins muscle to bone; bone is a lever that articulates; hyaline cartilage reduces friction and absorbs shock; and a ligament holds bones together. Synovial joints are freely movable. The shoulder and hip are ball-and-socket; the knee and elbow are hinges, like a door. Bursitis is an inflamed, swollen bursa, the friction cushion, and it's painful.
+
+# Case 8, part 2: rheumatoid arthritis, cortisol, and Shannon
+@ case: c8
+@ q: q14e46cfb34 q05841f0fb9 qf845b6ee38 q8a654cb90d q0fbf219f0f qcd2b5c7c3f qb6d1f8a469
+@ say: Case 8, rheumatoid arthritis and cortisol
+
+Q: Exam case 8, continued. Rheumatoid arthritis, cortisol, and what to tell Shannon.
+
+Q: Four marks. What occurs in rheumatoid arthritis?
+
+The hook: autoimmune, fast, both sides, whole body.
+
+It's autoimmune: the immune system attacks the joints. The onset is relatively rapid, over weeks to months, and it can begin at any time in life. The joints are painful, swollen and stiff, often small and large joints on both sides of the body: both hands, both wrists, the elbows, the balls of the feet. Morning stiffness lasts longer than an hour. And there are whole-body symptoms: frequent fatigue, and a general feeling of being ill.
+
+Q: One mark. What is the other type of arthritis called?
+
+Osteoarthritis. The wear and tear one.
+
+[pause 1]
+
+Q: Four marks. What is the difference between osteoarthritis and rheumatoid arthritis?
+
+Her table has four rows: the cause, the onset, the joints, and the whole body.
+
+The cause. Rheumatoid is autoimmune. Osteoarthritis is wear and tear.
+
+The onset. Rheumatoid can begin at any time in life, and comes on over weeks to months. Osteoarthritis usually begins later in life, slowly, over years.
+
+The joints. In rheumatoid, they're painful, swollen and stiff, on both sides, small and large, with morning stiffness of more than an hour. In osteoarthritis there's aching and tenderness with little or no swelling, usually in one set of joints, like the fingers, thumbs, hips, knees or spine, and morning stiffness of less than an hour.
+
+The whole body. Rheumatoid has whole-body symptoms: fatigue, and feeling ill. Osteoarthritis doesn't.
+
+[pause 1]
+
+Q: Two marks. Where is cortisol produced and secreted from in the body?
+
+In the adrenal glands: paired, pyramid-shaped glands on top of the kidneys. Specifically, the adrenal cortex, the outer part. Cortisol is its main glucocorticoid, and its release is stimulated by ACTH, from the anterior pituitary.
+
+Q: Four marks. What are the functions of cortisol, and how is this related to the stress response?
+
+The hook: more sugar, steady blood volume, and less inflammation.
+
+Cortisol increases blood glucose, by forming glucose from non-carbohydrate sources, which is gluconeogenesis. It also raises the blood's fatty acids and amino acids. It prepares the body to resist chronic, long-term stress, by keeping blood sugar relatively constant, and maintaining blood volume. Maintaining blood volume keeps the tissues perfused, so oxygen and nutrients are there to deal with the stress. And it reduces inflammation, so less swelling, redness and pain, and it suppresses the immune system.
+
+[pause 1]
+
+Q: Two marks. How is cortisol going to help Shannon's rheumatoid arthritis?
+
+Two ways. It reduces inflammation: less swelling, redness and pain in her joints. And it suppresses the immune system, which matters, because rheumatoid arthritis is autoimmune: an overactive immune system attacking her joints. Prednisone is the synthetic version, doing the same job.
+
+Q: Two marks. What might you say to Shannon about her concerns?
+
+Her own words from the session: rheumatoid arthritis is an autoimmune condition, and it can hit at any age. So Shannon is not too young for it. It's not the wear and tear of osteoarthritis, which usually begins later in life.
+
+Q: Once more. Rheumatoid arthritis, and cortisol.
+
+[pause 2]
+
+{recap} Rheumatoid arthritis is autoimmune. It comes on over weeks to months, at any age, affects joints on both sides with morning stiffness over an hour, and brings whole-body fatigue. Osteoarthritis is wear and tear: later in life, over years, one set of joints, little swelling, stiffness under an hour, and no whole-body symptoms. Cortisol comes from the adrenal cortex, released by ACTH. It raises blood glucose by gluconeogenesis, keeps blood volume and perfusion up through long-term stress, reduces inflammation, and suppresses the immune system, which is how it helps Shannon. And tell her: it's autoimmune, and it can hit at any age.
+
+# Case 9, part 1: neurotransmitters and the synapse
+@ case: c9
+@ q: q9950502a7a q48b9b61889 qee46bc01d7 q6c0b707735 qa1f7429862
+@ say: Case 9, the synapse
+
+Q: Exam case 9. Neurotransmitters and the brain.
+
+Q: Mr Paraone has been admitted to hospital after a fall, and reports problems with mobility and tremors. They're later diagnosed with Parkinson's disease: a brain disease where the cells that normally make dopamine, a neurotransmitter, start to die. One treatment is Levodopa, which travels through the blood and into the brain to boost the brain's dopamine levels, so the neurons can keep communicating properly via their synapses.
+
+Two tracks. First, how a synapse works.
+
+Q: Two marks. What is a neurotransmitter? Where is dopamine normally made in the central nervous system?
+
+A neurotransmitter is a chemical released at the presynaptic endings of a chemical synapse, which then acts on the receptor region of the postsynaptic neuron. Dopamine is made in the substantia nigra, in the midbrain, which is part of the brain stem.
+
+Q: Two marks. Explain the role of calcium ions in synaptic transmission.
+
+When the action potential, the electrical nerve impulse, reaches the axon terminal of the presynaptic neuron, calcium channels open, and calcium enters the presynaptic neuron. The calcium makes the neurotransmitter vesicles open, releasing the neurotransmitter into the synaptic cleft, by exocytosis.
+
+[pause 1]
+
+Q: Six marks. Explain the process of synaptic transmission that allows neurotransmitters to be released. Use the diagram to help.
+
+Six marks, six steps. The hook: arrive, calcium, release, cross, bind, respond, clear.
+
+One. The action potential reaches the axon terminal of the presynaptic neuron, and calcium channels open, so calcium enters.
+
+Two. The calcium makes the vesicles release the neurotransmitter into the synaptic cleft, by exocytosis.
+
+Three. The neurotransmitter diffuses across the synaptic cleft.
+
+Four. It binds to receptors on the postsynaptic neuron.
+
+Five. The postsynaptic membrane's permeability changes, causing either an excitatory or an inhibitory effect.
+
+Six. The neurotransmitter is removed, by re-uptake, or by enzymatic destruction.
+
+[pause 1]
+
+Q: Two marks. When neurotransmitters bind to a receptor, what happens?
+
+The postsynaptic membrane's permeability changes, causing either an excitatory or an inhibitory effect. The postsynaptic neuron is either stimulated, or inhibited.
+
+Q: One mark. After the neurotransmitter has been released, what happens to that chemical signal?
+
+It's removed. Either by re-uptake, back into the presynaptic neuron, or by enzymatic destruction. Take it back, or break it down.
+
+Q: Once more. The synapse.
+
+[pause 2]
+
+{recap} A neurotransmitter is a chemical released at the presynaptic endings of a chemical synapse, which acts on the receptors of the postsynaptic neuron. Dopamine is made in the substantia nigra of the midbrain. The action potential reaches the axon terminal, calcium channels open, and calcium makes the vesicles release neurotransmitter into the cleft by exocytosis. It diffuses across, binds receptors on the postsynaptic neuron, and changes the membrane's permeability: excitatory, or inhibitory. Then it's cleared, by re-uptake or enzymatic destruction.
+
+# Case 9, part 2: label the synapse, and why levodopa
+@ case: c9
+@ q: qc53c0c09ed q51e1763fe8 q56f07a8c77
+@ say: Case 9, the synapse labels and levodopa
+
+Q: Exam case 9, continued. Label the synapse, and why levodopa.
+
+In her session she said you will get this specific drawing in the exam. And in another: they're going to ask you to pinpoint the presynaptic neuron, and label it. So these are free marks, if the letters are learned.
+
+Q: Nine marks. Label her synapse figure, A to G, and name the two transport processes it shows.
+
+The hook: vesicles mean pre. Receptors mean post.
+
+Letter A is a calcium channel, where calcium enters the cell.
+
+B is a vesicle, which contains the neurotransmitters.
+
+C is the neurotransmitter molecules. Every dot is one.
+
+D is a reuptake channel, where the neurotransmitter goes back, to be used again.
+
+E is the receptors, on the postsynaptic membrane.
+
+F is the presynaptic neuron. You can tell by the vesicles.
+
+G is the postsynaptic neuron. You can tell by the receptors.
+
+[pause 1]
+
+Then the two processes. Exocytosis: the vesicle fuses with the membrane, and releases the neurotransmitter. And diffusion: the neurotransmitters cross the synaptic cleft, from high concentration to low.
+
+Her formative test words the same figure as drop-downs. B is a vesicle containing neurotransmitters, such as serotonin, epinephrine or dopamine. E is a receptor on the postsynaptic membrane. The process moving neurotransmitters into the cleft is exocytosis. And the process moving them across the cleft is simple diffusion.
+
+[pause 1]
+
+Q: Three marks. Levodopa travels through the blood and into the brain, and is used as medication. Why not dopamine itself?
+
+To work on brain cells, a medication must be able to cross the blood-brain barrier. Substances that aren't lipid soluble, fat soluble, can't cross it, so they're useless for treating conditions of the brain. And the third line, which is the textbook's rather than hers: levodopa crosses into the brain, and is made into dopamine there. Dopamine itself doesn't cross the blood-brain barrier.
+
+Her Kahoot makes the same point with alcohol: alcohol affects the brain because it can cross the blood-brain barrier.
+
+Q: Once more. The synapse labels, and levodopa.
+
+[pause 2]
+
+{recap} Letter A, a calcium channel. B, a vesicle of neurotransmitter. C, the neurotransmitter molecules. D, a reuptake channel. E, the receptors. F, the presynaptic neuron, with the vesicles. G, the postsynaptic neuron, with the receptors. Into the cleft by exocytosis, and across it by diffusion. Levodopa, not dopamine, because a drug must cross the blood-brain barrier to work on the brain. Levodopa crosses and is made into dopamine there; dopamine itself can't cross.
+
+# Case 10: stroke, and the map of the brain
+@ case: c10
+@ q: qdef14f2387 qee46310ded q6b7acb1469 q94874f4ef3
+@ say: Case 10, stroke and the brain
+
+Q: Exam case 10. Stroke and the brain.
+
+Q: You're working in a stroke rehabilitation unit, often with people recovering from a stroke, or cerebrovascular accident, where parts of the brain were damaged during periods of ischaemia. Different areas of the brain control different tasks, so the functions a person has lost reflect the part of the brain that was damaged. You're working with people with a range of losses, and thinking about which parts of the brain must be involved.
+
+Two big questions, seven marks each, on her cerebrum diagram. Her sessions say the exam uses the same letters. Then the brain stem questions from her formative test.
+
+Q: Seven marks. Using the image, name the functional area of the cerebrum at each letter, A to G.
+
+The hook, from A to G: plan, speak, move, feel, hear, understand, see.
+
+Letter A, the prefrontal cortex. Plan.
+
+B, Broca's area. Speak.
+
+C, the motor area, on the precentral gyrus. Move.
+
+D, the somatosensory area, on the postcentral gyrus. Feel.
+
+E, the auditory area. Hear.
+
+F, Wernicke's area. Understand.
+
+G, the occipital area, the visual cortex. See.
+
+[pause 1]
+
+Q: Seven marks. For each region, what changes to function or behaviour could follow damage to it?
+
+Lose the area, and you lose its job.
+
+Area A, the prefrontal cortex, does problem-solving, judgement, holding back inappropriate behaviour, and keeping the mind on goals. Damage it, and you get poor judgement, inappropriate behaviour, and a loss of focus.
+
+Area B, Broca's area, produces speech and writing that others can understand. Damage gives difficulty producing speech and writing.
+
+Area C, the motor area, instructs the muscle movements, with every muscle group mapped. Damage gives a loss of voluntary movement in the mapped parts.
+
+Area D, the somatosensory area, receives touch and the other general senses, from every part of the body. Damage gives a loss of touch and general sensation.
+
+Area E, the auditory area, is for hearing, with regions tuned to different frequencies. Damage affects hearing.
+
+Area F, Wernicke's area, understands spoken and written language. Damage means the person can't understand language.
+
+Area G, the occipital area, is the visual processing system, the primary visual cortex. Damage affects vision.
+
+One honest note. Her deck gives what each area does. The "damage leads to" half is the podcast's reading of each function. It's the obvious reading, but it isn't her slide.
+
+[pause 1]
+
+Her formative test asks four of these as drop-downs. Judgement, reasoning and impulse control: area A, the prefrontal cortex. Producing speech others can understand: area B, Broca's area. Making sense of sounds: area E, the primary auditory cortex. Controlling voluntary movement: area C, the primary motor cortex.
+
+[pause 1]
+
+Q: And the brain stem, from her formative test. Four people, four injuries.
+
+A person who took no alcohol or drugs behaves like a drunk person after a car accident, and the blood alcohol test comes back negative. The damaged part: the cerebellum.
+
+After a head injury, someone breathes with long, gasping in-breaths, a pause at full inspiration, and a short out-breath. That's the pons, because the apneustic centre there controls the length of inspiration.
+
+After falling down the stairs, someone breathes very slowly and shallowly, and responds poorly to high carbon dioxide or low oxygen. That's the medulla oblongata, because it contains the pacemaker of the respiratory system.
+
+After a motorbike accident, someone's left and right hands act independently. She can't coordinate tasks that need both hands, like tying shoelaces, and one hand acts in conflict with the other: the alien hand. That's the corpus callosum.
+
+[pause 1]
+
+Then she asks where each one sits on her diagram, as fill-in-the-blanks. Here are her keys. The cerebellum is directly posterior to the fourth ventricle, directly inferior to the inferior colliculus, and directly superior to the reticular formation. The pons is on the anterior side of the brain stem, directly inferior to the midbrain, where the inferior colliculus is labelled, directly superior to the medulla oblongata, and directly anterior to the fourth ventricle. The medulla oblongata is directly anterior to the cerebellum, and directly inferior to the pons. And the corpus callosum is directly superior to the lateral ventricle at the front, and directly superior to the fornix at the back. It's inferior to the cingulate gyrus of the cerebrum.
+
+That's thirteen blanks on her test. Positions are hard to learn by ear alone, so look at her diagram once with these words playing.
+
+Q: Once more. Case 10.
+
+[pause 2]
+
+{recap} Area A, the prefrontal cortex: judgement, so damage brings poor judgement and inappropriate behaviour. B, Broca's area: producing speech. C, the motor area, on the precentral gyrus: voluntary movement. D, the somatosensory area, on the postcentral gyrus: touch. E, the auditory area: hearing. F, Wernicke's area: understanding language. G, the occipital area: vision. Lose the area, lose its job. Drunk with no alcohol: the cerebellum. Long, gasping in-breaths: the pons. Very slow, shallow breathing: the medulla oblongata. Hands acting independently: the corpus callosum.

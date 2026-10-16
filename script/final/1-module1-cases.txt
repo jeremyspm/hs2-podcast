@@ -1,0 +1,327 @@
+% The final, part 1: the intro, then the Module 1 cases (2, 3 and 4). Answers follow hs2-final's built DATA (her 2024
+% case-study answer decks, her recorded 29 May 2024 session, her formative case test 211092). The question ids under @ q are
+% that DATA's, and the coverage gate fails the render if any case question is left out.
+
+# Start here: the final, and how this episode works
+@ say: Start here
+
+Q: Health Science 2. The final exam. Every case question.
+
+This is the final exam episode of the SAQ podcast for Health Science 2. In her own words, the exam will be based on the starred case studies in your Case Study Booklet A. Her exam announcement says the exam cases are the ones marked in yellow and starred. The blue test cases, like lactation and Jack's hearing loss, are not in the exam. And in a later post she said the exam's multiple choice, matching and drop-down questions are those same case questions, converted. So if you can answer every case question in writing, you've covered the closed questions too.
+
+Ten cases, in booklet order. Case 2, lymph node removal. Case 3, asthma. Case 4, panic attacks. Case 6, diabetes. Case 8, joints and arthritis. Case 9, neurotransmitters and Parkinson's. Case 10, stroke. Case 13, fertility. Case 14, red-green colour blindness. And case 15, genetic diseases.
+
+Where the answers come from. Almost every answer here is hers: her case study model answer decks, her recorded case sessions, her fertility quiz, her formative case test, and her posts. Where she hasn't posted an answer yet, you'll hear that said, and the answer is built from her module content. And because the yellow shading covers the whole case, the unstarred questions inside those cases are in here too. Her helpline says an unstarred question can still be asked.
+
+[pause 1]
+
+The exam itself. Wednesday the fourth of November, on campus, in the computer labs. It moved from the fifth: she said so in her lecture on the seventh of October. The time is still to be confirmed, so check Canvas, and be at your venue forty-five minutes to an hour early, with your student ID. It's two hours and ten minutes. Thirty-two questions, ninety marks, and about thirty-seven per cent of the marks are written. Half marks only exist in the written answers. The multiple choice and matching questions are all or nothing.
+
+Two things she has promised. The diagrams in the case booklet will be in the exam: the joint, the synapse, the cerebrum, the cycle graph. The labels might change, numbers instead of letters, but the pictures are the ones you've seen. And she marks written answers at about half a mark per fact. So a four-mark question wants about eight short facts, one per line.
+
+How every track works. The examiner's voice reads the case, then each question with its marks. Then you hear her answer, line by line, with any tip she gave in her sessions. Each track ends with the whole thing once more, in one breath, and the last track, Rapid-fire, strings all of those together. Loop a track until the answer comes out of you before it comes out of me. Let's start with case 2.
+
+# Case 2: the aftereffects of lymph node removal
+@ case: c2
+@ q: q6732f41a5b q3a616933df q9aee7ae3e9 q6f4168df8a
+@ say: Case 2, lymph node removal
+
+Q: Exam case 2. The aftereffects of lymph node removal.
+
+Q: Aleki and Vicky visit their friend Mary, who had a right mastectomy for cancer a fortnight ago. Mary mentions the cancer had spread to the lymph nodes, and some axillary lymph nodes were also removed. She complains of swelling in her right arm since the surgery. Her friend, who is good with mirimiri and massage, offers to massage her arm, which helps bring the swelling down.
+
+Three questions, seven marks. It's the shortest case in the exam, so these are the easiest marks to bank.
+
+Q: Three marks. What are the major functions of the lymphatic system?
+
+Three functions, a mark each. The hook: digest, defend, drain.
+
+Digestive. Lacteals in the gut absorb dietary fat, and carry it away for processing.
+
+Immunological. The immune response. The thymus, where T cells mature. The bone marrow, where B cells mature, and B cells make antibodies. And the lymph nodes, where lymphocytes and other immune cells meet and coordinate an immune response.
+
+Fluid balance. It drains away the excess tissue fluid, the interstitial fluid, monitors it for antigens on the way, and returns it to the venous system.
+
+[pause 1]
+
+Q: Two marks. What is the role of the axillary lymph nodes in the spread of cancer? Explain.
+
+The spread of cancer is called metastasis. If a cancerous cell breaks away from its tumour and gets into the lymphatic system, it can potentially reach any part of the body.
+
+The breast drains to the axillary nodes, in the armpit, so they're checked for cancer cells. The first node in line, closest to the breast, is the sentinel node. Cancer cells there show the cancer has spread. No cancer cells there gives some confidence that it's still limited to the breast.
+
+[pause 1]
+
+Q: Two marks. Why did Mary develop swelling in her right arm after the mastectomy? Think about fluid dynamics, and what keeps fluid in the tissue spaces.
+
+When the lymph nodes are removed, the fluid that normally drains from the arm through those nodes is blocked. Normally, tissue fluid drains through the lymphatic vessels, and back into the venous system at the subclavian vein. Now it has nowhere to go. The lymphatic vessels fill until they can't drain the tissue, and fluid stays in the interstitial spaces. That swelling is lymphoedema.
+
+[pause 1]
+
+Her formative test turns this case into drop-downs, and the keys are worth knowing word for word. The role of the axillary nodes in the spread of cancer: metastasis. No cancer cells in them shows the cancer is limited to the breast. And Mary's swelling is a sign that the lymph drainage is hampered by the surgery.
+
+Q: Once more. Case 2.
+
+[pause 2]
+
+{recap} The lymphatic system has three jobs. Digestive: lacteals absorb dietary fat. Immunological: the thymus, the bone marrow and the lymph nodes. And fluid balance: draining excess tissue fluid back to the venous system. Cancer spreading is metastasis, and cells in the lymph can reach any part of the body. The axillary nodes are checked, the sentinel node first: cancer there means it has spread; none means it's likely limited to the breast. Removing the nodes blocks the arm's drainage to the subclavian vein, so fluid stays in the tissue: lymphoedema.
+
+# Case 3, part 1: Ane's asthma attack
+@ case: c3
+@ q: qfa09d306fc qa113555c77 qf5924de181 q0f73a5184b qa9d89d6a7d
+@ say: Case 3, the asthma attack
+
+Q: Exam case 3. Asthma.
+
+Q: Ane has had severe asthma since they were young. During a particularly bad attack, Ane has difficulty breathing, particularly on the out-breath. Ane's asthma is often triggered by small particles of pollen that make their way into the lungs, despite the protective features designed to keep them out. Ane makes sure to have their Salbutamol inhaler, which helps relieve the symptoms of an attack.
+
+Case 3 is the biggest case in the exam, so it's split over three tracks. This one is the attack itself.
+
+Q: One mark. What term is used to describe difficulty breathing?
+
+Dyspnoea. Dys means bad, and pnoea means breathing. Compare eupnoea, which is normal breathing. Tachypnoea, fast. Apnoea, none at all. And hyperventilation, breathing hard and fast, which changes the blood's carbon dioxide.
+
+Q: Three marks. What is happening in Ane's lungs to make breathing difficult?
+
+Three things, a mark each. The hook: squeeze, swell, slime.
+
+Bronchoconstriction: the smooth muscle around the airway has contracted, so the airway is constricted. Inflammation: the wall of the airway is thick with swelling. And increased mucus secretion, which leaves less room for air.
+
+[pause 1]
+
+Q: Two marks. How are Ane's ventilation and airway resistance affected?
+
+Airway resistance is high, so it's harder to breathe. It takes a greater pressure difference to move the air, and that's the dyspnoea. And the accessory respiratory muscles are recruited: extra muscles for breathing. Her phrase for it is an increase in the work of breathing.
+
+Q: One mark. How does an inhaler help when Ane is having an asthma attack?
+
+A reliever inhaler, like Salbutamol, is a bronchodilator. It forces the smooth muscle of the airways to relax, which lets the airway widen, and that relieves the symptoms so Ane can breathe. Don't mix it up with a preventer, which is a corticosteroid: an anti-inflammatory.
+
+[pause 1]
+
+Her formative test asks the same things as drop-downs. Difficulty breathing: dyspnoea. The bronchi and bronchioles become obstructed by swelling and mucus accumulation. And the inhaler makes the airways dilate.
+
+Q: Once more. Ane's attack.
+
+[pause 2]
+
+{recap} Difficulty breathing is dyspnoea: dys, bad, pnoea, breathing. Three things narrow Ane's airways: bronchoconstriction, with the smooth muscle contracted; inflammation, a swollen airway wall; and more mucus. Airway resistance is high, so it needs a greater pressure difference, and the accessory muscles are recruited: more work of breathing. The reliever is a bronchodilator: it relaxes the airway smooth muscle so the airway widens. A preventer is a corticosteroid, an anti-inflammatory.
+
+# Case 3, part 2: keeping dust out, and bringing the pressure down
+@ case: c3
+@ q: q37e28a925c q4d2b76c870 q799f22cca4 q239ad865d2
+@ say: Case 3, the airway defences and blood pressure
+
+Q: Exam case 3, continued. Ane's airway defences, and Ane's blood pressure.
+
+Q: Three marks. How does the body usually keep dust and small particles out of the lungs? There are several mechanisms.
+
+The hook: stick and sweep, filter, cough.
+
+Mucus and cilia: the muco-ciliary escalator. Nasal hairs: a filter that traps particles, which end up stuck in mucus. And the carina, at the bottom of the trachea, which sets off the cough reflex. The epiglottis keeps large objects out of the trachea, but it's no help against small particles.
+
+Q: Two marks. The muco-ciliary escalator is one of the mechanisms. How does it work?
+
+Cilia, tiny hair-like structures lining the respiratory epithelium, beat to sweep mucus up and out of the airways. And mucus is sticky: dust and particles get stuck in it and trapped, and the cilia carry them up and out with it.
+
+Her formative test gives it a tag line: the mechanism formed by the pseudostratified columnar epithelium lining the airways is the muco-ciliary escalator.
+
+Q: Two marks. Smoking damages this escalator. How would this affect a smoker?
+
+The cilia are damaged, so mucus can't be moved up and out of the lungs. And a smoker's cough develops, to replace the lost function of the cilia.
+
+[pause 1]
+
+Q: Four marks. Ane's blood pressure was high because of the fight or flight response. What process helps bring it back to normal after the attack? Think the full process.
+
+This is the baroreceptor reflex. Her recorded session talks it through, and she says think the full process, so give every link.
+
+The hook: stretch, medulla, brake on, accelerator off, vagus slows the heart, vessels widen.
+
+One. The carotid and aortic baroreceptors, which are stretch receptors in the blood vessel walls, pick up that the blood pressure is high. The walls are very stretched.
+
+Two. They send the message to the medulla oblongata, to its cardio-acceleratory, cardio-inhibitory and vasomotor centres.
+
+Three. The cardio-inhibitory centre is stimulated, and the cardio-acceleratory centre is inhibited. As she puts it, you can't brake and accelerate at the same time.
+
+Four. The message goes down the vagus nerve. The rate and the force of the heartbeat drop, so the cardiac output drops.
+
+Five. The vasomotor centre brings about vasodilation: more space for the blood.
+
+And six: together, that brings the blood pressure back down to normal.
+
+Q: Once more. Ane's defences, and Ane's blood pressure.
+
+[pause 2]
+
+{recap} The defences: mucus and cilia, the muco-ciliary escalator; nasal hairs that filter; the carina, which triggers the cough reflex; and the epiglottis, for large objects. The escalator: cilia on the respiratory epithelium beat to sweep sticky, dust-trapping mucus up and out. Smoking damages the cilia, so mucus can't be moved, and a smoker's cough replaces them. Blood pressure: the carotid and aortic baroreceptors sense the stretch and tell the medulla oblongata. The cardio-inhibitory centre is stimulated and the cardio-acceleratory centre inhibited, and the vagus nerve slows the rate and force, so cardiac output drops. The vasomotor centre causes vasodilation, and the pressure returns to normal.
+
+# Case 3, part 3: her four lung micrographs
+@ case: c3
+@ q: q9d2af05550
+@ say: Case 3, the four lung micrographs
+
+Q: Exam case 3, continued. The four lung micrographs. Ten marks.
+
+Q: Her four lung micrographs, A to D, from the case study workbook. Name the part of the airway each one shows. Give its lining, and say whether cartilage and smooth muscle are present.
+
+This table isn't starred. But her exam case study helpline links a deck called Case Study Lung Histology for Exam under this case, and she says the booklet's diagrams will be in the exam. So learn all four. The wording of the question and the letters here follow the workbook's order.
+
+The hook: cartilage stops at the bronchiole. Muscle stops at the alveoli.
+
+Letter A, the trachea. It's lined with ciliated pseudostratified columnar epithelium. Cartilage: present. Smooth muscle: present.
+
+Letter B, a bronchus. Also ciliated pseudostratified columnar epithelium. Smooth muscle: present. Cartilage: present.
+
+[pause 1]
+
+Letter C, a bronchiole. Lined with cuboidal epithelium. Cartilage: absent. Smooth muscle: present. Smooth muscle with no cartilage to hold the tube open is what lets a bronchiole squeeze down in asthma.
+
+Letter D, the alveoli. Mostly type one pneumocytes, which are squamous epithelium: thin, for gas exchange. A smaller number of type two pneumocytes, which make surfactant. And macrophages, which keep the alveoli clean. No cartilage, and no muscle.
+
+[pause 1]
+
+And her last line ties it back to Ane. The smooth muscle is relaxed by bronchodilators: the reliever. Cortisol, taken daily, is the preventer, and it reduces the inflammation.
+
+Q: Once more. The four micrographs.
+
+[pause 2]
+
+{recap} The trachea and a bronchus: ciliated pseudostratified columnar epithelium, with cartilage and smooth muscle. A bronchiole: cuboidal epithelium, with smooth muscle but no cartilage. The alveoli: type one pneumocytes, squamous epithelium for gas exchange; type two pneumocytes for surfactant; macrophages to keep them clean; and no cartilage or muscle. Bronchodilators relax the smooth muscle; daily cortisol, the preventer, reduces the inflammation.
+
+# Case 4, part 1: Manaia's breathing
+@ case: c4
+@ q: qe2dfe3e07a q3e837d2c7e q7694a8a77a q6f24781585
+@ say: Case 4, breathing in and out
+
+Q: Exam case 4. Panic attacks.
+
+Q: Manaia lives with an anxiety disorder, which sometimes shows up as panic attacks that affect her breathing. She describes a panic attack as a time when she breathes really, really hard and fast, and can't control her breathing at all. There's a link between breathing and the pH of the blood, because the respiratory system is one of the body's buffer systems. During a prolonged panic attack, Manaia might be at risk of respiratory alkalosis, and you'll need to remember why.
+
+Case 4 is the other big one, so it's three tracks as well. First, the mechanics of breathing.
+
+Q: Four marks. Bullet point the steps involved in Manaia's inhalation.
+
+The hook: contract, bigger, lower pressure, air in.
+
+The diaphragm contracts, so its dome lowers. The external intercostal muscles contract, moving the ribs up and out. That enlarges the thoracic cavity, and reduces the pressure in the intrapleural cavity. That's Boyle's law. The lungs follow, so the intrapulmonary volume increases, and the intrapulmonary pressure falls. Air flows in from the atmosphere, from high pressure to low.
+
+[pause 1]
+
+Q: Four marks. Bullet point the steps involved in Manaia's exhalation.
+
+The hook: relax, recoil, higher pressure, air out.
+
+The diaphragm relaxes, so its dome rises. The external intercostals relax, so the ribs move down and in. The elastic lungs recoil passively, reducing the intrapulmonary volume. Intrapulmonary pressure rises: Boyle's law again. And air flows out of the lungs, from the higher intrapulmonary pressure to the lower atmospheric pressure.
+
+[pause 1]
+
+Q: Two marks. Manaia feels tired after a panic attack, because forced breathing takes more muscular effort. Which muscles are used in forced breathing? Be specific.
+
+Breathing in. At rest, the diaphragm and the external intercostals contract. When it's forced, the neck muscles join in: the sternocleidomastoid, and the scalenes.
+
+Breathing out. At rest it's passive: the diaphragm and external intercostals just relax. When it's forced, the abdominal muscles and the internal intercostals contract.
+
+So the hook: breathing in, the neck lifts. Breathing out, the abs and the internal intercostals squeeze.
+
+[pause 1]
+
+Q: Three marks. What are some of the factors that influence pulmonary ventilation, making it easier or harder, and how do they do this?
+
+The hook: blocked airways, stiff lungs, and a lost pleural seal.
+
+Blocked airways. Obstruction by fluid, mucus or swelling, as in COPD and asthma, narrows the airways. That raises the resistance to airflow, and the muscular effort needed to breathe in and out.
+
+Stiff lungs. Lung compliance is the ease with which the lungs expand, and scar tissue reduces it. So do problems with the thoracic cage, like an inflexible rib cage or a diaphragm problem. And so do problems in the alveoli: a lack of surfactant, so the alveoli don't expand, or fluid building up in them.
+
+The pleural seal. The negative pressure in the pleural space couples the lungs to the chest wall. Air in the pleural cavity, a pneumothorax, breaks that seal, and the lung collapses. That's atelectasis.
+
+Q: Once more. Manaia's breathing.
+
+[pause 2]
+
+{recap} Inhalation: the diaphragm and external intercostals contract, the thoracic cavity enlarges, the intrapleural and then intrapulmonary pressures fall, by Boyle's law, and air flows in from high pressure to low. Exhalation: they relax, the elastic lungs recoil passively, intrapulmonary pressure rises, and air flows out. Forced breathing in adds the sternocleidomastoid and scalenes; forced breathing out uses the abdominal muscles and internal intercostals. Ventilation gets harder with blocked airways, with stiff lungs from scar tissue or no surfactant, and with a lost pleural seal: a pneumothorax collapses the lung.
+
+# Case 4, part 2: breathing and blood pH
+@ case: c4
+@ q: q6dab37e921 q483ab46348 q6673b8cccc qa617be9cdf
+@ say: Case 4, breathing and blood pH
+
+Q: Exam case 4, continued. Breathing and blood pH.
+
+One idea runs through this whole track, so get it first. Carbon dioxide and hydrogen ions move together. Whatever happens to one happens to the other. And more hydrogen ions means a lower pH.
+
+Q: One mark. What is normal blood pH?
+
+Seven point three five to seven point four five, averaging seven point four. Below seven point three five is acidotic. Above seven point four five is alkalotic.
+
+Q: One mark. Write the chemical equation, in words or in formulas, for the bicarbonate buffer system in the blood.
+
+Carbon dioxide plus water, in balance with carbonic acid, in balance with hydrogen ions plus bicarbonate ions. In formulas: C O 2 plus H 2 O, to H 2 C O 3, to H plus, plus H C O 3 minus. And the arrows go both ways.
+
+[pause 1]
+
+Q: Three marks. How do changes in the respiratory rate and depth, like in Manaia's panic attack, affect the blood pH?
+
+The hook: blow off carbon dioxide, hydrogen ions fall, pH rises. Alkalosis.
+
+Changing the rate and depth of breathing changes the carbon dioxide level in the alveoli, and so in the blood. Blood carbon dioxide directly drives the bicarbonate buffer equation, so the same change happens to the hydrogen ion level. And a change in hydrogen ions is a change in pH.
+
+So in Manaia's hyperventilation, she blows off carbon dioxide. The buffer uses up hydrogen ions and bicarbonate to replace it. Hydrogen ions fall, so the pH rises. That's respiratory alkalosis. Hypoventilation, after a head injury for example, does the opposite: carbon dioxide up, hydrogen ions up, pH down. Respiratory acidosis.
+
+[pause 1]
+
+Q: Two marks. How does the respiratory system respond when something causes the blood pH to change? Think back to ketoacidosis in B N 1.
+
+Now it's the other way round: the pH problem comes first, and breathing fixes it.
+
+Metabolic acidosis, with hydrogen ions up, like in ketoacidosis. The body responds with hyperventilation. Hydrogen ions are converted into carbon dioxide and water, and the extra carbon dioxide is breathed off. The breathing rate increases.
+
+Metabolic alkalosis, with hydrogen ions down. The body responds with hypoventilation. Carbon dioxide is kept in the body, and turned into hydrogen ions and bicarbonate, to replace the ones that were lost. The breathing rate decreases.
+
+The same buffer works both ways. Too acid, breathe faster. Too alkaline, breathe slower.
+
+Q: Once more. Breathing and blood pH.
+
+[pause 2]
+
+{recap} Normal blood pH is seven point three five to seven point four five. The buffer: carbon dioxide plus water, carbonic acid, hydrogen ions plus bicarbonate, both ways. Breathing sets the blood's carbon dioxide, and hydrogen ions follow it, so pH follows too. Manaia's hyperventilation blows off carbon dioxide, hydrogen ions fall, and pH rises: respiratory alkalosis. Hypoventilation is the reverse: respiratory acidosis. In metabolic acidosis the body hyperventilates, to breathe off the extra carbon dioxide; in metabolic alkalosis it hypoventilates, to keep it.
+
+# Case 4, part 3: her two acid-base tables
+@ case: c4
+@ q: qfff5e616d1 q3d809c3215 q22116bfbd5
+@ say: Case 4, the two acid-base tables
+
+Q: Exam case 4, continued. Her two acid-base tables.
+
+These two tables are starred, six marks each, and her 2024 deck fills in every cell. The trick is the order of each table's columns, because they run in opposite directions.
+
+Q: Six marks. Complete the table for a metabolic acid-base imbalance. How has blood pH changed? How have hydrogen ion levels changed? How does the bicarbonate buffer respond? What ultimately happens to carbon dioxide in the blood? And how does the breathing rate change as a result?
+
+In the metabolic table, the hydrogen ions change first, and breathing responds.
+
+Acidosis. The pH has fallen, because hydrogen ions in the blood have increased. The buffer gets rid of hydrogen ions by converting them into carbon dioxide and water, so carbon dioxide in the blood increases. The breathing rate increases, to get rid of that carbon dioxide.
+
+Alkalosis. The pH has risen, because hydrogen ions have decreased. The buffer replaces the lost hydrogen ions by turning carbon dioxide and water into hydrogen ions and bicarbonate, so carbon dioxide in the blood decreases. The breathing rate decreases, to keep that carbon dioxide in.
+
+[pause 1]
+
+Q: Six marks. Complete the table for a respiratory acid-base imbalance. How has ventilation changed, hyper or hypo? How has that changed carbon dioxide in the blood? How does the bicarbonate buffer respond? What ultimately happens to hydrogen ions? And how does blood pH change as a result?
+
+In the respiratory table, breathing changes first, and the pH follows.
+
+Hyperventilation, which is Manaia. Carbon dioxide in the blood decreases. The buffer tries to replace the lost carbon dioxide by using up hydrogen ions and bicarbonate, so hydrogen ions decrease. Blood pH increases: alkalosis.
+
+Hypoventilation, as after head trauma. Carbon dioxide in the blood increases. The buffer gets rid of the extra carbon dioxide by combining it with water and converting it into hydrogen ions and bicarbonate, so hydrogen ions increase. Blood pH decreases: acidosis.
+
+[pause 1]
+
+Q: Two marks. Compare the tables you completed. What do you notice?
+
+Her answer, from the line under her table. They're very similar processes: the bicarbonate buffer system. And carbon dioxide and hydrogen ions are linked: whatever happens to one, happens to the other.
+
+Q: Once more. Both tables.
+
+[pause 2]
+
+{recap} Metabolic acidosis: hydrogen ions up; the buffer converts them into carbon dioxide and water, so carbon dioxide rises, and breathing speeds up. Metabolic alkalosis: hydrogen ions down; the buffer makes them from carbon dioxide and water, so carbon dioxide falls, and breathing slows. Hyperventilation: carbon dioxide down; the buffer uses up hydrogen ions, so they fall and pH rises: alkalosis. Hypoventilation: carbon dioxide up; the buffer makes hydrogen ions, so pH falls: acidosis. Compare them: it's the same buffer, and carbon dioxide and hydrogen ions always move together.

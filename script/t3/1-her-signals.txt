@@ -1,0 +1,252 @@
+% Test 3, part 1: the intro, then her own signals, in the SAQ Trainer's order. The two cases she names for Test 3 (Case L,
+% Case 11, each with its question 5), "PEDIGREE CHARTS WILL BE TESTED IN TEST 3", and her help-board topics (Huntington's,
+% glaucoma and cataracts). Every answer follows hs2-test3/content/saq-*.json: its steps, its short version, its traps.
+
+# Start here: Test 3, and how this episode works
+@ say: Start here
+
+Q: Health Science 2. Test 3. Every short-answer question.
+
+Hey. This is the Test 3 episode of the SAQ podcast for Health Science 2. It has one job: every written question Test 3 can plausibly ask you, answered the way she marks them. Twenty-five questions, one track each.
+
+Where the questions come from. She hasn't posted a list of possible SAQs for Module 3, so these are built from her own signals. The two case studies she names for Test 3: Case 11, Pania's milk coming in, and Case L, Jack's hearing loss. Pedigree charts, because in her own words, printed on six of her quiz questions, pedigree charts will be tested in Test 3. The topics on her help board: glaucoma and cataracts, conduction versus sensorineural deafness, and Huntington's. Every question on her student-marked SAQ quiz. And her two learning outcomes for taste and smell. The answers are hers wherever she has posted one: her model answers, her decks, her quiz keys. Where her feedback and her own slides disagree, you'll hear which one to write.
+
+Quick facts. Test 3 is thirty-seven questions in sixty-five minutes, and about thirty per cent of the marks are written. That's roughly fifteen marks you write yourself. It closes on Monday the twenty-sixth of October. Check your own booked time on Canvas.
+
+How she marks a written answer: about half a mark for each correct fact. So a four-mark question wants about eight short facts. Not a paragraph. A list, one fact per line, with the mark word in each line. Every answer in this episode comes to you in that shape.
+
+How every track works. First you'll hear the question in a second voice, the way it might be printed. Then the hook: one line to hang the whole answer on. Then the answer, part by part, in the order you'd write it. Then the traps, where marks usually go missing. And last, the whole answer once more, in one breath. The final track, Rapid-fire, is every one of those one-breath answers back to back.
+
+How to use it. The first time through, just let it play. Don't take notes. The second time, when the examiner asks for it once more at the end of a track, say your answer before I say mine. And when one feels shaky, loop that track. The player page can loop one track, or play each one twice before it moves on.
+
+The order: the two cases first, then pedigrees, Huntington's, and glaucoma, because those are her own signals. Then the rest of genetics, the senses, and reproduction. Let's go.
+
+# Case L: Jack's noise-induced hearing loss
+@ saq: nihl-case
+@ say: Case L, Jack's hearing loss
+
+Q: Case L. Jack's noise-induced hearing loss. Six marks.
+
+Q: Jack works in a very noisy open-plan office, and for years he has listened to loud music to drown it out. Now he has trouble hearing and understanding. Which parts of the ear are damaged, and where are they? How does loud noise over time damage them, and how does that lead to deafness? What kind of deafness is this, and how does it compare with the other kind?
+
+This is one of the two case studies she names for Test 3, so treat it as close to guaranteed. It's four questions in one. Answer them in order, and that's your six marks.
+
+The hook: Corti, snap, silent, sensorineural. The hairs in the organ of Corti snap off, the nerve goes silent, and that's sensorineural deafness.
+
+First: which parts are damaged, and where? The hair cells. They're the mechanoreceptors for hearing, and they sit in the organ of Corti. Be specific, because the case asks you to be. The organ of Corti sits on the basilar membrane, in the cochlear duct, which is the scala media, inside the cochlea, in the inner ear. Hair cells, organ of Corti, basilar membrane, cochlea, inner ear. Give the whole address.
+
+[pause 1]
+
+Second: how does loud noise damage them? Loud sound is a wave with a big amplitude. The basilar membrane moves so hard that the hairs bend against the tectorial membrane, over and over, until they break off. Her deck gives you two numbers. Continuous exposure to eighty-five decibels or more does it over time. A hundred and thirty decibels or more does it at once. Jack is the over-time kind: years of noise.
+
+Third: how does that cause deafness? A hair cell's job is transduction: turning vibration into nerve impulses. A broken hair cell can't do it. So no impulses travel along the vestibulocochlear nerve, cranial nerve eight, to the auditory cortex in the temporal lobe. And hair cells don't grow back. So noise-induced hearing loss is permanent.
+
+Fourth: what kind of deafness, and the other kind? This is sensorineural deafness: damage anywhere from the hair cells of the cochlea to the auditory cortex. It's usually irreversible. Depending on where the damage is, a cochlear implant can help. The other kind is conduction deafness. Sound is blocked before it reaches the inner ear, somewhere in the outer or middle ear. Impacted earwax. A perforated eardrum. A middle ear infection, like glue ear. Conduction deafness is often reversible.
+
+[pause 1]
+
+Where the marks go missing. One: the semicircular canals have hair cells too, but those are for balance. Her own question offers them as the wrong answer. Jack's broken hair cells are in the cochlea. Two: the sound came in through a perfectly normal ear canal, so people write conduction. It isn't. Nothing blocked the sound. The damage is in the inner ear, so it's sensorineural. Three: don't stop at "the cochlea". Name the organ of Corti, and where it sits.
+
+Q: Once more. Jack's hearing loss. What's damaged, how, why he's deaf, and what kind.
+
+[pause 2]
+
+{recap} The hair cells of the organ of Corti, on the basilar membrane, in the cochlea of the inner ear. Loud, high-amplitude sound bends the hairs against the tectorial membrane until they break off: eighty-five decibels over time, a hundred and thirty at once. No impulses go down nerve eight to the brain, and hair cells don't grow back, so it's permanent. That's sensorineural deafness. The other kind, conduction, is a blockage in the outer or middle ear, like earwax or glue ear, and it's often reversible.
+
+# Case L, question 5: otosclerosis
+@ saq: nihl-otosclerosis
+@ say: Case L, otosclerosis
+
+Q: Case L, question five. Otosclerosis. Four marks.
+
+Q: A CT scan of Jack's ears shows no signs of otosclerosis. What kind of deafness would otosclerosis have caused? What specific structure of the ear is damaged by that condition, in what part of the ear is it found, and how does that damage affect hearing?
+
+This is the flip side of Jack's case. His deafness is sensorineural. Otosclerosis would be the other kind. So really, this question is asking: do you know the difference?
+
+The hook: ossicles stuck, no vibration, conduction deafness.
+
+What kind of deafness? Conduction deafness. Something stops sound being conducted to the inner ear. Her deck lists otosclerosis right alongside earwax, a perforated eardrum, and middle ear infections.
+
+Which structure? The ossicles: the three tiny ear bones, the malleus, the incus and the stapes. Her deck calls it sclerosis of the ossicles, and Patton says the irregularities are in the stapes. So name the ossicles, and for the extra detail, the stapes above all.
+
+Where are they? In the middle ear. Their job is to carry the vibration from the eardrum, the tympanic membrane, across to the oval window. The stapes is the one that pushes on the oval window.
+
+How does that affect hearing? In otosclerosis, the ossicles become attached to the walls of the middle ear. That's her wording, from her ear learning page, and it's worth writing word for word: the ossicles become attached to the walls of the middle ear, which interferes with the vibrations. Stuck bones can't vibrate, so they can't amplify the sound onto the oval window, and the sound never properly reaches the inner ear.
+
+And one more line, for the comparison: the inner ear and its hair cells are fine, so sound can still be conducted through the bones of the skull. That's the difference from Jack, whose hair cells are broken.
+
+[pause 1]
+
+The traps. Otosclerosis is conduction deafness, not sensorineural. Her multiple choice key comes at it from the other side: sensorineural deafness can come from everything except damage to the ossicles. Second: name the specific structure. "The middle ear" is a place, not a structure. The structure is the ossicles. Third: keep your ears straight. Ossicles, middle ear. Organ of Corti and hair cells, inner ear.
+
+Q: Once more. Otosclerosis: what kind of deafness, what's damaged, where, and how it affects hearing.
+
+[pause 2]
+
+{recap} Conduction deafness. The ossicles, the malleus, incus and stapes, are damaged. They sit in the middle ear and carry vibration from the eardrum to the oval window. In otosclerosis they become attached to the walls of the middle ear, so they can't vibrate or amplify the sound, and it isn't conducted to the inner ear. The inner ear and its hair cells are fine, which is the difference from Jack's sensorineural loss.
+
+# Case 11: Pania's milk coming in
+@ saq: lactation-case
+@ say: Case 11, Pania's milk coming in
+
+Q: Case 11. Lactation. Six marks.
+
+Q: Pania is two days postpartum, and her milk is just coming in. Two hormones are involved in the production and release of breast milk. For each one, say where it's made or secreted from, what stimulates it, and its function. Describe the structure of the mammary gland, and the path milk takes out of the breast. What type of gland is it, and what happens to the breasts in pregnancy as progesterone rises?
+
+The second case she names for Test 3. It's long, but it's four small questions: the hormones, the gland, the milk's path, and pregnancy.
+
+The hook: prolactin, pro for produces. Oxytocin lets it out. And the baby suckling fires both.
+
+Hormone one: prolactin. It's secreted by the anterior pituitary. It stimulates milk production by the alveolar cells of the mammary glands.
+
+Hormone two: oxytocin. It's made in the hypothalamus, and released from the posterior pituitary. It stimulates milk release, the let-down, by making the myoepithelial cells around the alveoli contract and squeeze the milk out.
+
+What stimulates them? Both are released by a neural stimulus: the baby suckling at the breast. Let-down can also be set off by the baby's cry, its smell, or just thinking about the baby.
+
+[pause 1]
+
+The gland. Mammary glands are modified sweat glands. Each breast has fifteen to twenty-five lobes, radiating around the nipple. Each lobe has smaller lobules, and the lobules hold the glandular alveoli, which make the milk. The pigmented areola surrounds the nipple, and suspensory ligaments attach the breast to the fascia of the chest muscle.
+
+The milk's path out: alveoli, then alveolar ducts, then lactiferous ducts, then out at the nipple. Alveoli, alveolar ducts, lactiferous ducts, nipple.
+
+And in pregnancy: rising progesterone develops the lobules and alveoli. Those are the milk factories. Oestrogen grows the ducts, the pipes. Before pregnancy the ducts are there, but not the glandular tissue that makes milk.
+
+[pause 1]
+
+The traps. Swapping prolactin and oxytocin is the classic lost mark. Prolactin produces, oxytocin ejects. Second: the two halves of the pituitary. Prolactin comes from the anterior. Oxytocin is made in the hypothalamus and released from the posterior. Third: they're modified sweat glands, not sebaceous glands.
+
+Q: Once more. Pania's two hormones, the gland, the milk's path, and pregnancy.
+
+[pause 2]
+
+{recap} Prolactin, from the anterior pituitary, stimulates the alveolar cells to produce milk. Oxytocin, made in the hypothalamus and released from the posterior pituitary, makes the myoepithelial cells contract: the let-down. Both are triggered by the baby suckling. The mammary gland is a modified sweat gland: fifteen to twenty-five lobes around the nipple, lobules of milk-making alveoli, an areola, and suspensory ligaments. Milk goes alveoli, alveolar ducts, lactiferous ducts, nipple. In pregnancy, progesterone builds the lobules and alveoli, and oestrogen grows the ducts.
+
+# Case 11, question 5: the hormone tick table
+@ saq: lactation-table
+@ say: Case 11, the hormone table
+
+Q: Case 11, question five. The hormone table. Five marks.
+
+Q: Complete the table about the roles of hormones in breast development, milk production and release, by ticking progesterone, oestrogen, prolactin or oxytocin for each row. Row one: stimulates growth of milk ducts and glands. Row two: increases blood flow to the breasts. Row three: stimulates development of the lobules and alveoli. Row four: stimulates milk production and the development of mammary glands. Row five: stimulates milk ejection, by making the myoepithelial cells around the milk ducts contract.
+
+Five rows, five marks, and one picture does all of it.
+
+The hook: oestrogen builds the pipes. Progesterone builds the factories. Prolactin fills them. Oxytocin opens the taps.
+
+Row one, growth of the milk ducts and glands. Tick oestrogen and progesterone, both. Her deck gives the ducts to oestrogen, from puberty, and her lactation case quiz says the ducts and alveoli develop under the influence of progesterone. So this row takes two ticks.
+
+Row two, blood flow to the breasts. Tick oestrogen. Be aware: none of her files answers this row, so this tick is the podcast's own reading. It's the best fit, but it isn't her key.
+
+Row three, the lobules and alveoli: progesterone, in pregnancy. The factories.
+
+Row four, milk production and the development of the mammary glands: prolactin, during lactation. It fills the factories.
+
+Row five, milk ejection, the myoepithelial cells squeezing: oxytocin. The let-down, at feeding time. It opens the taps.
+
+[pause 1]
+
+The traps. Progesterone does the lobules and alveoli; oestrogen does the ducts. Second, the same swap as last time: prolactin produces, oxytocin ejects. And if a row turns up that you've never seen answered, like blood flow, don't panic. Oestrogen.
+
+Q: Once more. The five rows.
+
+[pause 2]
+
+{recap} Ducts and glands grow: oestrogen and progesterone. Blood flow to the breasts: oestrogen. Lobules and alveoli: progesterone. Milk production: prolactin. Milk ejection, the myoepithelial cells contracting: oxytocin. Pipes, factories, fill, taps.
+
+# Pedigree charts: she says they will be tested
+@ saq: pedigree
+@ say: Pedigree charts
+
+Q: Pedigree charts. Five marks.
+
+Q: Explain how you work out the mode of inheritance from a pedigree chart, how you assign genotypes, and how you find the chance of another affected child. Use an autosomal dominant family as your example: an affected father and an unaffected mother, who have both affected and unaffected children.
+
+In her own words, printed on six of her quiz questions: pedigree charts will be tested in Test 3. So this one is close to certain, either written out like this, or as a chart you have to read.
+
+The hook is three questions, from Emma's slides. One: does it skip a generation? Two: is there a difference between the sexes? Three: who are the homozygous recessives? Then a Punnett square.
+
+Step one, read the chart. Squares are males. Circles are females. Shaded means affected. Half shaded, or a dot, means a carrier. And when you check the generations, leave out the people who married in.
+
+Step two, dominant or recessive? If the trait appears in every generation and never skips, it's dominant. If it skips a generation, it's recessive. The giveaway for recessive is an affected child with two unaffected parents.
+
+Step three, autosomal or X-linked? Count the affected males and the affected females. About equal: autosomal. A clear difference: sex-linked. And one quick test: if a father passes it to his son, it can't be X-linked, because a son gets his father's Y, not his X.
+
+[pause 1]
+
+The X-linked rules, in case the chart is lopsided. In X-linked recessive, fathers can't pass it to their sons, and an affected mother passes it to all of her sons. In X-linked dominant, an affected father passes it to all of his daughters.
+
+Step four, genotypes. Label the homozygous recessives first: little b, little b. Everyone else has at least one dominant allele, and you work out their second one from their parents and their children. In her example, the affected father must be big B little b, because some of his children are unaffected, little b little b, and each of them got a little b from him. The unaffected mother is little b little b.
+
+Step five, the chance. Draw a Punnett square of the parents. Big B little b, crossed with little b little b. Two boxes are big B little b, and two boxes are little b little b. So each child has a fifty per cent chance of being affected.
+
+[pause 1]
+
+The traps. Say how you can tell: skips or not, males versus females, father to son. The "how can you tell" part carries its own marks. Second: father to son rules out X-linked. Third: the chance is per child. Fifty per cent for every pregnancy, not one in every two children.
+
+Q: Once more. How do you read a pedigree, assign the genotypes, and get the chance?
+
+[pause 2]
+
+{recap} Squares are males, circles are females, shaded is affected. In every generation, never skipping: dominant. Skips a generation: recessive. Males and females about equal: autosomal, and father to son rules out X-linked. Label the homozygous recessives first, then work out everyone else from their parents and children: the affected father is big B little b, and the mother is little b little b. The Punnett square gives two big B little b to two little b little b: a fifty per cent chance for each child.
+
+# Huntington's disease
+@ saq: huntingtons
+@ say: Huntington's disease
+
+Q: Huntington's disease. Five marks.
+
+Q: Explain Huntington's disease as a genetic disease: its cause, how it damages the body, how it's inherited, and the chance of an affected child when one parent is big H little h, and the other is little h little h.
+
+It's on her help board for Module 3, and it comes back in the final, in case 15. So learn it once, and use it twice.
+
+The hook: chromosome four, a stutter in the gene, a toxic protein in the brain. And one big H is enough.
+
+The cause. Huntington's is caused by a mutated gene on chromosome four, and chromosome four is an autosome. Her help board puts it in numbers: humans have forty-six chromosomes, forty-four autosomes and two sex chromosomes.
+
+What the mutation is. A copying error during DNA replication, for example while sperm are being made. The base sequence C A G is repeated too many times: thirty-six to a hundred and twenty times, instead of the normal ten to thirty-five. Think of it as the gene stuttering.
+
+How it damages the body. The longer gene makes a larger, abnormal protein called huntingtin. It's toxic. It builds up in the brain and damages brain cells, especially the ones for movement, thinking and memory.
+
+[pause 1]
+
+How it's inherited. Autosomal dominant. One copy of the mutated allele, big H little h, is enough to cause the disease, and it can come from either parent. That means there are no healthy carriers. Anyone with a big H develops the disease, and only little h little h is unaffected. It shows in every generation.
+
+The cross. Big H little h, crossed with little h little h. Two boxes are big H little h, and two are little h little h. Each child has a fifty per cent chance of being affected.
+
+[pause 1]
+
+The traps. Dominant means big H little h is affected, not a carrier. Her deck asks it straight out: can a person be a healthy carrier? No. Second: chromosome four is an autosome, not a sex chromosome. Third: it's a gene mutation, a repeat, not an extra or missing chromosome, so it isn't aneuploidy.
+
+Q: Once more. Huntington's: the cause, the damage, the inheritance, and the chance.
+
+[pause 2]
+
+{recap} A mutated gene on chromosome four, an autosome: C A G repeated thirty-six to a hundred and twenty times, instead of ten to thirty-five. It makes an abnormal, toxic huntingtin protein that builds up in the brain and damages movement, thinking and memory. It's autosomal dominant: one copy is enough, there are no healthy carriers, and it shows in every generation. Big H little h, crossed with little h little h, gives a fifty per cent chance for each child.
+
+# Glaucoma and cataracts
+@ saq: glaucoma-cataract
+@ say: Glaucoma and cataracts
+
+Q: Glaucoma and cataracts. Four marks.
+
+Q: Explain glaucoma and cataracts: which part of the eye each one affects, what goes wrong, and how it affects vision.
+
+Another one from her help board, and she sums them up in a few words each. Glaucoma: the pressure in the eye. Cataract: the clarity of the lens.
+
+The hook: glaucoma is a pressure problem, because the drain blocks. A cataract is a clarity problem, because the lens goes cloudy.
+
+Glaucoma first. It involves the aqueous humour, the watery fluid at the front of the eye. Normally the ciliary body makes it and the canal of Schlemm drains it, at the same rate. If the canal of Schlemm is blocked, or too much fluid is made, aqueous humour builds up in the anterior segment, and the intraocular pressure rises. That pressure compresses the retina and its blood supply, and damages the optic nerve. So vision is lost, and it can end in blindness.
+
+[pause 1]
+
+Now the cataract. A cataract affects the lens. The proteins in the lens denature, so the lens turns cloudy, or opaque, instead of clear. The cloudy lens stops light reaching the retina properly, so vision becomes blurred and yellowed, with poor night vision and sensitivity to glare. It's common with age and with diabetes. And it's treated with surgery that replaces the lens.
+
+[pause 1]
+
+The traps. Don't swap them. Glaucoma is pressure: the aqueous humour and the canal of Schlemm. A cataract is the lens. Second: the ciliary body makes the fluid, and the canal of Schlemm drains it. Third: in glaucoma the lens is fine. It's the retina and the optic nerve that get damaged.
+
+Q: Once more. Glaucoma and cataracts.
+
+[pause 2]
+
+{recap} Glaucoma: aqueous humour is made by the ciliary body and drained by the canal of Schlemm. If the drain blocks, fluid builds up, the intraocular pressure rises, and it damages the retina and the optic nerve, which can end in blindness. A cataract: the proteins of the lens denature, so it goes cloudy. Vision becomes blurred and yellowed, with glare. It's treated with surgery that replaces the lens.
