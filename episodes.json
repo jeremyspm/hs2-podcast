@@ -6,29 +6,29 @@
    "title": "HS2 Test 3 — Every SAQ",
    "short": "Test 3",
    "kicker": "Module 3 · genetics, the senses, reproduction",
-   "blurb": "Every short-answer question Test 3 can ask. She posts no question list (her words: \"there is no such list\"); her Module 3 learning checklist limits what she may ask, so every point on it has a track: her two named cases, the pedigree charts she says will be tested, her help-board topics, every question on her student-marked SAQ quiz, and the rest of the checklist.",
+   "blurb": "Every short-answer question Test 3 can ask. She posts no question list (her words: \"there is no such list\"); her Module 3 learning checklist limits what she may ask, so every point on it has a track: her two named cases, the pedigree charts she says will be tested, her help-board topics, every question on her student-marked SAQ quiz, and the rest of the checklist. Then one track for the closed questions: the one-line facts her quiz keys ask that no written answer covers.",
    "when": "Test 3 closes Mon 26 Oct · 37 questions · 65 min · about 30% of the marks written",
    "zip": "HS2-Test3-Every-SAQ",
-   "dur": 7056,
+   "dur": 7788,
    "cover": "audio/cover-t3.png",
    "feed": "feed-t3.xml",
    "full": {
     "file": "audio/HS2-Test3-Every-SAQ.mp3",
-    "bytes": 56523665,
-    "ver": "1087b063da"
+    "bytes": 62385776,
+    "ver": "4cfeb947cb"
    },
    "chapters": [
     {
      "n": 1,
      "title": "Start here: Test 3, and how this episode works",
      "file": "audio/t3/01.mp3",
-     "dur": 167.0,
-     "bytes": 1392312,
+     "dur": 175.1,
+     "bytes": 1457784,
      "rapid": false,
      "scen": "",
      "show": [],
      "marks": null,
-     "ver": "eb5438d4e3"
+     "ver": "aa380cff1f"
     },
     {
      "n": 2,
@@ -80,7 +80,7 @@
       }
      ],
      "marks": 6,
-     "ver": "677c13e8f0"
+     "ver": "3a2f2a7caf"
     },
     {
      "n": 3,
@@ -123,7 +123,7 @@
       }
      ],
      "marks": 4,
-     "ver": "b83ab1a900"
+     "ver": "a3f8defee1"
     },
     {
      "n": 4,
@@ -185,7 +185,7 @@
       }
      ],
      "marks": 6,
-     "ver": "cc5e542123"
+     "ver": "9192ada56d"
     },
     {
      "n": 5,
@@ -220,7 +220,7 @@
       }
      ],
      "marks": 5,
-     "ver": "0d71e8acca"
+     "ver": "48dbcee3ff"
     },
     {
      "n": 6,
@@ -275,7 +275,7 @@
       }
      ],
      "marks": 5,
-     "ver": "23ff8e7f5e"
+     "ver": "c63dfc6b0d"
     },
     {
      "n": 7,
@@ -325,7 +325,7 @@
       }
      ],
      "marks": 5,
-     "ver": "8885f26756"
+     "ver": "abbd49272e"
     },
     {
      "n": 8,
@@ -363,7 +363,7 @@
       }
      ],
      "marks": 4,
-     "ver": "94bdf11a09"
+     "ver": "11acb9c220"
     },
     {
      "n": 9,
@@ -404,7 +404,7 @@
       }
      ],
      "marks": null,
-     "ver": "a057e66aea"
+     "ver": "9f4a722167"
     },
     {
      "n": 10,
@@ -452,7 +452,7 @@
       }
      ],
      "marks": 4,
-     "ver": "378f6dce23"
+     "ver": "59c1578443"
     },
     {
      "n": 11,
@@ -500,7 +500,7 @@
       }
      ],
      "marks": 4,
-     "ver": "ddabf8b92d"
+     "ver": "13bba08977"
     },
     {
      "n": 12,
@@ -534,7 +534,7 @@
       }
      ],
      "marks": null,
-     "ver": "fc32a6518a"
+     "ver": "64bc1f8b27"
     },
     {
      "n": 13,
@@ -568,7 +568,7 @@
       }
      ],
      "marks": null,
-     "ver": "463cd0294e"
+     "ver": "c5eb234920"
     },
     {
      "n": 14,
@@ -616,7 +616,7 @@
       }
      ],
      "marks": 4,
-     "ver": "d9b91259f0"
+     "ver": "ec10be190a"
     },
     {
      "n": 15,
@@ -659,7 +659,7 @@
       }
      ],
      "marks": 4,
-     "ver": "186f4fb4c0"
+     "ver": "eb0a4c53d4"
     },
     {
      "n": 16,
@@ -703,7 +703,7 @@
       }
      ],
      "marks": 4.5,
-     "ver": "26eb52f6c7"
+     "ver": "7f465dcaed"
     },
     {
      "n": 17,
@@ -751,7 +751,7 @@
       }
      ],
      "marks": 4,
-     "ver": "7ac4100b3f"
+     "ver": "0ed6a1c286"
     },
     {
      "n": 18,
@@ -794,7 +794,7 @@
       }
      ],
      "marks": 4,
-     "ver": "e4e9cd3496"
+     "ver": "5df30309e1"
     },
     {
      "n": 19,
@@ -838,7 +838,7 @@
       }
      ],
      "marks": 4.5,
-     "ver": "b20f97642c"
+     "ver": "66aea07b5e"
     },
     {
      "n": 20,
@@ -884,7 +884,7 @@
       }
      ],
      "marks": null,
-     "ver": "61fd4bf9fa"
+     "ver": "a5d632d61b"
     },
     {
      "n": 21,
@@ -920,7 +920,7 @@
       }
      ],
      "marks": 3,
-     "ver": "e18a8de5db"
+     "ver": "8d92892fc8"
     },
     {
      "n": 22,
@@ -970,7 +970,7 @@
       }
      ],
      "marks": 5,
-     "ver": "3b7a93c81b"
+     "ver": "776e7a031c"
     },
     {
      "n": 23,
@@ -1014,7 +1014,7 @@
       }
      ],
      "marks": 4,
-     "ver": "99831d92e9"
+     "ver": "0c63e762bd"
     },
     {
      "n": 24,
@@ -1053,7 +1053,7 @@
       }
      ],
      "marks": 5,
-     "ver": "1b9fa07bac"
+     "ver": "61c0f39418"
     },
     {
      "n": 25,
@@ -1093,7 +1093,7 @@
       }
      ],
      "marks": 5,
-     "ver": "3dc0bea491"
+     "ver": "5dc0d041a8"
     },
     {
      "n": 26,
@@ -1128,7 +1128,7 @@
       }
      ],
      "marks": 10,
-     "ver": "5088db7dc6"
+     "ver": "69804a67ca"
     },
     {
      "n": 27,
@@ -1176,7 +1176,7 @@
       }
      ],
      "marks": null,
-     "ver": "851f6e0cea"
+     "ver": "2551927cb1"
     },
     {
      "n": 28,
@@ -1219,7 +1219,7 @@
       }
      ],
      "marks": 4,
-     "ver": "45c55044d2"
+     "ver": "5f84091664"
     },
     {
      "n": 29,
@@ -1252,7 +1252,7 @@
       }
      ],
      "marks": 10,
-     "ver": "2f0cba1317"
+     "ver": "89eecdc899"
     },
     {
      "n": 30,
@@ -1293,7 +1293,7 @@
       }
      ],
      "marks": 6,
-     "ver": "f988e86f44"
+     "ver": "0ec4bcab93"
     },
     {
      "n": 31,
@@ -1355,7 +1355,7 @@
       }
      ],
      "marks": 6,
-     "ver": "7d107a8f7f"
+     "ver": "42ae29d4f9"
     },
     {
      "n": 32,
@@ -1420,7 +1420,7 @@
       }
      ],
      "marks": 5,
-     "ver": "016b0a7497"
+     "ver": "95013aa857"
     },
     {
      "n": 33,
@@ -1465,7 +1465,7 @@
       }
      ],
      "marks": 5,
-     "ver": "94452278d8"
+     "ver": "36fbcd78dc"
     },
     {
      "n": 34,
@@ -1511,19 +1511,113 @@
       }
      ],
      "marks": null,
-     "ver": "a856cf9a23"
+     "ver": "15d0912749"
     },
     {
      "n": 35,
-     "title": "Rapid-fire: every answer, back to back",
+     "title": "The closed questions: facts no other track covers",
      "file": "audio/t3/35.mp3",
-     "dur": 1187.5,
-     "bytes": 9556905,
+     "dur": 593.6,
+     "bytes": 4805887,
+     "rapid": false,
+     "scen": "",
+     "show": [
+      {
+       "ask": "Genetics: the chromosome conditions and fetal testing.",
+       "marks": null,
+       "hook": "",
+       "groups": [
+        {
+         "h": "",
+         "t": [
+          "Down syndrome: trisomy 21",
+          "Edwards syndrome: trisomy 18",
+          "Turner syndrome: a woman with only one X (45); underdeveloped female characteristics, webbed neck",
+          "Klinefelter syndrome: a man with one Y and two or more X (XXY, 47); underdeveloped male characteristics",
+          "The most common form of fetal testing: amniocentesis"
+         ]
+        }
+       ]
+      },
+      {
+       "ask": "The eye: the pupil, the image, and her conditions tables.",
+       "marks": null,
+       "hook": "",
+       "groups": [
+        {
+         "h": "",
+         "t": [
+          "Dark room: pupils dilate, radial muscles, sympathetic; sympathetic predominates in distant vision",
+          "Bright light or near: pupils constrict, circular muscles, parasympathetic",
+          "Lens biconvex; image real and inverted; the brain turns it upright",
+          "Optic chiasma: half the fibres from each eye cross; images combined through the corpus callosum",
+          "Palpebrae = eyelids; lacrimal secretions = tears; pinkeye = the conjunctiva",
+          "Blepharitis: inflamed oil glands of the inner eyelids",
+          "Diabetic retinopathy: damaged retinal blood vessels, floaters, dark areas",
+          "Retinitis pigmentosa: hereditary, rods die first, night blindness",
+          "Dry macular degeneration: drusen, central vision lost, no effective treatment; wet: plus leaking blood vessels",
+          "Diabetes can cause cataracts, glaucoma and retinopathy",
+          "Glaucoma: beta blockers; conjunctivitis: chloramphenicol; astigmatism: toric lenses; retinal detachment: laser; cataract: lens replaced"
+         ]
+        }
+       ]
+      },
+      {
+       "ask": "The ear and sound: ototoxic drugs, pitch, sound shirts, Doppler.",
+       "marks": null,
+       "hook": "",
+       "groups": [
+        {
+         "h": "",
+         "t": [
+          "Ototoxic drugs damage the hair cells: sensorineural, never conduction",
+          "Gentamicin and other aminoglycosides, some TB drugs, cisplatin, furosemide, high-dose aspirin, quinine",
+          "High frequencies at the base of the cochlea, by the oval window; low frequencies furthest away",
+          "Loud sound is felt: vibrations of a medium, including our tissues, picked up by mechanoreceptors",
+          "Doppler effect: a change in frequency or wavelength for an observer moving relative to the source"
+         ]
+        }
+       ]
+      },
+      {
+       "ask": "Fertilisation and early pregnancy (not on her checklist; asked in her quizzes).",
+       "marks": null,
+       "hook": "",
+       "groups": [
+        {
+         "h": "",
+         "t": [
+          "Fertilised in the Fallopian tube",
+          "Fewer sperm reach the egg, but NOT from a male immune attack on the egg",
+          "The outer layer from the follicle: her key says zona radiata",
+          "Calcium lets the sperm penetrate the egg's outer layers",
+          "Most likely to conceive: days 10 to 17; ovulation kits detect the LH peak in urine",
+          "Corpus luteum, first three months: progesterone, oestrogen, relaxin; then the placenta; no pregnancy: corpus albicans",
+          "Pregnancy: no hormone drop at about day 21; oestrogen and progesterone keep rising",
+          "Pregnancy test: hCG; embryo up to 8 weeks, foetus after",
+          "Oestrogen peaks just before ovulation and triggers the LH surge; FSH grows the follicles",
+          "Condom: barrier; IUD: may prevent implantation; hormonal contraception: may prevent ovulation",
+          "The mini pill does NOT release oxytocin or make the uterus contract",
+          "Breast cancer risks: little or no breastfeeding, early periods and late menopause, family history; men get it too"
+         ]
+        }
+       ]
+      }
+     ],
+     "marks": null,
+     "ver": "83955e614a"
+    },
+    {
+     "n": 36,
+     "title": "Rapid-fire: every answer, back to back",
+     "file": "audio/t3/36.mp3",
+     "dur": 1318.4,
+     "bytes": 10603689,
      "rapid": true,
      "scen": "",
      "show": [],
      "marks": null,
-     "ver": "5f369ccf64"
+     "ver": "e0f5689aae"
     }
    ]
   },

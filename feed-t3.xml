@@ -5,7 +5,7 @@
   <link>https://jeremyspm.github.io/hs2-podcast/</link>
   <atom:link href="https://jeremyspm.github.io/hs2-podcast/feed-t3.xml" rel="self" type="application/rss+xml"/>
   <language>en-nz</language>
-  <description>Every short-answer question Test 3 can ask. She posts no question list (her words: "there is no such list"); her Module 3 learning checklist limits what she may ask, so every point on it has a track: her two named cases, the pedigree charts she says will be tested, her help-board topics, every question on her student-marked SAQ quiz, and the rest of the checklist. Test 3 closes Mon 26 Oct · 37 questions · 65 min · about 30% of the marks written.</description>
+  <description>Every short-answer question Test 3 can ask. She posts no question list (her words: "there is no such list"); her Module 3 learning checklist limits what she may ask, so every point on it has a track: her two named cases, the pedigree charts she says will be tested, her help-board topics, every question on her student-marked SAQ quiz, and the rest of the checklist. Then one track for the closed questions: the one-line facts her quiz keys ask that no written answer covers. Test 3 closes Mon 26 Oct · 37 questions · 65 min · about 30% of the marks written.</description>
   <itunes:author>HS2 SAQ Podcast</itunes:author>
   <itunes:type>serial</itunes:type>
   <itunes:explicit>false</itunes:explicit>
@@ -16,19 +16,19 @@
     <title>01 · Start here: Test 3, and how this episode works</title>
     <itunes:episode>1</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
-    <description>Every short-answer question Test 3 can ask. She posts no question list (her words: "there is no such list"); her Module 3 learning checklist limits what she may ask, so every point on it has a track: her two named cases, the pedigree charts she says will be tested, her help-board topics, every question on her student-marked SAQ quiz, and the rest of the checklist.</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/01.mp3?v=eb5438d4e3" length="1392312" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-01-eb5438d4e3</guid>
+    <description>Every short-answer question Test 3 can ask. She posts no question list (her words: "there is no such list"); her Module 3 learning checklist limits what she may ask, so every point on it has a track: her two named cases, the pedigree charts she says will be tested, her help-board topics, every question on her student-marked SAQ quiz, and the rest of the checklist. Then one track for the closed questions: the one-line facts her quiz keys ask that no written answer covers.</description>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/01.mp3?v=aa380cff1f" length="1457784" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-01-aa380cff1f</guid>
     <pubDate>Fri, 16 Oct 2026 00:01:00 GMT</pubDate>
-    <itunes:duration>0:02:47</itunes:duration>
+    <itunes:duration>0:02:55</itunes:duration>
   </item>
   <item>
     <title>02 · Case L: Jack's noise-induced hearing loss</title>
     <itunes:episode>2</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>Jack works in a very noisy open-plan office and has listened to loud music for a long time to drown it out. He now has trouble hearing and understanding. Which parts of the ear are damaged, and where are they? How does loud noise over time damage them, and how does that lead to deafness? What kind of deafness is this, and how does it compare with the other kind?</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/02.mp3?v=677c13e8f0" length="1726574" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-02-677c13e8f0</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/02.mp3?v=3a2f2a7caf" length="1726574" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-02-3a2f2a7caf</guid>
     <pubDate>Fri, 16 Oct 2026 00:02:00 GMT</pubDate>
     <itunes:duration>0:03:28</itunes:duration>
   </item>
@@ -37,8 +37,8 @@
     <itunes:episode>3</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>A CT scan of Jack's ears shows no signs of otosclerosis. What kind of deafness would otosclerosis have caused, what specific structure of the ear is damaged by that condition, in what part of the ear is this structure(s) found and how does this damage impact hearing?</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/03.mp3?v=b83ab1a900" length="1473308" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-03-b83ab1a900</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/03.mp3?v=a3f8defee1" length="1473308" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-03-a3f8defee1</guid>
     <pubDate>Fri, 16 Oct 2026 00:03:00 GMT</pubDate>
     <itunes:duration>0:02:57</itunes:duration>
   </item>
@@ -47,8 +47,8 @@
     <itunes:episode>4</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>Pania is 2 days postpartum and her milk is just 'coming in'. Two hormones are involved in the production and release of breast milk: for each, say where it is made or secreted from, what stimulates it, and its function. Describe the structure of the mammary gland and the path milk takes out of the breast. What type of gland is it, and what happens to the breasts in pregnancy as progesterone rises?</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/04.mp3?v=cc5e542123" length="1598682" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-04-cc5e542123</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/04.mp3?v=9192ada56d" length="1598682" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-04-9192ada56d</guid>
     <pubDate>Fri, 16 Oct 2026 00:04:00 GMT</pubDate>
     <itunes:duration>0:03:12</itunes:duration>
   </item>
@@ -57,8 +57,8 @@
     <itunes:episode>5</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>Complete the following table about the roles of hormones in breast development, milk production and release by ticking the appropriate boxes (progesterone, oestrogen, prolactin, oxytocin): stimulates growth of milk ducts and glands · increases blood flow to the breasts · stimulate development of the lobules and alveoli · stimulates milk production and the development of mammary glands · stimulates milk ejection by making the myoepithelial cells around the milk ducts contract, squeezing the milk towards the nipple.</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/05.mp3?v=0d71e8acca" length="1161138" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-05-0d71e8acca</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/05.mp3?v=48dbcee3ff" length="1161138" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-05-48dbcee3ff</guid>
     <pubDate>Fri, 16 Oct 2026 00:05:00 GMT</pubDate>
     <itunes:duration>0:02:18</itunes:duration>
   </item>
@@ -67,8 +67,8 @@
     <itunes:episode>6</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>Explain how you work out the mode of inheritance from a pedigree chart, how you assign genotypes, and how you find the chance of another affected child. Use an autosomal dominant family as your example: an affected father and an unaffected mother who have both affected and unaffected children.</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/06.mp3?v=23ff8e7f5e" length="1708342" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-06-23ff8e7f5e</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/06.mp3?v=c63dfc6b0d" length="1708342" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-06-c63dfc6b0d</guid>
     <pubDate>Fri, 16 Oct 2026 00:06:00 GMT</pubDate>
     <itunes:duration>0:03:26</itunes:duration>
   </item>
@@ -77,8 +77,8 @@
     <itunes:episode>7</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>Explain Huntington's disease as a genetic disease: its cause, how it damages the body, how it is inherited, and the chance of an affected child when one parent is Hh and the other is hh.</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/07.mp3?v=8885f26756" length="1444676" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-07-8885f26756</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/07.mp3?v=abbd49272e" length="1444676" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-07-abbd49272e</guid>
     <pubDate>Fri, 16 Oct 2026 00:07:00 GMT</pubDate>
     <itunes:duration>0:02:53</itunes:duration>
   </item>
@@ -87,8 +87,8 @@
     <itunes:episode>8</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>Explain glaucoma and cataracts: which part of the eye each one affects, what goes wrong, and how it affects vision.</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/08.mp3?v=94bdf11a09" length="1098696" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-08-94bdf11a09</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/08.mp3?v=11acb9c220" length="1098696" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-08-11acb9c220</guid>
     <pubDate>Fri, 16 Oct 2026 00:08:00 GMT</pubDate>
     <itunes:duration>0:02:10</itunes:duration>
   </item>
@@ -97,8 +97,8 @@
     <itunes:episode>9</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>Find the terms by matching them to the correct definition: homozygous, heterozygous, allele, dominant, recessive, genotype, phenotype, autosomal, X-linked, locus, chromosomes, genome, autosome, sex chromosome, variation, inheritance.</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/09.mp3?v=a057e66aea" length="1988230" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-09-a057e66aea</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/09.mp3?v=9f4a722167" length="1988230" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-09-9f4a722167</guid>
     <pubDate>Fri, 16 Oct 2026 00:09:00 GMT</pubDate>
     <itunes:duration>0:04:01</itunes:duration>
   </item>
@@ -107,8 +107,8 @@
     <itunes:episode>10</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>Explain how a Punnett square is used to predict offspring. Work a Bb × Bb cross (brown eyes B dominant over blue b) and a codominant blood group cross (Iᴬi × Iᴮi).</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/10.mp3?v=378f6dce23" length="1470793" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-10-378f6dce23</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/10.mp3?v=59c1578443" length="1470793" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-10-59c1578443</guid>
     <pubDate>Fri, 16 Oct 2026 00:10:00 GMT</pubDate>
     <itunes:duration>0:02:56</itunes:duration>
   </item>
@@ -117,8 +117,8 @@
     <itunes:episode>11</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>Briefly explain these patterns of inheritance, with an example of each: codominance, incomplete dominance, polygenic inheritance and mitochondrial inheritance.</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/11.mp3?v=ddabf8b92d" length="1380171" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-11-ddabf8b92d</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/11.mp3?v=13bba08977" length="1380171" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-11-13bba08977</guid>
     <pubDate>Fri, 16 Oct 2026 00:11:00 GMT</pubDate>
     <itunes:duration>0:02:45</itunes:duration>
   </item>
@@ -127,8 +127,8 @@
     <itunes:episode>12</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>Briefly explain multiple allele inheritance and sex-linked (X-linked) inheritance, using the right genetics terms.</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/12.mp3?v=fc32a6518a" length="1597951" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-12-fc32a6518a</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/12.mp3?v=64bc1f8b27" length="1597951" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-12-64bc1f8b27</guid>
     <pubDate>Fri, 16 Oct 2026 00:12:00 GMT</pubDate>
     <itunes:duration>0:03:12</itunes:duration>
   </item>
@@ -137,8 +137,8 @@
     <itunes:episode>13</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>Understand the structure and function of DNA and RNA (review from BN1), and define some ways genetic abnormalities occur, including mutation, genetic disease and aneuploidy.</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/13.mp3?v=463cd0294e" length="1694873" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-13-463cd0294e</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/13.mp3?v=c5eb234920" length="1694873" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-13-c5eb234920</guid>
     <pubDate>Fri, 16 Oct 2026 00:13:00 GMT</pubDate>
     <itunes:duration>0:03:24</itunes:duration>
   </item>
@@ -147,8 +147,8 @@
     <itunes:episode>14</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>What is a human karyotype and how many chromosomes does it show? What is aneuploidy? Give two examples and explain how aneuploidy arises.</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/14.mp3?v=d9b91259f0" length="1167823" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-14-d9b91259f0</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/14.mp3?v=ec10be190a" length="1167823" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-14-ec10be190a</guid>
     <pubDate>Fri, 16 Oct 2026 00:14:00 GMT</pubDate>
     <itunes:duration>0:02:18</itunes:duration>
   </item>
@@ -157,8 +157,8 @@
     <itunes:episode>15</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>Explain some ways genetic abnormalities are detected, including genetic testing and fetal testing, and what genetic engineering and gene therapy are.</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/15.mp3?v=186f4fb4c0" length="1233897" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-15-186f4fb4c0</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/15.mp3?v=eb0a4c53d4" length="1233897" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-15-eb0a4c53d4</guid>
     <pubDate>Fri, 16 Oct 2026 00:15:00 GMT</pubDate>
     <itunes:duration>0:02:27</itunes:duration>
   </item>
@@ -167,8 +167,8 @@
     <itunes:episode>16</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>What are the three regions of the ear? Describe their structures and functions.</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/16.mp3?v=26eb52f6c7" length="1289941" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-16-26eb52f6c7</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/16.mp3?v=7f465dcaed" length="1289941" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-16-7f465dcaed</guid>
     <pubDate>Fri, 16 Oct 2026 00:16:00 GMT</pubDate>
     <itunes:duration>0:02:34</itunes:duration>
   </item>
@@ -177,8 +177,8 @@
     <itunes:episode>17</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>Discuss how hearing occurs in humans, from the sound wave arriving at the ear to the sound being perceived.</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/17.mp3?v=7ac4100b3f" length="1117123" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-17-7ac4100b3f</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/17.mp3?v=0ed6a1c286" length="1117123" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-17-0ed6a1c286</guid>
     <pubDate>Fri, 16 Oct 2026 00:17:00 GMT</pubDate>
     <itunes:duration>0:02:12</itunes:duration>
   </item>
@@ -187,8 +187,8 @@
     <itunes:episode>18</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>What is the difference between static and dynamic equilibrium? How and where is each detected?</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/18.mp3?v=e4e9cd3496" length="1274585" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-18-e4e9cd3496</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/18.mp3?v=5df30309e1" length="1274585" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-18-5df30309e1</guid>
     <pubDate>Fri, 16 Oct 2026 00:18:00 GMT</pubDate>
     <itunes:duration>0:02:32</itunes:duration>
   </item>
@@ -197,8 +197,8 @@
     <itunes:episode>19</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>What are the three layers (tunics) of the eye? Give their structures and functions.</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/19.mp3?v=b20f97642c" length="1152851" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-19-b20f97642c</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/19.mp3?v=66aea07b5e" length="1152851" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-19-66aea07b5e</guid>
     <pubDate>Fri, 16 Oct 2026 00:19:00 GMT</pubDate>
     <itunes:duration>0:02:17</itunes:duration>
   </item>
@@ -207,8 +207,8 @@
     <itunes:episode>20</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>What receptors are impacted by colour blindness? What are the receptors for light, where exactly are they found, and how do rods and cones differ?</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/20.mp3?v=61fd4bf9fa" length="1523637" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-20-61fd4bf9fa</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/20.mp3?v=a5d632d61b" length="1523637" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-20-a5d632d61b</guid>
     <pubDate>Fri, 16 Oct 2026 00:20:00 GMT</pubDate>
     <itunes:duration>0:03:03</itunes:duration>
   </item>
@@ -217,8 +217,8 @@
     <itunes:episode>21</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>What changes occur in the eye to allow near vision? How is this undone for distant vision?</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/21.mp3?v=e18a8de5db" length="1018649" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-21-e18a8de5db</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/21.mp3?v=8d92892fc8" length="1018649" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-21-8d92892fc8</guid>
     <pubDate>Fri, 16 Oct 2026 00:21:00 GMT</pubDate>
     <itunes:duration>0:02:00</itunes:duration>
   </item>
@@ -227,8 +227,8 @@
     <itunes:episode>22</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>Explain how myopia, emmetropia and hyperopia differ and how each error is corrected. What is astigmatism?</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/22.mp3?v=3b7a93c81b" length="1207967" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-22-3b7a93c81b</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/22.mp3?v=776e7a031c" length="1207967" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-22-776e7a031c</guid>
     <pubDate>Fri, 16 Oct 2026 00:22:00 GMT</pubDate>
     <itunes:duration>0:02:23</itunes:duration>
   </item>
@@ -237,8 +237,8 @@
     <itunes:episode>23</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>Explain amplitude, wavelength and frequency and how we experience each. Compare light and sound waves, and explain the difference between reflection and refraction of light.</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/23.mp3?v=99831d92e9" length="1499593" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-23-99831d92e9</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/23.mp3?v=0c63e762bd" length="1499593" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-23-0c63e762bd</guid>
     <pubDate>Fri, 16 Oct 2026 00:23:00 GMT</pubDate>
     <itunes:duration>0:03:00</itunes:duration>
   </item>
@@ -247,8 +247,8 @@
     <itunes:episode>24</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>Briefly describe the structure of the taste buds and discuss the physiology of taste sensation.</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/24.mp3?v=1b9fa07bac" length="1297607" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-24-1b9fa07bac</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/24.mp3?v=61c0f39418" length="1297607" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-24-61c0f39418</guid>
     <pubDate>Fri, 16 Oct 2026 00:24:00 GMT</pubDate>
     <itunes:duration>0:02:35</itunes:duration>
   </item>
@@ -257,8 +257,8 @@
     <itunes:episode>25</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>Briefly describe the structure of the olfactory epithelium and discuss the physiology of olfaction.</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/25.mp3?v=3dc0bea491" length="1219483" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-25-3dc0bea491</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/25.mp3?v=5dc0d041a8" length="1219483" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-25-5dc0d041a8</guid>
     <pubDate>Fri, 16 Oct 2026 00:25:00 GMT</pubDate>
     <itunes:duration>0:02:25</itunes:duration>
   </item>
@@ -267,8 +267,8 @@
     <itunes:episode>26</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>Make sure you can label all the structures of the male reproductive system and state their functions.</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/26.mp3?v=5088db7dc6" length="2273423" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-26-5088db7dc6</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/26.mp3?v=69804a67ca" length="2273423" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-26-69804a67ca</guid>
     <pubDate>Fri, 16 Oct 2026 00:26:00 GMT</pubDate>
     <itunes:duration>0:04:37</itunes:duration>
   </item>
@@ -277,8 +277,8 @@
     <itunes:episode>27</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>Describe the composition of semen and normal sperm count in relation to sterility. (Reproductive 6) Describe the physiology of the male sexual response and relate it to erectile dysfunction. (Reproductive 5)</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/27.mp3?v=851f6e0cea" length="1750773" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-27-851f6e0cea</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/27.mp3?v=2551927cb1" length="1750773" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-27-2551927cb1</guid>
     <pubDate>Fri, 16 Oct 2026 00:27:00 GMT</pubDate>
     <itunes:duration>0:03:31</itunes:duration>
   </item>
@@ -287,8 +287,8 @@
     <itunes:episode>28</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>Describe the gamete production process in males and females. What hormone from the brain drives this?</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/28.mp3?v=45c55044d2" length="1241735" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-28-45c55044d2</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/28.mp3?v=5f84091664" length="1241735" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-28-5f84091664</guid>
     <pubDate>Fri, 16 Oct 2026 00:28:00 GMT</pubDate>
     <itunes:duration>0:02:28</itunes:duration>
   </item>
@@ -297,8 +297,8 @@
     <itunes:episode>29</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>Make sure you can label all the structures of the female reproductive system and state their functions.</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/29.mp3?v=2f0cba1317" length="2227539" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-29-2f0cba1317</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/29.mp3?v=89eecdc899" length="2227539" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-29-89eecdc899</guid>
     <pubDate>Fri, 16 Oct 2026 00:29:00 GMT</pubDate>
     <itunes:duration>0:04:31</itunes:duration>
   </item>
@@ -307,8 +307,8 @@
     <itunes:episode>30</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>Describe the phases of the ovarian and uterine cycles in the female and how the hormones link them.</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/30.mp3?v=f988e86f44" length="1572185" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-30-f988e86f44</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/30.mp3?v=0ec4bcab93" length="1572185" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-30-0ec4bcab93</guid>
     <pubDate>Fri, 16 Oct 2026 00:30:00 GMT</pubDate>
     <itunes:duration>0:03:09</itunes:duration>
   </item>
@@ -317,8 +317,8 @@
     <itunes:episode>31</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>Tabulate the differences between the male and female reproductive systems, looking at: the function of LH, the function of FSH, the timing of gamete production, the size of the gametes, the timing of meiosis and the mobility of the gametes.</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/31.mp3?v=7d107a8f7f" length="1295149" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-31-7d107a8f7f</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/31.mp3?v=42ae29d4f9" length="1295149" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-31-42ae29d4f9</guid>
     <pubDate>Fri, 16 Oct 2026 00:31:00 GMT</pubDate>
     <itunes:duration>0:02:34</itunes:duration>
   </item>
@@ -327,8 +327,8 @@
     <itunes:episode>32</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>Describe the hormonal control of spermatogenesis, and the physiological effects of testosterone during puberty. What are the functions of the sex hormone testosterone in males and females respectively? (her student-marked quiz, Q21)</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/32.mp3?v=016b0a7497" length="1588723" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-32-016b0a7497</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/32.mp3?v=95013aa857" length="1588723" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-32-95013aa857</guid>
     <pubDate>Fri, 16 Oct 2026 00:32:00 GMT</pubDate>
     <itunes:duration>0:03:11</itunes:duration>
   </item>
@@ -337,8 +337,8 @@
     <itunes:episode>33</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>Describe the physiological effects of oestrogen and progesterone, including the female secondary sex characteristics, and explain how the contraceptive pill prevents pregnancy.</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/33.mp3?v=94452278d8" length="1190117" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-33-94452278d8</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/33.mp3?v=36fbcd78dc" length="1190117" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-33-36fbcd78dc</guid>
     <pubDate>Fri, 16 Oct 2026 00:33:00 GMT</pubDate>
     <itunes:duration>0:02:21</itunes:duration>
   </item>
@@ -347,20 +347,30 @@
     <itunes:episode>34</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <description>Describe the female sexual response: erection and orgasm, according to the effects of parasympathetic and sympathetic nerve impulses. (Reproductive 13, self-directed) Explain the terms menarche, menopause, amenorrhoea and dysmenorrhoea. (Reproductive 14)</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/34.mp3?v=a856cf9a23" length="993329" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-34-a856cf9a23</guid>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/34.mp3?v=15d0912749" length="993329" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-34-15d0912749</guid>
     <pubDate>Fri, 16 Oct 2026 00:34:00 GMT</pubDate>
     <itunes:duration>0:01:57</itunes:duration>
   </item>
   <item>
-    <title>35 · Rapid-fire: every answer, back to back</title>
+    <title>35 · The closed questions: facts no other track covers</title>
     <itunes:episode>35</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
-    <description>Every short-answer question Test 3 can ask. She posts no question list (her words: "there is no such list"); her Module 3 learning checklist limits what she may ask, so every point on it has a track: her two named cases, the pedigree charts she says will be tested, her help-board topics, every question on her student-marked SAQ quiz, and the rest of the checklist.</description>
-    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/35.mp3?v=5f369ccf64" length="9556905" type="audio/mpeg"/>
-    <guid isPermaLink="false">hs2-podcast-t3-35-5f369ccf64</guid>
+    <description>Genetics: the chromosome conditions and fetal testing. The eye: the pupil, the image, and her conditions tables. The ear and sound: ototoxic drugs, pitch, sound shirts, Doppler. Fertilisation and early pregnancy (not on her checklist; asked in her quizzes).</description>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/35.mp3?v=83955e614a" length="4805887" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-35-83955e614a</guid>
     <pubDate>Fri, 16 Oct 2026 00:35:00 GMT</pubDate>
-    <itunes:duration>0:19:47</itunes:duration>
+    <itunes:duration>0:09:53</itunes:duration>
+  </item>
+  <item>
+    <title>36 · Rapid-fire: every answer, back to back</title>
+    <itunes:episode>36</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Every short-answer question Test 3 can ask. She posts no question list (her words: "there is no such list"); her Module 3 learning checklist limits what she may ask, so every point on it has a track: her two named cases, the pedigree charts she says will be tested, her help-board topics, every question on her student-marked SAQ quiz, and the rest of the checklist. Then one track for the closed questions: the one-line facts her quiz keys ask that no written answer covers.</description>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/t3/36.mp3?v=e0f5689aae" length="10603689" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-t3-36-e0f5689aae</guid>
+    <pubDate>Fri, 16 Oct 2026 00:36:00 GMT</pubDate>
+    <itunes:duration>0:21:58</itunes:duration>
   </item>
 </channel>
 </rss>

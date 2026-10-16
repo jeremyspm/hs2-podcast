@@ -1,0 +1,82 @@
+% Test 3, part 5: the closed questions. One-line facts her quiz keys ask (most of them twice, in two quizzes) that no written
+% answer in parts 1-4 covers. Test 3 is about 70% closed by marks. Every fact is her key's, from hs2-test3/bank-dump.json:
+% karyotypes 211086, 211120, 211135; fetal testing 211017, 211029; the pupil 211011, 211094, 211100; the image 211121;
+% eyelids, tears, pinkeye 211100; eye conditions and treatments 211121, diabetes 211011; ototoxic drugs 211011, 211120 and her
+% help board ("certain medications"); tonotopy 211022; sound shirts 211022, 211121; Doppler 211022, 211121, 211123;
+% fertilisation 210994; pregnancy, conception, the hormone tables, contraception and the mini pill 211050; corpus albicans,
+% hCG, embryo and foetus 211054; breast cancer 210994, 211084. Presbyopia was on the gap list and is not here: her bank
+% never asks it.
+
+# The closed questions: facts no other track covers
+@ crit: G2, G8, SS2, SS4, SS6, SS7, SS10
+@ ask: Genetics: the chromosome conditions and fetal testing. || Down syndrome: trisomy 21 | Edwards syndrome: trisomy 18 | Turner syndrome: a woman with only one X (45); underdeveloped female characteristics, webbed neck | Klinefelter syndrome: a man with one Y and two or more X (XXY, 47); underdeveloped male characteristics | The most common form of fetal testing: amniocentesis
+@ ask: The eye: the pupil, the image, and her conditions tables. || Dark room: pupils dilate, radial muscles, sympathetic; sympathetic predominates in distant vision | Bright light or near: pupils constrict, circular muscles, parasympathetic | Lens biconvex; image real and inverted; the brain turns it upright | Optic chiasma: half the fibres from each eye cross; images combined through the corpus callosum | Palpebrae = eyelids; lacrimal secretions = tears; pinkeye = the conjunctiva | Blepharitis: inflamed oil glands of the inner eyelids | Diabetic retinopathy: damaged retinal blood vessels, floaters, dark areas | Retinitis pigmentosa: hereditary, rods die first, night blindness | Dry macular degeneration: drusen, central vision lost, no effective treatment; wet: plus leaking blood vessels | Diabetes can cause cataracts, glaucoma and retinopathy | Glaucoma: beta blockers; conjunctivitis: chloramphenicol; astigmatism: toric lenses; retinal detachment: laser; cataract: lens replaced
+@ ask: The ear and sound: ototoxic drugs, pitch, sound shirts, Doppler. || Ototoxic drugs damage the hair cells: sensorineural, never conduction | Gentamicin and other aminoglycosides, some TB drugs, cisplatin, furosemide, high-dose aspirin, quinine | High frequencies at the base of the cochlea, by the oval window; low frequencies furthest away | Loud sound is felt: vibrations of a medium, including our tissues, picked up by mechanoreceptors | Doppler effect: a change in frequency or wavelength for an observer moving relative to the source
+@ ask: Fertilisation and early pregnancy (not on her checklist; asked in her quizzes). || Fertilised in the Fallopian tube | Fewer sperm reach the egg, but NOT from a male immune attack on the egg | The outer layer from the follicle: her key says zona radiata | Calcium lets the sperm penetrate the egg's outer layers | Most likely to conceive: days 10 to 17; ovulation kits detect the LH peak in urine | Corpus luteum, first three months: progesterone, oestrogen, relaxin; then the placenta; no pregnancy: corpus albicans | Pregnancy: no hormone drop at about day 21; oestrogen and progesterone keep rising | Pregnancy test: hCG; embryo up to 8 weeks, foetus after | Oestrogen peaks just before ovulation and triggers the LH surge; FSH grows the follicles | Condom: barrier; IUD: may prevent implantation; hormonal contraception: may prevent ovulation | The mini pill does NOT release oxytocin or make the uterus contract | Breast cancer risks: little or no breastfeeding, early periods and late menopause, family history; men get it too
+@ say: The closed-question extras
+
+Q: The closed questions. The facts her quizzes ask that no other track covers.
+
+About seventy per cent of Test 3's marks are closed questions: multiple choice, true or false, drop-downs and matching tables. Every other track in this episode is built around a written answer. This one picks up what's left: the one-line facts her quiz keys ask, most of them in two different quizzes, that no written answer covers. A few of them sit outside her checklist, like fertilisation, but her quizzes ask them anyway. No essays here. Just the fact, and the wording her key uses.
+
+The hook: dark room, big pupils. Gentamicin breaks hair cells. And the corpus luteum makes three hormones for three months.
+
+Genetics first, two facts. The chromosome conditions, the way her matching table pairs them. Down syndrome is trisomy twenty-one. Edwards syndrome is trisomy eighteen. Turner syndrome is a woman with only one X chromosome, forty-five in all, with underdeveloped female characteristics and a webbed neck. Klinefelter syndrome is a man with one Y and two or more X chromosomes, X X Y, forty-seven in all, with underdeveloped male characteristics. On a karyotype picture, Klinefelter is the one with a Y and two Xs. She shows you that picture in two quizzes.
+
+And fetal testing. Her key, in two quizzes: the most common form of fetal testing is amniocentesis.
+
+[pause 1]
+
+The eye. First, the pupil's nerves. When you walk into a dark room, the pupils dilate, because the radial muscles of the iris contract, under sympathetic stimulation. In bright light, and for near vision, the pupils constrict: the circular muscles contract, under parasympathetic stimulation. So sympathetic means dilate, and her key adds that sympathetic is more predominant during distant vision. Think of being scared in the dark: sympathetic, big pupils.
+
+The image, the way her drop-down runs. The lens is biconvex. So the image on the retina is real, and inverted: upside down. Through experience, the brain learns to turn it upright. The optic nerves form the optic chiasma, where half of the fibres from each eye cross to the opposite side of the brain. And the images from the two eyes are combined when the two halves of the brain talk through the corpus callosum.
+
+Three one-mark words. The eyelids are the palpebrae. Lacrimal secretions are tears. And pinkeye is an infection of the conjunctiva: conjunctivitis.
+
+[pause 1]
+
+Her eye-conditions matching table is twelve marks, and it names five conditions no other track does. Blepharitis: inflammation of the tiny oil glands of the inner eyelids. Diabetic retinopathy: damage to the blood vessels of the retina, with floaters, blurriness, dark areas, and trouble seeing colours. Retinitis pigmentosa: hereditary, and the rods are destroyed first, so night blindness is the early sign. Dry macular degeneration: drusen build up between the choroid and the retina, and central vision blurs or is lost. Wet macular degeneration: the same, plus blood leaking out of the vessels. And her true or false: diabetes can cause cataracts, glaucoma and retinopathy. True.
+
+Then her treatments table. Glaucoma: beta blockers, which slow down the making of aqueous humour. Conjunctivitis: the antibiotic chloramphenicol. Astigmatism: toric lenses, or rigid contact lenses. Retinal detachment: laser surgery, making small burns around the area. Cataract: surgery to remove the clouded lens and replace it. And dry macular degeneration: there's no effective treatment yet.
+
+[pause 1]
+
+The ear. Ototoxic drugs. Her help board files hearing loss from certain medications under sensorineural. Ototoxic means poisonous to the ear: these drugs damage the hair cells of the organ of Corti. Her list: aminoglycoside antibiotics like gentamicin, some TB drugs, the chemotherapy drug cisplatin, loop diuretics like furosemide, high-dose aspirin, and quinine. So her true or false, that gentamicin causes conduction deafness, is false: it's sensorineural. And when she lists causes of conductive hearing loss, ototoxic drugs are the one that doesn't belong.
+
+Pitch along the cochlea. The basilar membrane changes in stiffness along its length, so each part answers a different frequency. High frequencies are picked up at the base, near the oval window. Low frequencies are picked up furthest from the oval window.
+
+Sound shirts. Deaf people can feel music, because loud sound waves are vibrations of a medium, including our own tissues, and they're picked up by mechanoreceptors.
+
+The Doppler effect: a change in the frequency, or the wavelength, of a wave, for an observer moving relative to its source. Her example: a siren sounds higher as the police car comes towards you, and lower as it drives away. Sitting in the car, you'd hear no change.
+
+[pause 1]
+
+Last, fertilisation and early pregnancy. They aren't on her checklist, but her quizzes ask them, so they're worth having.
+
+Her fertilisation drop-down. On the way to the egg, the number of sperm falls a long way, but a male immune attack on the egg is not one of the reasons. That's the option to pick when she asks which one is NOT a reason. The egg is fertilised in the fallopian tube. The outer layer covering the egg, which comes from the follicle, her key calls the zona radiata. Pick that wording. Her figures call it the corona radiata, and the zona pellucida is the wrong option in that question. And the mineral the sperm needs to get through the egg's outer layers is calcium.
+
+When conception is most likely: around ovulation, days ten to seventeen of the cycle. An ovulation predictor kit works by picking up the sharp peak of LH in the urine, just before ovulation. Her hormone tables add that oestrogen peaks just before ovulation too, and it's oestrogen that stimulates the release of LH. FSH makes the follicles grow.
+
+[pause 1]
+
+After fertilisation, the corpus luteum keeps going. For the first three months of pregnancy it makes three hormones: progesterone, oestrogen, and relaxin. After three months, the placenta takes over. If there's no pregnancy, it becomes the corpus albicans. So on her hormone graph, pregnancy removes the drop at about day twenty-one: oestrogen and progesterone keep rising. A pregnancy test looks for human chorionic gonadotropin, H C G. And the baby is an embryo up to eight weeks, and a foetus after that.
+
+Contraception, her matching table. Condoms are a barrier that keeps semen out. An I U D may prevent implantation. Hormonal contraception may prevent ovulation. And the mini pill, the progesterone-only pill: it thickens the cervical mucus and thins the lining, but it does not release oxytocin or make the uterus contract. That's her wrong option.
+
+Breast cancer, from her key. The risk factors are all of these: no breastfeeding, or only short periods of it; early periods and a late menopause; and a family history. And men can get breast cancer too, so they should check their breasts for lumps as well.
+
+[pause 1]
+
+The traps. Sympathetic dilates, parasympathetic constricts. Ototoxic drugs cause sensorineural deafness, never conduction. High pitch is at the base of the cochlea, by the oval window. Klinefelter is the man with an extra X. Turner is the woman with only one X. And the corpus luteum's three hormones are progesterone, oestrogen, and relaxin.
+
+Q: Once more. The facts her closed questions ask.
+
+[pause 2]
+
+{recap} Down syndrome is trisomy twenty-one, Edwards trisomy eighteen. Turner: a woman with one X, forty-five. Klinefelter: a man with X X Y, forty-seven. The most common fetal test is amniocentesis. In the dark, the pupils dilate: radial muscles, sympathetic. In bright light and near vision they constrict: circular muscles, parasympathetic. The lens is biconvex, the image is real and inverted, half the fibres cross at the optic chiasma, and the corpus callosum combines the two images. The eyelids are the palpebrae, lacrimal secretions are tears, and pinkeye is the conjunctiva.
+
+{recap} Blepharitis is inflamed oil glands in the eyelids. Retinitis pigmentosa kills the rods first, so night blindness comes first. Macular degeneration loses central vision, and the dry kind has no effective treatment. Diabetes causes cataracts, glaucoma and retinopathy. Glaucoma is treated with beta blockers, conjunctivitis with chloramphenicol, astigmatism with toric lenses, and retinal detachment with laser.
+
+{recap} Ototoxic drugs, like gentamicin, furosemide, cisplatin, high-dose aspirin and quinine, kill hair cells: sensorineural deafness. High frequencies are heard at the base of the cochlea, low ones furthest from the oval window. Loud sound is felt as vibration by mechanoreceptors. The Doppler effect is a change in frequency for a moving observer, like a passing siren.
+
+{recap} The egg is fertilised in the fallopian tube. Her key calls the outer layer the zona radiata, and calcium lets the sperm through. Conception is most likely on days ten to seventeen, and ovulation kits detect the LH peak. The corpus luteum makes progesterone, oestrogen and relaxin for three months, then the placenta takes over; without a pregnancy it becomes the corpus albicans. A pregnancy test detects H C G. An embryo becomes a foetus at eight weeks. The mini pill never releases oxytocin. Breast cancer risks: little breastfeeding, early periods, late menopause, family history, and men get it too.
