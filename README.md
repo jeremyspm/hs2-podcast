@@ -43,7 +43,7 @@ needs `../hs2-test3` and `../hs2-final` checked out next to this repo.
 ## The script (`script/<episode>/*.txt`, read in file order)
 
 `# Title` starts a chapter; `@ saq:` / `@ q:` / `@ case:` / `@ held:` feed the player; `@ say:` is the short name the
-Rapid-fire track announces; `Q:` paragraphs are the examiner's voice (am_michael); `{recap}` paragraphs are in the chapter
+Rapid-fire track announces; `Q:` paragraphs are the examiner's voice (am_puck, picked by ear from 14 samples); `{recap}` paragraphs are in the chapter
 and in Rapid-fire; `[pause N]`; `%` lines are notes. Everything else is af_heart, the voice of the Test 2 and Module 1
 courses. Every answer follows the sim's own answer for that question (her model answers, decks, recorded sessions, quiz keys);
 where it is the tool's or the podcast's reading, the track says so out loud.

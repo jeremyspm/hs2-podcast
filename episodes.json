@@ -9,33 +9,33 @@
    "blurb": "Every short-answer question Test 3 can plausibly ask: her two named cases, the pedigree charts she says will be tested, her help-board topics, her student-marked SAQ quiz and her taste and smell outcomes. One track per question.",
    "when": "Test 3 closes Mon 26 Oct · 37 questions · 65 min · about 30% of the marks written",
    "zip": "HS2-Test3-Every-SAQ",
-   "dur": 4999,
+   "dur": 4927,
    "cover": "audio/cover-t3.png",
    "feed": "feed-t3.xml",
    "full": {
     "file": "audio/HS2-Test3-Every-SAQ.mp3",
-    "bytes": 40061561,
-    "ver": "8c2fa03516"
+    "bytes": 39491129,
+    "ver": "e14b4dd821"
    },
    "chapters": [
     {
      "n": 1,
      "title": "Start here: Test 3, and how this episode works",
      "file": "audio/t3/01.mp3",
-     "dur": 152.7,
-     "bytes": 1278072,
+     "dur": 152.0,
+     "bytes": 1272888,
      "rapid": false,
      "scen": "",
      "show": [],
      "marks": null,
-     "ver": "86039fb6bf"
+     "ver": "294a47a24e"
     },
     {
      "n": 2,
      "title": "Case L: Jack's noise-induced hearing loss",
      "file": "audio/t3/02.mp3",
-     "dur": 214.7,
-     "bytes": 1773806,
+     "dur": 208.7,
+     "bytes": 1726574,
      "rapid": false,
      "scen": "",
      "show": [
@@ -80,14 +80,14 @@
       }
      ],
      "marks": 6,
-     "ver": "4120a811da"
+     "ver": "db35defb17"
     },
     {
      "n": 3,
      "title": "Case L, question 5: otosclerosis",
      "file": "audio/t3/03.mp3",
-     "dur": 180.1,
-     "bytes": 1497692,
+     "dur": 177.1,
+     "bytes": 1473308,
      "rapid": false,
      "scen": "",
      "show": [
@@ -123,14 +123,14 @@
       }
      ],
      "marks": 4,
-     "ver": "2e2fc992a5"
+     "ver": "6d7f90e47b"
     },
     {
      "n": 4,
      "title": "Case 11: Pania's milk coming in",
      "file": "audio/t3/04.mp3",
-     "dur": 200.5,
-     "bytes": 1660890,
+     "dur": 192.8,
+     "bytes": 1598682,
      "rapid": false,
      "scen": "",
      "show": [
@@ -185,14 +185,14 @@
       }
      ],
      "marks": 6,
-     "ver": "afcdefdb60"
+     "ver": "813f71a07e"
     },
     {
      "n": 5,
      "title": "Case 11, question 5: the hormone tick table",
      "file": "audio/t3/05.mp3",
-     "dur": 147.6,
-     "bytes": 1236978,
+     "dur": 138.1,
+     "bytes": 1161138,
      "rapid": false,
      "scen": "",
      "show": [
@@ -220,14 +220,14 @@
       }
      ],
      "marks": 5,
-     "ver": "2d35929ecd"
+     "ver": "bfba6990ea"
     },
     {
      "n": 6,
      "title": "Pedigree charts: she says they will be tested",
      "file": "audio/t3/06.mp3",
-     "dur": 210.1,
-     "bytes": 1737526,
+     "dur": 206.5,
+     "bytes": 1708342,
      "rapid": false,
      "scen": "",
      "show": [
@@ -275,14 +275,14 @@
       }
      ],
      "marks": 5,
-     "ver": "3297db74b6"
+     "ver": "7e264e3159"
     },
     {
      "n": 7,
      "title": "Huntington's disease",
      "file": "audio/t3/07.mp3",
-     "dur": 176.6,
-     "bytes": 1469060,
+     "dur": 173.5,
+     "bytes": 1444676,
      "rapid": false,
      "scen": "",
      "show": [
@@ -325,14 +325,14 @@
       }
      ],
      "marks": 5,
-     "ver": "f8c0bc6a54"
+     "ver": "1e73ac6c34"
     },
     {
      "n": 8,
      "title": "Glaucoma and cataracts",
      "file": "audio/t3/08.mp3",
-     "dur": 132.0,
-     "bytes": 1112712,
+     "dur": 130.3,
+     "bytes": 1098696,
      "rapid": false,
      "scen": "",
      "show": [
@@ -363,14 +363,14 @@
       }
      ],
      "marks": 4,
-     "ver": "947d384c91"
+     "ver": "ce9f2f6b16"
     },
     {
      "n": 9,
      "title": "Using a Punnett square",
      "file": "audio/t3/09.mp3",
-     "dur": 180.5,
-     "bytes": 1500744,
+     "dur": 176.8,
+     "bytes": 1470792,
      "rapid": false,
      "scen": "",
      "show": [
@@ -411,14 +411,14 @@
       }
      ],
      "marks": 4,
-     "ver": "f01dc4efe3"
+     "ver": "4446d9198f"
     },
     {
      "n": 10,
      "title": "Patterns of inheritance",
      "file": "audio/t3/10.mp3",
-     "dur": 167.3,
-     "bytes": 1395147,
+     "dur": 165.4,
+     "bytes": 1380171,
      "rapid": false,
      "scen": "",
      "show": [
@@ -459,14 +459,14 @@
       }
      ],
      "marks": 4,
-     "ver": "eeecaf8721"
+     "ver": "611de92ccc"
     },
     {
      "n": 11,
      "title": "Karyotypes and aneuploidy",
      "file": "audio/t3/11.mp3",
-     "dur": 140.5,
-     "bytes": 1180303,
+     "dur": 138.9,
+     "bytes": 1167823,
      "rapid": false,
      "scen": "",
      "show": [
@@ -507,14 +507,14 @@
       }
      ],
      "marks": 4,
-     "ver": "5977e92a27"
+     "ver": "96c122e3db"
     },
     {
      "n": 12,
      "title": "Detecting and treating genetic disease",
      "file": "audio/t3/12.mp3",
-     "dur": 148.6,
-     "bytes": 1245417,
+     "dur": 147.2,
+     "bytes": 1233897,
      "rapid": false,
      "scen": "",
      "show": [
@@ -550,14 +550,14 @@
       }
      ],
      "marks": 4,
-     "ver": "ec69549189"
+     "ver": "68bd5f84df"
     },
     {
      "n": 13,
      "title": "The three regions of the ear",
      "file": "audio/t3/13.mp3",
-     "dur": 155.6,
-     "bytes": 1301077,
+     "dur": 154.2,
+     "bytes": 1289941,
      "rapid": false,
      "scen": "",
      "show": [
@@ -594,14 +594,14 @@
       }
      ],
      "marks": 4.5,
-     "ver": "807179293f"
+     "ver": "371cb103c9"
     },
     {
      "n": 14,
      "title": "How hearing happens",
      "file": "audio/t3/14.mp3",
-     "dur": 134.3,
-     "bytes": 1130947,
+     "dur": 132.6,
+     "bytes": 1117123,
      "rapid": false,
      "scen": "",
      "show": [
@@ -642,14 +642,14 @@
       }
      ],
      "marks": 4,
-     "ver": "459b12e6d4"
+     "ver": "0620f5ef8c"
     },
     {
      "n": 15,
      "title": "Static and dynamic equilibrium",
      "file": "audio/t3/15.mp3",
-     "dur": 153.8,
-     "bytes": 1287257,
+     "dur": 152.2,
+     "bytes": 1274585,
      "rapid": false,
      "scen": "",
      "show": [
@@ -685,14 +685,14 @@
       }
      ],
      "marks": 4,
-     "ver": "90267e1f02"
+     "ver": "0e85413a40"
     },
     {
      "n": 16,
      "title": "The three layers of the eye",
      "file": "audio/t3/16.mp3",
-     "dur": 138.3,
-     "bytes": 1163219,
+     "dur": 137.0,
+     "bytes": 1152851,
      "rapid": false,
      "scen": "",
      "show": [
@@ -729,14 +729,14 @@
       }
      ],
      "marks": 4.5,
-     "ver": "3c7f4e70db"
+     "ver": "0cfb44ed7b"
     },
     {
      "n": 17,
      "title": "Near vision: the three changes",
      "file": "audio/t3/17.mp3",
-     "dur": 121.2,
-     "bytes": 1026521,
+     "dur": 120.2,
+     "bytes": 1018649,
      "rapid": false,
      "scen": "",
      "show": [
@@ -765,14 +765,14 @@
       }
      ],
      "marks": 3,
-     "ver": "697577038d"
+     "ver": "6b4eb2a2cd"
     },
     {
      "n": 18,
      "title": "Myopia, hyperopia and astigmatism",
      "file": "audio/t3/18.mp3",
-     "dur": 145.3,
-     "bytes": 1219103,
+     "dur": 143.9,
+     "bytes": 1207967,
      "rapid": false,
      "scen": "",
      "show": [
@@ -815,14 +815,14 @@
       }
      ],
      "marks": 5,
-     "ver": "b2869a26f3"
+     "ver": "0ed08fd323"
     },
     {
      "n": 19,
      "title": "Waves: light and sound",
      "file": "audio/t3/19.mp3",
-     "dur": 150.3,
-     "bytes": 1259209,
+     "dur": 148.3,
+     "bytes": 1243081,
      "rapid": false,
      "scen": "",
      "show": [
@@ -859,14 +859,14 @@
       }
      ],
      "marks": 4,
-     "ver": "0446784100"
+     "ver": "1ae625d12f"
     },
     {
      "n": 20,
      "title": "Taste: the taste buds",
      "file": "audio/t3/20.mp3",
-     "dur": 156.0,
-     "bytes": 1304903,
+     "dur": 155.1,
+     "bytes": 1297607,
      "rapid": false,
      "scen": "",
      "show": [
@@ -898,14 +898,14 @@
       }
      ],
      "marks": 5,
-     "ver": "9885a48b31"
+     "ver": "eebd780453"
     },
     {
      "n": 21,
      "title": "Smell: the olfactory epithelium",
      "file": "audio/t3/21.mp3",
-     "dur": 146.7,
-     "bytes": 1229851,
+     "dur": 145.3,
+     "bytes": 1219483,
      "rapid": false,
      "scen": "",
      "show": [
@@ -938,14 +938,14 @@
       }
      ],
      "marks": 5,
-     "ver": "a3a77ad15d"
+     "ver": "8ecc089ca1"
     },
     {
      "n": 22,
      "title": "Making sperm and eggs",
      "file": "audio/t3/22.mp3",
-     "dur": 149.7,
-     "bytes": 1254407,
+     "dur": 148.1,
+     "bytes": 1241735,
      "rapid": false,
      "scen": "",
      "show": [
@@ -981,14 +981,14 @@
       }
      ],
      "marks": 4,
-     "ver": "c8bbd9e721"
+     "ver": "7ad09a006d"
     },
     {
      "n": 23,
      "title": "The ovarian and uterine cycles",
      "file": "audio/t3/23.mp3",
-     "dur": 190.1,
-     "bytes": 1577369,
+     "dur": 189.4,
+     "bytes": 1571993,
      "rapid": false,
      "scen": "",
      "show": [
@@ -1022,14 +1022,14 @@
       }
      ],
      "marks": 6,
-     "ver": "d0609925fc"
+     "ver": "60fcd92dd2"
     },
     {
      "n": 24,
      "title": "Male versus female: the comparison table",
      "file": "audio/t3/24.mp3",
-     "dur": 157.8,
-     "bytes": 1318957,
+     "dur": 154.8,
+     "bytes": 1295149,
      "rapid": false,
      "scen": "",
      "show": [
@@ -1084,14 +1084,14 @@
       }
      ],
      "marks": 6,
-     "ver": "7a3643cbdf"
+     "ver": "96680d62f3"
     },
     {
      "n": 25,
      "title": "Hormonal control of sperm, and testosterone",
      "file": "audio/t3/25.mp3",
-     "dur": 160.4,
-     "bytes": 1339891,
+     "dur": 159.6,
+     "bytes": 1333363,
      "rapid": false,
      "scen": "",
      "show": [
@@ -1134,14 +1134,14 @@
       }
      ],
      "marks": 5,
-     "ver": "44df1c0da2"
+     "ver": "67ed1db53b"
     },
     {
      "n": 26,
      "title": "Oestrogen, progesterone and the pill",
      "file": "audio/t3/26.mp3",
-     "dur": 143.0,
-     "bytes": 1201061,
+     "dur": 141.7,
+     "bytes": 1190309,
      "rapid": false,
      "scen": "",
      "show": [
@@ -1179,19 +1179,19 @@
       }
      ],
      "marks": 5,
-     "ver": "712221a5af"
+     "ver": "dab4409e1c"
     },
     {
      "n": 27,
      "title": "Rapid-fire: all 25 answers, back to back",
      "file": "audio/t3/27.mp3",
-     "dur": 845.0,
-     "bytes": 6816301,
+     "dur": 837.6,
+     "bytes": 6757165,
      "rapid": true,
      "scen": "",
      "show": [],
      "marks": null,
-     "ver": "f35d252cf3"
+     "ver": "5f09cda337"
     }
    ]
   },
@@ -1203,33 +1203,33 @@
    "blurb": "Her exam is built on the ten starred cases in Case Study Booklet A, and its closed questions are those same case questions converted. This episode works through every written question in every one of them, in booklet order.",
    "when": "The final: Wed 4 Nov, on campus · 32 questions · 90 marks · 2 h 10 min · 37% written",
    "zip": "HS2-Final-Every-Case-SAQ",
-   "dur": 5271,
+   "dur": 5114,
    "cover": "audio/cover-final.png",
    "feed": "feed-final.xml",
    "full": {
     "file": "audio/HS2-Final-Every-Case-SAQ.mp3",
-    "bytes": 42232997,
-    "ver": "94400e9979"
+    "bytes": 40984037,
+    "ver": "7e397262cf"
    },
    "chapters": [
     {
      "n": 1,
      "title": "Start here: the final, and how this episode works",
      "file": "audio/final/01.mp3",
-     "dur": 165.1,
-     "bytes": 1377316,
+     "dur": 164.7,
+     "bytes": 1373860,
      "rapid": false,
      "scen": "",
      "show": [],
      "marks": null,
-     "ver": "95ae26594c"
+     "ver": "c535066fb7"
     },
     {
      "n": 2,
      "title": "Case 2: the aftereffects of lymph node removal",
      "file": "audio/final/02.mp3",
-     "dur": 208.1,
-     "bytes": 1721374,
+     "dur": 199.6,
+     "bytes": 1653214,
      "rapid": false,
      "scen": "Exam case 2 · The aftereffects of lymph node removal — Aleki and Vicky visit their friend, Mary who had undergone a right mastectomy for cancer a fortnight ago. Mary mentioned the cancer had spread to the lymph nodes and that some axillary lymph nodes were also removed. She complained of swelling in the right arm after the surgery. Her friend, who is good with mirimiri and massage offers to help massage her arm, which helps to bring down the swelling.",
      "show": [
@@ -1316,14 +1316,14 @@
       }
      ],
      "marks": 10,
-     "ver": "137646a71e"
+     "ver": "24cad82845"
     },
     {
      "n": 3,
      "title": "Case 3, part 1: Ane's asthma attack",
      "file": "audio/final/03.mp3",
-     "dur": 177.9,
-     "bytes": 1479624,
+     "dur": 168.9,
+     "bytes": 1407432,
      "rapid": false,
      "scen": "Exam case 3 · Asthma — Ane has had severe asthma since they were young. During a particularly bad asthma attack, Ane is experiencing difficulty breathing, particularly on the out-breath. Ane’s asthma is often triggered by small particles of pollen that manage to make their way into their lungs despite the protective features designed to keep them out. Ane makes sure to have their Salbutamol inhaler, which helps to relieve the symptoms of their asthma attack.",
      "show": [
@@ -1409,14 +1409,14 @@
       }
      ],
      "marks": 11,
-     "ver": "c3ee9f6f70"
+     "ver": "7e714b5c10"
     },
     {
      "n": 4,
      "title": "Case 3, part 2: keeping dust out, and bringing the pressure down",
      "file": "audio/final/04.mp3",
-     "dur": 207.7,
-     "bytes": 1718338,
+     "dur": 204.0,
+     "bytes": 1688578,
      "rapid": false,
      "scen": "Exam case 3 · Asthma — Ane has had severe asthma since they were young. During a particularly bad asthma attack, Ane is experiencing difficulty breathing, particularly on the out-breath. Ane’s asthma is often triggered by small particles of pollen that manage to make their way into their lungs despite the protective features designed to keep them out. Ane makes sure to have their Salbutamol inhaler, which helps to relieve the symptoms of their asthma attack.",
      "show": [
@@ -1506,14 +1506,14 @@
       }
      ],
      "marks": 11,
-     "ver": "31832f5520"
+     "ver": "0b9cbf1767"
     },
     {
      "n": 5,
      "title": "Case 3, part 3: her four lung micrographs",
      "file": "audio/final/05.mp3",
-     "dur": 139.8,
-     "bytes": 1174932,
+     "dur": 137.8,
+     "bytes": 1159188,
      "rapid": false,
      "scen": "Exam case 3 · Asthma — Ane has had severe asthma since they were young. During a particularly bad asthma attack, Ane is experiencing difficulty breathing, particularly on the out-breath. Ane’s asthma is often triggered by small particles of pollen that manage to make their way into their lungs despite the protective features designed to keep them out. Ane makes sure to have their Salbutamol inhaler, which helps to relieve the symptoms of their asthma attack.",
      "show": [
@@ -1561,14 +1561,14 @@
       }
      ],
      "marks": 10,
-     "ver": "55e71a2435"
+     "ver": "69a3a0ab74"
     },
     {
      "n": 6,
      "title": "Case 4, part 1: Manaia's breathing",
      "file": "audio/final/06.mp3",
-     "dur": 251.9,
-     "bytes": 2071558,
+     "dur": 238.7,
+     "bytes": 1965574,
      "rapid": false,
      "scen": "Exam case 4 · Panic attacks — Manaia lives with an anxiety disorder, which sometimes manifests in panic attacks that impact on her breathing. Manaia describes her panic attack as a time when she breathes really really hard and fast and cannot control her breathing at all. You know that there is a link between breathing and the pH of your blood because the respiratory system is one of the buffer systems of the body. You know that during a prolonged panic attack, Manaia might be at risk of what is called respiratory alkalosis, but you’ll need to remember why this is.",
      "show": [
@@ -1655,14 +1655,14 @@
       }
      ],
      "marks": 13,
-     "ver": "a22fabf008"
+     "ver": "0216a43ad1"
     },
     {
      "n": 7,
      "title": "Case 4, part 2: breathing and blood pH",
      "file": "audio/final/07.mp3",
-     "dur": 228.0,
-     "bytes": 1880142,
+     "dur": 223.6,
+     "bytes": 1845198,
      "rapid": false,
      "scen": "Exam case 4 · Panic attacks — Manaia lives with an anxiety disorder, which sometimes manifests in panic attacks that impact on her breathing. Manaia describes her panic attack as a time when she breathes really really hard and fast and cannot control her breathing at all. You know that there is a link between breathing and the pH of your blood because the respiratory system is one of the buffer systems of the body. You know that during a prolonged panic attack, Manaia might be at risk of what is called respiratory alkalosis, but you’ll need to remember why this is.",
      "show": [
@@ -1740,14 +1740,14 @@
       }
      ],
      "marks": 7,
-     "ver": "f44b2ae37a"
+     "ver": "45ad48d701"
     },
     {
      "n": 8,
      "title": "Case 4, part 3: her two acid-base tables",
      "file": "audio/final/08.mp3",
-     "dur": 215.4,
-     "bytes": 1779730,
+     "dur": 206.8,
+     "bytes": 1711186,
      "rapid": false,
      "scen": "Exam case 4 · Panic attacks — Manaia lives with an anxiety disorder, which sometimes manifests in panic attacks that impact on her breathing. Manaia describes her panic attack as a time when she breathes really really hard and fast and cannot control her breathing at all. You know that there is a link between breathing and the pH of your blood because the respiratory system is one of the buffer systems of the body. You know that during a prolonged panic attack, Manaia might be at risk of what is called respiratory alkalosis, but you’ll need to remember why this is.",
      "show": [
@@ -1817,14 +1817,14 @@
       }
      ],
      "marks": 14,
-     "ver": "fb6fce82ea"
+     "ver": "bf92a37979"
     },
     {
      "n": 9,
      "title": "Case 6, part 1: what insulin does",
      "file": "audio/final/09.mp3",
-     "dur": 258.5,
-     "bytes": 2124164,
+     "dur": 245.1,
+     "bytes": 2017412,
      "rapid": false,
      "scen": "Exam case 6 · Diabetes — Larry has been recently diagnosed with Type 2 diabetes mellitus, an endocrine disorder, after what appears to be many years of uncontrolled hyperglycaemia. He must measure his blood sugar every as he works with his diabetes nurse to bring it under control, and he will also need to have insulin injections and other medications to help his blood glucose regulation. Larry is a little overwhelmed, and isn’t sure of what this insulin is for. As his nurse, you need a robust understanding of what insulin does in the body. Diabetes mellitus is a disease that involves the dysfunction of insulin and glucose regulation. There are two types, type 1 where the body fails to make insulin, and type 2 where the body is unable to respond to insulin when it is secreted.",
      "show": [
@@ -1942,14 +1942,14 @@
       }
      ],
      "marks": 18,
-     "ver": "c8b57e3a5b"
+     "ver": "513afedf5f"
     },
     {
      "n": 10,
      "title": "Case 6, part 2: glucagon, the day graph, and the tired pancreas",
      "file": "audio/final/10.mp3",
-     "dur": 181.9,
-     "bytes": 1511937,
+     "dur": 175.7,
+     "bytes": 1462401,
      "rapid": false,
      "scen": "Exam case 6 · Diabetes — Larry has been recently diagnosed with Type 2 diabetes mellitus, an endocrine disorder, after what appears to be many years of uncontrolled hyperglycaemia. He must measure his blood sugar every as he works with his diabetes nurse to bring it under control, and he will also need to have insulin injections and other medications to help his blood glucose regulation. Larry is a little overwhelmed, and isn’t sure of what this insulin is for. As his nurse, you need a robust understanding of what insulin does in the body. Diabetes mellitus is a disease that involves the dysfunction of insulin and glucose regulation. There are two types, type 1 where the body fails to make insulin, and type 2 where the body is unable to respond to insulin when it is secreted.",
      "show": [
@@ -2028,14 +2028,14 @@
       }
      ],
      "marks": 13,
-     "ver": "94780c7dc6"
+     "ver": "2465552de5"
     },
     {
      "n": 11,
      "title": "Case 8, part 1: the joint, A to H",
      "file": "audio/final/11.mp3",
-     "dur": 276.3,
-     "bytes": 2266629,
+     "dur": 264.8,
+     "bytes": 2174853,
      "rapid": false,
      "scen": "Exam case 8 · Joints and arthritis — Shannon is a 30-year-old woman that has had a series of issues with her joints. She has had bursitis in her hip in the past, and is now has presented mainly with pain in her knee and hip joints, as well as her hands. After consultation, she has recently been diagnosed with rheumatoid arthritis. She is concerned, as she feels she is too young to have arthritis, even though she is fairly active and has been an athlete most of her life. Part of the treatment plan that manage the joint includes the use of prednisone. Prednisone is a synthetic corticosteroid, similar to cortisol. Cortisol is part of the body’s long term stress response.",
      "show": [
@@ -2144,14 +2144,14 @@
       }
      ],
      "marks": 21,
-     "ver": "20a2eda1ef"
+     "ver": "1c1b226472"
     },
     {
      "n": 12,
      "title": "Case 8, part 2: rheumatoid arthritis, cortisol, and Shannon",
      "file": "audio/final/12.mp3",
-     "dur": 258.6,
-     "bytes": 2124985,
+     "dur": 253.6,
+     "bytes": 2085625,
      "rapid": false,
      "scen": "Exam case 8 · Joints and arthritis — Shannon is a 30-year-old woman that has had a series of issues with her joints. She has had bursitis in her hip in the past, and is now has presented mainly with pain in her knee and hip joints, as well as her hands. After consultation, she has recently been diagnosed with rheumatoid arthritis. She is concerned, as she feels she is too young to have arthritis, even though she is fairly active and has been an athlete most of her life. Part of the treatment plan that manage the joint includes the use of prednisone. Prednisone is a synthetic corticosteroid, similar to cortisol. Cortisol is part of the body’s long term stress response.",
      "show": [
@@ -2289,14 +2289,14 @@
       }
      ],
      "marks": 19,
-     "ver": "457f8bbc16"
+     "ver": "c9e99f03a4"
     },
     {
      "n": 13,
      "title": "Case 9, part 1: neurotransmitters and the synapse",
      "file": "audio/final/13.mp3",
-     "dur": 214.9,
-     "bytes": 1775717,
+     "dur": 202.3,
+     "bytes": 1674725,
      "rapid": false,
      "scen": "Exam case 9 · Neurotransmitters and the brain — Mr Paraone has been admitted to hospital after a fall and has reported they are having issues with mobility and tremors. Mr Paraone is later diagnosed with Parkinson’s disease. This is a brain disease where cells that normally make Dopamine, a neurotransmitter, start to die. One of the treatments to help control their symptoms is called Levodopa, which travels through the blood and into the brain to help to boost the brain’s Dopamine levels, so the neurons can continue to communicate properly via their synapses.",
      "show": [
@@ -2384,14 +2384,14 @@
       }
      ],
      "marks": 13,
-     "ver": "22290a90cd"
+     "ver": "25bfc14bf7"
     },
     {
      "n": 14,
      "title": "Case 9, part 2: label the synapse, and why levodopa",
      "file": "audio/final/14.mp3",
-     "dur": 174.2,
-     "bytes": 1449705,
+     "dur": 171.8,
+     "bytes": 1430697,
      "rapid": false,
      "scen": "Exam case 9 · Neurotransmitters and the brain — Mr Paraone has been admitted to hospital after a fall and has reported they are having issues with mobility and tremors. Mr Paraone is later diagnosed with Parkinson’s disease. This is a brain disease where cells that normally make Dopamine, a neurotransmitter, start to die. One of the treatments to help control their symptoms is called Levodopa, which travels through the blood and into the brain to help to boost the brain’s Dopamine levels, so the neurons can continue to communicate properly via their synapses.",
      "show": [
@@ -2454,14 +2454,14 @@
       }
      ],
      "marks": 16,
-     "ver": "e71016d785"
+     "ver": "c1e535dbae"
     },
     {
      "n": 15,
      "title": "Case 10: stroke, and the map of the brain",
      "file": "audio/final/15.mp3",
-     "dur": 349.1,
-     "bytes": 2849557,
+     "dur": 339.0,
+     "bytes": 2768341,
      "rapid": false,
      "scen": "Exam case 10 · Stroke and the brain — You are working in a stroke rehabilitation unit, and are often interacting with individuals that are recovering from stroke, cerebrovascular accident, when parts of the brain are damaged during periods of ischaemia. Different areas of the brain control different tasks, so the symptoms a person shows, or the functions they have lost will be reflective of the part of their brain that has been damaged by the ischaemia. You are working with a range of people with differing functions, and you’re thinking about what parts of the brains must be involved.",
      "show": [
@@ -2550,14 +2550,14 @@
       }
      ],
      "marks": 35,
-     "ver": "82e1834af4"
+     "ver": "7cd26f2eb8"
     },
     {
      "n": 16,
      "title": "Case 13, part 1: the kit, ovulation, and the cycle graph",
      "file": "audio/final/16.mp3",
-     "dur": 193.8,
-     "bytes": 1606579,
+     "dur": 181.0,
+     "bytes": 1504243,
      "rapid": false,
      "scen": "Exam case 13 · Fertility — Rose and Simon are seeing the nurse at their local GP’s clinic, as they have recently made the decision to begin trying to conceive. Rose has been on the Depo Provera injection as a method of contraception for the past 2 years. As her nurse, you advise that it could take a little while for her normal cycle to settle after coming off this hormonal contraceptive. Rose takes your recommendation about tracking her cycle after learning that there are limited days in the month where she will be fertile and able to conceive. She has also taken your recommendation about purchasing an ovulation predictor kit and some pregnancy tests.",
      "show": [
@@ -2635,14 +2635,14 @@
       }
      ],
      "marks": 10,
-     "ver": "b4c4fef450"
+     "ver": "f35479eb2c"
     },
     {
      "n": 17,
      "title": "Case 13, part 2: contraception, and the three she hasn't answered",
      "file": "audio/final/17.mp3",
-     "dur": 333.4,
-     "bytes": 2723845,
+     "dur": 328.3,
+     "bytes": 2683141,
      "rapid": false,
      "scen": "Exam case 13 · Fertility — Rose and Simon are seeing the nurse at their local GP’s clinic, as they have recently made the decision to begin trying to conceive. Rose has been on the Depo Provera injection as a method of contraception for the past 2 years. As her nurse, you advise that it could take a little while for her normal cycle to settle after coming off this hormonal contraceptive. Rose takes your recommendation about tracking her cycle after learning that there are limited days in the month where she will be fertile and able to conceive. She has also taken your recommendation about purchasing an ovulation predictor kit and some pregnancy tests.",
      "show": [
@@ -2737,14 +2737,14 @@
       }
      ],
      "marks": 9,
-     "ver": "695b50d63e"
+     "ver": "d6acb1387b"
     },
     {
      "n": 18,
      "title": "Case 14, part 1: rods, cones, and red-green colour blindness",
      "file": "audio/final/18.mp3",
-     "dur": 152.7,
-     "bytes": 1278267,
+     "dur": 145.5,
+     "bytes": 1220667,
      "rapid": false,
      "scen": "Exam case 14 · RG colour blindness — Simon is colour blind, a condition which affects his ability to distinguish between colours, with the most impact on red and green. He has expressed an interest in understanding why he has the disease, but neither of his parents do. He’s also heard that it is more common in males and so is wondering if he will pass this disease onto any sons he might have.",
      "show": [
@@ -2779,14 +2779,14 @@
       }
      ],
      "marks": 7,
-     "ver": "c4a1e1f7f2"
+     "ver": "f02b31ba68"
     },
     {
      "n": 19,
      "title": "Case 14, part 2: Simon's family",
      "file": "audio/final/19.mp3",
-     "dur": 210.4,
-     "bytes": 1739777,
+     "dur": 204.5,
+     "bytes": 1692737,
      "rapid": false,
      "scen": "Exam case 14 · RG colour blindness — Simon is colour blind, a condition which affects his ability to distinguish between colours, with the most impact on red and green. He has expressed an interest in understanding why he has the disease, but neither of his parents do. He’s also heard that it is more common in males and so is wondering if he will pass this disease onto any sons he might have.",
      "show": [
@@ -2879,14 +2879,14 @@
       }
      ],
      "marks": 17,
-     "ver": "8d4721e053"
+     "ver": "17e8f5fcf6"
     },
     {
      "n": 20,
      "title": "Case 15: cystic fibrosis, Huntington's, and the two whānau",
      "file": "audio/final/20.mp3",
-     "dur": 291.4,
-     "bytes": 2387447,
+     "dur": 283.7,
+     "bytes": 2326007,
      "rapid": false,
      "scen": "Exam case 15 · Genetic diseases — You’ve been working in a GP clinic, working alongside many different families, serving a rural community. Recently, you’ve been working alongside two families that have genetic diseases. One family has cystic fibrosis (the Harris whanau), and one has Huntington’s disease (the Anderson whanau). You are wanting to understand more about how these diseases are passed from person to person, and how this might affect any future children that are born into these families.",
      "show": [
@@ -2980,19 +2980,19 @@
       }
      ],
      "marks": 6,
-     "ver": "4f954dd25e"
+     "ver": "b12695ed70"
     },
     {
      "n": 21,
      "title": "Rapid-fire: every case answer, back to back",
      "file": "audio/final/21.mp3",
-     "dur": 781.4,
-     "bytes": 6307673,
+     "dur": 774.8,
+     "bytes": 6255257,
      "rapid": true,
      "scen": "",
      "show": [],
      "marks": null,
-     "ver": "422aca3869"
+     "ver": "26b086a973"
     }
    ]
   }

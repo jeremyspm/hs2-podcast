@@ -45,7 +45,7 @@ BASE_URL = "https://jeremyspm.github.io/hs2-podcast/"
 SR = 24000
 SPEED = 1.0
 VOICES = {'main': 'af_heart',                 # the voice of every HS2 audio course so far
-          'q': 'am_michael'}                  # the examiner: a different voice, so you can HEAR where a question starts
+          'q': 'am_puck'}                     # the examiner (picked by ear from 14 samples, 16 Oct): a second voice marks each question
 GAP = 0.45                                    # after every spoken paragraph
 LEAD, TAIL = 0.4, 1.4
 BITRATE = '64k'                               # mono speech at 24 kHz: about 29 MB an hour
