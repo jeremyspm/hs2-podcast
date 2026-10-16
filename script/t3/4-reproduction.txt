@@ -1,7 +1,92 @@
 % Test 3, part 4: reproduction (hs2-test3/content/saq-repro.json). The cycles answer is built from her Repro Female deck:
 % she posted no model answer for that essay.
 
+# The male reproductive system: every structure and its job
+@ crit: R1, R2
+@ ask: Make sure you can label all the structures of the male reproductive system and state their functions. (10 marks) || Function: produce sperm and testosterone; deliver sperm into the female tract | Scrotum: keeps the testes 3 °C cooler; dartos (smooth) wrinkles it, cremaster (skeletal) lifts the testes | Testes: seminiferous tubules make sperm; Leydig cells make testosterone; Sertoli cells nourish sperm | Epididymis: stores the sperm, where they mature and become motile | Vas deferens: carries sperm to the ampulla; cut in a vasectomy | Seminal vesicles: 60% of semen, alkaline, fructose and prostaglandins; form the ejaculatory duct with the vas | Prostate: under the bladder, round the urethra; about a third of semen, citric acid, PSA | Bulbourethral glands: clear mucus that neutralises acidic urine before ejaculation | Urethra: prostatic, membranous, spongy; carries urine and semen | Penis: delivers sperm; corpora cavernosa and corpus spongiosum (erectile), glans, prepuce
+@ say: The male reproductive system
+% Her student-marked SAQ quiz 211104, Q17 (10 marks; her model answer is a link to her male and female notes) and checklist
+% points Reproductive 1 and 2. From her 2026 Male Repro deck (slides 4, 9-22) and her keys in quizzes 210994, 211071, 211120.
+
+Q: The male reproductive system. Ten marks.
+
+Q: Label all the structures of the male reproductive system, and state their functions.
+
+This is the male half of her biggest written question: ten marks on her student-marked quiz, and her model answer is a link to her own notes. So here are her notes, organ by organ, in the order the sperm travel. She'll give you a side-on diagram, so picture it as you listen.
+
+The hook: make, store, carry, add, deliver. The testes make, the epididymis stores, the ducts carry, three glands add fluid, and the penis delivers.
+
+The system's function: to produce the gametes, the sperm; to secrete the male sex hormones, mainly testosterone; and to deliver the sperm into the female reproductive tract.
+
+The scrotum: a skin sac outside the body cavity, holding the two testes. Hanging outside keeps them about three degrees cooler than the core, which sperm production needs. Two muscles hold that temperature steady. The dartos is smooth muscle that wrinkles the skin, to cut heat loss. The cremaster is skeletal muscle that pulls the testes up towards the body when it's cold.
+
+The testes: the male gonads. Inside, the seminiferous tubules produce the sperm. Between the tubules, the Leydig cells make testosterone. And the Sertoli cells nourish the developing sperm, and make inhibin.
+
+[pause 1]
+
+The epididymis: a cup-shaped duct on the back of each testis, with a head, a body and a tail. It stores the sperm, and it's where they mature and become motile. At ejaculation it contracts, and pushes them on into the vas deferens.
+
+The vas deferens, also called the ductus deferens: the duct that carries the sperm from the epididymis up into the pelvis, where it widens into the ampulla. A vasectomy cuts the vas deferens, so sperm can't get from the testis to the outside, though fluid from the seminal vesicles and the prostate still leaves.
+
+The seminal vesicles: paired glands on the back wall of the bladder. Each one joins its vas deferens to form an ejaculatory duct. They make about sixty per cent of the semen: a sticky, alkaline fluid, with fructose to feed the sperm, and prostaglandins.
+
+The prostate: a doughnut-shaped gland under the bladder, wrapped around the urethra. It adds about a third of the semen: a milky fluid with citric acid as an energy source, enzymes, and prostate-specific antigen, PSA.
+
+The bulbourethral glands, also called Cowper's glands: pea-sized, just below the prostate. Before ejaculation they release a thick, clear mucus that neutralises any traces of acidic urine in the urethra.
+
+[pause 1]
+
+The urethra: it carries both urine and semen, at different times, through the one opening. It has three parts: prostatic, through the prostate; membranous; and spongy, or penile, through the penis.
+
+The penis: it delivers the sperm into the female reproductive tract. It has a root, a shaft, and the glans at the end, covered by the prepuce, the foreskin. Inside are three columns of erectile tissue: the two corpora cavernosa on top, and the corpus spongiosum, which surrounds the urethra and forms the glans.
+
+So the path, the way she asks it: testis, epididymis, vas deferens, ampulla, ejaculatory duct, then the prostatic urethra, and out through the penis.
+
+The traps. Sperm mature in the epididymis, not the testis. The dartos is smooth muscle and the cremaster is skeletal: her quiz offers both the wrong way round. And the cremaster lifts the testes in the cold, not in the heat.
+
+Q: Once more. The male system, structure by structure.
+
+[pause 2]
+
+{recap} The scrotum keeps the testes three degrees cooler, with the dartos wrinkling the skin and the cremaster lifting the testes. The testes make sperm in the seminiferous tubules and testosterone in the Leydig cells, and the Sertoli cells nourish the sperm. The epididymis stores the sperm and matures them. The vas deferens carries them to the ampulla. The seminal vesicles add sixty per cent of the semen, alkaline, with fructose and prostaglandins, and form the ejaculatory ducts. The prostate, round the urethra under the bladder, adds a third, with citric acid and PSA. The bulbourethral glands clear acidic urine. The urethra carries urine and semen, and the penis, with its corpora cavernosa and corpus spongiosum, delivers the sperm.
+
+# Semen, sperm count, erection and ejaculation
+@ crit: R5, R6
+@ ask: Describe the composition of semen and normal sperm count in relation to sterility. (Reproductive 6) || Semen: 60% seminal vesicles, 30% prostate, 10% sperm and the rest | 2 to 5 mL per ejaculation, 50 to 130 million sperm per mL | Her key: as many as 750 million sperm in one ejaculation | Sterility: a count below about 20 to 25 million per mL | Carries, feeds (fructose, citrate), protects and activates the sperm; alkaline | Prostaglandins thin cervical mucus and set off reverse peristalsis in the uterus
+@ ask: Describe the physiology of the male sexual response and relate it to erectile dysfunction. (Reproductive 5) || Erection, parasympathetic: nitric oxide → arterioles dilate → corpora cavernosa fill → veins squashed | Corpus spongiosum keeps the urethra open | Ejaculation, sympathetic: ducts and glands contract, bladder sphincter closes, bulbospongiosus pumps semen out | Erectile dysfunction: unable to attain an erection | Viagra blocks PDE5, which breaks down cGMP
+@ say: Semen, erection and ejaculation
+% Checklist points Reproductive 5 and 6. Her 2026 Male Repro deck slides 21-28 and her keys in quizzes 210994, 211071, 211120.
+
+Q: Semen, sperm count, erection and ejaculation.
+
+Q: Describe the composition of semen, and the normal sperm count in relation to sterility. Then describe the physiology of the male sexual response, and relate it to erectile dysfunction.
+
+Two checklist points. Her quizzes ask the semen part as match-the-gland, and the erection part as put-the-steps-in-order.
+
+The hook for semen: sixty, thirty, ten. Sixty per cent from the seminal vesicles, thirty from the prostate, and ten from everything else: the sperm themselves, the testes, the epididymis, and the bulbourethral glands.
+
+Semen is a milky, sticky mixture of sperm and the accessory gland fluids. It gives the sperm a transport medium; nutrients, fructose from the seminal vesicles and citrate from the prostate; protection; and it activates them. It's alkaline, which neutralises the acid in the male urethra and in the vagina. Its prostaglandins thin the mucus in the cervix, and set off reverse peristalsis in the uterus, which helps the sperm on their way. Clotting factors make it sticky straight after ejaculation, then an enzyme, fibrinolysin, liquefies it again.
+
+The count. Only two to five millilitres is ejaculated, but it holds fifty to a hundred and thirty million sperm in every millilitre. Her quiz key: as many as seven hundred and fifty million sperm can be released in one ejaculation. Sterility is linked to a low count: below about twenty to twenty-five million per millilitre.
+
+[pause 1]
+
+Now the male sexual response. The hook: point and shoot. Parasympathetic for the erection, sympathetic for the ejaculation.
+
+Erection. Sexual arousal sets off a parasympathetic reflex, which releases nitric oxide locally. Nitric oxide relaxes the smooth muscle in the vessel walls, so the arterioles dilate and the erectile tissue fills with blood. The corpora cavernosa expand, and that squashes the veins that drain them, so the blood stays in. The corpus spongiosum keeps the urethra open. An erection can be started, or stopped, by thoughts and emotions alone.
+
+Ejaculation. Sympathetic nerves make the ducts and the accessory glands contract and empty into the urethra. The bladder sphincter closes, so no urine gets out. And the bulbospongiosus muscles contract rhythmically, pumping the semen out of the urethra.
+
+Erectile dysfunction, or impotence, is the inability to attain an erection. Her slide adds how Viagra works: an enzyme called P D E 5 breaks down c G M P, the messenger that keeps the smooth muscle relaxed, and Viagra blocks P D E 5. So the vessels stay open.
+
+Q: Once more. Semen, and the male sexual response.
+
+[pause 2]
+
+{recap} Semen is sixty per cent from the seminal vesicles, thirty from the prostate, and ten from the sperm and the rest. It carries, feeds, protects and activates the sperm, and it's alkaline. Two to five millilitres holds fifty to a hundred and thirty million sperm per millilitre, and a count below about twenty million is linked to sterility. Erection is parasympathetic: nitric oxide dilates the arterioles, the corpora cavernosa fill, and the veins are squashed shut. Ejaculation is sympathetic: the ducts contract, the bladder sphincter closes, and the bulbospongiosus pumps the semen out. Erectile dysfunction is being unable to attain an erection.
+
 # Making sperm and eggs
+@ crit: R3, R9
 @ saq: gametogenesis
 @ say: Making sperm and eggs
 
@@ -29,7 +114,53 @@ Q: Once more. Making sperm and eggs.
 
 {recap} Spermatogenesis happens in the seminiferous tubules, continuously from puberty. Spermatogonia divide by mitosis into primary spermatocytes, then meiosis one and two give spermatids, which become four sperm. Oogenesis starts in fetal life: primary oocytes arrest in prophase one until puberty. From puberty, one a month completes meiosis one and is ovulated, and meiosis two finishes only if a sperm enters, giving one ovum. Both are driven by FSH from the anterior pituitary, with LH.
 
+# The female reproductive system: every structure and its job
+@ crit: R7, R8
+@ ask: Make sure you can label all the structures of the female reproductive system and state their functions. (10 marks) || Function: produce ova and the sex hormones; support fertilisation, pregnancy and birth | Ovaries: follicles hold the oocytes, in the cortex; secrete oestrogen and progesterone | Fallopian tubes: fimbriae draw the oocyte in; site of fertilisation; cilia and peristalsis carry it to the uterus | Uterus: fundus, body, isthmus, cervix; receives the embryo and nourishes it until the placenta forms | Wall: perimetrium, myometrium (smooth muscle), endometrium (functionalis shed, basalis regrows) | Cervix: the neck; its mucus blocks bacteria | Vagina: cervix to outside; birth canal, menstrual flow, copulation; acidic | Vulva: mons pubis, labia majora and minora, clitoris (erectile; matches the glans penis)
+@ say: The female reproductive system
+% Her student-marked SAQ quiz 211104, Q17 (the female half) and checklist points Reproductive 7 and 8. From her 2026 Repro
+% Female deck (slides 6-9, 14-16, 20-21) and her keys in quizzes 210994, 211054, 211120.
+
+Q: The female reproductive system. Ten marks.
+
+Q: Label all the structures of the female reproductive system, and state their functions.
+
+The other half of her ten-mark question, from her Repro Female deck and her quiz keys. Her figure is a front view, numbered one to eight: the vagina, the cervix, the myometrium, the cavity of the uterus, the fallopian tube, the fimbriae, the ovary, and the endometrium. Picture it as you listen.
+
+The hook: make, catch, carry, grow, deliver. The ovaries make the eggs, the fimbriae catch them, the tubes carry them, the uterus grows the baby, and the vagina is the way out.
+
+The system's function: to produce the female gametes, the ova; to secrete the female sex hormones, oestrogen and progesterone; and to support fertilisation, pregnancy and birth.
+
+The ovaries: paired, one on each side of the uterus, held by ligaments, and supplied by the ovarian artery. The follicles sit in the outer part, the ovarian cortex. Each follicle is an oocyte, an immature egg, surrounded by granulosa cells. The ovaries produce the eggs, and secrete oestrogen and progesterone.
+
+[pause 1]
+
+The fallopian tubes, also called the uterine tubes. One end opens into the uterus. The other widens into the ampulla, and ends in a funnel, the infundibulum, fringed with fingerlike fimbriae. The tube doesn't actually touch the ovary: the ovulated oocyte lands in the peritoneal cavity, and the fimbriae draw it in. The tube's jobs: to receive the oocyte, to be the site of fertilisation, and to carry the oocyte toward the uterus, by peristalsis and by its cilia, which help the sperm along too.
+
+The uterus: a hollow, thick-walled organ in the pelvis, behind the bladder and in front of the rectum. Its parts are the fundus, the rounded top above the tubes; the body; the isthmus, the narrow part; and the cervix, the neck, which projects into the vagina. Its function: it receives the embryo, and nourishes it until the placenta forms.
+
+The wall of the uterus has three layers. The perimetrium, the thin outer serous layer. The myometrium, the thick middle layer of smooth muscle, which contracts in labour. And the endometrium, the lining, rich in blood vessels and glands. Its stratum functionalis is shed in each period, and its stratum basalis grows a new one.
+
+The cervix: the neck of the uterus, with the cervical canal running through it, from the internal os to the external os. Its glands make mucus that blocks bacteria spreading up from the vagina.
+
+[pause 1]
+
+The vagina: a thin-walled tube from the cervix to the outside, with the urethra in front and the rectum behind. It's the passageway for birth and for menstrual flow, and the female organ of copulation. It's normally acidic, which keeps bacteria in check. Her quiz: antibiotics can kill off those bacteria, and let yeast overgrow.
+
+The external genitalia, the vulva. The mons pubis, the fatty pad over the pubic bone. The labia majora, the hair-covered outer folds, which match the scrotum. The labia minora, the hair-free inner folds. And the clitoris, erectile tissue under a prepuce. Her key: the clitoris is the female match to the glans penis.
+
+The breasts, the mammary glands, are modified sweat glands. They have their own track, with Pania's case.
+
+The traps. The endometrium receives the embryo; the myometrium is the muscle. Fertilisation happens in the fallopian tube, not the uterus. And the oocytes sit in the ovarian cortex, not the medulla.
+
+Q: Once more. The female system, structure by structure.
+
+[pause 2]
+
+{recap} The ovaries hold the follicles in their cortex, make the oocytes, and secrete oestrogen and progesterone. The fimbriae of the fallopian tubes draw in the ovulated oocyte; the tube is the site of fertilisation, and cilia and peristalsis carry the oocyte to the uterus. The uterus, with its fundus, body, isthmus and cervix, receives and nourishes the embryo. Its wall is the perimetrium, the myometrium of smooth muscle, and the endometrium, whose functionalis is shed and whose basalis regrows. The cervix's mucus blocks bacteria. The vagina is the birth canal and the copulation organ, and it's acidic. The vulva is the mons pubis, the labia majora and minora, and the clitoris.
+
 # The ovarian and uterine cycles
+@ crit: R9, R10
 @ saq: cycles
 @ say: The ovarian and uterine cycles
 
@@ -68,6 +199,7 @@ Q: Once more. Both cycles.
 {recap} The ovarian cycle. In the follicular phase, FSH makes a follicle grow into a Graafian follicle, which secretes oestrogen. At ovulation, around day fourteen, an LH surge ruptures it and releases the secondary oocyte. In the luteal phase the corpus luteum secretes progesterone, and without a pregnancy it becomes the corpus albicans. The uterine cycle. In the menstrual phase, progesterone falls and the stratum functionalis is shed. In the proliferative phase, oestrogen rebuilds it. In the secretory phase, progesterone readies it for implantation. With no implantation, progesterone falls, and menstruation starts again.
 
 # Male versus female: the comparison table
+@ crit: R1, R7
 @ saq: male-female-table
 @ say: The male versus female table
 
@@ -102,8 +234,11 @@ Q: Once more. The six rows.
 {recap} LH: in females it triggers ovulation; in males the Leydig cells make testosterone. FSH: follicle development, or spermatogenesis via the Sertoli cells. Timing: females start in fetal life and release eggs from puberty to menopause; males go from puberty, for life. Size: the egg is the largest cell, the sperm the smallest. Meiosis: in females it stops and starts and gives one egg; in males it's continuous and gives four sperm. Mobility: the egg is carried by cilia; the sperm swims.
 
 # Hormonal control of sperm, and testosterone
+@ crit: R3, R4
 @ saq: male-hormones
+@ ask: What are the functions of the sex hormone testosterone in males and females respectively? (her student-marked quiz, Q21) || Females too: the adrenal glands make testosterone | Males: libido, bone mass, fat distribution, muscle mass and strength, red blood cells and sperm | It is the basis of libido in both males and females
 @ say: Male hormones and testosterone
+% 16 Oct: her Q21 asks testosterone in males AND females; her model answer (her-answers.json) is the "And in females" paragraph.
 
 Q: The hormonal control of spermatogenesis, and testosterone. Five marks.
 
@@ -121,6 +256,8 @@ Negative feedback. Testosterone switches off the hypothalamus, so there's less G
 
 Testosterone at puberty. It grows the reproductive organs to adult size, and brings the secondary sex characteristics: pubic, axillary and facial hair, a deeper voice, a bigger chest, and thicker, oilier skin. It increases bone density and skeletal muscle mass. And it's the basis of libido, in both males and females.
 
+And in females? Her student-marked quiz asks for testosterone in males and females, and her model answer covers both. Testosterone has lots of effects around the body, and we see them in females too, because the adrenal glands can make testosterone. In men, it's thought to regulate sex drive, or libido, bone mass, fat distribution, muscle mass and strength, and the production of red blood cells and sperm.
+
 [pause 1]
 
 The traps. Leydig cells make testosterone, driven by LH. Sertoli cells nourish the sperm and make inhibin, driven by FSH. Don't swap them. Second: inhibin controls FSH, while testosterone controls GnRH and LH. Third: give the chain in order. Hypothalamus, pituitary, testes.
@@ -129,9 +266,10 @@ Q: Once more. The male hormones.
 
 [pause 2]
 
-{recap} The hypothalamus releases GnRH, so the anterior pituitary releases FSH and LH. LH stimulates the Leydig cells to make testosterone, which enhances spermatogenesis. FSH acts on the Sertoli cells, which nourish the sperm. Testosterone feeds back to switch off GnRH and LH, and inhibin from the Sertoli cells switches off FSH. At puberty, testosterone grows the reproductive organs, and brings pubic, axillary and facial hair, a deeper voice, more bone density and muscle mass, and libido.
+{recap} The hypothalamus releases GnRH, so the anterior pituitary releases FSH and LH. LH stimulates the Leydig cells to make testosterone, which enhances spermatogenesis. FSH acts on the Sertoli cells, which nourish the sperm. Testosterone feeds back to switch off GnRH and LH, and inhibin from the Sertoli cells switches off FSH. At puberty, testosterone grows the reproductive organs, and brings pubic, axillary and facial hair, a deeper voice, more bone density and muscle mass, and libido. Females make testosterone too, in the adrenal glands, and it drives libido in both sexes.
 
 # Oestrogen, progesterone and the pill
+@ crit: R11, R12
 @ saq: ovary-hormones
 @ say: Oestrogen, progesterone and the pill
 
@@ -158,3 +296,32 @@ Q: Once more. Oestrogen, progesterone, and the pill.
 [pause 2]
 
 {recap} Oestrogen rises at puberty and drives follicle growth. It grows the uterine tubes, uterus and vagina; it brings breast growth, fat on the hips and breasts, a wider, lighter pelvis, and axillary and pubic hair; and it rebuilds the endometrium in the proliferative phase. Progesterone, from the corpus luteum, readies the lining for implantation, and in pregnancy develops the lobules and alveoli. The pill, synthetic oestrogen and progestin, stops ovulation, thickens the cervical mucus, and thins the endometrium.
+
+# The female sexual response, and four words
+@ crit: R13, R14
+@ ask: Describe the female sexual response: erection and orgasm, according to the effects of parasympathetic and sympathetic nerve impulses. (Reproductive 13, self-directed) || Similar to the male's | The clitoris and vaginal mucosa engorge with blood | The vestibular glands lubricate the vestibule | The nipples harden (sympathetic, her slide) | Orgasm: muscle tension, faster pulse, higher blood pressure, rhythmic uterine contractions
+@ ask: Explain the terms menarche, menopause, amenorrhoea and dysmenorrhoea. (Reproductive 14) || Menarche: the first menstrual period, as the reproductive hormones start surging | Menopause: the reproductive hormones decline, and the cycles become erratic, then stop | Amenorrhoea: no menstrual periods | Dysmenorrhoea: painful periods
+@ say: The female sexual response, and four words
+% Checklist points Reproductive 13 (she marks it self-directed) and 14. Her 2026 Repro Female deck, slides 31, 38 and 39, and
+% her keys in quiz 210994 (menopause; the hormones' surge at puberty). Amenorrhoea and dysmenorrhoea are on her slide 39 and
+% never asked in her quizzes: those two definitions are the textbook's.
+
+Q: The female sexual response, and four words.
+
+Q: Describe the female sexual response, according to the effects of parasympathetic and sympathetic nerve impulses. Then explain the terms menarche, menopause, amenorrhoea, and dysmenorrhoea.
+
+The last two points on her reproduction checklist. She marks the first one self-directed, and her quizzes barely touch either, so here's her slide, short and to the point.
+
+The female sexual response is similar to the male's. The clitoris and the vaginal mucosa engorge with blood, the same parasympathetic engorgement as an erection. The vestibular glands lubricate the vestibule, at the entrance to the vagina. Her slide notes the nipples harden under the sympathetic nervous system. Then orgasm, the sympathetic part: muscle tension, a faster pulse, higher blood pressure, and rhythmic contractions of the uterus.
+
+[pause 1]
+
+Now the four words. Menarche: the first menstrual period, at puberty, when the reproductive hormones first start surging. Menopause: the stage of life when the reproductive hormones decline, and the cycles become erratic, then stop. Amenorrhoea: the absence of menstrual periods. Think, no flow. Dysmenorrhoea: painful periods. Dys means bad, as in dyspnoea.
+
+And a bonus word from her slide: mittelschmerz, the twinge of pain some women feel at ovulation.
+
+Q: Once more. The response, and the four words.
+
+[pause 2]
+
+{recap} The female sexual response is like the male's: the clitoris and vaginal mucosa engorge with blood, the vestibular glands lubricate, and orgasm brings muscle tension, a faster pulse, higher blood pressure, and rhythmic contractions of the uterus. Menarche is the first period. Menopause is when the reproductive hormones decline and the cycles stop. Amenorrhoea is no periods. Dysmenorrhoea is painful periods.

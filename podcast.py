@@ -55,10 +55,12 @@ EPISODES = {
     't3': dict(
         title='HS2 Test 3 — Every SAQ', short='Test 3', zip='HS2-Test3-Every-SAQ',
         kicker='Module 3 · genetics, the senses, reproduction',
-        blurb='Every short-answer question Test 3 can plausibly ask: her two named cases, the pedigree charts she says will be '
-              'tested, her help-board topics, her student-marked SAQ quiz and her taste and smell outcomes. One track per question.',
+        blurb='Every short-answer question Test 3 can ask. She posts no question list (her words: "there is no such list"); her '
+              'Module 3 learning checklist limits what she may ask, so every point on it has a track: her two named cases, the '
+              'pedigree charts she says will be tested, her help-board topics, every question on her student-marked SAQ quiz, and '
+              'the rest of the checklist.',
         when='Test 3 closes Mon 26 Oct · 37 questions · 65 min · about 30% of the marks written',
-        rapid='Rapid-fire: all 25 answers, back to back',
+        rapid='Rapid-fire: every answer, back to back',
         rapid_intro='This is the rapid-fire track: every answer in this episode, back to back, one breath each. No teaching, '
                     'no traps, just the answers in the shape you would write them. It is made for the night before, and for '
                     'the bus on the way in. If one of these sounds unfamiliar, go back to its own track.'),
@@ -131,6 +133,17 @@ IPA = {
     'secretory': 'sᵻkɹˈiːɾɚɹi', 'uterine': 'jˈuːɾɚɹaɪn', 'luteinising': 'lˈuːtiənˌaɪzɪŋ', 'gonadotropin': 'ɡoʊnˌædəɾˈoʊpɪn',
     'depo': 'dˈɛpoʊ', 'provera': 'pɹoʊvˈɛɹə', 'jadelle': 'dʒədˈɛl',
     'kahoot': 'kəhˈuːt',
+    # ── 16 Oct, second audit: the words of the eight checklist tracks added that day ──────────────────────────────
+    'myometrium': 'mˌaɪoʊmˈiːtɹiəm', 'perimetrium': 'pˌɛɹɪmˈiːtɹiəm', 'endometrium': 'ˌɛndoʊmˈiːtɹiəm',
+    'epididymis': 'ˌɛpɪdˈɪdɪmɪs', 'bulbourethral': 'bˌʌlboʊjʊɹˈiːθɹəl', 'bulbospongiosus': 'bˌʌlboʊspˌʌndʒiˈoʊsəs',
+    'spongiosum': 'spˌʌndʒiˈoʊsəm', 'prepuce': 'pɹˈiːpjuːs', 'penile': 'pˈiːnaɪl', 'testis': 'tˈɛstɪs',
+    'cremaster': 'kɹᵻmˈæstɚ', 'dartos': 'dˈɑːɹtoʊs', 'fibrinolysin': 'fˌaɪbɹɪnˈɑːlɪsɪn',
+    'isthmus': 'ˈɪsməs', 'minora': 'mɪnˈɔːɹə', 'centralis': 'sɛntɹˈælɪs', 'peritoneal': 'pˌɛɹɪɾənˈiːəl', 'serous': 'sˈɪɹəs',
+    'amenorrhoea': 'eɪmˌɛnəɹˈiːə', 'dysmenorrhoea': 'dˌɪsmɛnəɹˈiːə',
+    'deoxyribonucleic': 'diːˌɑːksiɹˌaɪboʊnuːklˈeɪɪk', 'ribonucleic': 'ɹˌaɪboʊnuːklˈeɪɪk', 'ribose': 'ɹˈaɪboʊs',
+    'ribosomes': 'ɹˈaɪbəsˌoʊmz', 'nucleotide': 'nˈuːkliətˌaɪd', 'nucleotides': 'nˈuːkliətˌaɪdz',
+    'cytosine': 'sˈaɪɾəsˌiːn', 'thymine': 'θˈaɪmiːn', 'phenocopy': 'fˈiːnoʊkˌɑːpi',
+    'projects': 'pɹədʒˈɛkts',                  # "the cervix projects into the vagina": the verb
 }
 
 # ── PORT: scripts/hs2-podcast/podcast.py (estate branch claude/hs2-test3-podcast-509210) ─────────────────────
@@ -433,12 +446,23 @@ def show_item(ask, marks, short=None, lines=None):
     return {'ask': plain(ask), 'marks': marks, 'hook': plain(short.get('hook', '')) if short else '', 'groups': groups}
 
 
+def asked(line):
+    """'@ ask: Question (N marks) || line | line' — a question the player shows that is not an SAQ Trainer item."""
+    ask, _, rest = line.partition('||')
+    ask = ask.strip()
+    m = re.search(r'\((\d+(?:\.\d+)?) marks?\)$', ask)
+    marks = float(m.group(1)) if m else None
+    return show_item(ask[:m.start()].strip() if m else ask, int(marks) if marks and marks.is_integer() else marks,
+                     lines=[l.strip() for l in rest.split('|') if l.strip()])
+
+
 def show_for(ep, ch, banks):
     items, scen = [], ''
     if ep == 't3':
         for i in ch['meta'].get('saq', []):
             x = banks['t3'][i]
             items.append(show_item(re.sub(r'\s*\(\d+(\.\d+)? marks?\)\s*$', '', x['ask']), x['marks'], x['short']))
+        items += [asked(a) for a in ch['meta'].get('ask', [])]
     else:
         for i in ' '.join(ch['meta'].get('q', [])).split():
             q = banks['final'][i]
@@ -446,9 +470,8 @@ def show_for(ep, ch, banks):
                 items.append(show_item(q.get('qt') or q['q'], q['pts'], q['short']))
             elif q.get('blanks'):
                 items.append(show_item(q.get('qt') or q['q'], q['pts'], lines=[f"{n}. {b['correct']}" for n, b in enumerate(q['blanks'], 1)]))
-            elif q.get('opts'):
-                ans = q.get('ans')
-                items.append(show_item(q['q'], q['pts'], lines=[q['opts'][ans] if isinstance(ans, int) else str(ans)]))
+            elif q.get('opts'):            # her key is a list of the right option texts
+                items.append(show_item(q['q'], q['pts'], lines=[str(k) for k in (q.get('key') or [])]))
         for h in ch['meta'].get('held', []):
             ask, _, rest = h.partition('||')
             items.append({**show_item(ask.strip() + ' (her answer is not posted yet)', None, lines=[l.strip() for l in rest.split('|') if l.strip()]), 'held': True})
@@ -468,6 +491,18 @@ def coverage(ep, chs, banks):
         raise SystemExit(f"{ep}: coverage gate failed\n  named but not in the bank: {unknown}\n  in the bank, in no chapter: "
                          + ', '.join(f"{i} ({bank[i].get('title') or (bank[i].get('short') or {}).get('title') or bank[i].get('qt', '')[:50]})" for i in missing))
     return len(set(named))
+
+
+CHECKLIST = ([f'G{i}' for i in range(1, 10)] + [f'SS{i}' for i in range(1, 14)] + [f'R{i}' for i in range(1, 15)])
+def checklist(chs):
+    """Test 3: every point of her Module 3 Learning Checklist (Genetics 1-9, Special senses 1-13, Reproductive 1-14) has a
+    track. Her words (10 Aug): there is no list of test questions; the checklist "limits what I may ask". Tag tracks '@ crit:'."""
+    got = {c.strip() for ch in chs for line in ch['meta'].get('crit', []) for c in line.split(',') if c.strip()}
+    bad = sorted(got - set(CHECKLIST))
+    missing = [c for c in CHECKLIST if c not in got]
+    if missing or bad:
+        raise SystemExit(f"t3: checklist gate failed\n  no track for: {missing}\n  unknown codes: {bad}")
+    return len(got)
 
 
 # ── build: MP3s, the page, the feeds, the zips ───────────────────────────────────────────────────────────────
@@ -672,6 +707,8 @@ if __name__ == '__main__':
     for ep in eps:
         check(chs[ep], ep)
         coverage(ep, chs[ep], banks)
+        if ep == 't3':
+            checklist(chs[ep])
     if '--dry' in argv:
         for ep in eps:
             dry(ep, chs[ep], banks)

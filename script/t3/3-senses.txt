@@ -2,6 +2,7 @@
 % chemical-senses learning outcomes, word for word; her quizzes never asked them.
 
 # The three regions of the ear
+@ crit: SS5
 @ saq: ear-regions
 @ say: The three regions of the ear
 
@@ -32,6 +33,7 @@ Q: Once more. The three regions of the ear.
 {recap} The outer ear: the pinna, the external auditory canal with its cerumen, and the tympanic membrane. It collects sound onto the eardrum and helps locate it. The middle ear: air-filled, in the temporal bone, with the ossicles, which amplify sound onto the oval window. The Eustachian tube equalises pressure, and two small muscles dampen loud sounds. The inner ear: a bony labyrinth of perilymph around a membranous labyrinth of endolymph. The cochlea, with its organ of Corti, hears. The vestibular apparatus balances.
 
 # How hearing happens
+@ crit: SS6
 @ saq: hearing
 @ say: How hearing happens
 
@@ -68,6 +70,7 @@ Q: Once more. How hearing happens.
 {recap} The pinna collects sound down the canal, and the tympanic membrane vibrates. The ossicles, malleus, incus and stapes, amplify it onto the oval window. That moves the perilymph, then the endolymph, and the basilar membrane moves, so the hair cells of the organ of Corti bend against the tectorial membrane. That's transduction into nerve impulses, which travel along nerve eight to the auditory cortex in the temporal lobe.
 
 # Static and dynamic equilibrium
+@ crit: SS8, SS9
 @ saq: equilibrium
 @ say: Static and dynamic equilibrium
 
@@ -98,6 +101,7 @@ Q: Once more. Static and dynamic equilibrium.
 {recap} Both are sensed by hair cells in the vestibular apparatus of the inner ear, and sent along nerve eight to the brain stem and cerebellum. Static equilibrium is head position relative to gravity, and straight-line movement. It's detected by the maculae in the utricle and saccule, where otoliths slide when the head tilts. Dynamic equilibrium is balance during rotation. It's detected by the crista ampullaris in each semicircular canal, where the endolymph swings the cupula and bends the hairs.
 
 # The three layers of the eye
+@ crit: SS1
 @ saq: eye-layers
 @ say: The three layers of the eye
 
@@ -125,7 +129,42 @@ Q: Once more. The three layers of the eye.
 
 {recap} The fibrous tunic: the sclera, which protects the eye and anchors its muscles, and the cornea, which does about eighty per cent of the refraction. The vascular tunic: the choroid, rich in blood vessels, which nourishes the eye; the ciliary body, which holds the lens, changes its shape, and makes aqueous humour; and the iris, which controls pupil size. The neural tunic, the retina: a pigmented layer that absorbs light, then photoreceptors, rods and cones, then bipolar cells, then ganglion cells, whose axons form the optic nerve.
 
+# The retina: rods, cones and colour blindness
+@ crit: SS2
+@ ask: What receptors are impacted by colour blindness? || Photoreceptors, specifically the CONES of the eye | The cones are found mostly in the macula lutea and the fovea centralis
+@ ask: What are the receptors for light, where exactly are they found, and how do rods and cones differ? || Photoreceptors: rods and cones, in the retina | Cones: macula lutea, packed in the fovea centralis; bright light, colour, sharp images (photopic) | Rods: none in the fovea, more towards the edges; dim light, black and white (scotopic) | Up to 100 rods share one ganglion cell: sensitive, but less sharp | Pigments differ by their opsin protein; light hyperpolarises the photoreceptor | The optic disc has no photoreceptors: the blind spot | Afterimage: the retina's signal persists after the light has gone
+@ say: The retina, and colour blindness
+% Her student-marked SAQ quiz 211104, Q2 (her model answer, word for word in the last paragraph) and checklist point Special
+% senses 2 (retina function; colour blindness and the photoreceptors). Her keys: quizzes 211094, 211100, 211121, 211123.
+
+Q: The retina: rods, cones, and colour blindness.
+
+Q: What receptors are impacted by colour blindness? And what are the receptors for light, where exactly are they found, and how do they differ?
+
+Her checklist puts it like this: the physiology of vision includes how the retina works, and colour blindness is related to the function of the photoreceptors. Her student-marked quiz asks the colour-blindness part straight out.
+
+The hook: cones for colour and detail, in the centre. Rods for dim light, round the edges.
+
+The receptors for light are photoreceptors: rods and cones, in the retina, the inner layer of the eye. They contain visual pigments, and they convert light energy into nerve impulses.
+
+Cones sit in the macula lutea, packed most tightly in the fovea centralis, the very centre of your visual field. They respond to bright light, which is photopic vision. They give colour vision, and they form the sharpest images. Her key: focusing an object on the fovea centralis gives the highest visual acuity.
+
+Rods are more numerous. They're absent from the fovea and the macula, and there are more of them towards the edges of the retina. They respond to dim light, which is scotopic vision, and they see black, white and grey, with no colour. Why are rods sensitive but blurry? Her key: as many as a hundred rods can connect to a single ganglion cell. Lots of signal, not much detail.
+
+[pause 1]
+
+A few one-mark details from her quizzes. Visual pigments are told apart by their opsin protein. Light makes the photoreceptor hyperpolarise, and that's what's ultimately signalled to the brain. The part of the retina with no photoreceptors at all is the optic disc, the blind spot, not the macula: her quiz offers the macula as the wrong answer. And an afterimage is when you can still see something after the stimulus has gone, because the retina's signal persists.
+
+Now her model answer for colour blindness, word for word. The receptors impacted are photoreceptors, specifically the cones of the eye. The cones are found mostly in the macula lutea, the central part of the retina that is the centre of your visual field, and the fovea centralis, the very centre of your visual field, where your vision is the clearest. In red-green colour blindness, it's the L cones, for red, and the M cones, for green. And it's X-linked recessive, which is why it's more common in males.
+
+Q: Once more. The retina, and colour blindness.
+
+[pause 2]
+
+{recap} The photoreceptors are rods and cones, in the retina. Cones sit in the macula lutea, packed in the fovea centralis: bright light, colour, and the sharpest vision. Rods are absent from the fovea and increase towards the edges: dim light, black and white, and many rods share one ganglion cell. Pigments differ by their opsin, and the optic disc is the blind spot. Colour blindness affects the cones, found mostly in the macula lutea and the fovea centralis: in red-green blindness, the L and M cones.
+
 # Near vision: the three changes
+@ crit: SS2
 @ saq: accommodation
 @ say: Near vision
 
@@ -160,6 +199,7 @@ Q: Once more. Near vision.
 {recap} The ciliary muscle contracts, so the lens bulges and gets rounder: accommodation. The pupils constrict. The eyes converge, turning inwards. For distant vision, all three undo: the ciliary muscle relaxes, the lens flattens, and the pupils dilate. Near light arrives diverging; from over six metres away it's parallel.
 
 # Myopia, hyperopia and astigmatism
+@ crit: SS3
 @ saq: refraction-errors
 @ say: Myopia, hyperopia and astigmatism
 
@@ -190,6 +230,7 @@ Q: Once more. Myopia, hyperopia and astigmatism.
 {recap} Emmetropia: light is focused on the retina. Myopia, short-sighted: distant light focuses in front of the retina because the eyeball is too long, and a concave lens diverges the light. Hyperopia, long-sighted: near light focuses behind the retina because the eyeball is too short, and a convex lens converges the light. Astigmatism: the cornea or lens is curved unevenly, so light focuses at several points and everything is blurred. Glasses, contacts, or laser surgery.
 
 # Waves: light and sound
+@ crit: SS10, SS11
 @ saq: waves
 @ say: Waves of light and sound
 
@@ -213,6 +254,8 @@ Reflection: light bounces back off a flat, opaque surface, like a mirror. A colo
 
 Refraction: light bends when it passes into a medium of a different density, because it slows down there. A rainbow in raindrops. And in your own eye, the cornea and the lens refract light to focus it on the retina.
 
+Her checklist says reflection and refraction of sound, too, and her keys cover it. Sound reflects: an echo is reflected sound, and so is sonar. And sound refracts: it bends upward, away from hot ground, because it travels faster in hot air than in cold air. While we're on rainbows, her model answer: raindrops act as tiny prisms, and each wavelength of light slows by a different amount, so blue, the shortest, bends the most, and red the least.
+
 [pause 1]
 
 The traps. Loudness is amplitude, and pitch is frequency. Her quizzes swap them to catch you. Second: a higher frequency means a shorter wavelength. Third: sound can't travel through a vacuum. Light can.
@@ -221,9 +264,10 @@ Q: Once more. Waves.
 
 [pause 2]
 
-{recap} Amplitude is the wave's height: loudness in decibels, or brightness. Wavelength is peak to peak: the colour of light. Frequency is waves per second, in hertz: the pitch of sound, and a higher frequency means a shorter wavelength. Light is electromagnetic and needs no medium; sound is a mechanical pressure wave that needs one. Reflection: light bounces back, like a mirror. Refraction: light bends as it slows in a different density, like a rainbow, or the cornea and lens focusing light.
+{recap} Amplitude is the wave's height: loudness in decibels, or brightness. Wavelength is peak to peak: the colour of light. Frequency is waves per second, in hertz: the pitch of sound, and a higher frequency means a shorter wavelength. Light is electromagnetic and needs no medium; sound is a mechanical pressure wave that needs one. Reflection: light bounces back, like a mirror. Refraction: light bends as it slows in a different density, like a rainbow, or the cornea and lens focusing light. Sound reflects as an echo or sonar, and refracts, bending away from hot ground.
 
 # Taste: the taste buds
+@ crit: SS12
 @ saq: taste
 @ say: Taste
 
@@ -258,6 +302,7 @@ Q: Once more. Taste.
 {recap} Taste is a chemical sense: taste buds are chemoreceptors for chemicals dissolved in saliva. They sit on the papillae, fungiform, vallate and foliate, and each bud is a cluster of gustatory cells in a supporting capsule, with gustatory hairs in the taste pore. Five tastes: sweet, sour, salty, bitter and umami. The facial nerve carries the front two-thirds, the glossopharyngeal the back third, and the vagus the very back, to the brain stem, the thalamus, the insula and the frontal lobe. Flavour is taste plus smell.
 
 # Smell: the olfactory epithelium
+@ crit: SS13
 @ saq: smell
 @ say: Smell
 

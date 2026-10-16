@@ -4,7 +4,7 @@ Two episodes that cover every written question each sitting can ask, read by Kok
 
 | Episode | Tracks | What is in it |
 |---|---|---|
-| **Test 3 — Every SAQ** | 27 | The 25 SAQ Trainer questions of [hs2-test3](../hs2-test3) (`content/saq-*.json`): her two named cases (Case L ×2, Case 11 ×2), pedigrees, Huntington's, glaucoma/cataract, the rest of her student-marked SAQ quiz, taste and smell. An intro first, Rapid-fire last. |
+| **Test 3 — Every SAQ** | 35 | Her words (10 Aug): "there is no such list" of test questions; the Module 3 Learning Checklist "limits what I may ask". So every one of its 36 points has a track (`@ crit:`, gated): the 25 SAQ Trainer questions of [hs2-test3](../hs2-test3) (`content/saq-*.json`), plus eight tracks added 16 Oct from her quiz keys, model answers and 2026 decks: genetics terms (her quiz 211104 Q13), DNA and mutations, multiple alleles and X-linked, the retina (Q2), the male and female systems (Q17, 10 marks), semen and the male response, the female response and the four terms; and testosterone in females (Q21). An intro first, Rapid-fire last. |
 | **Final — Every case SAQ** | 21 | All 75 written and formative questions of the ten yellow, starred cases in [hs2-final](../hs2-final)'s built DATA, in booklet order, plus the 8 starred questions she has not answered (held in the sim), each answered from her module content and said to be. |
 
 **One MP3 per chapter** — the answer to "my phone has no app that reads embedded chapters": any music app, file app or
@@ -35,6 +35,8 @@ needs `../hs2-test3` and `../hs2-final` checked out next to this repo.
 
 ## Gates (the render stops on any)
 
+- **Checklist** (Test 3): every point of her Module 3 Learning Checklist (G1–9, SS1–13, R1–14) is named by some track's
+  `@ crit:`; provoked 16 Oct by dropping a track (fails, naming R13 and R14).
 - **Coverage**: every SAQ Trainer id in hs2-test3 and every `mod: 'cases'` question in hs2-final's DATA is named by some
   chapter's `@ saq:` / `@ q:`, and every id named exists. A new SAQ in either sim fails the build until a chapter covers it.
 - A capital **A** used as a letter at the start of a sentence ("A, the trachea") — Kokoro reads it as "uh". Write "Letter A".
@@ -42,7 +44,7 @@ needs `../hs2-test3` and `../hs2-final` checked out next to this repo.
 
 ## The script (`script/<episode>/*.txt`, read in file order)
 
-`# Title` starts a chapter; `@ saq:` / `@ q:` / `@ case:` / `@ held:` feed the player; `@ say:` is the short name the
+`# Title` starts a chapter; `@ saq:` / `@ q:` / `@ case:` / `@ held:` / `@ ask:` feed the player; `@ crit:` names checklist points; `@ say:` is the short name the
 Rapid-fire track announces; `Q:` paragraphs are the examiner's voice (am_puck, picked by ear from 14 samples); `{recap}` paragraphs are in the chapter
 and in Rapid-fire; `[pause N]`; `%` lines are notes. Everything else is af_heart, the voice of the Test 2 and Module 1
 courses. Every answer follows the sim's own answer for that question (her model answers, decks, recorded sessions, quiz keys);

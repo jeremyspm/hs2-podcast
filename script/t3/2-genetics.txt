@@ -1,6 +1,50 @@
 % Test 3, part 2: the rest of genetics, from her student-marked SAQ quiz (hs2-test3/content/saq-gen.json).
 
+# The words of genetics
+@ crit: G1, G4
+@ ask: Find the terms by matching them to the correct definition: homozygous, heterozygous, allele, dominant, recessive, genotype, phenotype, autosomal, X-linked, locus, chromosomes, genome, autosome, sex chromosome, variation, inheritance. || Homozygous: the alleles of the genotype are the same | Heterozygous: the alleles of the genotype are different | Allele: a different version of a gene | Dominant: will always appear in the phenotype | Recessive: appears only if no other alleles are present | Genotype: the alleles an individual has inherited | Phenotype: how the traits are expressed and seen | Autosomal: a disease gene on chromosomes 1–22 | X-linked: a disease gene on the X; more males affected | Locus: where a gene sits on a chromosome | Chromosomes: lengths of DNA carrying many genes, in pairs | Genome: all the DNA in the nucleus | Autosome: a chromosome numbered 1–22 | Sex chromosome: the X or the Y | Variation: differences in genes across a population | Inheritance: how genes pass from parents to children
+@ say: The words of genetics
+% Her student-marked SAQ quiz 211104, Q13 (a 16-term matching table) and checklist points Genetics 1 and 4. Every definition is
+% her quiz key's; the five extra words are her keys from quizzes 211017, 211041 and 211114.
+
+Q: The words of genetics. Her student-marked quiz has you match sixteen of them.
+
+Q: Define these terms: homozygous, heterozygous, allele, dominant, recessive, genotype, phenotype, autosomal, X-linked, locus, chromosomes, genome, autosome, sex chromosome, variation, and inheritance.
+
+Two of her checklist points are nothing but definitions, and she re-asks the same dozen words across eight different quizzes. She never wants an essay about a term. She gives you the definition and wants the word, or gives you the word and wants the definition. So these are the cheapest marks in the module. Every definition here is her quiz key's.
+
+Start with the pair everyone mixes up. Homozygous: the alleles of the genotype are the same. Big B big B, or little b little b. Homo means same. Heterozygous: the alleles of the genotype are different. Big B little b. Hetero means different.
+
+An allele is a different version of a gene. Her example: a diseased gene versus a non-diseased gene. Her other wording: alternative forms of genes are called alleles.
+
+Dominant: it will always appear in the phenotype, if it's there. It suppresses the expression of the other allele, and it's written with a capital letter. Recessive: it will only appear in the phenotype if no other alleles are present, so only when there are two copies. It's written in lower case.
+
+[pause 1]
+
+Genotype: the alleles that have been inherited by an individual. The letters. Phenotype: how the traits are expressed and physically seen in the person, like freckles you can see. Her other wording: the expression of genes is called the phenotype.
+
+Autosomal: when a disease gene is found on chromosomes one to twenty-two. X-linked: when a disease gene is found on the X chromosome, and it generally shows up in greater numbers in males.
+
+Locus: where a gene is located on a chromosome. Think of it as the gene's address.
+
+Chromosomes: a length of DNA that has a collection of genes on it. They're found in pairs. Genome: all the DNA found within the nucleus. Autosome: a chromosome numbered one to twenty-two. Sex chromosome: the X or the Y.
+
+Variation: differences in the genes found in populations. Inheritance: how genes are passed from parents to children.
+
+[pause 1]
+
+Five more words her other quizzes use. A gene: a segment of DNA that codes for a trait or a protein. A carrier: a heterozygous person who can pass on a recessive condition without having it. Heredity: the passing of traits from parents to children. Genetics: the study of how traits are inherited through the interactions of alleles. And a phenocopy: a phenotype that looks like a genetic condition, but is caused by the environment, with no genetic basis.
+
+The traps. Autosomal describes where a disease gene sits; an autosome is the chromosome itself. The genome is all of the DNA; a gene is one segment of it. And a chromosome isn't a gene: it carries many of them.
+
+Q: Once more. Sixteen words.
+
+[pause 2]
+
+{recap} Homozygous: the alleles are the same. Heterozygous: they're different. Allele: a version of a gene. Dominant: always appears in the phenotype. Recessive: appears only if no other allele is present. Genotype: the alleles inherited. Phenotype: the traits you can see. Autosomal: a disease gene on chromosomes one to twenty-two. X-linked: on the X, and more common in males. Locus: where a gene sits on a chromosome. Chromosomes: lengths of DNA carrying genes, in pairs. Genome: all the DNA in the nucleus. Autosome: a chromosome numbered one to twenty-two. Sex chromosome: the X or the Y. Variation: differences in genes across populations. Inheritance: how genes pass from parents to children.
+
 # Using a Punnett square
+@ crit: G7
 @ saq: punnett
 @ say: The Punnett square
 
@@ -33,6 +77,7 @@ Q: Once more. The Punnett square, and both crosses.
 {recap} Alleles come in pairs, one from each parent, and the Punnett square shows every possible combination, so the probability of each. One parent across the top, the other down the side. Big B little b crossed with big B little b gives one to two to one: twenty-five per cent homozygous dominant, fifty heterozygous, twenty-five homozygous recessive. So seventy-five per cent brown, twenty-five blue. In codominance, I A and I B are both expressed: I A little i crossed with I B little i gives group A B, group A, group B and group O, twenty-five per cent each.
 
 # Patterns of inheritance
+@ crit: G5
 @ saq: inheritance-patterns
 @ say: Patterns of inheritance
 
@@ -64,7 +109,74 @@ Q: Once more. The four patterns.
 
 {recap} Codominance: both alleles are fully expressed, like A B blood, where I A and I B together give group A B. Incomplete dominance: one allele doesn't fully mask the other, so the heterozygote is in between, like sickle cell carriers with both normal and sickle cells. Polygenic: many genes control one trait, giving a continuous range, like height and skin colour. Mitochondrial: mitochondrial DNA comes only from the mother, to all her children, and severity varies because of the bottleneck effect.
 
+# Multiple alleles, blood groups and X-linked genes
+@ crit: G4, G5
+@ ask: Briefly explain multiple allele inheritance and sex-linked (X-linked) inheritance, using the right genetics terms. || Multiple alleles: a trait controlled by more than two alleles, like the ABO blood groups | Three alleles, A, B and O: six genotypes, four blood groups | A and B are codominant; both are dominant over O | AO × BO gives A, B, AB and O, 25% each | X-linked: the gene is on the X, and the Y has no matching allele | So one copy shows in a male; a female needs two | Only females can be carriers | Carrier mum × normal dad: 50% of sons affected, no daughters | Affected dad × normal mum: no affected sons; every daughter a carrier
+@ say: Multiple alleles and X-linked genes
+% Checklist points Genetics 4 and 5 (multiple alleles, sex-linked). Her keys: quizzes 211017, 211041, 211053, 211062, 211114,
+% 211135, 211014, and her deck's colour-blindness crosses (slides 10-11).
+
+Q: Multiple alleles, blood groups, and X-linked genes.
+
+Q: Briefly explain multiple allele inheritance and sex-linked inheritance, using the right genetics terms.
+
+Two more of the inheritance patterns on her checklist: multiple alleles, and X-linked genes. Her quizzes turn both into scenario questions, so it's worth having the crosses ready.
+
+The hook: blood groups have three alleles, and a boy's X has no partner.
+
+Multiple allele inheritance: a trait controlled by more than two alleles. Her example is the ABO blood group. The gene comes in three versions, A, B and O, and you carry two of them, so there are six genotypes. Genotypes AA and AO both give group A. BB and BO both give group B. AB gives group AB. And OO gives group O. The A and B alleles are codominant, and both are dominant over O.
+
+The crosses she asks. AO crossed with BO gives all four groups, A, B, AB and O, twenty-five per cent each, which is how one family can have four blood groups. An O child needs an O from each parent. A man who is OO, whose children are all AO, must have a partner who is AA. And a man who is homozygous for group A, crossed with a woman who is heterozygous for group B, AA by BO, gives fifty per cent AB and fifty per cent AO.
+
+The trap she sets: polygenic is not the same as multiple alleles. Polygenic means many genes. Multiple alleles means one gene with more than two versions. Her true or false says blood groups are polygenic. False.
+
+[pause 1]
+
+X-linked, or sex-linked, inheritance. The gene sits on the X chromosome. A male has one X and a Y, and the Y has no matching allele to mask it. So one copy of a recessive X-linked allele always shows in a male, while a female needs two. That's why males inherit more sex-linked conditions, and why only females can be carriers. Her drop-down: males cannot be carriers, because they only carry one X. Her examples are colour blindness and haemophilia.
+
+Her two crosses. A carrier mother, X big B, X little b, and a father with normal vision, X big B, Y: each son has a fifty per cent chance of being colour blind, and none of the daughters will be, though half of them will be carriers. A colour-blind father, X little b, Y, and a mother with normal vision, X big B, X big B: none of the sons are colour blind, because they get his Y, and all of the daughters are carriers with normal vision.
+
+Q: Once more. Multiple alleles, and X-linked genes.
+
+[pause 2]
+
+{recap} Multiple alleles: one trait with more than two alleles, like ABO blood: three alleles, six genotypes, four groups. The A and B alleles are codominant and both dominant over O, so AO crossed with BO gives A, B, AB and O, twenty-five per cent each. It isn't polygenic. X-linked: the gene is on the X and the Y has no matching allele, so one copy shows in a male while a female needs two, and only females can be carriers. A carrier mother and a normal father: half the sons affected, and no daughters. An affected father and a normal mother: no affected sons, and every daughter a carrier.
+
+# DNA, chromosomes and mutations
+@ crit: G2, G3
+@ ask: Understand the structure and function of DNA and RNA (review from BN1), and define some ways genetic abnormalities occur, including mutation, genetic disease and aneuploidy. || DNA: deoxyribonucleic acid, a double helix; A pairs with T, G with C | DNA stores the genetic code and passes traits on: the molecule of heredity | RNA: one strand, ribose, uracil for thymine; carries the code out to make proteins | Chromosome: coiled DNA with many genes; gene: a segment coding for a trait or protein | Gamete 23 chromosomes; zygote 46, half from each parent | Crossing over (a chiasma) can separate linked genes in meiosis | Mutation: a permanent change in a gene's DNA code | Genetic disease: from a faulty gene, e.g. Huntington's (dominant), cystic fibrosis, Tay-Sachs (recessive) | Aneuploidy: an abnormal number of chromosomes (Down, Turner)
+@ say: DNA, chromosomes and mutations
+% Checklist points Genetics 2 and 3. Her keys: quizzes 211017, 211054, 211062, 211114. The RNA lines are the textbook BN1
+% review her criterion names; her Module 3 bank never asks RNA, and the track says so.
+
+Q: DNA, chromosomes and mutations.
+
+Q: Describe the structure and function of DNA and RNA. Then define some of the ways genetic abnormalities occur, including mutation, genetic disease and aneuploidy.
+
+Two checklist points in one track. Her checklist calls the DNA part a review from B N 1, and her Module 3 quizzes only touch it lightly, so here's a version that answers both.
+
+The hook: DNA is the recipe book, a chromosome is one volume, a gene is one recipe, and a mutation is a typo.
+
+DNA is deoxyribonucleic acid. It's a double helix: two strands of nucleotides twisted together, each nucleotide made of a sugar, a phosphate and a base. The bases pair up across the middle: adenine with thymine, and guanine with cytosine. Its function: it stores the genetic code, and it's the molecule of heredity, passing traits from one generation to the next.
+
+RNA, ribonucleic acid, is single-stranded, with the sugar ribose, and uracil in place of thymine. Its job is to carry the code out of the nucleus, as messenger RNA, to the ribosomes, where proteins are made. That RNA part is the textbook review; her Module 3 bank doesn't ask it.
+
+[pause 1]
+
+Now her words. A chromosome is a coiled piece of DNA that contains many genes. A gene is a segment of DNA that codes for a trait or a protein. Humans have forty-six chromosomes. A gamete, a sperm or an egg, has twenty-three, and the zygote has forty-six, half from the mother and half from the father. And in meiosis, crossing over, where paired chromosomes swap pieces at a chiasma, can separate genes that sit close together, the linked genes. That's one source of variation.
+
+How genetic abnormalities happen. A mutation is a permanent change in the genetic structure of a gene: a change in the DNA code. A genetic disease is one caused by a faulty gene. Her examples: Huntington's, which is dominant, and cystic fibrosis and Tay-Sachs, which are recessive. Her quiz also notes that schizophrenia and Down syndrome are not simple recessive traits. And aneuploidy is an abnormal number of chromosomes, as in Down syndrome or Turner syndrome. That one has its own track.
+
+One more, from her true or false: why does a fatal recessive disease like Tay-Sachs persist? Because carriers, the heterozygotes, don't have the disease, but they pass the allele on.
+
+Q: Once more. DNA, chromosomes and mutations.
+
+[pause 2]
+
+{recap} DNA, deoxyribonucleic acid, is a double helix of nucleotides, with adenine paired to thymine and guanine to cytosine. It stores the genetic code and passes traits on. RNA is single-stranded, with ribose and uracil, and carries the code out to make proteins. A chromosome is coiled DNA with many genes, and a gene is a segment that codes for a trait or a protein. A gamete has twenty-three chromosomes and the zygote forty-six, half from each parent. A mutation is a permanent change in a gene's DNA code. A genetic disease comes from a faulty gene, like Huntington's, cystic fibrosis or Tay-Sachs. Aneuploidy is an abnormal number of chromosomes.
+
 # Karyotypes and aneuploidy
+@ crit: G2
 @ saq: karyotype
 @ say: Karyotypes and aneuploidy
 
@@ -97,6 +209,7 @@ Q: Once more. Karyotypes and aneuploidy.
 {recap} A karyotype is a picture of the chromosomes in numbered homologous pairs: forty-six chromosomes, twenty-three pairs, twenty-two pairs of autosomes plus X X or X Y. Aneuploidy is an abnormal number of chromosomes. Down syndrome is trisomy twenty-one, forty-seven chromosomes. Turner syndrome is forty-five, with only one X. It arises from non-disjunction in meiosis: a pair fails to separate, so a gamete gets one too many, or one too few.
 
 # Detecting and treating genetic disease
+@ crit: G8, G9
 @ saq: gene-tech
 @ say: Detecting and treating genetic disease
 

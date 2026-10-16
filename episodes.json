@@ -6,29 +6,29 @@
    "title": "HS2 Test 3 — Every SAQ",
    "short": "Test 3",
    "kicker": "Module 3 · genetics, the senses, reproduction",
-   "blurb": "Every short-answer question Test 3 can plausibly ask: her two named cases, the pedigree charts she says will be tested, her help-board topics, her student-marked SAQ quiz and her taste and smell outcomes. One track per question.",
+   "blurb": "Every short-answer question Test 3 can ask. She posts no question list (her words: \"there is no such list\"); her Module 3 learning checklist limits what she may ask, so every point on it has a track: her two named cases, the pedigree charts she says will be tested, her help-board topics, every question on her student-marked SAQ quiz, and the rest of the checklist.",
    "when": "Test 3 closes Mon 26 Oct · 37 questions · 65 min · about 30% of the marks written",
    "zip": "HS2-Test3-Every-SAQ",
-   "dur": 4927,
+   "dur": 7056,
    "cover": "audio/cover-t3.png",
    "feed": "feed-t3.xml",
    "full": {
     "file": "audio/HS2-Test3-Every-SAQ.mp3",
-    "bytes": 39491129,
-    "ver": "e14b4dd821"
+    "bytes": 56523665,
+    "ver": "1087b063da"
    },
    "chapters": [
     {
      "n": 1,
      "title": "Start here: Test 3, and how this episode works",
      "file": "audio/t3/01.mp3",
-     "dur": 152.0,
-     "bytes": 1272888,
+     "dur": 167.0,
+     "bytes": 1392312,
      "rapid": false,
      "scen": "",
      "show": [],
      "marks": null,
-     "ver": "294a47a24e"
+     "ver": "eb5438d4e3"
     },
     {
      "n": 2,
@@ -80,7 +80,7 @@
       }
      ],
      "marks": 6,
-     "ver": "db35defb17"
+     "ver": "677c13e8f0"
     },
     {
      "n": 3,
@@ -123,7 +123,7 @@
       }
      ],
      "marks": 4,
-     "ver": "6d7f90e47b"
+     "ver": "b83ab1a900"
     },
     {
      "n": 4,
@@ -185,7 +185,7 @@
       }
      ],
      "marks": 6,
-     "ver": "813f71a07e"
+     "ver": "cc5e542123"
     },
     {
      "n": 5,
@@ -220,7 +220,7 @@
       }
      ],
      "marks": 5,
-     "ver": "bfba6990ea"
+     "ver": "0d71e8acca"
     },
     {
      "n": 6,
@@ -275,7 +275,7 @@
       }
      ],
      "marks": 5,
-     "ver": "7e264e3159"
+     "ver": "23ff8e7f5e"
     },
     {
      "n": 7,
@@ -325,7 +325,7 @@
       }
      ],
      "marks": 5,
-     "ver": "1e73ac6c34"
+     "ver": "8885f26756"
     },
     {
      "n": 8,
@@ -363,14 +363,55 @@
       }
      ],
      "marks": 4,
-     "ver": "ce9f2f6b16"
+     "ver": "94bdf11a09"
     },
     {
      "n": 9,
-     "title": "Using a Punnett square",
+     "title": "The words of genetics",
      "file": "audio/t3/09.mp3",
+     "dur": 241.4,
+     "bytes": 1988230,
+     "rapid": false,
+     "scen": "",
+     "show": [
+      {
+       "ask": "Find the terms by matching them to the correct definition: homozygous, heterozygous, allele, dominant, recessive, genotype, phenotype, autosomal, X-linked, locus, chromosomes, genome, autosome, sex chromosome, variation, inheritance.",
+       "marks": null,
+       "hook": "",
+       "groups": [
+        {
+         "h": "",
+         "t": [
+          "Homozygous: the alleles of the genotype are the same",
+          "Heterozygous: the alleles of the genotype are different",
+          "Allele: a different version of a gene",
+          "Dominant: will always appear in the phenotype",
+          "Recessive: appears only if no other alleles are present",
+          "Genotype: the alleles an individual has inherited",
+          "Phenotype: how the traits are expressed and seen",
+          "Autosomal: a disease gene on chromosomes 1–22",
+          "X-linked: a disease gene on the X; more males affected",
+          "Locus: where a gene sits on a chromosome",
+          "Chromosomes: lengths of DNA carrying many genes, in pairs",
+          "Genome: all the DNA in the nucleus",
+          "Autosome: a chromosome numbered 1–22",
+          "Sex chromosome: the X or the Y",
+          "Variation: differences in genes across a population",
+          "Inheritance: how genes pass from parents to children"
+         ]
+        }
+       ]
+      }
+     ],
+     "marks": null,
+     "ver": "a057e66aea"
+    },
+    {
+     "n": 10,
+     "title": "Using a Punnett square",
+     "file": "audio/t3/10.mp3",
      "dur": 176.8,
-     "bytes": 1470792,
+     "bytes": 1470793,
      "rapid": false,
      "scen": "",
      "show": [
@@ -411,12 +452,12 @@
       }
      ],
      "marks": 4,
-     "ver": "4446d9198f"
+     "ver": "378f6dce23"
     },
     {
-     "n": 10,
+     "n": 11,
      "title": "Patterns of inheritance",
-     "file": "audio/t3/10.mp3",
+     "file": "audio/t3/11.mp3",
      "dur": 165.4,
      "bytes": 1380171,
      "rapid": false,
@@ -459,12 +500,80 @@
       }
      ],
      "marks": 4,
-     "ver": "611de92ccc"
+     "ver": "ddabf8b92d"
     },
     {
-     "n": 11,
+     "n": 12,
+     "title": "Multiple alleles, blood groups and X-linked genes",
+     "file": "audio/t3/12.mp3",
+     "dur": 192.7,
+     "bytes": 1597951,
+     "rapid": false,
+     "scen": "",
+     "show": [
+      {
+       "ask": "Briefly explain multiple allele inheritance and sex-linked (X-linked) inheritance, using the right genetics terms.",
+       "marks": null,
+       "hook": "",
+       "groups": [
+        {
+         "h": "",
+         "t": [
+          "Multiple alleles: a trait controlled by more than two alleles, like the ABO blood groups",
+          "Three alleles, A, B and O: six genotypes, four blood groups",
+          "A and B are codominant; both are dominant over O",
+          "AO × BO gives A, B, AB and O, 25% each",
+          "X-linked: the gene is on the X, and the Y has no matching allele",
+          "So one copy shows in a male; a female needs two",
+          "Only females can be carriers",
+          "Carrier mum × normal dad: 50% of sons affected, no daughters",
+          "Affected dad × normal mum: no affected sons; every daughter a carrier"
+         ]
+        }
+       ]
+      }
+     ],
+     "marks": null,
+     "ver": "fc32a6518a"
+    },
+    {
+     "n": 13,
+     "title": "DNA, chromosomes and mutations",
+     "file": "audio/t3/13.mp3",
+     "dur": 204.8,
+     "bytes": 1694873,
+     "rapid": false,
+     "scen": "",
+     "show": [
+      {
+       "ask": "Understand the structure and function of DNA and RNA (review from BN1), and define some ways genetic abnormalities occur, including mutation, genetic disease and aneuploidy.",
+       "marks": null,
+       "hook": "",
+       "groups": [
+        {
+         "h": "",
+         "t": [
+          "DNA: deoxyribonucleic acid, a double helix; A pairs with T, G with C",
+          "DNA stores the genetic code and passes traits on: the molecule of heredity",
+          "RNA: one strand, ribose, uracil for thymine; carries the code out to make proteins",
+          "Chromosome: coiled DNA with many genes; gene: a segment coding for a trait or protein",
+          "Gamete 23 chromosomes; zygote 46, half from each parent",
+          "Crossing over (a chiasma) can separate linked genes in meiosis",
+          "Mutation: a permanent change in a gene's DNA code",
+          "Genetic disease: from a faulty gene, e.g. Huntington's (dominant), cystic fibrosis, Tay-Sachs (recessive)",
+          "Aneuploidy: an abnormal number of chromosomes (Down, Turner)"
+         ]
+        }
+       ]
+      }
+     ],
+     "marks": null,
+     "ver": "463cd0294e"
+    },
+    {
+     "n": 14,
      "title": "Karyotypes and aneuploidy",
-     "file": "audio/t3/11.mp3",
+     "file": "audio/t3/14.mp3",
      "dur": 138.9,
      "bytes": 1167823,
      "rapid": false,
@@ -507,12 +616,12 @@
       }
      ],
      "marks": 4,
-     "ver": "96c122e3db"
+     "ver": "d9b91259f0"
     },
     {
-     "n": 12,
+     "n": 15,
      "title": "Detecting and treating genetic disease",
-     "file": "audio/t3/12.mp3",
+     "file": "audio/t3/15.mp3",
      "dur": 147.2,
      "bytes": 1233897,
      "rapid": false,
@@ -550,12 +659,12 @@
       }
      ],
      "marks": 4,
-     "ver": "68bd5f84df"
+     "ver": "186f4fb4c0"
     },
     {
-     "n": 13,
+     "n": 16,
      "title": "The three regions of the ear",
-     "file": "audio/t3/13.mp3",
+     "file": "audio/t3/16.mp3",
      "dur": 154.2,
      "bytes": 1289941,
      "rapid": false,
@@ -594,12 +703,12 @@
       }
      ],
      "marks": 4.5,
-     "ver": "371cb103c9"
+     "ver": "26eb52f6c7"
     },
     {
-     "n": 14,
+     "n": 17,
      "title": "How hearing happens",
-     "file": "audio/t3/14.mp3",
+     "file": "audio/t3/17.mp3",
      "dur": 132.6,
      "bytes": 1117123,
      "rapid": false,
@@ -642,12 +751,12 @@
       }
      ],
      "marks": 4,
-     "ver": "0620f5ef8c"
+     "ver": "7ac4100b3f"
     },
     {
-     "n": 15,
+     "n": 18,
      "title": "Static and dynamic equilibrium",
-     "file": "audio/t3/15.mp3",
+     "file": "audio/t3/18.mp3",
      "dur": 152.2,
      "bytes": 1274585,
      "rapid": false,
@@ -685,12 +794,12 @@
       }
      ],
      "marks": 4,
-     "ver": "0e85413a40"
+     "ver": "e4e9cd3496"
     },
     {
-     "n": 16,
+     "n": 19,
      "title": "The three layers of the eye",
-     "file": "audio/t3/16.mp3",
+     "file": "audio/t3/19.mp3",
      "dur": 137.0,
      "bytes": 1152851,
      "rapid": false,
@@ -729,12 +838,58 @@
       }
      ],
      "marks": 4.5,
-     "ver": "0cfb44ed7b"
+     "ver": "b20f97642c"
     },
     {
-     "n": 17,
+     "n": 20,
+     "title": "The retina: rods, cones and colour blindness",
+     "file": "audio/t3/20.mp3",
+     "dur": 183.4,
+     "bytes": 1523637,
+     "rapid": false,
+     "scen": "",
+     "show": [
+      {
+       "ask": "What receptors are impacted by colour blindness?",
+       "marks": null,
+       "hook": "",
+       "groups": [
+        {
+         "h": "",
+         "t": [
+          "Photoreceptors, specifically the CONES of the eye",
+          "The cones are found mostly in the macula lutea and the fovea centralis"
+         ]
+        }
+       ]
+      },
+      {
+       "ask": "What are the receptors for light, where exactly are they found, and how do rods and cones differ?",
+       "marks": null,
+       "hook": "",
+       "groups": [
+        {
+         "h": "",
+         "t": [
+          "Photoreceptors: rods and cones, in the retina",
+          "Cones: macula lutea, packed in the fovea centralis; bright light, colour, sharp images (photopic)",
+          "Rods: none in the fovea, more towards the edges; dim light, black and white (scotopic)",
+          "Up to 100 rods share one ganglion cell: sensitive, but less sharp",
+          "Pigments differ by their opsin protein; light hyperpolarises the photoreceptor",
+          "The optic disc has no photoreceptors: the blind spot",
+          "Afterimage: the retina's signal persists after the light has gone"
+         ]
+        }
+       ]
+      }
+     ],
+     "marks": null,
+     "ver": "61fd4bf9fa"
+    },
+    {
+     "n": 21,
      "title": "Near vision: the three changes",
-     "file": "audio/t3/17.mp3",
+     "file": "audio/t3/21.mp3",
      "dur": 120.2,
      "bytes": 1018649,
      "rapid": false,
@@ -765,12 +920,12 @@
       }
      ],
      "marks": 3,
-     "ver": "6b4eb2a2cd"
+     "ver": "e18a8de5db"
     },
     {
-     "n": 18,
+     "n": 22,
      "title": "Myopia, hyperopia and astigmatism",
-     "file": "audio/t3/18.mp3",
+     "file": "audio/t3/22.mp3",
      "dur": 143.9,
      "bytes": 1207967,
      "rapid": false,
@@ -815,14 +970,14 @@
       }
      ],
      "marks": 5,
-     "ver": "0ed08fd323"
+     "ver": "3b7a93c81b"
     },
     {
-     "n": 19,
+     "n": 23,
      "title": "Waves: light and sound",
-     "file": "audio/t3/19.mp3",
-     "dur": 148.3,
-     "bytes": 1243081,
+     "file": "audio/t3/23.mp3",
+     "dur": 180.4,
+     "bytes": 1499593,
      "rapid": false,
      "scen": "",
      "show": [
@@ -859,12 +1014,12 @@
       }
      ],
      "marks": 4,
-     "ver": "1ae625d12f"
+     "ver": "99831d92e9"
     },
     {
-     "n": 20,
+     "n": 24,
      "title": "Taste: the taste buds",
-     "file": "audio/t3/20.mp3",
+     "file": "audio/t3/24.mp3",
      "dur": 155.1,
      "bytes": 1297607,
      "rapid": false,
@@ -898,12 +1053,12 @@
       }
      ],
      "marks": 5,
-     "ver": "eebd780453"
+     "ver": "1b9fa07bac"
     },
     {
-     "n": 21,
+     "n": 25,
      "title": "Smell: the olfactory epithelium",
-     "file": "audio/t3/21.mp3",
+     "file": "audio/t3/25.mp3",
      "dur": 145.3,
      "bytes": 1219483,
      "rapid": false,
@@ -938,12 +1093,95 @@
       }
      ],
      "marks": 5,
-     "ver": "8ecc089ca1"
+     "ver": "3dc0bea491"
     },
     {
-     "n": 22,
+     "n": 26,
+     "title": "The male reproductive system: every structure and its job",
+     "file": "audio/t3/26.mp3",
+     "dur": 277.1,
+     "bytes": 2273423,
+     "rapid": false,
+     "scen": "",
+     "show": [
+      {
+       "ask": "Make sure you can label all the structures of the male reproductive system and state their functions.",
+       "marks": 10,
+       "hook": "",
+       "groups": [
+        {
+         "h": "",
+         "t": [
+          "Function: produce sperm and testosterone; deliver sperm into the female tract",
+          "Scrotum: keeps the testes 3 °C cooler; dartos (smooth) wrinkles it, cremaster (skeletal) lifts the testes",
+          "Testes: seminiferous tubules make sperm; Leydig cells make testosterone; Sertoli cells nourish sperm",
+          "Epididymis: stores the sperm, where they mature and become motile",
+          "Vas deferens: carries sperm to the ampulla; cut in a vasectomy",
+          "Seminal vesicles: 60% of semen, alkaline, fructose and prostaglandins; form the ejaculatory duct with the vas",
+          "Prostate: under the bladder, round the urethra; about a third of semen, citric acid, PSA",
+          "Bulbourethral glands: clear mucus that neutralises acidic urine before ejaculation",
+          "Urethra: prostatic, membranous, spongy; carries urine and semen",
+          "Penis: delivers sperm; corpora cavernosa and corpus spongiosum (erectile), glans, prepuce"
+         ]
+        }
+       ]
+      }
+     ],
+     "marks": 10,
+     "ver": "5088db7dc6"
+    },
+    {
+     "n": 27,
+     "title": "Semen, sperm count, erection and ejaculation",
+     "file": "audio/t3/27.mp3",
+     "dur": 211.8,
+     "bytes": 1750773,
+     "rapid": false,
+     "scen": "",
+     "show": [
+      {
+       "ask": "Describe the composition of semen and normal sperm count in relation to sterility. (Reproductive 6)",
+       "marks": null,
+       "hook": "",
+       "groups": [
+        {
+         "h": "",
+         "t": [
+          "Semen: 60% seminal vesicles, 30% prostate, 10% sperm and the rest",
+          "2 to 5 mL per ejaculation, 50 to 130 million sperm per mL",
+          "Her key: as many as 750 million sperm in one ejaculation",
+          "Sterility: a count below about 20 to 25 million per mL",
+          "Carries, feeds (fructose, citrate), protects and activates the sperm; alkaline",
+          "Prostaglandins thin cervical mucus and set off reverse peristalsis in the uterus"
+         ]
+        }
+       ]
+      },
+      {
+       "ask": "Describe the physiology of the male sexual response and relate it to erectile dysfunction. (Reproductive 5)",
+       "marks": null,
+       "hook": "",
+       "groups": [
+        {
+         "h": "",
+         "t": [
+          "Erection, parasympathetic: nitric oxide → arterioles dilate → corpora cavernosa fill → veins squashed",
+          "Corpus spongiosum keeps the urethra open",
+          "Ejaculation, sympathetic: ducts and glands contract, bladder sphincter closes, bulbospongiosus pumps semen out",
+          "Erectile dysfunction: unable to attain an erection",
+          "Viagra blocks PDE5, which breaks down cGMP"
+         ]
+        }
+       ]
+      }
+     ],
+     "marks": null,
+     "ver": "851f6e0cea"
+    },
+    {
+     "n": 28,
      "title": "Making sperm and eggs",
-     "file": "audio/t3/22.mp3",
+     "file": "audio/t3/28.mp3",
      "dur": 148.1,
      "bytes": 1241735,
      "rapid": false,
@@ -981,14 +1219,47 @@
       }
      ],
      "marks": 4,
-     "ver": "7ad09a006d"
+     "ver": "45c55044d2"
     },
     {
-     "n": 23,
+     "n": 29,
+     "title": "The female reproductive system: every structure and its job",
+     "file": "audio/t3/29.mp3",
+     "dur": 271.4,
+     "bytes": 2227539,
+     "rapid": false,
+     "scen": "",
+     "show": [
+      {
+       "ask": "Make sure you can label all the structures of the female reproductive system and state their functions.",
+       "marks": 10,
+       "hook": "",
+       "groups": [
+        {
+         "h": "",
+         "t": [
+          "Function: produce ova and the sex hormones; support fertilisation, pregnancy and birth",
+          "Ovaries: follicles hold the oocytes, in the cortex; secrete oestrogen and progesterone",
+          "Fallopian tubes: fimbriae draw the oocyte in; site of fertilisation; cilia and peristalsis carry it to the uterus",
+          "Uterus: fundus, body, isthmus, cervix; receives the embryo and nourishes it until the placenta forms",
+          "Wall: perimetrium, myometrium (smooth muscle), endometrium (functionalis shed, basalis regrows)",
+          "Cervix: the neck; its mucus blocks bacteria",
+          "Vagina: cervix to outside; birth canal, menstrual flow, copulation; acidic",
+          "Vulva: mons pubis, labia majora and minora, clitoris (erectile; matches the glans penis)"
+         ]
+        }
+       ]
+      }
+     ],
+     "marks": 10,
+     "ver": "2f0cba1317"
+    },
+    {
+     "n": 30,
      "title": "The ovarian and uterine cycles",
-     "file": "audio/t3/23.mp3",
-     "dur": 189.4,
-     "bytes": 1571993,
+     "file": "audio/t3/30.mp3",
+     "dur": 189.5,
+     "bytes": 1572185,
      "rapid": false,
      "scen": "",
      "show": [
@@ -1022,12 +1293,12 @@
       }
      ],
      "marks": 6,
-     "ver": "60fcd92dd2"
+     "ver": "f988e86f44"
     },
     {
-     "n": 24,
+     "n": 31,
      "title": "Male versus female: the comparison table",
-     "file": "audio/t3/24.mp3",
+     "file": "audio/t3/31.mp3",
      "dur": 154.8,
      "bytes": 1295149,
      "rapid": false,
@@ -1084,14 +1355,14 @@
       }
      ],
      "marks": 6,
-     "ver": "96680d62f3"
+     "ver": "7d107a8f7f"
     },
     {
-     "n": 25,
+     "n": 32,
      "title": "Hormonal control of sperm, and testosterone",
-     "file": "audio/t3/25.mp3",
-     "dur": 159.6,
-     "bytes": 1333363,
+     "file": "audio/t3/32.mp3",
+     "dur": 191.5,
+     "bytes": 1588723,
      "rapid": false,
      "scen": "",
      "show": [
@@ -1131,17 +1402,32 @@
          ]
         }
        ]
+      },
+      {
+       "ask": "What are the functions of the sex hormone testosterone in males and females respectively? (her student-marked quiz, Q21)",
+       "marks": null,
+       "hook": "",
+       "groups": [
+        {
+         "h": "",
+         "t": [
+          "Females too: the adrenal glands make testosterone",
+          "Males: libido, bone mass, fat distribution, muscle mass and strength, red blood cells and sperm",
+          "It is the basis of libido in both males and females"
+         ]
+        }
+       ]
       }
      ],
      "marks": 5,
-     "ver": "67ed1db53b"
+     "ver": "016b0a7497"
     },
     {
-     "n": 26,
+     "n": 33,
      "title": "Oestrogen, progesterone and the pill",
-     "file": "audio/t3/26.mp3",
+     "file": "audio/t3/33.mp3",
      "dur": 141.7,
-     "bytes": 1190309,
+     "bytes": 1190117,
      "rapid": false,
      "scen": "",
      "show": [
@@ -1179,19 +1465,65 @@
       }
      ],
      "marks": 5,
-     "ver": "dab4409e1c"
+     "ver": "94452278d8"
     },
     {
-     "n": 27,
-     "title": "Rapid-fire: all 25 answers, back to back",
-     "file": "audio/t3/27.mp3",
-     "dur": 837.6,
-     "bytes": 6757165,
+     "n": 34,
+     "title": "The female sexual response, and four words",
+     "file": "audio/t3/34.mp3",
+     "dur": 117.1,
+     "bytes": 993329,
+     "rapid": false,
+     "scen": "",
+     "show": [
+      {
+       "ask": "Describe the female sexual response: erection and orgasm, according to the effects of parasympathetic and sympathetic nerve impulses. (Reproductive 13, self-directed)",
+       "marks": null,
+       "hook": "",
+       "groups": [
+        {
+         "h": "",
+         "t": [
+          "Similar to the male's",
+          "The clitoris and vaginal mucosa engorge with blood",
+          "The vestibular glands lubricate the vestibule",
+          "The nipples harden (sympathetic, her slide)",
+          "Orgasm: muscle tension, faster pulse, higher blood pressure, rhythmic uterine contractions"
+         ]
+        }
+       ]
+      },
+      {
+       "ask": "Explain the terms menarche, menopause, amenorrhoea and dysmenorrhoea. (Reproductive 14)",
+       "marks": null,
+       "hook": "",
+       "groups": [
+        {
+         "h": "",
+         "t": [
+          "Menarche: the first menstrual period, as the reproductive hormones start surging",
+          "Menopause: the reproductive hormones decline, and the cycles become erratic, then stop",
+          "Amenorrhoea: no menstrual periods",
+          "Dysmenorrhoea: painful periods"
+         ]
+        }
+       ]
+      }
+     ],
+     "marks": null,
+     "ver": "a856cf9a23"
+    },
+    {
+     "n": 35,
+     "title": "Rapid-fire: every answer, back to back",
+     "file": "audio/t3/35.mp3",
+     "dur": 1187.5,
+     "bytes": 9556905,
      "rapid": true,
      "scen": "",
      "show": [],
      "marks": null,
-     "ver": "5f09cda337"
+     "ver": "5f369ccf64"
     }
    ]
   },
@@ -1208,8 +1540,8 @@
    "feed": "feed-final.xml",
    "full": {
     "file": "audio/HS2-Final-Every-Case-SAQ.mp3",
-    "bytes": 40984037,
-    "ver": "7e397262cf"
+    "bytes": 40984229,
+    "ver": "93ab136fe1"
    },
    "chapters": [
     {
@@ -2641,8 +2973,8 @@
      "n": 17,
      "title": "Case 13, part 2: contraception, and the three she hasn't answered",
      "file": "audio/final/17.mp3",
-     "dur": 328.3,
-     "bytes": 2683141,
+     "dur": 328.4,
+     "bytes": 2683333,
      "rapid": false,
      "scen": "Exam case 13 · Fertility — Rose and Simon are seeing the nurse at their local GP’s clinic, as they have recently made the decision to begin trying to conceive. Rose has been on the Depo Provera injection as a method of contraception for the past 2 years. As her nurse, you advise that it could take a little while for her normal cycle to settle after coming off this hormonal contraceptive. Rose takes your recommendation about tracking her cycle after learning that there are limited days in the month where she will be fertile and able to conceive. She has also taken your recommendation about purchasing an ovulation predictor kit and some pregnancy tests.",
      "show": [
@@ -2737,7 +3069,7 @@
       }
      ],
      "marks": 9,
-     "ver": "d6acb1387b"
+     "ver": "6a1d41bae5"
     },
     {
      "n": 18,
@@ -2859,7 +3191,7 @@
         {
          "h": "",
          "t": [
-          "None"
+          "XbXB - she carried it over to Simon but her normal XB gave her normal vision"
          ]
         }
        ]
@@ -2872,7 +3204,7 @@
         {
          "h": "",
          "t": [
-          "None"
+          "To none of his sons, but to all his daughters who will be unaffected carriers"
          ]
         }
        ]

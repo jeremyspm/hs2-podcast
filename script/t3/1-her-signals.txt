@@ -7,11 +7,13 @@
 
 Q: Health Science 2. Test 3. Every short-answer question.
 
-Hey. This is the Test 3 episode of the SAQ podcast for Health Science 2. It has one job: every written question Test 3 can plausibly ask you, answered the way she marks them. Twenty-five questions, one track each.
+Hey. This is the Test 3 episode of the SAQ podcast for Health Science 2. It has one job: every written question Test 3 can ask you, answered the way she marks them. One topic per track.
 
-Where the questions come from. She hasn't posted a list of possible SAQs for Module 3, so these are built from her own signals. The two case studies she names for Test 3: Case 11, Pania's milk coming in, and Case L, Jack's hearing loss. Pedigree charts, because in her own words, printed on six of her quiz questions, pedigree charts will be tested in Test 3. The topics on her help board: glaucoma and cataracts, conduction versus sensorineural deafness, and Huntington's. Every question on her student-marked SAQ quiz. And her two learning outcomes for taste and smell. The answers are hers wherever she has posted one: her model answers, her decks, her quiz keys. Where her feedback and her own slides disagree, you'll hear which one to write.
+Where the questions come from. She doesn't post a list of test questions. In her own words, there is no such list. The closest thing, she says, is the module's learning checklist, because it limits what she may ask. So every point on her Module 3 checklist has a track here. It starts with her own signals. The two case studies she names for Test 3: Case 11, Pania's milk coming in, and Case L, Jack's hearing loss. Pedigree charts, because in her own words, printed on six of her quiz questions, pedigree charts will be tested in Test 3. And the topics on her help board: glaucoma and cataracts, conduction versus sensorineural deafness, and Huntington's. After that comes every question on her student-marked SAQ quiz, and the rest of her checklist. The answers are hers wherever she has posted one: her model answers, her decks, her quiz keys. Where her feedback and her own slides disagree, you'll hear which one to write, and where an answer isn't hers, you'll hear that too.
 
 Quick facts. Test 3 is thirty-seven questions in sixty-five minutes, and about thirty per cent of the marks are written. That's roughly fifteen marks you write yourself. It closes on Monday the twenty-sixth of October. Check your own booked time on Canvas.
+
+Her question verbs for this test, from her Assessment Overview: explain, analyse, apply, and demonstrate.
 
 How she marks a written answer: about half a mark for each correct fact. So a four-mark question wants about eight short facts. Not a paragraph. A list, one fact per line, with the mark word in each line. Every answer in this episode comes to you in that shape.
 
@@ -22,6 +24,7 @@ How to use it. The first time through, just let it play. Don't take notes. The s
 The order: the two cases first, then pedigrees, Huntington's, and glaucoma, because those are her own signals. Then the rest of genetics, the senses, and reproduction. Let's go.
 
 # Case L: Jack's noise-induced hearing loss
+@ crit: SS7
 @ saq: nihl-case
 @ say: Case L, Jack's hearing loss
 
@@ -54,6 +57,7 @@ Q: Once more. Jack's hearing loss. What's damaged, how, why he's deaf, and what 
 {recap} The hair cells of the organ of Corti, on the basilar membrane, in the cochlea of the inner ear. Loud, high-amplitude sound bends the hairs against the tectorial membrane until they break off: eighty-five decibels over time, a hundred and thirty at once. No impulses go down nerve eight to the brain, and hair cells don't grow back, so it's permanent. That's sensorineural deafness. The other kind, conduction, is a blockage in the outer or middle ear, like earwax or glue ear, and it's often reversible.
 
 # Case L, question 5: otosclerosis
+@ crit: SS7
 @ saq: nihl-otosclerosis
 @ say: Case L, otosclerosis
 
@@ -154,6 +158,7 @@ Q: Once more. The five rows.
 {recap} Ducts and glands grow: oestrogen and progesterone. Blood flow to the breasts: oestrogen. Lobules and alveoli: progesterone. Milk production: prolactin. Milk ejection, the myoepithelial cells contracting: oxytocin. Pipes, factories, fill, taps.
 
 # Pedigree charts: she says they will be tested
+@ crit: G6
 @ saq: pedigree
 @ say: Pedigree charts
 
@@ -190,6 +195,7 @@ Q: Once more. How do you read a pedigree, assign the genotypes, and get the chan
 {recap} Squares are males, circles are females, shaded is affected. In every generation, never skipping: dominant. Skips a generation: recessive. Males and females about equal: autosomal, and father to son rules out X-linked. Label the homozygous recessives first, then work out everyone else from their parents and children: the affected father is big B little b, and the mother is little b little b. The Punnett square gives two big B little b to two little b little b: a fifty per cent chance for each child.
 
 # Huntington's disease
+@ crit: G2
 @ saq: huntingtons
 @ say: Huntington's disease
 
@@ -224,6 +230,7 @@ Q: Once more. Huntington's: the cause, the damage, the inheritance, and the chan
 {recap} A mutated gene on chromosome four, an autosome: C A G repeated thirty-six to a hundred and twenty times, instead of ten to thirty-five. It makes an abnormal, toxic huntingtin protein that builds up in the brain and damages movement, thinking and memory. It's autosomal dominant: one copy is enough, there are no healthy carriers, and it shows in every generation. Big H little h, crossed with little h little h, gives a fifty per cent chance for each child.
 
 # Glaucoma and cataracts
+@ crit: SS4
 @ saq: glaucoma-cataract
 @ say: Glaucoma and cataracts
 
