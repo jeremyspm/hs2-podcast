@@ -40,6 +40,12 @@ Paths: model `D:/hs2-audio/model`, paragraph cache `D:/hs2-audio/podcast/cache` 
 pronunciation fix re-voices only the paragraphs that contain the word), ffmpeg from GameSentenceMiner. The on-screen text
 needs `../hs2-test3` and `../hs2-final` checked out next to this repo.
 
+**Long paragraphs** (20 Oct, "stutters at the end, less than a syllable"): Kokoro takes at most 510 phonemes, and past that
+kokoro_onnx used to cut for us, at any comma. A paragraph of 509 or 510 phonemes left its last full stop as a piece of its own,
+voiced as a loud 0.14 s blip after the last word (Test 3 tracks 2, 23, 27, 41), and its other cuts fell mid-sentence with no
+pause. Now `batches()` cuts anything over 400 phonemes itself: whole sentences only, as evenly as they allow (no piece under
+100 phonemes), joined by a 0.35 s sentence break. Long inputs also came out rushed: the same paragraph is 3.6 s longer in pieces.
+
 ## Gates (the render stops on any)
 
 - **Checklist** (Test 3): every point of her Module 3 Learning Checklist (G1–9, SS1–13, R1–14) is named by some track's

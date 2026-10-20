@@ -48,6 +48,8 @@ VOICES = {'main': 'af_heart',                 # the voice of every HS2 audio cou
           'q': 'am_puck'}                     # the examiner (picked by ear from 14 samples, 16 Oct): a second voice marks each question
 GAP = 0.45                                    # after every spoken paragraph
 LEAD, TAIL = 0.4, 1.4
+BATCH = 400                                   # phonemes per Kokoro call, cut at full stops (see batches())
+SEAM = 0.35                                   # between two calls in one paragraph: about Kokoro's own sentence break
 BITRATE = '64k'                               # mono speech at 24 kHz: about 29 MB an hour
 os.makedirs(CACHE, exist_ok=True)
 
@@ -329,8 +331,46 @@ def phonemes(text):
     return s
 
 
+def batches(ph):
+    """A paragraph's phonemes in pieces Kokoro voices whole: complete sentences, packed evenly up to BATCH; a sentence longer
+    than that alone is cut at its last ; : or , that fits. 20 Oct ("stutters at the end, less than a syllable"): past 510
+    phonemes kokoro_onnx split for us, at any comma, and a paragraph of 509 or 510 left its final full stop as a batch on its
+    own, voiced as a loud 0.14 s blip after the last word (Test 3 tracks 2, 23, 27, 41); its other cuts were mid-sentence,
+    joined with no pause, and sometimes left a few words to be voiced alone."""
+    if len(ph) <= BATCH:
+        return [ph]
+    units = []
+    for s in re.split(r'(?<=[.!?])\s+', ph):
+        while len(s) > BATCH:
+            cut = max((m.end() for m in re.finditer(r'[,;:]\s', s[:BATCH + 1])), default=0) or s.rfind(' ', 0, BATCH) + 1 or BATCH
+            units.append(s[:cut].strip()); s = s[cut:]
+        units.append(s.strip())
+    # as few pieces as fit, then the cut that makes the longest piece shortest (so a closing "True." never goes alone)
+    size = lambda i, j: sum(len(u) for u in units[i:j]) + j - i - 1
+    for k in range(-(-len(ph) // BATCH), len(units) + 1):
+        best = {0: (0, [])}                       # units used → (longest piece so far, cut points)
+        for _ in range(k):
+            nxt = {}
+            for i, (worst, cuts) in best.items():
+                for j in range(i + 1, len(units) + 1):
+                    if size(i, j) > BATCH:
+                        break
+                    cand = (max(worst, size(i, j)), cuts + [j])
+                    if j not in nxt or cand[0] < nxt[j][0]:
+                        nxt[j] = cand
+            best = nxt
+        if len(units) in best:
+            cuts = [0] + best[len(units)][1]
+            break
+    out = [' '.join(units[a:b]) for a, b in zip(cuts, cuts[1:])]
+    if any(not re.search(r'[^\s.,!?;:]', b) for b in out):
+        raise SystemExit(f"batches: a piece with nothing to say in: {ph[:80]}…")
+    return out
+
+
 def key(ph, who):
-    return hashlib.sha1(f"{VOICES[who]}|{SPEED}|{ph}".encode('utf-8')).hexdigest()[:16]
+    cut = '' if len(ph) <= BATCH else f"|split{BATCH}"   # a paragraph voiced in pieces since 20 Oct is a new recording
+    return hashlib.sha1(f"{VOICES[who]}|{SPEED}|{ph}{cut}".encode('utf-8')).hexdigest()[:16]
 
 
 def cached(text, who):
@@ -342,13 +382,10 @@ def say(text, who):
     path = os.path.join(CACHE, key(ph, who) + '.wav')
     if os.path.exists(path):
         return sf.read(path, dtype='float32')[0]
-    try:
-        samples, _ = kokoro().create(ph, voice=VOICES[who], speed=SPEED, is_phonemes=True)
-    except Exception as e:
-        print(f"      paragraph failed ({e}); retrying sentence by sentence", flush=True)
-        samples = np.concatenate([kokoro().create(phonemes(s), voice=VOICES[who], speed=SPEED, is_phonemes=True)[0]
-                                  for s in re.split(r'(?<=[.!?])\s+', text) if s.strip()] or [silence(0.1)])
-    samples = samples.astype(np.float32)
+    parts = []
+    for b in batches(ph):
+        parts += [kokoro().create(b, voice=VOICES[who], speed=SPEED, is_phonemes=True)[0], silence(SEAM)]
+    samples = np.concatenate(parts[:-1]).astype(np.float32)
     sf.write(path + '.part.wav', samples, SR, subtype='PCM_16')
     os.replace(path + '.part.wav', path)
     return samples

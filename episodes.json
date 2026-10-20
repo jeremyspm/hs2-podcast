@@ -9,35 +9,35 @@
    "blurb": "Every short-answer question Test 3 can ask. She posts no question list (her words: \"there is no such list\"); her Module 3 learning checklist limits what she may ask, so every point on it has a track: her two named cases, the pedigree charts she says will be tested, her help-board topics, every question on her student-marked SAQ quiz, and the rest of the checklist. Each section ends with its fine print, and one more track before Rapid-fire holds the rest of the closed questions: every one-line fact her quiz keys ask that no written answer covers.",
    "when": "Test 3 closes Mon 26 Oct · 37 questions · 65 min · about 30% of the marks written",
    "zip": "HS2-Test3-Every-SAQ",
-   "dur": 10109,
+   "dur": 10546,
    "cover": "audio/cover-t3.png",
    "feed": "feed-t3.xml",
    "full": {
     "file": "audio/HS2-Test3-Every-SAQ.mp3",
-    "bytes": 80954947,
-    "ver": "875a5a76b6"
+    "bytes": 84444931,
+    "ver": "bfc12eb0f4"
    },
    "chapters": [
     {
      "n": 1,
      "title": "Start here: Test 3, and how this episode works",
      "file": "audio/t3/01.mp3",
-     "dur": 179.6,
-     "bytes": 1493304,
+     "dur": 185.4,
+     "bytes": 1539960,
      "rapid": false,
      "scen": "",
      "show": [],
      "marks": null,
-     "ver": "c9fb4486f0",
+     "ver": "dc62f469fa",
      "vtt": "audio/t3/01.vtt",
-     "vver": "33da06c172"
+     "vver": "f50a38b0ed"
     },
     {
      "n": 2,
      "title": "Case L: Jack's noise-induced hearing loss",
      "file": "audio/t3/02.mp3",
-     "dur": 208.7,
-     "bytes": 1726574,
+     "dur": 223.0,
+     "bytes": 1840622,
      "rapid": false,
      "scen": "",
      "show": [
@@ -82,16 +82,16 @@
       }
      ],
      "marks": 6,
-     "ver": "a0b316d333",
+     "ver": "1569edeb0f",
      "vtt": "audio/t3/02.vtt",
-     "vver": "6e469e0229"
+     "vver": "d2d6f15e4c"
     },
     {
      "n": 3,
      "title": "Case L, question 5: otosclerosis",
      "file": "audio/t3/03.mp3",
-     "dur": 177.1,
-     "bytes": 1473308,
+     "dur": 181.7,
+     "bytes": 1510172,
      "rapid": false,
      "scen": "",
      "show": [
@@ -127,16 +127,16 @@
       }
      ],
      "marks": 4,
-     "ver": "e77f1a95fd",
+     "ver": "bb37e9c1d0",
      "vtt": "audio/t3/03.vtt",
-     "vver": "c63c2163f9"
+     "vver": "f17bdc46c6"
     },
     {
      "n": 4,
      "title": "Case 11: Pania's milk coming in",
      "file": "audio/t3/04.mp3",
-     "dur": 192.8,
-     "bytes": 1598682,
+     "dur": 201.8,
+     "bytes": 1671258,
      "rapid": false,
      "scen": "",
      "show": [
@@ -191,16 +191,16 @@
       }
      ],
      "marks": 6,
-     "ver": "15ae33e1ed",
+     "ver": "44c02152ae",
      "vtt": "audio/t3/04.vtt",
-     "vver": "8711ca9cf5"
+     "vver": "06db6c954f"
     },
     {
      "n": 5,
      "title": "Case 11, question 5: the hormone tick table",
      "file": "audio/t3/05.mp3",
-     "dur": 138.1,
-     "bytes": 1161138,
+     "dur": 145.9,
+     "bytes": 1223922,
      "rapid": false,
      "scen": "",
      "show": [
@@ -228,16 +228,16 @@
       }
      ],
      "marks": 5,
-     "ver": "999c7c12d6",
+     "ver": "50bd2f3354",
      "vtt": "audio/t3/05.vtt",
-     "vver": "92e5b69072"
+     "vver": "d6bdd490ba"
     },
     {
      "n": 6,
      "title": "Pedigree charts: she says they will be tested",
      "file": "audio/t3/06.mp3",
-     "dur": 215.1,
-     "bytes": 1777270,
+     "dur": 218.3,
+     "bytes": 1802806,
      "rapid": false,
      "scen": "",
      "show": [
@@ -285,16 +285,16 @@
       }
      ],
      "marks": 5,
-     "ver": "a32a1f493c",
+     "ver": "b5e471b0a3",
      "vtt": "audio/t3/06.vtt",
-     "vver": "8d63c11de9"
+     "vver": "8832c603fd"
     },
     {
      "n": 7,
      "title": "Huntington's disease",
      "file": "audio/t3/07.mp3",
-     "dur": 173.5,
-     "bytes": 1444676,
+     "dur": 176.5,
+     "bytes": 1468292,
      "rapid": false,
      "scen": "",
      "show": [
@@ -337,16 +337,16 @@
       }
      ],
      "marks": 5,
-     "ver": "89a47198d6",
+     "ver": "a02d6fbfba",
      "vtt": "audio/t3/07.vtt",
-     "vver": "5ee7996637"
+     "vver": "4d0a27ca45"
     },
     {
      "n": 8,
      "title": "Glaucoma and cataracts",
      "file": "audio/t3/08.mp3",
-     "dur": 130.3,
-     "bytes": 1098696,
+     "dur": 135.6,
+     "bytes": 1141128,
      "rapid": false,
      "scen": "",
      "show": [
@@ -377,16 +377,16 @@
       }
      ],
      "marks": 4,
-     "ver": "9bc37967de",
+     "ver": "bbd4036a28",
      "vtt": "audio/t3/08.vtt",
-     "vver": "ec756c5016"
+     "vver": "e028f78023"
     },
     {
      "n": 9,
      "title": "The words of genetics",
      "file": "audio/t3/09.mp3",
-     "dur": 241.4,
-     "bytes": 1988230,
+     "dur": 248.1,
+     "bytes": 2041030,
      "rapid": false,
      "scen": "",
      "show": [
@@ -420,16 +420,16 @@
       }
      ],
      "marks": null,
-     "ver": "d2f8182f2a",
+     "ver": "c963233c7a",
      "vtt": "audio/t3/09.vtt",
-     "vver": "e32b9d329f"
+     "vver": "5ae2e3ccad"
     },
     {
      "n": 10,
      "title": "Using a Punnett square",
      "file": "audio/t3/10.mp3",
-     "dur": 176.8,
-     "bytes": 1470793,
+     "dur": 184.0,
+     "bytes": 1528777,
      "rapid": false,
      "scen": "",
      "show": [
@@ -470,16 +470,16 @@
       }
      ],
      "marks": 4,
-     "ver": "12d2ad4385",
+     "ver": "f00fb7c5b9",
      "vtt": "audio/t3/10.vtt",
-     "vver": "9363756c0b"
+     "vver": "b561d13a8b"
     },
     {
      "n": 11,
      "title": "Patterns of inheritance",
      "file": "audio/t3/11.mp3",
-     "dur": 165.4,
-     "bytes": 1380171,
+     "dur": 172.1,
+     "bytes": 1433547,
      "rapid": false,
      "scen": "",
      "show": [
@@ -520,16 +520,16 @@
       }
      ],
      "marks": 4,
-     "ver": "599ca68985",
+     "ver": "13f048fcf2",
      "vtt": "audio/t3/11.vtt",
-     "vver": "faca19888f"
+     "vver": "f8b88162e0"
     },
     {
      "n": 12,
      "title": "Multiple alleles, blood groups and X-linked genes",
      "file": "audio/t3/12.mp3",
-     "dur": 192.7,
-     "bytes": 1597951,
+     "dur": 208.6,
+     "bytes": 1725439,
      "rapid": false,
      "scen": "",
      "show": [
@@ -556,16 +556,16 @@
       }
      ],
      "marks": null,
-     "ver": "2b248bb592",
+     "ver": "29dc06dbd2",
      "vtt": "audio/t3/12.vtt",
-     "vver": "8968966add"
+     "vver": "fafa87aae2"
     },
     {
      "n": 13,
      "title": "DNA, chromosomes and mutations",
      "file": "audio/t3/13.mp3",
-     "dur": 204.8,
-     "bytes": 1694873,
+     "dur": 214.8,
+     "bytes": 1775129,
      "rapid": false,
      "scen": "",
      "show": [
@@ -592,16 +592,16 @@
       }
      ],
      "marks": null,
-     "ver": "1d2567c5f6",
+     "ver": "e3eb75087e",
      "vtt": "audio/t3/13.vtt",
-     "vver": "3627afa3a0"
+     "vver": "ada1542d19"
     },
     {
      "n": 14,
      "title": "Karyotypes and aneuploidy",
      "file": "audio/t3/14.mp3",
-     "dur": 138.9,
-     "bytes": 1167823,
+     "dur": 141.4,
+     "bytes": 1187791,
      "rapid": false,
      "scen": "",
      "show": [
@@ -642,16 +642,16 @@
       }
      ],
      "marks": 4,
-     "ver": "9c51267b17",
+     "ver": "ac6af39944",
      "vtt": "audio/t3/14.vtt",
-     "vver": "028ad657bd"
+     "vver": "a09f546104"
     },
     {
      "n": 15,
      "title": "Detecting and treating genetic disease",
      "file": "audio/t3/15.mp3",
-     "dur": 147.2,
-     "bytes": 1233897,
+     "dur": 149.0,
+     "bytes": 1249065,
      "rapid": false,
      "scen": "",
      "show": [
@@ -687,16 +687,16 @@
       }
      ],
      "marks": 4,
-     "ver": "1943076a3b",
+     "ver": "330c76184b",
      "vtt": "audio/t3/15.vtt",
-     "vver": "a119cf1a86"
+     "vver": "798ffb0cd4"
     },
     {
      "n": 16,
      "title": "Genetics: the fine print",
      "file": "audio/t3/16.mp3",
-     "dur": 443.4,
-     "bytes": 3604109,
+     "dur": 460.7,
+     "bytes": 3742349,
      "rapid": false,
      "scen": "",
      "show": [
@@ -762,16 +762,16 @@
       }
      ],
      "marks": null,
-     "ver": "e97ff8f8fa",
+     "ver": "2a18caa31b",
      "vtt": "audio/t3/16.vtt",
-     "vver": "642d057259"
+     "vver": "d386be098d"
     },
     {
      "n": 17,
      "title": "The three regions of the ear",
      "file": "audio/t3/17.mp3",
-     "dur": 154.2,
-     "bytes": 1289941,
+     "dur": 159.8,
+     "bytes": 1334677,
      "rapid": false,
      "scen": "",
      "show": [
@@ -808,16 +808,16 @@
       }
      ],
      "marks": 4.5,
-     "ver": "f7b1155247",
+     "ver": "387fa04715",
      "vtt": "audio/t3/17.vtt",
-     "vver": "e5790f0267"
+     "vver": "fad5a444c9"
     },
     {
      "n": 18,
      "title": "How hearing happens",
      "file": "audio/t3/18.mp3",
-     "dur": 132.6,
-     "bytes": 1117123,
+     "dur": 134.3,
+     "bytes": 1131139,
      "rapid": false,
      "scen": "",
      "show": [
@@ -858,16 +858,16 @@
       }
      ],
      "marks": 4,
-     "ver": "c2027fdd83",
+     "ver": "e5a3b66edf",
      "vtt": "audio/t3/18.vtt",
-     "vver": "ce3a510d74"
+     "vver": "3b5372411c"
     },
     {
      "n": 19,
      "title": "Static and dynamic equilibrium",
      "file": "audio/t3/19.mp3",
-     "dur": 152.2,
-     "bytes": 1274585,
+     "dur": 156.8,
+     "bytes": 1310681,
      "rapid": false,
      "scen": "",
      "show": [
@@ -903,16 +903,16 @@
       }
      ],
      "marks": 4,
-     "ver": "cfb03ef43f",
+     "ver": "3bcbd8b376",
      "vtt": "audio/t3/19.vtt",
-     "vver": "d3fbf59c2f"
+     "vver": "b7ddcd5fec"
     },
     {
      "n": 20,
      "title": "The three layers of the eye",
      "file": "audio/t3/20.mp3",
-     "dur": 137.0,
-     "bytes": 1152851,
+     "dur": 142.5,
+     "bytes": 1196435,
      "rapid": false,
      "scen": "",
      "show": [
@@ -949,16 +949,16 @@
       }
      ],
      "marks": 4.5,
-     "ver": "ed59c2d8c1",
+     "ver": "cd7376fd6a",
      "vtt": "audio/t3/20.vtt",
-     "vver": "05a0265535"
+     "vver": "ccef88e64e"
     },
     {
      "n": 21,
      "title": "The retina: rods, cones and colour blindness",
      "file": "audio/t3/21.mp3",
-     "dur": 183.4,
-     "bytes": 1523637,
+     "dur": 190.9,
+     "bytes": 1583733,
      "rapid": false,
      "scen": "",
      "show": [
@@ -997,16 +997,16 @@
       }
      ],
      "marks": null,
-     "ver": "582024ab00",
+     "ver": "671458c1f7",
      "vtt": "audio/t3/21.vtt",
-     "vver": "861fba59a7"
+     "vver": "d6b896e9be"
     },
     {
      "n": 22,
      "title": "Near vision: the three changes",
      "file": "audio/t3/22.mp3",
-     "dur": 120.2,
-     "bytes": 1018649,
+     "dur": 121.2,
+     "bytes": 1026521,
      "rapid": false,
      "scen": "",
      "show": [
@@ -1035,16 +1035,16 @@
       }
      ],
      "marks": 3,
-     "ver": "11cfabbdbd",
+     "ver": "e8e3e9dc85",
      "vtt": "audio/t3/22.vtt",
-     "vver": "c5bce115cf"
+     "vver": "403f49e614"
     },
     {
      "n": 23,
      "title": "Myopia, hyperopia and astigmatism",
      "file": "audio/t3/23.mp3",
-     "dur": 143.9,
-     "bytes": 1207967,
+     "dur": 147.4,
+     "bytes": 1235615,
      "rapid": false,
      "scen": "",
      "show": [
@@ -1087,16 +1087,16 @@
       }
      ],
      "marks": 5,
-     "ver": "b7fbf52ac3",
+     "ver": "0d40c869dc",
      "vtt": "audio/t3/23.vtt",
-     "vver": "727b316356"
+     "vver": "73977b9aa0"
     },
     {
      "n": 24,
      "title": "Waves: light and sound",
      "file": "audio/t3/24.mp3",
-     "dur": 180.4,
-     "bytes": 1499593,
+     "dur": 186.4,
+     "bytes": 1548169,
      "rapid": false,
      "scen": "",
      "show": [
@@ -1133,16 +1133,16 @@
       }
      ],
      "marks": 4,
-     "ver": "61ab25574c",
+     "ver": "99fcc0fa20",
      "vtt": "audio/t3/24.vtt",
-     "vver": "42daaa87c1"
+     "vver": "a51ad1760a"
     },
     {
      "n": 25,
      "title": "Taste: the taste buds",
      "file": "audio/t3/25.mp3",
-     "dur": 155.1,
-     "bytes": 1297607,
+     "dur": 160.5,
+     "bytes": 1340231,
      "rapid": false,
      "scen": "",
      "show": [
@@ -1174,16 +1174,16 @@
       }
      ],
      "marks": 5,
-     "ver": "0a3478e8ed",
+     "ver": "993858a2e8",
      "vtt": "audio/t3/25.vtt",
-     "vver": "dbd60c213b"
+     "vver": "d9e81702ed"
     },
     {
      "n": 26,
      "title": "Smell: the olfactory epithelium",
      "file": "audio/t3/26.mp3",
-     "dur": 145.3,
-     "bytes": 1219483,
+     "dur": 148.2,
+     "bytes": 1241947,
      "rapid": false,
      "scen": "",
      "show": [
@@ -1216,16 +1216,16 @@
       }
      ],
      "marks": 5,
-     "ver": "bd9d5bdf28",
+     "ver": "6e725467d4",
      "vtt": "audio/t3/26.vtt",
-     "vver": "fb9b24265d"
+     "vver": "1825d50335"
     },
     {
      "n": 27,
      "title": "The eye, part by part",
      "file": "audio/t3/27.mp3",
-     "dur": 371.0,
-     "bytes": 3024455,
+     "dur": 391.1,
+     "bytes": 3185735,
      "rapid": false,
      "scen": "",
      "show": [
@@ -1276,16 +1276,16 @@
       }
      ],
      "marks": null,
-     "ver": "054fb85561",
+     "ver": "ca78e6f526",
      "vtt": "audio/t3/27.vtt",
-     "vver": "abdbaa9e2b"
+     "vver": "e252291e74"
     },
     {
      "n": 28,
      "title": "The ear and sound: the fine print",
      "file": "audio/t3/28.mp3",
-     "dur": 413.8,
-     "bytes": 3366623,
+     "dur": 432.2,
+     "bytes": 3513887,
      "rapid": false,
      "scen": "",
      "show": [
@@ -1348,16 +1348,16 @@
       }
      ],
      "marks": null,
-     "ver": "591c70b4b8",
+     "ver": "724753992f",
      "vtt": "audio/t3/28.vtt",
-     "vver": "7c61d0f3ec"
+     "vver": "9948ad9246"
     },
     {
      "n": 29,
      "title": "The male reproductive system: every structure and its job",
      "file": "audio/t3/29.mp3",
-     "dur": 277.1,
-     "bytes": 2273423,
+     "dur": 280.4,
+     "bytes": 2299919,
      "rapid": false,
      "scen": "",
      "show": [
@@ -1385,16 +1385,16 @@
       }
      ],
      "marks": 10,
-     "ver": "c653ee0457",
+     "ver": "853f69a256",
      "vtt": "audio/t3/29.vtt",
-     "vver": "3e5ac22588"
+     "vver": "458e73deb8"
     },
     {
      "n": 30,
      "title": "Semen, sperm count, erection and ejaculation",
      "file": "audio/t3/30.mp3",
-     "dur": 211.8,
-     "bytes": 1750773,
+     "dur": 220.0,
+     "bytes": 1816629,
      "rapid": false,
      "scen": "",
      "show": [
@@ -1435,16 +1435,16 @@
       }
      ],
      "marks": null,
-     "ver": "80839401df",
+     "ver": "3bb219a8f0",
      "vtt": "audio/t3/30.vtt",
-     "vver": "3c2ce3da8b"
+     "vver": "dae10e3a8b"
     },
     {
      "n": 31,
      "title": "Making sperm and eggs",
      "file": "audio/t3/31.mp3",
-     "dur": 148.1,
-     "bytes": 1241735,
+     "dur": 155.5,
+     "bytes": 1300295,
      "rapid": false,
      "scen": "",
      "show": [
@@ -1480,16 +1480,16 @@
       }
      ],
      "marks": 4,
-     "ver": "7dab27b4ed",
+     "ver": "9255a1ff50",
      "vtt": "audio/t3/31.vtt",
-     "vver": "0e0bd10261"
+     "vver": "f2cdad143a"
     },
     {
      "n": 32,
      "title": "The female reproductive system: every structure and its job",
      "file": "audio/t3/32.mp3",
-     "dur": 271.4,
-     "bytes": 2227539,
+     "dur": 275.7,
+     "bytes": 2262675,
      "rapid": false,
      "scen": "",
      "show": [
@@ -1515,16 +1515,16 @@
       }
      ],
      "marks": 10,
-     "ver": "5e372ef3df",
+     "ver": "c94e27147f",
      "vtt": "audio/t3/32.vtt",
-     "vver": "04f76ebee2"
+     "vver": "edb017c423"
     },
     {
      "n": 33,
      "title": "The ovarian and uterine cycles",
      "file": "audio/t3/33.mp3",
-     "dur": 189.5,
-     "bytes": 1572185,
+     "dur": 191.7,
+     "bytes": 1590425,
      "rapid": false,
      "scen": "",
      "show": [
@@ -1558,16 +1558,16 @@
       }
      ],
      "marks": 6,
-     "ver": "d25ec93f21",
+     "ver": "2052c76053",
      "vtt": "audio/t3/33.vtt",
-     "vver": "a7a8f09ad5"
+     "vver": "a25a9032e0"
     },
     {
      "n": 34,
      "title": "Male versus female: the comparison table",
      "file": "audio/t3/34.mp3",
-     "dur": 154.8,
-     "bytes": 1295149,
+     "dur": 158.2,
+     "bytes": 1322221,
      "rapid": false,
      "scen": "",
      "show": [
@@ -1622,16 +1622,16 @@
       }
      ],
      "marks": 6,
-     "ver": "8fc0a049d2",
+     "ver": "bea457db6d",
      "vtt": "audio/t3/34.vtt",
-     "vver": "33b7bee23b"
+     "vver": "7fcdf87dda"
     },
     {
      "n": 35,
      "title": "Hormonal control of sperm, and testosterone",
      "file": "audio/t3/35.mp3",
-     "dur": 191.5,
-     "bytes": 1588723,
+     "dur": 195.9,
+     "bytes": 1623859,
      "rapid": false,
      "scen": "",
      "show": [
@@ -1689,16 +1689,16 @@
       }
      ],
      "marks": 5,
-     "ver": "737ed15621",
+     "ver": "5e34944203",
      "vtt": "audio/t3/35.vtt",
-     "vver": "94f408d915"
+     "vver": "315f35a60d"
     },
     {
      "n": 36,
      "title": "Oestrogen, progesterone and the pill",
      "file": "audio/t3/36.mp3",
-     "dur": 141.7,
-     "bytes": 1190117,
+     "dur": 147.1,
+     "bytes": 1233317,
      "rapid": false,
      "scen": "",
      "show": [
@@ -1736,16 +1736,16 @@
       }
      ],
      "marks": 5,
-     "ver": "328e799f5c",
+     "ver": "6c328097f3",
      "vtt": "audio/t3/36.vtt",
-     "vver": "e260d83ef3"
+     "vver": "f18d52cb6f"
     },
     {
      "n": 37,
      "title": "The female sexual response, and four words",
      "file": "audio/t3/37.mp3",
-     "dur": 117.1,
-     "bytes": 993329,
+     "dur": 120.5,
+     "bytes": 1020593,
      "rapid": false,
      "scen": "",
      "show": [
@@ -1784,16 +1784,16 @@
       }
      ],
      "marks": null,
-     "ver": "f6e219851f",
+     "ver": "f91cae6e37",
      "vtt": "audio/t3/37.vtt",
-     "vver": "c5e199fcf9"
+     "vver": "9dd78b4e03"
     },
     {
      "n": 38,
      "title": "Sperm, eggs and ovulation: the fine print",
      "file": "audio/t3/38.mp3",
-     "dur": 336.1,
-     "bytes": 2745711,
+     "dur": 358.2,
+     "bytes": 2922543,
      "rapid": false,
      "scen": "",
      "show": [
@@ -1856,16 +1856,16 @@
       }
      ],
      "marks": null,
-     "ver": "6df47ac7df",
+     "ver": "3881f23dd3",
      "vtt": "audio/t3/38.vtt",
-     "vver": "7f1655dbbb"
+     "vver": "8e31b50eee"
     },
     {
      "n": 39,
      "title": "Erection, the breast, and her female words: the fine print",
      "file": "audio/t3/39.mp3",
-     "dur": 346.5,
-     "bytes": 2828497,
+     "dur": 367.5,
+     "bytes": 2997073,
      "rapid": false,
      "scen": "",
      "show": [
@@ -1938,16 +1938,16 @@
       }
      ],
      "marks": null,
-     "ver": "97659c9ac9",
+     "ver": "561f8cb1e3",
      "vtt": "audio/t3/39.vtt",
-     "vver": "9e4522c847"
+     "vver": "651c66f15c"
     },
     {
      "n": 40,
      "title": "The closed questions: facts no other track covers",
      "file": "audio/t3/40.mp3",
-     "dur": 595.6,
-     "bytes": 4821247,
+     "dur": 628.7,
+     "bytes": 5086399,
      "rapid": false,
      "scen": "",
      "show": [
@@ -2034,23 +2034,23 @@
       }
      ],
      "marks": null,
-     "ver": "68f2f1070b",
+     "ver": "58681a2a65",
      "vtt": "audio/t3/40.vtt",
-     "vver": "1ca5f12e08"
+     "vver": "f436b2066a"
     },
     {
      "n": 41,
      "title": "Rapid-fire: every answer, back to back",
      "file": "audio/t3/41.mp3",
-     "dur": 1713.4,
-     "bytes": 13763817,
+     "dur": 1827.9,
+     "bytes": 14680233,
      "rapid": true,
      "scen": "",
      "show": [],
      "marks": null,
-     "ver": "b94f32bc08",
+     "ver": "2ed775326b",
      "vtt": "audio/t3/41.vtt",
-     "vver": "e653a83114"
+     "vver": "d4caed1d4d"
     }
    ]
   },
@@ -2062,35 +2062,35 @@
    "blurb": "Her exam is built on the ten starred cases in Case Study Booklet A, and its closed questions are those same case questions converted. This episode works through every written question in every one of them, in booklet order.",
    "when": "The final: Wed 4 Nov, on campus · 32 questions · 90 marks · 2 h 10 min · 37% written",
    "zip": "HS2-Final-Every-Case-SAQ",
-   "dur": 5114,
+   "dur": 5322,
    "cover": "audio/cover-final.png",
    "feed": "feed-final.xml",
    "full": {
     "file": "audio/HS2-Final-Every-Case-SAQ.mp3",
-    "bytes": 40984229,
-    "ver": "93ab136fe1"
+    "bytes": 42644645,
+    "ver": "00d9dfe35c"
    },
    "chapters": [
     {
      "n": 1,
      "title": "Start here: the final, and how this episode works",
      "file": "audio/final/01.mp3",
-     "dur": 164.7,
-     "bytes": 1373860,
+     "dur": 174.9,
+     "bytes": 1455460,
      "rapid": false,
      "scen": "",
      "show": [],
      "marks": null,
-     "ver": "c535066fb7",
+     "ver": "f94690ede4",
      "vtt": "audio/final/01.vtt",
-     "vver": "ca039b12a8"
+     "vver": "367bdf96a1"
     },
     {
      "n": 2,
      "title": "Case 2: the aftereffects of lymph node removal",
      "file": "audio/final/02.mp3",
-     "dur": 199.6,
-     "bytes": 1653214,
+     "dur": 207.0,
+     "bytes": 1712542,
      "rapid": false,
      "scen": "Exam case 2 · The aftereffects of lymph node removal — Aleki and Vicky visit their friend, Mary who had undergone a right mastectomy for cancer a fortnight ago. Mary mentioned the cancer had spread to the lymph nodes and that some axillary lymph nodes were also removed. She complained of swelling in the right arm after the surgery. Her friend, who is good with mirimiri and massage offers to help massage her arm, which helps to bring down the swelling.",
      "show": [
@@ -2177,16 +2177,16 @@
       }
      ],
      "marks": 10,
-     "ver": "24cad82845",
+     "ver": "59017c20d2",
      "vtt": "audio/final/02.vtt",
-     "vver": "936e6238e4"
+     "vver": "89e4029d07"
     },
     {
      "n": 3,
      "title": "Case 3, part 1: Ane's asthma attack",
      "file": "audio/final/03.mp3",
-     "dur": 168.9,
-     "bytes": 1407432,
+     "dur": 177.0,
+     "bytes": 1472328,
      "rapid": false,
      "scen": "Exam case 3 · Asthma — Ane has had severe asthma since they were young. During a particularly bad asthma attack, Ane is experiencing difficulty breathing, particularly on the out-breath. Ane’s asthma is often triggered by small particles of pollen that manage to make their way into their lungs despite the protective features designed to keep them out. Ane makes sure to have their Salbutamol inhaler, which helps to relieve the symptoms of their asthma attack.",
      "show": [
@@ -2272,16 +2272,16 @@
       }
      ],
      "marks": 11,
-     "ver": "7e714b5c10",
+     "ver": "4e6e57d0ce",
      "vtt": "audio/final/03.vtt",
-     "vver": "9ed6e274e4"
+     "vver": "37d6f15648"
     },
     {
      "n": 4,
      "title": "Case 3, part 2: keeping dust out, and bringing the pressure down",
      "file": "audio/final/04.mp3",
-     "dur": 204.0,
-     "bytes": 1688578,
+     "dur": 206.7,
+     "bytes": 1710082,
      "rapid": false,
      "scen": "Exam case 3 · Asthma — Ane has had severe asthma since they were young. During a particularly bad asthma attack, Ane is experiencing difficulty breathing, particularly on the out-breath. Ane’s asthma is often triggered by small particles of pollen that manage to make their way into their lungs despite the protective features designed to keep them out. Ane makes sure to have their Salbutamol inhaler, which helps to relieve the symptoms of their asthma attack.",
      "show": [
@@ -2371,16 +2371,16 @@
       }
      ],
      "marks": 11,
-     "ver": "0b9cbf1767",
+     "ver": "61a85db00f",
      "vtt": "audio/final/04.vtt",
-     "vver": "9a9bd54cfc"
+     "vver": "2a8469dfe6"
     },
     {
      "n": 5,
      "title": "Case 3, part 3: her four lung micrographs",
      "file": "audio/final/05.mp3",
-     "dur": 137.8,
-     "bytes": 1159188,
+     "dur": 140.8,
+     "bytes": 1183188,
      "rapid": false,
      "scen": "Exam case 3 · Asthma — Ane has had severe asthma since they were young. During a particularly bad asthma attack, Ane is experiencing difficulty breathing, particularly on the out-breath. Ane’s asthma is often triggered by small particles of pollen that manage to make their way into their lungs despite the protective features designed to keep them out. Ane makes sure to have their Salbutamol inhaler, which helps to relieve the symptoms of their asthma attack.",
      "show": [
@@ -2428,16 +2428,16 @@
       }
      ],
      "marks": 10,
-     "ver": "69a3a0ab74",
+     "ver": "c29f008030",
      "vtt": "audio/final/05.vtt",
-     "vver": "8889fec3f9"
+     "vver": "bbb5b72b3a"
     },
     {
      "n": 6,
      "title": "Case 4, part 1: Manaia's breathing",
      "file": "audio/final/06.mp3",
-     "dur": 238.7,
-     "bytes": 1965574,
+     "dur": 249.6,
+     "bytes": 2052934,
      "rapid": false,
      "scen": "Exam case 4 · Panic attacks — Manaia lives with an anxiety disorder, which sometimes manifests in panic attacks that impact on her breathing. Manaia describes her panic attack as a time when she breathes really really hard and fast and cannot control her breathing at all. You know that there is a link between breathing and the pH of your blood because the respiratory system is one of the buffer systems of the body. You know that during a prolonged panic attack, Manaia might be at risk of what is called respiratory alkalosis, but you’ll need to remember why this is.",
      "show": [
@@ -2524,16 +2524,16 @@
       }
      ],
      "marks": 13,
-     "ver": "0216a43ad1",
+     "ver": "58dc10c8a0",
      "vtt": "audio/final/06.vtt",
-     "vver": "7f558c0de2"
+     "vver": "fb96c24025"
     },
     {
      "n": 7,
      "title": "Case 4, part 2: breathing and blood pH",
      "file": "audio/final/07.mp3",
-     "dur": 223.6,
-     "bytes": 1845198,
+     "dur": 227.1,
+     "bytes": 1872846,
      "rapid": false,
      "scen": "Exam case 4 · Panic attacks — Manaia lives with an anxiety disorder, which sometimes manifests in panic attacks that impact on her breathing. Manaia describes her panic attack as a time when she breathes really really hard and fast and cannot control her breathing at all. You know that there is a link between breathing and the pH of your blood because the respiratory system is one of the buffer systems of the body. You know that during a prolonged panic attack, Manaia might be at risk of what is called respiratory alkalosis, but you’ll need to remember why this is.",
      "show": [
@@ -2611,16 +2611,16 @@
       }
      ],
      "marks": 7,
-     "ver": "45ad48d701",
+     "ver": "83a736a1ca",
      "vtt": "audio/final/07.vtt",
-     "vver": "9cf01adf68"
+     "vver": "4021e4d82e"
     },
     {
      "n": 8,
      "title": "Case 4, part 3: her two acid-base tables",
      "file": "audio/final/08.mp3",
-     "dur": 206.8,
-     "bytes": 1711186,
+     "dur": 208.7,
+     "bytes": 1726354,
      "rapid": false,
      "scen": "Exam case 4 · Panic attacks — Manaia lives with an anxiety disorder, which sometimes manifests in panic attacks that impact on her breathing. Manaia describes her panic attack as a time when she breathes really really hard and fast and cannot control her breathing at all. You know that there is a link between breathing and the pH of your blood because the respiratory system is one of the buffer systems of the body. You know that during a prolonged panic attack, Manaia might be at risk of what is called respiratory alkalosis, but you’ll need to remember why this is.",
      "show": [
@@ -2690,16 +2690,16 @@
       }
      ],
      "marks": 14,
-     "ver": "bf92a37979",
+     "ver": "0dda344b61",
      "vtt": "audio/final/08.vtt",
-     "vver": "aef8376996"
+     "vver": "c9edaaa45a"
     },
     {
      "n": 9,
      "title": "Case 6, part 1: what insulin does",
      "file": "audio/final/09.mp3",
-     "dur": 245.1,
-     "bytes": 2017412,
+     "dur": 258.1,
+     "bytes": 2121284,
      "rapid": false,
      "scen": "Exam case 6 · Diabetes — Larry has been recently diagnosed with Type 2 diabetes mellitus, an endocrine disorder, after what appears to be many years of uncontrolled hyperglycaemia. He must measure his blood sugar every as he works with his diabetes nurse to bring it under control, and he will also need to have insulin injections and other medications to help his blood glucose regulation. Larry is a little overwhelmed, and isn’t sure of what this insulin is for. As his nurse, you need a robust understanding of what insulin does in the body. Diabetes mellitus is a disease that involves the dysfunction of insulin and glucose regulation. There are two types, type 1 where the body fails to make insulin, and type 2 where the body is unable to respond to insulin when it is secreted.",
      "show": [
@@ -2817,16 +2817,16 @@
       }
      ],
      "marks": 18,
-     "ver": "513afedf5f",
+     "ver": "504f730eae",
      "vtt": "audio/final/09.vtt",
-     "vver": "7063702a65"
+     "vver": "40db809184"
     },
     {
      "n": 10,
      "title": "Case 6, part 2: glucagon, the day graph, and the tired pancreas",
      "file": "audio/final/10.mp3",
-     "dur": 175.7,
-     "bytes": 1462401,
+     "dur": 179.3,
+     "bytes": 1491009,
      "rapid": false,
      "scen": "Exam case 6 · Diabetes — Larry has been recently diagnosed with Type 2 diabetes mellitus, an endocrine disorder, after what appears to be many years of uncontrolled hyperglycaemia. He must measure his blood sugar every as he works with his diabetes nurse to bring it under control, and he will also need to have insulin injections and other medications to help his blood glucose regulation. Larry is a little overwhelmed, and isn’t sure of what this insulin is for. As his nurse, you need a robust understanding of what insulin does in the body. Diabetes mellitus is a disease that involves the dysfunction of insulin and glucose regulation. There are two types, type 1 where the body fails to make insulin, and type 2 where the body is unable to respond to insulin when it is secreted.",
      "show": [
@@ -2905,16 +2905,16 @@
       }
      ],
      "marks": 13,
-     "ver": "2465552de5",
+     "ver": "0840a19160",
      "vtt": "audio/final/10.vtt",
-     "vver": "7e517347b7"
+     "vver": "6745b3f503"
     },
     {
      "n": 11,
      "title": "Case 8, part 1: the joint, A to H",
      "file": "audio/final/11.mp3",
-     "dur": 264.8,
-     "bytes": 2174853,
+     "dur": 278.1,
+     "bytes": 2280837,
      "rapid": false,
      "scen": "Exam case 8 · Joints and arthritis — Shannon is a 30-year-old woman that has had a series of issues with her joints. She has had bursitis in her hip in the past, and is now has presented mainly with pain in her knee and hip joints, as well as her hands. After consultation, she has recently been diagnosed with rheumatoid arthritis. She is concerned, as she feels she is too young to have arthritis, even though she is fairly active and has been an athlete most of her life. Part of the treatment plan that manage the joint includes the use of prednisone. Prednisone is a synthetic corticosteroid, similar to cortisol. Cortisol is part of the body’s long term stress response.",
      "show": [
@@ -3023,16 +3023,16 @@
       }
      ],
      "marks": 21,
-     "ver": "1c1b226472",
+     "ver": "ee8d67ec6f",
      "vtt": "audio/final/11.vtt",
-     "vver": "de5ed6b6b3"
+     "vver": "2cc647d185"
     },
     {
      "n": 12,
      "title": "Case 8, part 2: rheumatoid arthritis, cortisol, and Shannon",
      "file": "audio/final/12.mp3",
-     "dur": 253.6,
-     "bytes": 2085625,
+     "dur": 261.9,
+     "bytes": 2151481,
      "rapid": false,
      "scen": "Exam case 8 · Joints and arthritis — Shannon is a 30-year-old woman that has had a series of issues with her joints. She has had bursitis in her hip in the past, and is now has presented mainly with pain in her knee and hip joints, as well as her hands. After consultation, she has recently been diagnosed with rheumatoid arthritis. She is concerned, as she feels she is too young to have arthritis, even though she is fairly active and has been an athlete most of her life. Part of the treatment plan that manage the joint includes the use of prednisone. Prednisone is a synthetic corticosteroid, similar to cortisol. Cortisol is part of the body’s long term stress response.",
      "show": [
@@ -3170,16 +3170,16 @@
       }
      ],
      "marks": 19,
-     "ver": "c9e99f03a4",
+     "ver": "fba291461a",
      "vtt": "audio/final/12.vtt",
-     "vver": "9e66401c6f"
+     "vver": "82f310f0ad"
     },
     {
      "n": 13,
      "title": "Case 9, part 1: neurotransmitters and the synapse",
      "file": "audio/final/13.mp3",
-     "dur": 202.3,
-     "bytes": 1674725,
+     "dur": 211.0,
+     "bytes": 1744421,
      "rapid": false,
      "scen": "Exam case 9 · Neurotransmitters and the brain — Mr Paraone has been admitted to hospital after a fall and has reported they are having issues with mobility and tremors. Mr Paraone is later diagnosed with Parkinson’s disease. This is a brain disease where cells that normally make Dopamine, a neurotransmitter, start to die. One of the treatments to help control their symptoms is called Levodopa, which travels through the blood and into the brain to help to boost the brain’s Dopamine levels, so the neurons can continue to communicate properly via their synapses.",
      "show": [
@@ -3267,16 +3267,16 @@
       }
      ],
      "marks": 13,
-     "ver": "25bfc14bf7",
+     "ver": "ac2dacc6d8",
      "vtt": "audio/final/13.vtt",
-     "vver": "fbc16751ba"
+     "vver": "0914385d1f"
     },
     {
      "n": 14,
      "title": "Case 9, part 2: label the synapse, and why levodopa",
      "file": "audio/final/14.mp3",
-     "dur": 171.8,
-     "bytes": 1430697,
+     "dur": 176.5,
+     "bytes": 1468521,
      "rapid": false,
      "scen": "Exam case 9 · Neurotransmitters and the brain — Mr Paraone has been admitted to hospital after a fall and has reported they are having issues with mobility and tremors. Mr Paraone is later diagnosed with Parkinson’s disease. This is a brain disease where cells that normally make Dopamine, a neurotransmitter, start to die. One of the treatments to help control their symptoms is called Levodopa, which travels through the blood and into the brain to help to boost the brain’s Dopamine levels, so the neurons can continue to communicate properly via their synapses.",
      "show": [
@@ -3339,16 +3339,16 @@
       }
      ],
      "marks": 16,
-     "ver": "c1e535dbae",
+     "ver": "7f6d9b5dfe",
      "vtt": "audio/final/14.vtt",
-     "vver": "b823ed034a"
+     "vver": "749a6659e0"
     },
     {
      "n": 15,
      "title": "Case 10: stroke, and the map of the brain",
      "file": "audio/final/15.mp3",
-     "dur": 339.0,
-     "bytes": 2768341,
+     "dur": 351.6,
+     "bytes": 2869717,
      "rapid": false,
      "scen": "Exam case 10 · Stroke and the brain — You are working in a stroke rehabilitation unit, and are often interacting with individuals that are recovering from stroke, cerebrovascular accident, when parts of the brain are damaged during periods of ischaemia. Different areas of the brain control different tasks, so the symptoms a person shows, or the functions they have lost will be reflective of the part of their brain that has been damaged by the ischaemia. You are working with a range of people with differing functions, and you’re thinking about what parts of the brains must be involved.",
      "show": [
@@ -3437,16 +3437,16 @@
       }
      ],
      "marks": 35,
-     "ver": "7cd26f2eb8",
+     "ver": "c963dd4d41",
      "vtt": "audio/final/15.vtt",
-     "vver": "d9ce89203c"
+     "vver": "e9106ba8ba"
     },
     {
      "n": 16,
      "title": "Case 13, part 1: the kit, ovulation, and the cycle graph",
      "file": "audio/final/16.mp3",
-     "dur": 181.0,
-     "bytes": 1504243,
+     "dur": 193.3,
+     "bytes": 1602931,
      "rapid": false,
      "scen": "Exam case 13 · Fertility — Rose and Simon are seeing the nurse at their local GP’s clinic, as they have recently made the decision to begin trying to conceive. Rose has been on the Depo Provera injection as a method of contraception for the past 2 years. As her nurse, you advise that it could take a little while for her normal cycle to settle after coming off this hormonal contraceptive. Rose takes your recommendation about tracking her cycle after learning that there are limited days in the month where she will be fertile and able to conceive. She has also taken your recommendation about purchasing an ovulation predictor kit and some pregnancy tests.",
      "show": [
@@ -3524,16 +3524,16 @@
       }
      ],
      "marks": 10,
-     "ver": "f35479eb2c",
+     "ver": "6d7431c9c9",
      "vtt": "audio/final/16.vtt",
-     "vver": "631400072d"
+     "vver": "2ebbe8e219"
     },
     {
      "n": 17,
      "title": "Case 13, part 2: contraception, and the three she hasn't answered",
      "file": "audio/final/17.mp3",
-     "dur": 328.4,
-     "bytes": 2683333,
+     "dur": 342.6,
+     "bytes": 2797573,
      "rapid": false,
      "scen": "Exam case 13 · Fertility — Rose and Simon are seeing the nurse at their local GP’s clinic, as they have recently made the decision to begin trying to conceive. Rose has been on the Depo Provera injection as a method of contraception for the past 2 years. As her nurse, you advise that it could take a little while for her normal cycle to settle after coming off this hormonal contraceptive. Rose takes your recommendation about tracking her cycle after learning that there are limited days in the month where she will be fertile and able to conceive. She has also taken your recommendation about purchasing an ovulation predictor kit and some pregnancy tests.",
      "show": [
@@ -3628,16 +3628,16 @@
       }
      ],
      "marks": 9,
-     "ver": "6a1d41bae5",
+     "ver": "3c33e0e06e",
      "vtt": "audio/final/17.vtt",
-     "vver": "c7f6bb71cd"
+     "vver": "7a784552d1"
     },
     {
      "n": 18,
      "title": "Case 14, part 1: rods, cones, and red-green colour blindness",
      "file": "audio/final/18.mp3",
-     "dur": 145.5,
-     "bytes": 1220667,
+     "dur": 149.8,
+     "bytes": 1254843,
      "rapid": false,
      "scen": "Exam case 14 · RG colour blindness — Simon is colour blind, a condition which affects his ability to distinguish between colours, with the most impact on red and green. He has expressed an interest in understanding why he has the disease, but neither of his parents do. He’s also heard that it is more common in males and so is wondering if he will pass this disease onto any sons he might have.",
      "show": [
@@ -3672,16 +3672,16 @@
       }
      ],
      "marks": 7,
-     "ver": "f02b31ba68",
+     "ver": "4d9db918f1",
      "vtt": "audio/final/18.vtt",
-     "vver": "abe492687c"
+     "vver": "d001732cb5"
     },
     {
      "n": 19,
      "title": "Case 14, part 2: Simon's family",
      "file": "audio/final/19.mp3",
-     "dur": 204.5,
-     "bytes": 1692737,
+     "dur": 209.0,
+     "bytes": 1728449,
      "rapid": false,
      "scen": "Exam case 14 · RG colour blindness — Simon is colour blind, a condition which affects his ability to distinguish between colours, with the most impact on red and green. He has expressed an interest in understanding why he has the disease, but neither of his parents do. He’s also heard that it is more common in males and so is wondering if he will pass this disease onto any sons he might have.",
      "show": [
@@ -3774,16 +3774,16 @@
       }
      ],
      "marks": 17,
-     "ver": "17e8f5fcf6",
+     "ver": "4df69d2ea0",
      "vtt": "audio/final/19.vtt",
-     "vver": "d70cd5f63c"
+     "vver": "37fb4dbd11"
     },
     {
      "n": 20,
      "title": "Case 15: cystic fibrosis, Huntington's, and the two whānau",
      "file": "audio/final/20.mp3",
-     "dur": 283.7,
-     "bytes": 2326007,
+     "dur": 293.1,
+     "bytes": 2400887,
      "rapid": false,
      "scen": "Exam case 15 · Genetic diseases — You’ve been working in a GP clinic, working alongside many different families, serving a rural community. Recently, you’ve been working alongside two families that have genetic diseases. One family has cystic fibrosis (the Harris whanau), and one has Huntington’s disease (the Anderson whanau). You are wanting to understand more about how these diseases are passed from person to person, and how this might affect any future children that are born into these families.",
      "show": [
@@ -3877,23 +3877,23 @@
       }
      ],
      "marks": 6,
-     "ver": "b12695ed70",
+     "ver": "8b33777805",
      "vtt": "audio/final/20.vtt",
-     "vver": "08648bd094"
+     "vver": "b5fd9d1f73"
     },
     {
      "n": 21,
      "title": "Rapid-fire: every case answer, back to back",
      "file": "audio/final/21.mp3",
-     "dur": 774.8,
-     "bytes": 6255257,
+     "dur": 825.9,
+     "bytes": 6663257,
      "rapid": true,
      "scen": "",
      "show": [],
      "marks": null,
-     "ver": "26b086a973",
+     "ver": "0257b95a14",
      "vtt": "audio/final/21.vtt",
-     "vver": "cb7b8295f5"
+     "vver": "022dfd615f"
     }
    ]
   }
