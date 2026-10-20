@@ -105,8 +105,6 @@ button{font-family:inherit;cursor:pointer;border:none;color:inherit;background:n
 .ask .mk{font-size:11.5px;font-weight:700;color:var(--acc);white-space:nowrap}
 .hook{margin:6px 0 0;font-size:13px;color:var(--hard)}
 .held{display:inline-block;margin:4px 0 0;font-size:11px;font-weight:700;color:var(--hard);border:1px solid color-mix(in srgb,var(--hard) 40%,transparent);border-radius:6px;padding:0 6px}
-.more{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 10px}
-.more a{font-size:13px;font-weight:700;color:var(--acc);text-decoration:none;border:1px solid color-mix(in srgb,var(--acc) 45%,transparent);border-radius:9px;padding:6px 11px}
 .ans{margin:8px 0 0;padding:9px 11px;border-radius:10px;background:var(--card2);border:1px solid var(--line)}
 .ans .gh{font-size:12px;font-weight:700;color:var(--tx2);margin:6px 0 2px}
 .ans .gh:first-child{margin-top:0}
@@ -177,9 +175,8 @@ button{font-family:inherit;cursor:pointer;border:none;color:inherit;background:n
   <p class="when" id="when"></p>
   <p class="blurb" id="blurb"></p>
   <div class="dlrow">
-    <a class="btn" id="dlFull" href="#">⤓ Download the MP3<small id="dlFullN"></small></a>
-    <button class="btn ghost" id="zip2">⤓ One MP3 per question<small id="zip2N"></small></button>
-    <button class="btn ghost" id="zip3">⤓ Videos with the words + scripts<small id="zip3N"></small></button>
+    <a class="btn" id="dlWhole" href="#">⤓ The whole episode<small id="dlWholeN"></small></a>
+    <a class="btn ghost" id="dlEach" href="#">⤓ Each question<small id="dlEachN"></small></a>
   </div>
   <div class="howto"><span>🔔 a chime starts each question</span><span>🗣️ the second voice is the examiner</span><span>⏸ pause when it asks “once more”, and answer first</span></div>
   <div class="bar"><i id="prog"></i></div>
@@ -190,12 +187,8 @@ button{font-family:inherit;cursor:pointer;border:none;color:inherit;background:n
     <h2>Listen anywhere</h2>
     <p>No special app needed. Every question is its own MP3, so any player can skip to it and repeat it.</p>
     <div class="opt"><b>Right here</b><p>This page keeps your place, plays the next question by itself, and works with your lock screen and earbuds: skip on your headphones jumps a whole question.</p></div>
-    <div class="opt"><b>Download the MP3s</b><p>Two ways. The whole episode as one MP3, to play start to finish anywhere (apps that read chapters will show every question). Or one MP3 per question, zipped: put the folder in any music or files app, and use its own “repeat one” on the question you’re repping.</p>
-      <a class="btn" id="dlFull2" href="#">⤓ The whole episode</a><button class="btn ghost" id="zip">⤓ One per question <span id="zipn"></span></button>
-      <p class="tiny" id="zipmsg">Or use the ⤓ beside any one question.</p></div>
-    <div class="opt"><b>Read along</b><p>Every track comes as a video too: the same audio, with the words on screen as they are said. It plays in your phone’s photos, gallery or files app, no special app needed. Videos stop when your phone locks, so use the MP3s for listening in your pocket. Each track also has its script as a PDF, to read or print. Here on this page the words run above the player: the Subtitles button turns them off or on.</p>
-      <button class="btn ghost" id="zip4">⤓ Every video and script <span id="zip4n"></span></button>
-      <p class="tiny">Or open the one you’re on: 🎬 Video and 📄 Script, under its title in the list.</p></div>
+    <div class="opt"><b>Download</b><p>The two buttons at the top. <b>The whole episode</b>: one MP3, one video, and the whole script as a PDF, to go start to finish. <b>Each question</b>: a folder per question, each with that question’s MP3, video and script, so you can loop just the one you’re repping. Unzip either one first (on an iPhone, tap the zip in Files).</p>
+      <p>The video is the same audio with the words on screen as they are said: it plays in your photos, gallery or files app, but stops when your phone locks, so listen to the MP3 in your pocket. Here on this page the words run above the player (the Subtitles button turns them off or on).</p></div>
     <div class="opt"><b>In a podcast app</b><p>Each question shows up as its own episode, downloads for offline, and remembers where you stopped. In Apple Podcasts: Library, ⋯, Follow a Show by URL. Pocket Casts and AntennaPod: search, then paste the link.</p>
       <button class="btn ghost" id="feed">Copy the podcast link</button><p class="tiny" id="feedurl"></p></div>
   </section>
@@ -274,14 +267,12 @@ function list() {
   const dn = doneSet(ep), playing = !au.paused;
   $('list').innerHTML = ep.chapters.map(c => {
     const isCur = cur && cur.n === c.n, isDone = dn.has(c.n);
-    const name = `${String(c.n).padStart(2, '0')} ${c.title}`.replace(/[\\/:*?"<>|]+/g, '').replace(/\s+/g, ' ');
     return `<li class="row${isCur ? ' cur' : ''}${isDone ? ' done' : ''}${isCur && !playing ? ' paused' : ''}" id="r${c.n}">
       <div class="rhead"><button class="play" data-n="${c.n}" aria-label="Play ${esc(c.title)}">
         <span class="num">${isCur ? '<span class="eq"><i></i><i></i><i></i></span>' : isDone ? '✓' : c.n}</span>
         <span class="tw"><span class="tt">${esc(c.title)}</span>
-        <span class="tm">${c.marks ? c.marks + ' marks · ' : ''}${mmss(c.dur)}${isDone ? ' · <span class="ok">heard</span>' : ''}${S.pos[ep.id + '-' + c.n] > 5 && !isCur ? ' · paused at ' + mmss(S.pos[ep.id + '-' + c.n]) : ''}</span></span></button>
-        <a class="dl" href="${esc(c.file)}" download="${esc(name)}.mp3" title="Download this one" aria-label="Download ${esc(c.title)}">⤓</a></div>
-      ${isCur ? `<div class="body">${c.mp4 ? `<div class="more"><a href="${esc(c.mp4)}?v=${c.mver}" download="${esc(name)}.mp4">🎬 Video with the words</a><a href="${esc(c.pdf)}?v=${c.pver}" target="_blank" rel="noopener">📄 Script (PDF)</a></div>` : ''}${rowBody(c)}</div>` : ''}</li>`;
+        <span class="tm">${c.marks ? c.marks + ' marks · ' : ''}${mmss(c.dur)}${isDone ? ' · <span class="ok">heard</span>' : ''}${S.pos[ep.id + '-' + c.n] > 5 && !isCur ? ' · paused at ' + mmss(S.pos[ep.id + '-' + c.n]) : ''}</span></span></button></div>
+      ${isCur ? `<div class="body">${rowBody(c)}</div>` : ''}</li>`;
   }).join('');
   const n = dn.size;
   $('prog').style.width = (100 * n / ep.chapters.length) + '%';
@@ -293,17 +284,15 @@ function header() {
   $('when').textContent = ep.when;
   $('blurb').textContent = ep.blurb;
   const mb = b => Math.max(1, Math.round(b / 1e6)) + ' MB';
-  $('zipn').textContent = `(${ep.chapters.length} MP3s, ${mb(ep.chapters.reduce((s, c) => s + c.bytes, 0))})`;
-  $('zip2N').textContent = `a zip of ${ep.chapters.length}, ${mb(ep.chapters.reduce((s, c) => s + c.bytes, 0))}`;
-  const vb = mb(ep.chapters.reduce((s, c) => s + (c.mbytes || 0) + (c.pbytes || 0), 0));
-  $('zip3N').textContent = `a zip of ${ep.chapters.length} MP4s and PDFs, ${vb}`;
-  $('zip4n').textContent = `(${ep.chapters.length} MP4s and PDFs, ${vb})`;
-  for (const id of ['dlFull', 'dlFull2']) {
-    const a = $(id);
-    if (ep.full) { a.href = ep.full.file + '?v=' + ep.full.ver; a.setAttribute('download', ep.zip + '.mp3'); a.hidden = false; }
-    else a.hidden = true;
+  for (const k of ['Whole', 'Each']) {
+    const d = ep.dl && ep.dl[k.toLowerCase()], a = $('dl' + k);
+    a.hidden = !d;
+    if (d) a.href = d.url;
   }
-  $('dlFullN').textContent = ep.full ? `the whole episode, ${hm(ep.dur)}, ${mb(ep.full.bytes)}` : '';
+  if (ep.dl) {
+    $('dlWholeN').textContent = `one MP3, one video, the script · ${hm(ep.dur)} · ${mb(ep.dl.whole.bytes)}`;
+    $('dlEachN').textContent = `${ep.chapters.length} folders: MP3, video and script · ${mb(ep.dl.each.bytes)}`;
+  }
   $('feedurl').textContent = new URL(ep.feed, location.href).href;
   $('foot').textContent = `Read by Kokoro, a voice that runs on a laptop. Answers from her decks, model answers, recorded sessions and quiz keys, via the Paper Sims’ SAQ trainers. Built ${DATA.built}.`;
 }
@@ -460,38 +449,6 @@ $('feed').onclick = async () => {
   const url = new URL(ep.feed, location.href).href;
   try { await navigator.clipboard.writeText(url); toast('Podcast link copied'); } catch (e) { prompt('Copy this link into your podcast app:', url); }
 };
-
-/* every MP3 (or every video and script) of this episode in one zip, packed in the browser (no second copy on the server) */
-$('zip').onclick = $('zip2').onclick = () => zipAll(false);
-$('zip3').onclick = $('zip4').onclick = () => zipAll(true);
-async function zipAll(vid) {
-  const say = $('zipmsg'), btns = [$('zip'), $('zip2'), $('zip3'), $('zip4')];
-  const msg = {set textContent(t) { say.textContent = t; const o = $('toast'); o.textContent = t; o.hidden = false; clearTimeout(toast.t);
-    toast.t = setTimeout(() => o.hidden = true, 3500); }};
-  const btn = {set disabled(v) { btns.forEach(b => b.disabled = v); }};
-  btn.disabled = true;
-  try {
-    if (!window.JSZip) await new Promise((ok, no) => { const s = document.createElement('script');
-      s.src = 'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js'; s.onload = ok; s.onerror = () => no(new Error('could not load the zip tool')); document.head.appendChild(s); });
-    const name = ep.zip + (vid ? '-Videos-and-scripts' : ''), z = new JSZip(), dir = z.folder(name);
-    const files = c => vid ? [[c.mp4 + '?v=' + c.mver, '.mp4'], [c.pdf + '?v=' + c.pver, '.pdf']] : [[c.file + '?v=' + c.ver, '.mp3']];
-    for (const [i, c] of ep.chapters.entries()) {
-      msg.textContent = `Fetching ${i + 1} of ${ep.chapters.length}…`;
-      const base = `${String(c.n).padStart(2, '0')} ${c.title}`.replace(/[\\/:*?"<>|]+/g, '').replace(/\s+/g, ' ');
-      for (const [url, ext] of files(c)) {
-        const r = await fetch(url); if (!r.ok) throw new Error('track ' + c.n + ' would not download');
-        dir.file(base + ext, await r.arrayBuffer());
-      }
-    }
-    msg.textContent = 'Packing…';
-    const blob = await z.generateAsync({type: 'blob', compression: 'STORE'});
-    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = name + '.zip';
-    document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 4000);
-    msg.textContent = vid ? 'Done. Unzip it: play the videos in your photos, gallery or files app (the words are on screen), and open the PDFs to read.'
-                          : 'Done. Unzip it, then add the folder to your music or files app.';
-  } catch (e) { msg.textContent = 'That didn’t work (' + e.message + '). Use the ⤓ beside each question instead.'; }
-  btn.disabled = false;
-}
 
 document.addEventListener('keydown', e => {
   if (e.target.closest('input,textarea') || e.metaKey || e.ctrlKey || e.altKey) return;

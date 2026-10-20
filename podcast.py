@@ -4,7 +4,8 @@ Kokoro (local, CPU) reads them; every chapter is its own MP3, so any phone plays
     python podcast.py                  # voice whatever is not cached yet, then build everything
     python podcast.py t3               # one episode (t3 | final); add chapter numbers to voice just those: t3 4 5
     python podcast.py --no-build       # voice only (run two or three at once; a .lock per chapter shares the work)
-    python podcast.py --build          # MP3s, the player page, the feeds and the zips, from the cache only
+    python podcast.py --build          # MP3s, the player page, the feeds and the two download zips, from the cache only
+    python podcast.py --release        # upload the download zips to the repo's "downloads" release (after --build)
     python podcast.py --dry            # words, minutes and every gate; voices nothing
     python podcast.py --audit          # every long or technical word with the phonemes Kokoro will say
     python podcast.py --say "text"     # voice one line to D:/hs2-audio/podcast/say.wav (check a pronunciation)
@@ -42,6 +43,7 @@ CACHE = os.path.join(WORK, 'cache')
 MODEL_DIR = "D:/hs2-audio/model"
 FFMPEG = "C:/Users/USER/AppData/Roaming/GameSentenceMiner/ffmpeg/ffmpeg.exe"
 BASE_URL = "https://jeremyspm.github.io/hs2-podcast/"
+RELEASE = "https://github.com/jeremyspm/hs2-podcast/releases/download/downloads/"   # the download zips (see build())
 SR = 24000
 SPEED = 1.0
 VOICES = {'main': 'af_heart',                 # the voice of every HS2 audio course so far
@@ -565,8 +567,9 @@ def video(cues, title, foot, mp3, dur, mp4):
     shutil.copyfile(done, mp4)
 
 
-def script_pdf(ch, title, foot, pdf):
-    """The chapter's script as written, one paragraph per paragraph, the examiner's in bold. Byte-identical between builds."""
+def script_pdf(chs, title, foot, pdf):
+    """The script as written, one paragraph per paragraph, the examiner's in bold. One chapter: that track's page(s). Several:
+    the whole episode, a contents page first and each track from a new page. Byte-identical between builds."""
     from reportlab import rl_config
     rl_config.invariant = 1
     from reportlab.lib.colors import HexColor
@@ -575,21 +578,26 @@ def script_pdf(ch, title, foot, pdf):
     from reportlab.lib.units import mm
     from reportlab.pdfbase import pdfmetrics
     from reportlab.pdfbase.ttfonts import TTFont
-    from reportlab.platypus import Paragraph, SimpleDocTemplate, Spacer
+    from reportlab.platypus import PageBreak, Paragraph, SimpleDocTemplate
     if 'Arial' not in pdfmetrics.getRegisteredFontNames():
         pdfmetrics.registerFont(TTFont('Arial', 'C:/Windows/Fonts/arial.ttf'))
         pdfmetrics.registerFont(TTFont('Arial-Bold', 'C:/Windows/Fonts/arialbd.ttf'))
     body = ParagraphStyle('b', fontName='Arial', fontSize=11.5, leading=16.5, spaceAfter=8, textColor=HexColor('#1d1f24'))
     q = ParagraphStyle('q', parent=body, fontName='Arial-Bold', textColor=HexColor('#8a4b00'))
+    small = ParagraphStyle('n', parent=body, fontSize=9, textColor=HexColor('#777777'), spaceAfter=10)
+    head = ParagraphStyle('h', parent=body, fontName='Arial-Bold', fontSize=17, leading=21, spaceAfter=12)
     esc = lambda t: t.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
-    story = [Paragraph(esc(foot), ParagraphStyle('f', parent=body, fontSize=9, textColor=HexColor('#777777'), spaceAfter=2)),
-             Paragraph(esc(title), ParagraphStyle('h', parent=body, fontName='Arial-Bold', fontSize=17, leading=21, spaceAfter=12)),
-             Paragraph('The words of this track, as it says them. <font color="#8a4b00"><b>Bold brown</b></font> is the examiner.',
-                       ParagraphStyle('n', parent=body, fontSize=9, textColor=HexColor('#777777'), spaceAfter=10))]
-    for p in ch['paras']:
-        text = ' '.join(re.sub(r'\[pause(?: \d+(?:\.\d+)?)?\]', ' ', p['text']).split())
-        if text:
-            story.append(Paragraph(esc(text), q if p['who'] == 'q' else body))
+    note = 'The words as the track says them. <font color="#8a4b00"><b>Bold brown</b></font> is the examiner.'
+    story = [Paragraph(esc(foot), ParagraphStyle('f', parent=small, spaceAfter=2)), Paragraph(esc(title), head), Paragraph(note, small)]
+    if len(chs) > 1:
+        story += [Paragraph(f'{ch["n"]:02d} · {esc(ch["title"])}', ParagraphStyle('c', parent=body, spaceAfter=3)) for ch in chs]
+    for ch in chs:
+        if len(chs) > 1:
+            story += [PageBreak(), Paragraph(f'{ch["n"]:02d} · {esc(ch["title"])}', head)]
+        for p in ch['paras']:
+            text = ' '.join(re.sub(r'\[pause(?: \d+(?:\.\d+)?)?\]', ' ', p['text']).split())
+            if text:
+                story.append(Paragraph(esc(text), q if p['who'] == 'q' else body))
     SimpleDocTemplate(pdf + '.part', pagesize=A4, title=title, author='HS2 SAQ Podcast', leftMargin=20 * mm,
                       rightMargin=20 * mm, topMargin=18 * mm, bottomMargin=18 * mm).build(story)
     os.replace(pdf + '.part', pdf)
@@ -729,12 +737,14 @@ def build(ep, chs, banks):
     outdir = os.path.join(HERE, 'audio', ep)
     os.makedirs(outdir, exist_ok=True)
     art = cover(ep)
-    named = os.path.join(WORK, E['zip'])
-    namedv = os.path.join(WORK, E['zip'] + '-Videos-and-scripts')
-    for d in (named, namedv):
+    # 21 Oct, "only two download buttons": the whole episode (one MP3, one video, one script) and each question (a folder per
+    # question, each with its MP3, video and script). Both are zips on the repo's "downloads" release, not on Pages: 240 MB a
+    # zip is too much to pack in a phone's browser, and the videos would take the site past GitHub Pages' 1 GB.
+    whole_dir, each_dir = os.path.join(WORK, 'dl', ep, 'whole', E['zip']), os.path.join(WORK, 'dl', ep, 'each', E['zip'])
+    for d in (whole_dir, each_dir):
         shutil.rmtree(d, ignore_errors=True)
         os.makedirs(d)
-    rows, total = [], 0.0
+    rows, total, mp4s = [], 0.0, []
     for ch in chs:
         a, cues = chapter_audio(ch)
         dur = len(a) / SR
@@ -749,51 +759,53 @@ def build(ep, chs, banks):
                           'comment': 'Health Science 2, 722.541. Read by Kokoro.'}, art)
         os.remove(wav)
         base = f'{ch["n"]:02d} {slug(ch["title"])}'
-        shutil.copyfile(mp3, os.path.join(named, base + '.mp3'))
-        mp4, pdf = os.path.join(outdir, f'{ch["n"]:02d}.mp4'), os.path.join(outdir, f'{ch["n"]:02d}.pdf')
-        video(cues, title, f'{E["title"]} · track {ch["n"]} of {len(chs)}', mp3, dur, mp4)
-        script_pdf(ch, title, f'{E["title"]} · track {ch["n"]} of {len(chs)}', pdf)
-        shutil.copyfile(mp4, os.path.join(namedv, base + '.mp4'))
-        shutil.copyfile(pdf, os.path.join(namedv, base + '.pdf'))
+        one = os.path.join(each_dir, base)
+        os.makedirs(one)
+        shutil.copyfile(mp3, os.path.join(one, base + '.mp3'))
+        video(cues, title, f'{E["title"]} · track {ch["n"]} of {len(chs)}', mp3, dur, os.path.join(one, base + '.mp4'))
+        script_pdf([ch], title, f'{E["title"]} · track {ch["n"]} of {len(chs)}', os.path.join(one, base + ' (script).pdf'))
+        mp4s.append(os.path.join(one, base + '.mp4'))
         items, scen = show_for(ep, ch, banks)
         rows.append({'n': ch['n'], 'title': ch['title'], 'file': f'audio/{ep}/{ch["n"]:02d}.mp3', 'dur': round(dur, 1),
                      'bytes': os.path.getsize(mp3), 'rapid': bool(ch['meta'].get('rapid')), 'scen': scen, 'show': items,
                      'marks': sum(i['marks'] or 0 for i in items) or None, 'ver': hashlib.sha1(open(mp3, 'rb').read()).hexdigest()[:10],
-                     'vtt': f'audio/{ep}/{ch["n"]:02d}.vtt', 'vver': hashlib.sha1(sub.encode('utf-8')).hexdigest()[:10],
-                     'mp4': f'audio/{ep}/{ch["n"]:02d}.mp4', 'mver': hashlib.sha1(open(mp4, 'rb').read()).hexdigest()[:10],
-                     'mbytes': os.path.getsize(mp4),
-                     'pdf': f'audio/{ep}/{ch["n"]:02d}.pdf', 'pver': hashlib.sha1(open(pdf, 'rb').read()).hexdigest()[:10],
-                     'pbytes': os.path.getsize(pdf)})
+                     'vtt': f'audio/{ep}/{ch["n"]:02d}.vtt', 'vver': hashlib.sha1(sub.encode('utf-8')).hexdigest()[:10]})
         total += dur
         print(f"  {ep} {ch['n']:02d}  {int(dur//60):2d}:{int(dur%60):02d}  {ch['title']}", flush=True)
-    # the whole episode as ONE MP3 too (asked 16 Oct: "give them the option to download the mp3"), for anyone who wants a single
-    # file. The chapter MP3s are joined frame for frame (no second encode), with the chapters embedded for apps that read them.
-    whole = os.path.join(HERE, 'audio', E['zip'] + '.mp3')
-    lst, ffm, t = os.path.join(WORK, f'{ep}-concat.txt'), [';FFMETADATA1', f'title={E["title"]}', f'album={E["title"]}',
-                                                          'artist=HS2 SAQ Podcast', 'genre=Podcast'], 0.0
-    open(lst, 'w', encoding='utf-8').write(''.join(f"file '{os.path.join(outdir, os.path.basename(r['file']))}'\n" for r in rows))
+    # the whole episode as ONE MP3 and ONE video (asked 16 Oct: "give them the option to download the mp3"; 21 Oct: the video
+    # and the script too). The chapter files are joined frame for frame (no second encode), with the chapters embedded.
+    ffm, t = [';FFMETADATA1', f'title={E["title"]}', f'album={E["title"]}', 'artist=HS2 SAQ Podcast', 'genre=Podcast'], 0.0
     for r in rows:
         ffm += ['[CHAPTER]', 'TIMEBASE=1/1000', f'START={int(t * 1000)}', f'END={int((t + r["dur"]) * 1000)}', f'title={r["n"]:02d} · {r["title"]}']
         t += r['dur']
     meta = os.path.join(WORK, f'{ep}-whole.ffmeta')
     open(meta, 'w', encoding='utf-8').write('\n'.join(ffm) + '\n')
-    # 'fatal': the frame-for-frame joins log harmless dts warnings at each track boundary (it is silence there)
-    subprocess.run([FFMPEG, '-y', '-loglevel', 'fatal', '-f', 'concat', '-safe', '0', '-i', lst, '-i', meta, '-i', art,
-                    '-map', '0:a', '-map', '2:v', '-map_metadata', '1', '-map_chapters', '1', '-c', 'copy',
-                    '-disposition:v', 'attached_pic', '-id3v2_version', '3', whole + '.part.mp3'], check=True)
-    os.replace(whole + '.part.mp3', whole)
-    shutil.copyfile(whole, os.path.join(WORK, os.path.basename(whole)))
-    full = {'file': f'audio/{E["zip"]}.mp3', 'bytes': os.path.getsize(whole), 'ver': hashlib.sha1(open(whole, 'rb').read()).hexdigest()[:10]}
-    for d in (named, namedv):
-        zpath = d + '.zip'
+    def join(files, out, extra):
+        lst = os.path.join(WORK, f'{ep}-concat.txt')
+        open(lst, 'w', encoding='utf-8').write(''.join(f"file '{f}'\n" for f in files))     # slug() leaves no quotes in a name
+        # 'fatal': the frame-for-frame joins log harmless dts warnings at each track boundary (it is silence there)
+        subprocess.run([FFMPEG, '-y', '-loglevel', 'fatal', '-f', 'concat', '-safe', '0', '-i', lst, '-i', meta, *extra,
+                        '-map_metadata', '1', '-map_chapters', '1', '-c', 'copy', out + '.part' + os.path.splitext(out)[1]], check=True)
+        os.replace(out + '.part' + os.path.splitext(out)[1], out)
+    whole = os.path.join(whole_dir, E['zip'] + '.mp3')
+    join([os.path.join(outdir, os.path.basename(r['file'])) for r in rows], whole,
+         ['-i', art, '-map', '0:a', '-map', '2:v', '-disposition:v', 'attached_pic', '-id3v2_version', '3'])
+    join(mp4s, os.path.join(whole_dir, E['zip'] + '.mp4'), ['-map', '0', '-movflags', '+faststart'])
+    script_pdf(chs, E['title'], f'HS2 SAQ Podcast · {len(chs)} tracks · {round(total / 60)} min', os.path.join(whole_dir, E['zip'] + ' (script).pdf'))
+    dl = {}
+    for kind, d in (('whole', whole_dir), ('each', each_dir)):
+        name = E['zip'] + ('-Whole-episode.zip' if kind == 'whole' else '-Each-question.zip')
+        zpath = os.path.join(WORK, name)
         with zipfile.ZipFile(zpath + '.part', 'w', zipfile.ZIP_STORED) as z:
-            for f in sorted(os.listdir(d)):
-                z.write(os.path.join(d, f), f'{os.path.basename(d)}/{f}')
+            for root, dirs, files in os.walk(d):
+                dirs.sort()
+                for f in sorted(files):
+                    z.write(os.path.join(root, f), os.path.relpath(os.path.join(root, f), os.path.dirname(d)).replace(os.sep, '/'))
         os.replace(zpath + '.part', zpath)
-    print(f"{ep}: {len(chs)} chapters, {total/60:.0f} min, {sum(r['bytes'] for r in rows)/1e6:.0f} MB of MP3s, "
-          f"{sum(r['mbytes'] for r in rows)/1e6:.0f} MB of videos · {named}.zip, {namedv}.zip", flush=True)
+        dl[kind] = {'file': name, 'url': RELEASE + name, 'bytes': os.path.getsize(zpath)}
+    print(f"{ep}: {len(chs)} chapters, {total/60:.0f} min · {', '.join(f'{v['file']} {v['bytes']/1e6:.0f} MB' for v in dl.values())}", flush=True)
     return {'id': ep, **{k: E[k] for k in ('title', 'short', 'kicker', 'blurb', 'when', 'zip')}, 'dur': round(total),
-            'cover': f'audio/cover-{ep}.png', 'feed': f'feed-{ep}.xml', 'full': full, 'chapters': rows}
+            'cover': f'audio/cover-{ep}.png', 'feed': f'feed-{ep}.xml', 'dl': dl, 'chapters': rows}
 
 
 def feed(e):
@@ -897,6 +909,13 @@ if __name__ == '__main__':
         a = np.concatenate([level(say(v, who)) for k, v in pieces(text) if k == 'say'])
         sf.write(os.path.join(WORK, 'say.wav'), a, SR, subtype='PCM_16')
         print(f"{WORK}/say.wav  {len(a)/SR:.1f} s")
+        sys.exit()
+    if '--release' in argv:
+        zips = [os.path.join(WORK, E['zip'] + s) for E in EPISODES.values() for s in ('-Whole-episode.zip', '-Each-question.zip')]
+        if subprocess.run(['gh', 'release', 'view', 'downloads'], cwd=HERE, capture_output=True).returncode:
+            subprocess.run(['gh', 'release', 'create', 'downloads', '--title', 'Downloads', '--notes',
+                            'The download zips the player links to. Rebuilt by podcast.py --build, uploaded by --release.'], cwd=HERE, check=True)
+        subprocess.run(['gh', 'release', 'upload', 'downloads', '--clobber', *zips], cwd=HERE, check=True)
         sys.exit()
     eps = [a for a in argv if a in EPISODES] or list(EPISODES)
     if '--audit' in argv:

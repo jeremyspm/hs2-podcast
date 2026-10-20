@@ -13,8 +13,7 @@ podcast app shows numbered tracks and can repeat one. Three ways in, all from th
 1. `index.html` — the player: tap a question, loop it (or play each ×2 / ×3), speed, resume, lock-screen and earbud
    controls (skip = next question), and the question with her short answer under the track that is playing (answer hidden
    until tapped). `#t3` / `#final` opens that episode.
-2. Download: ⤓ beside each track, or "Download all", which zips the episode **in the browser** (JSZip from cdnjs), so the
-   audio is stored once. The same zips are built locally in `D:/hs2-audio/podcast/` for sharing directly.
+2. Download: two buttons, two zips per episode (below).
 3. `feed-t3.xml`, `feed-final.xml` — podcast feeds (a serial show; every question an episode, in order;
    `itunes:block` so directories never list it). Apple Podcasts → Library → ⋯ → Follow a Show by URL.
 
@@ -25,14 +24,24 @@ the examiner's lines carry `<v Examiner>`. The player shows the current line abo
 any zip (below); the feeds carry `podcast:transcript` for apps that show transcripts. A paragraph
 whose written and spoken pieces don't line up fails `--dry`.
 
-**Videos and scripts** (21 Oct): a classmate unzipped the episode, opened a `.vtt` ("a file only playing text but no sound") and
-could not find a subtitle button. No phone does anything with a `.vtt`, so every chapter also has `audio/<ep>/NN.mp4`: the same
-audio with the words drawn on (portrait 720×1280, the line being said big and bright, the examiner's in amber, the lines around it
-dim; `ass()` writes the subtitles, libass draws them), which plays in any gallery or files app. And `audio/<ep>/NN.pdf`, the script
-as written, the examiner's paragraphs in bold (`script_pdf()`, byte-identical between builds). Videos stop when a phone locks, so
-the MP3 stays the one to listen to. Rendered MP4s are kept in `D:/hs2-audio/podcast/video` by hash of their subtitles and MP3,
-so a build renders only the chapters that changed. The player has 🎬 / 📄 under the playing track and a zip of every video and
-script; the local zips are `<zip>.zip` (MP3s) and `<zip>-Videos-and-scripts.zip`.
+**Videos, scripts and the two downloads** (21 Oct): a classmate unzipped the episode, opened a `.vtt` ("a file only playing text
+but no sound") and could not find a subtitle button. No phone does anything with a `.vtt`, so every chapter also gets an MP4: the
+same audio with the words drawn on (portrait 720×1280, the line being said big and bright, the examiner's in amber, the lines
+around it dim; `ass()` writes the subtitles, libass draws them), which plays in any gallery or files app. And a PDF, the script as
+written, the examiner's paragraphs in bold (`script_pdf()`, byte-identical between builds). Videos stop when a phone locks, so the
+MP3 stays the one to listen to. Rendered MP4s are kept in `D:/hs2-audio/podcast/video` by hash of their subtitles and MP3, so a
+build renders only the chapters that changed.
+
+The player has two download buttons and nothing else to download ("only two download buttons"):
+
+- **The whole episode**, `<zip>-Whole-episode.zip`: one MP3 and one MP4 of the whole episode (the chapter files joined frame for
+  frame, chapters embedded) and the whole script as one PDF (a contents page, each track from a new page).
+- **Each question**, `<zip>-Each-question.zip`: a folder per question, `NN Title/` with `NN Title.mp3`, `.mp4` and
+  `NN Title (script).pdf`.
+
+They are built in `D:/hs2-audio/podcast/` and live on the repo's **`downloads` release** (`--release` uploads them, replacing the
+last ones), not on Pages: a 240 MB zip is too much to pack in a phone's browser, and the videos would take the site past GitHub
+Pages' 1 GB. So Pages holds only the chapter MP3s (the player and the feeds) and their `.vtt`s.
 
 ## Build
 
@@ -40,9 +49,10 @@ script; the local zips are `<zip>.zip` (MP3s) and `<zip>-Videos-and-scripts.zip`
     python podcast.py --audit      # every long word with the phonemes Kokoro will say (review after any script edit)
     python podcast.py --say "..."  # one line to D:/hs2-audio/podcast/say.wav
     python podcast.py --no-build   # voice what is not cached (run two or three at once: a .lock per chapter shares the work)
-    python podcast.py --build      # MP3s → audio/, index.html + episodes.json, both feeds, the local zips
+    python podcast.py --build      # MP3s → audio/, index.html + episodes.json, both feeds, the download zips
+    python podcast.py --release    # upload the four download zips to the "downloads" release
 
-Then commit `audio/`, `index.html`, `episodes.json` and the feeds. Each chapter's `?v=` is a hash of its MP3, so a re-render
+Then `--release` if a track changed, and commit `audio/`, `index.html`, `episodes.json` and the feeds. Each chapter's `?v=` is a hash of its MP3, so a re-render
 reaches browsers and podcast apps; a track whose audio did not change keeps its hash.
 
 Paths: model `D:/hs2-audio/model`, paragraph cache `D:/hs2-audio/podcast/cache` (sha1 of voice + speed + **phonemes**, so a
