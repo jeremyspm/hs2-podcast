@@ -141,6 +141,12 @@ button{font-family:inherit;cursor:pointer;border:none;color:inherit;background:n
 .chip{font-size:12px;font-weight:700;padding:7px 10px;border-radius:999px;border:1px solid var(--line2);color:var(--tx2);background:var(--card2);white-space:nowrap}
 .chip.on{border-color:var(--acc);color:var(--acc);background:color-mix(in srgb,var(--acc) 12%,var(--card2))}
 .side{display:flex;gap:6px;align-items:center}
+/* subtitles: the line being said, above the title */
+.cap{min-height:2.7em;margin:0 0 6px;font-size:15px;line-height:1.35;font-weight:600;color:var(--tx);display:flex;align-items:flex-end;gap:7px}
+.cap[hidden]{display:none}
+.cap .who{flex:none;font-size:10.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--acc);border:1px solid color-mix(in srgb,var(--acc) 45%,transparent);border-radius:6px;padding:1px 5px;margin-bottom:3px}
+.cap.q span:last-child{color:var(--acc);font-style:italic}
+.cap.idle span{color:var(--tx3);font-weight:500}
 @media (max-width:420px){ .cb{width:40px} .chip{padding:7px 8px;font-size:11.5px} }
 .toast{position:fixed;left:50%;bottom:calc(var(--bar) + 18px + env(safe-area-inset-bottom));transform:translateX(-50%);z-index:40;background:var(--tx);color:var(--bg);
   font-size:13px;font-weight:600;padding:8px 14px;border-radius:999px;box-shadow:0 6px 20px rgb(0 0 0 / .3);max-width:90vw;text-align:center}
@@ -180,6 +186,7 @@ button{font-family:inherit;cursor:pointer;border:none;color:inherit;background:n
     <div class="opt"><b>Download the MP3s</b><p>Two ways. The whole episode as one MP3, to play start to finish anywhere (apps that read chapters will show every question). Or one MP3 per question, zipped: put the folder in any music or files app, and use its own “repeat one” on the question you’re repping.</p>
       <a class="btn" id="dlFull2" href="#">⤓ The whole episode</a><button class="btn ghost" id="zip">⤓ One per question <span id="zipn"></span></button>
       <p class="tiny" id="zipmsg">Or use the ⤓ beside any one question.</p></div>
+    <div class="opt"><b>Subtitles</b><p>Every track has them, line by line, timed to the voice. Here they run above the player: tap CC to hide them. The zip from this page puts a subtitle file (.vtt) beside each MP3, and podcast apps that show transcripts, like Pocket Casts and AntennaPod, get them from the podcast link.</p></div>
     <div class="opt"><b>In a podcast app</b><p>Each question shows up as its own episode, downloads for offline, and remembers where you stopped. In Apple Podcasts: Library, ⋯, Follow a Show by URL. Pocket Casts and AntennaPod: search, then paste the link.</p>
       <button class="btn ghost" id="feed">Copy the podcast link</button><p class="tiny" id="feedurl"></p></div>
   </section>
@@ -188,10 +195,11 @@ button{font-family:inherit;cursor:pointer;border:none;color:inherit;background:n
 
 <div class="player" id="player" hidden>
   <div class="pin">
+    <div class="cap idle" id="cap"><span></span></div>
     <div class="pt"><span id="pNum"></span><b id="pTitle"></b></div>
     <div class="seek"><span id="tCur">0:00</span><input type="range" id="seekr" min="0" max="1000" value="0" aria-label="Position in this question"/><span id="tDur">0:00</span></div>
     <div class="ctrls">
-      <div class="side"><button class="chip" id="spd" title="Playback speed">1×</button></div>
+      <div class="side"><button class="chip" id="spd" title="Playback speed">1×</button><button class="chip on" id="cc" title="Subtitles on or off" aria-pressed="true">CC</button></div>
       <button class="cb" id="prev" title="Previous question" aria-label="Previous question">⏮</button>
       <button class="cb" id="back" title="Back 15 seconds" aria-label="Back 15 seconds">↺<small>15</small></button>
       <button class="cb big" id="pp" title="Play or pause" aria-label="Play">▶</button>
@@ -213,7 +221,7 @@ const hm = s => { const m = Math.round(s / 60); return m >= 60 ? Math.floor(m / 
 
 /* everything kept between visits: per viewer, in this browser only (wrapped, so a blocked store just means no memory) */
 const KEY = 'hs2pod';
-let S = {ep: DATA.episodes[0].id, n: {}, pos: {}, done: {}, speed: 1, rep: 'off'};
+let S = {ep: DATA.episodes[0].id, n: {}, pos: {}, done: {}, speed: 1, rep: 'off', cc: true};
 try { const s = JSON.parse(localStorage.getItem(KEY) || 'null'); if (s && typeof s === 'object') S = {...S, ...s}; } catch (e) {}
 let saveT = 0;
 const save = (now) => { clearTimeout(saveT); const w = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {} };
@@ -303,10 +311,50 @@ function load(c, opts = {}) {
   $('pNum').textContent = String(c.n).padStart(2, '0') + '/' + ep.chapters.length;
   $('pTitle').textContent = c.title;
   $('tDur').textContent = mmss(c.dur);
+  subs(c);
   meta();
   list();
   if (opts.play) au.play().catch(() => {});
   if (opts.scroll) { const r = $('r' + c.n); if (r) r.scrollIntoView({block: 'nearest', behavior: 'smooth'}); }
+}
+
+/* ── subtitles: each track's .vtt, timed by the build, fetched when the track loads ── */
+const VTT = {}, capKey = () => ep.id + '-' + (cur && cur.n);
+let capAt = -1;
+function parseVtt(txt) {
+  const t = s => { const [h, m, x] = s.split(':'); return +h * 3600 + +m * 60 + parseFloat(x); };
+  const un = s => s.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
+  return txt.replace(/\r/g, '').split(/\n\n+/).map(b => {
+    const ls = b.split('\n'), i = ls.findIndex(l => l.includes('-->'));
+    if (i < 0) return null;
+    const [a, z] = ls[i].split('-->').map(s => t(s.trim()));
+    let line = ls.slice(i + 1).join(' '), who = '';
+    const v = line.match(/^<v ([^>]+)>/); if (v) { who = v[1]; line = line.slice(v[0].length); }
+    return {a, z, who, line: un(line)};
+  }).filter(Boolean);
+}
+function subs(c) {
+  const k = ep.id + '-' + c.n; capAt = -1;
+  if (!c.vtt || VTT[k]) return showCap();
+  VTT[k] = [];
+  fetch(c.vtt + '?v=' + c.vver).then(r => r.ok ? r.text() : '').then(t => { VTT[k] = parseVtt(t); capAt = -1; showCap(); }).catch(() => {});
+  showCap();
+}
+function showCap() {
+  const box = $('cap');
+  box.hidden = !S.cc;
+  if (!S.cc || !cur) return;
+  const cs = VTT[capKey()] || [], now = au.currentTime;
+  let i = capAt >= 0 && cs[capAt] && cs[capAt].a <= now ? capAt : 0;
+  while (i < cs.length && cs[i].z <= now) i++;
+  if (i < cs.length && cs[i].a > now + 0.6) i = -1;      // between paragraphs: keep nothing up, rather than the next line early
+  if (i >= cs.length) i = -1;
+  if (i === capAt && box.dataset.k === capKey()) return;
+  capAt = i; box.dataset.k = capKey();
+  const c = i >= 0 ? cs[i] : null;
+  box.className = 'cap' + (c ? (c.who ? ' q' : '') : ' idle');
+  box.innerHTML = c ? (c.who ? `<span class="who">${esc(c.who)}</span>` : '') + `<span>${esc(c.line)}</span>`
+                    : `<span>${cs.length ? '' : 'Subtitles load with the track.'}</span>`;
 }
 
 function meta() {
@@ -337,6 +385,7 @@ au.addEventListener('timeupdate', () => {
   const d = au.duration || cur.dur;
   if (!dragging) $('seekr').value = Math.round(1000 * au.currentTime / d);
   $('tCur').textContent = mmss(au.currentTime);
+  showCap();
   S.pos[ep.id + '-' + cur.n] = au.currentTime; save();
   if (au.currentTime > d - 8) markDone(cur.n);
   if ('mediaSession' in navigator && navigator.mediaSession.setPositionState && isFinite(d)) {
@@ -365,6 +414,9 @@ $('back').onclick = () => seekTo(au.currentTime - 15);
 $('fwd').onclick = () => seekTo(au.currentTime + 15);
 const spdLabel = () => $('spd').textContent = (S.speed === 1 ? '1' : String(S.speed)) + '×';
 $('spd').onclick = () => { S.speed = SPEEDS[(SPEEDS.indexOf(S.speed) + 1) % SPEEDS.length] || 1; au.playbackRate = S.speed; spdLabel(); save(); };
+au.addEventListener('seeked', showCap);
+const ccLabel = () => { $('cc').classList.toggle('on', S.cc); $('cc').setAttribute('aria-pressed', String(S.cc)); };
+$('cc').onclick = () => { S.cc = !S.cc; ccLabel(); capAt = -1; showCap(); save(); toast(S.cc ? 'Subtitles on' : 'Subtitles off'); };
 const repLabel = () => { const r = REPS.find(r => r[0] === S.rep) || REPS[0]; $('rep').textContent = r[1]; $('rep').classList.toggle('on', S.rep !== 'off'); };
 $('rep').onclick = () => { const i = REPS.findIndex(r => r[0] === S.rep); S.rep = REPS[(i + 1) % REPS.length][0]; plays = 0; repLabel(); save();
   toast({off: 'Plays straight through to the next question', one: 'Loops this question until you change it', x2: 'Plays each question twice, then moves on', x3: 'Plays each question three times, then moves on'}[S.rep]); };
@@ -410,7 +462,9 @@ $('zip').onclick = $('zip2').onclick = async () => {
     for (const [i, c] of ep.chapters.entries()) {
       msg.textContent = `Fetching ${i + 1} of ${ep.chapters.length}…`;
       const r = await fetch(c.file + '?v=' + c.ver); if (!r.ok) throw new Error('track ' + c.n + ' would not download');
-      dir.file(`${String(c.n).padStart(2, '0')} ${c.title}`.replace(/[\\/:*?"<>|]+/g, '').replace(/\s+/g, ' ') + '.mp3', await r.arrayBuffer());
+      const base = `${String(c.n).padStart(2, '0')} ${c.title}`.replace(/[\\/:*?"<>|]+/g, '').replace(/\s+/g, ' ');
+      dir.file(base + '.mp3', await r.arrayBuffer());
+      if (c.vtt) { const v = await fetch(c.vtt + '?v=' + c.vver).catch(() => null); if (v && v.ok) dir.file(base + '.vtt', await v.text()); }
     }
     msg.textContent = 'Packing…';
     const blob = await z.generateAsync({type: 'blob', compression: 'STORE'});
@@ -439,7 +493,7 @@ if ('mediaSession' in navigator) {
 }
 window.addEventListener('pagehide', () => { if (cur) S.pos[ep.id + '-' + cur.n] = au.currentTime; save(true); });
 
-spdLabel(); repLabel(); render();
+spdLabel(); repLabel(); ccLabel(); render();
 { const n = S.n[ep.id], c = ep.chapters.find(c => c.n === n); if (c) load(c); }
 </script>
 </body>

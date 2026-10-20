@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:podcast="https://podcastindex.org/namespace/1.0">
 <channel>
   <title>HS2 Test 3 — Every SAQ</title>
   <link>https://jeremyspm.github.io/hs2-podcast/</link>
@@ -21,6 +21,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-01-c9fb4486f0</guid>
     <pubDate>Fri, 16 Oct 2026 00:01:00 GMT</pubDate>
     <itunes:duration>0:02:59</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/01.vtt?v=33da06c172" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>02 · Case L: Jack's noise-induced hearing loss</title>
@@ -31,6 +32,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-02-a0b316d333</guid>
     <pubDate>Fri, 16 Oct 2026 00:02:00 GMT</pubDate>
     <itunes:duration>0:03:28</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/02.vtt?v=6e469e0229" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>03 · Case L, question 5: otosclerosis</title>
@@ -41,6 +43,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-03-e77f1a95fd</guid>
     <pubDate>Fri, 16 Oct 2026 00:03:00 GMT</pubDate>
     <itunes:duration>0:02:57</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/03.vtt?v=c63c2163f9" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>04 · Case 11: Pania's milk coming in</title>
@@ -51,6 +54,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-04-15ae33e1ed</guid>
     <pubDate>Fri, 16 Oct 2026 00:04:00 GMT</pubDate>
     <itunes:duration>0:03:12</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/04.vtt?v=8711ca9cf5" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>05 · Case 11, question 5: the hormone tick table</title>
@@ -61,6 +65,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-05-999c7c12d6</guid>
     <pubDate>Fri, 16 Oct 2026 00:05:00 GMT</pubDate>
     <itunes:duration>0:02:18</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/05.vtt?v=92e5b69072" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>06 · Pedigree charts: she says they will be tested</title>
@@ -71,6 +76,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-06-a32a1f493c</guid>
     <pubDate>Fri, 16 Oct 2026 00:06:00 GMT</pubDate>
     <itunes:duration>0:03:35</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/06.vtt?v=8d63c11de9" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>07 · Huntington's disease</title>
@@ -81,6 +87,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-07-89a47198d6</guid>
     <pubDate>Fri, 16 Oct 2026 00:07:00 GMT</pubDate>
     <itunes:duration>0:02:53</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/07.vtt?v=5ee7996637" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>08 · Glaucoma and cataracts</title>
@@ -91,6 +98,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-08-9bc37967de</guid>
     <pubDate>Fri, 16 Oct 2026 00:08:00 GMT</pubDate>
     <itunes:duration>0:02:10</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/08.vtt?v=ec756c5016" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>09 · The words of genetics</title>
@@ -101,6 +109,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-09-d2f8182f2a</guid>
     <pubDate>Fri, 16 Oct 2026 00:09:00 GMT</pubDate>
     <itunes:duration>0:04:01</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/09.vtt?v=e32b9d329f" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>10 · Using a Punnett square</title>
@@ -111,6 +120,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-10-12d2ad4385</guid>
     <pubDate>Fri, 16 Oct 2026 00:10:00 GMT</pubDate>
     <itunes:duration>0:02:56</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/10.vtt?v=9363756c0b" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>11 · Patterns of inheritance</title>
@@ -121,6 +131,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-11-599ca68985</guid>
     <pubDate>Fri, 16 Oct 2026 00:11:00 GMT</pubDate>
     <itunes:duration>0:02:45</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/11.vtt?v=faca19888f" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>12 · Multiple alleles, blood groups and X-linked genes</title>
@@ -131,6 +142,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-12-2b248bb592</guid>
     <pubDate>Fri, 16 Oct 2026 00:12:00 GMT</pubDate>
     <itunes:duration>0:03:12</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/12.vtt?v=8968966add" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>13 · DNA, chromosomes and mutations</title>
@@ -141,6 +153,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-13-1d2567c5f6</guid>
     <pubDate>Fri, 16 Oct 2026 00:13:00 GMT</pubDate>
     <itunes:duration>0:03:24</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/13.vtt?v=3627afa3a0" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>14 · Karyotypes and aneuploidy</title>
@@ -151,6 +164,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-14-9c51267b17</guid>
     <pubDate>Fri, 16 Oct 2026 00:14:00 GMT</pubDate>
     <itunes:duration>0:02:18</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/14.vtt?v=028ad657bd" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>15 · Detecting and treating genetic disease</title>
@@ -161,6 +175,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-15-1943076a3b</guid>
     <pubDate>Fri, 16 Oct 2026 00:15:00 GMT</pubDate>
     <itunes:duration>0:02:27</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/15.vtt?v=a119cf1a86" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>16 · Genetics: the fine print</title>
@@ -171,6 +186,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-16-e97ff8f8fa</guid>
     <pubDate>Fri, 16 Oct 2026 00:16:00 GMT</pubDate>
     <itunes:duration>0:07:23</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/16.vtt?v=642d057259" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>17 · The three regions of the ear</title>
@@ -181,6 +197,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-17-f7b1155247</guid>
     <pubDate>Fri, 16 Oct 2026 00:17:00 GMT</pubDate>
     <itunes:duration>0:02:34</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/17.vtt?v=e5790f0267" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>18 · How hearing happens</title>
@@ -191,6 +208,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-18-c2027fdd83</guid>
     <pubDate>Fri, 16 Oct 2026 00:18:00 GMT</pubDate>
     <itunes:duration>0:02:12</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/18.vtt?v=ce3a510d74" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>19 · Static and dynamic equilibrium</title>
@@ -201,6 +219,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-19-cfb03ef43f</guid>
     <pubDate>Fri, 16 Oct 2026 00:19:00 GMT</pubDate>
     <itunes:duration>0:02:32</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/19.vtt?v=d3fbf59c2f" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>20 · The three layers of the eye</title>
@@ -211,6 +230,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-20-ed59c2d8c1</guid>
     <pubDate>Fri, 16 Oct 2026 00:20:00 GMT</pubDate>
     <itunes:duration>0:02:17</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/20.vtt?v=05a0265535" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>21 · The retina: rods, cones and colour blindness</title>
@@ -221,6 +241,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-21-582024ab00</guid>
     <pubDate>Fri, 16 Oct 2026 00:21:00 GMT</pubDate>
     <itunes:duration>0:03:03</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/21.vtt?v=861fba59a7" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>22 · Near vision: the three changes</title>
@@ -231,6 +252,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-22-11cfabbdbd</guid>
     <pubDate>Fri, 16 Oct 2026 00:22:00 GMT</pubDate>
     <itunes:duration>0:02:00</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/22.vtt?v=c5bce115cf" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>23 · Myopia, hyperopia and astigmatism</title>
@@ -241,6 +263,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-23-b7fbf52ac3</guid>
     <pubDate>Fri, 16 Oct 2026 00:23:00 GMT</pubDate>
     <itunes:duration>0:02:23</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/23.vtt?v=727b316356" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>24 · Waves: light and sound</title>
@@ -251,6 +274,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-24-61ab25574c</guid>
     <pubDate>Fri, 16 Oct 2026 00:24:00 GMT</pubDate>
     <itunes:duration>0:03:00</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/24.vtt?v=42daaa87c1" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>25 · Taste: the taste buds</title>
@@ -261,6 +285,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-25-0a3478e8ed</guid>
     <pubDate>Fri, 16 Oct 2026 00:25:00 GMT</pubDate>
     <itunes:duration>0:02:35</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/25.vtt?v=dbd60c213b" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>26 · Smell: the olfactory epithelium</title>
@@ -271,6 +296,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-26-bd9d5bdf28</guid>
     <pubDate>Fri, 16 Oct 2026 00:26:00 GMT</pubDate>
     <itunes:duration>0:02:25</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/26.vtt?v=fb9b24265d" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>27 · The eye, part by part</title>
@@ -281,6 +307,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-27-054fb85561</guid>
     <pubDate>Fri, 16 Oct 2026 00:27:00 GMT</pubDate>
     <itunes:duration>0:06:11</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/27.vtt?v=abdbaa9e2b" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>28 · The ear and sound: the fine print</title>
@@ -291,6 +318,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-28-591c70b4b8</guid>
     <pubDate>Fri, 16 Oct 2026 00:28:00 GMT</pubDate>
     <itunes:duration>0:06:53</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/28.vtt?v=7c61d0f3ec" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>29 · The male reproductive system: every structure and its job</title>
@@ -301,6 +329,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-29-c653ee0457</guid>
     <pubDate>Fri, 16 Oct 2026 00:29:00 GMT</pubDate>
     <itunes:duration>0:04:37</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/29.vtt?v=3e5ac22588" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>30 · Semen, sperm count, erection and ejaculation</title>
@@ -311,6 +340,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-30-80839401df</guid>
     <pubDate>Fri, 16 Oct 2026 00:30:00 GMT</pubDate>
     <itunes:duration>0:03:31</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/30.vtt?v=3c2ce3da8b" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>31 · Making sperm and eggs</title>
@@ -321,6 +351,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-31-7dab27b4ed</guid>
     <pubDate>Fri, 16 Oct 2026 00:31:00 GMT</pubDate>
     <itunes:duration>0:02:28</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/31.vtt?v=0e0bd10261" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>32 · The female reproductive system: every structure and its job</title>
@@ -331,6 +362,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-32-5e372ef3df</guid>
     <pubDate>Fri, 16 Oct 2026 00:32:00 GMT</pubDate>
     <itunes:duration>0:04:31</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/32.vtt?v=04f76ebee2" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>33 · The ovarian and uterine cycles</title>
@@ -341,6 +373,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-33-d25ec93f21</guid>
     <pubDate>Fri, 16 Oct 2026 00:33:00 GMT</pubDate>
     <itunes:duration>0:03:09</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/33.vtt?v=a7a8f09ad5" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>34 · Male versus female: the comparison table</title>
@@ -351,6 +384,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-34-8fc0a049d2</guid>
     <pubDate>Fri, 16 Oct 2026 00:34:00 GMT</pubDate>
     <itunes:duration>0:02:34</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/34.vtt?v=33b7bee23b" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>35 · Hormonal control of sperm, and testosterone</title>
@@ -361,6 +395,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-35-737ed15621</guid>
     <pubDate>Fri, 16 Oct 2026 00:35:00 GMT</pubDate>
     <itunes:duration>0:03:11</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/35.vtt?v=94f408d915" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>36 · Oestrogen, progesterone and the pill</title>
@@ -371,6 +406,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-36-328e799f5c</guid>
     <pubDate>Fri, 16 Oct 2026 00:36:00 GMT</pubDate>
     <itunes:duration>0:02:21</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/36.vtt?v=e260d83ef3" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>37 · The female sexual response, and four words</title>
@@ -381,6 +417,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-37-f6e219851f</guid>
     <pubDate>Fri, 16 Oct 2026 00:37:00 GMT</pubDate>
     <itunes:duration>0:01:57</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/37.vtt?v=c5e199fcf9" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>38 · Sperm, eggs and ovulation: the fine print</title>
@@ -391,6 +428,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-38-6df47ac7df</guid>
     <pubDate>Fri, 16 Oct 2026 00:38:00 GMT</pubDate>
     <itunes:duration>0:05:36</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/38.vtt?v=7f1655dbbb" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>39 · Erection, the breast, and her female words: the fine print</title>
@@ -401,6 +439,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-39-97659c9ac9</guid>
     <pubDate>Fri, 16 Oct 2026 00:39:00 GMT</pubDate>
     <itunes:duration>0:05:46</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/39.vtt?v=9e4522c847" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>40 · The closed questions: facts no other track covers</title>
@@ -411,6 +450,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-40-68f2f1070b</guid>
     <pubDate>Fri, 16 Oct 2026 00:40:00 GMT</pubDate>
     <itunes:duration>0:09:55</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/40.vtt?v=1ca5f12e08" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>41 · Rapid-fire: every answer, back to back</title>
@@ -421,6 +461,7 @@
     <guid isPermaLink="false">hs2-podcast-t3-41-b94f32bc08</guid>
     <pubDate>Fri, 16 Oct 2026 00:41:00 GMT</pubDate>
     <itunes:duration>0:28:33</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/t3/41.vtt?v=e653a83114" type="text/vtt" language="en"/>
   </item>
 </channel>
 </rss>

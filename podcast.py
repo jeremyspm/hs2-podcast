@@ -383,6 +383,8 @@ def chime():
 def check(chs, ep):
     bad = []
     for ch in chs:
+        for _ in shown(ch):        # the subtitles line up with the voice, paragraph by paragraph (stops on the first that doesn't)
+            pass
         for p in ch['paras']:      # a LETTER A that starts a sentence is read as the article "uh": write "Letter A" or "Area A"
             for m in re.finditer(r"(?:^|[.!?:]\s+)(A)(?=[,:]|\s+(?:is|shows|marks|and|to)\b)", p['text']):
                 bad.append(f"{ep} ch {ch['n']}: a sentence starts with the letter A: …{p['text'][max(0, m.start()-30):m.end()+30]}…")
@@ -414,12 +416,62 @@ def voice_chapter(ep, ch):
     print(f"[{ep} {ch['n']:02d}] voiced in {(time.time()-t0)/60:.1f} min", flush=True)
 
 
+def shown(ch):
+    """segs(ch), each 'say' with the words as written in the script (what the subtitles show), not as respelled for the voice."""
+    for p in ch['paras']:
+        said = list(pieces(p['text']))
+        raw = [' '.join(r.split()) for r in re.split(r'\[pause(?: \d+(?:\.\d+)?)?\]', p['text']) if r.strip()]
+        if sum(k == 'say' for k, _ in said) != len(raw):
+            raise SystemExit(f"subtitles: ch {ch['n']} has a paragraph whose spoken and written pieces do not line up:\n  {p['text'][:120]}")
+        it = iter(raw)
+        for kind, val in said:
+            yield kind, p['who'], val, (next(it) if kind == 'say' else None)
+
+
+def lines(text, most=90):
+    """One paragraph cut into subtitle lines: by sentence, and a long sentence again at its commas, colons and semicolons."""
+    out = []
+    for s in re.split(r'(?<=[.!?])\s+', text):
+        while len(s) > most:
+            cut = max((m.end() for m in re.finditer(r'[,;:]\s', s[:most + 1])), default=0)
+            if cut < 25:
+                cut = s.rfind(' ', 0, most) + 1 or len(s)
+            out.append(s[:cut].strip()); s = s[cut:]
+        if s.strip():
+            out.append(s.strip())
+    return out
+
+
 def chapter_audio(ch):
-    parts = [silence(LEAD), chime(), silence(0.45)]
-    for kind, who, val in segs(ch):
-        parts += [silence(val)] if kind == 'pause' else [level(say(val, who)), silence(GAP)]
+    """The chapter's samples, and its subtitles: [(start, end, who, line)]. Each paragraph's span is exact (the build places it);
+    the lines inside one paragraph share that span by their length in characters."""
+    parts, cues = [silence(LEAD), chime(), silence(0.45)], []
+    t = sum(len(p) for p in parts) / SR
+    for kind, who, val, text in shown(ch):
+        if kind == 'pause':
+            parts.append(silence(val)); t += len(parts[-1]) / SR
+            continue
+        clip = level(say(val, who))
+        parts += [clip, silence(GAP)]
+        ls, d = lines(text), len(clip) / SR
+        total, at = sum(len(l) for l in ls), t
+        for l in ls:
+            span = d * len(l) / total
+            cues.append((at, at + span, who, l)); at += span
+        t += d + len(parts[-1]) / SR
     parts.append(silence(TAIL))
-    return np.concatenate(parts)
+    return np.concatenate(parts), cues
+
+
+def vtt(cues):
+    def ts(s):
+        ms = int(round(s * 1000))
+        return f'{ms // 3600000:02d}:{ms // 60000 % 60:02d}:{ms // 1000 % 60:02d}.{ms % 1000:03d}'
+    out = ['WEBVTT', '']
+    for i, (a, b, who, l) in enumerate(cues, 1):
+        l = l.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
+        out += [str(i), f'{ts(a)} --> {ts(b)}', f'<v Examiner>{l}' if who == 'q' else l, '']
+    return '\n'.join(out)
 
 
 # ── what the player shows under each chapter: her question and the short answer, from the Paper Sims ──────────
@@ -561,8 +613,11 @@ def build(ep, chs, banks):
     os.makedirs(named)
     rows, total = [], 0.0
     for ch in chs:
-        a = chapter_audio(ch)
+        a, cues = chapter_audio(ch)
         dur = len(a) / SR
+        sub = vtt(cues)                      # 20 Oct: subtitles, timed by the build itself (no speech recognition)
+        open(os.path.join(outdir, f'{ch["n"]:02d}.vtt'), 'w', encoding='utf-8', newline='\n').write(sub)
+        open(os.path.join(named, f'{ch["n"]:02d} {slug(ch["title"])}.vtt'), 'w', encoding='utf-8', newline='\n').write(sub)
         wav = os.path.join(WORK, f'{ep}-{ch["n"]:02d}.wav')
         sf.write(wav, a, SR, subtype='PCM_16')
         mp3 = os.path.join(outdir, f'{ch["n"]:02d}.mp3')
@@ -575,7 +630,8 @@ def build(ep, chs, banks):
         items, scen = show_for(ep, ch, banks)
         rows.append({'n': ch['n'], 'title': ch['title'], 'file': f'audio/{ep}/{ch["n"]:02d}.mp3', 'dur': round(dur, 1),
                      'bytes': os.path.getsize(mp3), 'rapid': bool(ch['meta'].get('rapid')), 'scen': scen, 'show': items,
-                     'marks': sum(i['marks'] or 0 for i in items) or None, 'ver': hashlib.sha1(open(mp3, 'rb').read()).hexdigest()[:10]})
+                     'marks': sum(i['marks'] or 0 for i in items) or None, 'ver': hashlib.sha1(open(mp3, 'rb').read()).hexdigest()[:10],
+                     'vtt': f'audio/{ep}/{ch["n"]:02d}.vtt', 'vver': hashlib.sha1(sub.encode('utf-8')).hexdigest()[:10]})
         total += dur
         print(f"  {ep} {ch['n']:02d}  {int(dur//60):2d}:{int(dur%60):02d}  {ch['title']}", flush=True)
     # the whole episode as ONE MP3 too (asked 16 Oct: "give them the option to download the mp3"), for anyone who wants a single
@@ -622,9 +678,10 @@ def feed(e):
     <guid isPermaLink="false">hs2-podcast-{e['id']}-{r['n']:02d}-{r['ver']}</guid>
     <pubDate>{formatdate(t0 + 60 * r['n'], usegmt=True)}</pubDate>
     <itunes:duration>{d // 3600:d}:{d % 3600 // 60:02d}:{d % 60:02d}</itunes:duration>
+    <podcast:transcript url="{BASE_URL}{r['vtt']}?v={r['vver']}" type="text/vtt" language="en"/>
   </item>""")
     xml = f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:podcast="https://podcastindex.org/namespace/1.0">
 <channel>
   <title>{escape(e['title'])}</title>
   <link>{BASE_URL}</link>

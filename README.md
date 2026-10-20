@@ -18,6 +18,13 @@ podcast app shows numbered tracks and can repeat one. Three ways in, all from th
 3. `feed-t3.xml`, `feed-final.xml` — podcast feeds (a serial show; every question an episode, in order;
    `itunes:block` so directories never list it). Apple Podcasts → Library → ⋯ → Follow a Show by URL.
 
+**Subtitles** (20 Oct): every chapter has `audio/<ep>/NN.vtt`, timed by the build itself, not by speech recognition. `chapter_audio`
+knows where each spoken paragraph starts and ends to the sample; the lines inside a paragraph (sentences, long ones cut again at
+their commas) share its span by length. The text is the script as written (`shown()`), not the respelling the voice reads, and
+the examiner's lines carry `<v Examiner>`. The player shows the current line above the title (CC toggles it); the browser zip and
+the local zips put each `.vtt` beside its MP3; the feeds carry `podcast:transcript` for apps that show transcripts. A paragraph
+whose written and spoken pieces don't line up fails `--dry`.
+
 ## Build
 
     python podcast.py --dry        # words, minutes, every gate; voices nothing

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:podcast="https://podcastindex.org/namespace/1.0">
 <channel>
   <title>HS2 Final — Every case SAQ</title>
   <link>https://jeremyspm.github.io/hs2-podcast/</link>
@@ -21,6 +21,7 @@
     <guid isPermaLink="false">hs2-podcast-final-01-c535066fb7</guid>
     <pubDate>Fri, 16 Oct 2026 00:01:00 GMT</pubDate>
     <itunes:duration>0:02:44</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/final/01.vtt?v=ca039b12a8" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>02 · Case 2: the aftereffects of lymph node removal</title>
@@ -31,6 +32,7 @@
     <guid isPermaLink="false">hs2-podcast-final-02-24cad82845</guid>
     <pubDate>Fri, 16 Oct 2026 00:02:00 GMT</pubDate>
     <itunes:duration>0:03:19</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/final/02.vtt?v=936e6238e4" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>03 · Case 3, part 1: Ane's asthma attack</title>
@@ -41,6 +43,7 @@
     <guid isPermaLink="false">hs2-podcast-final-03-7e714b5c10</guid>
     <pubDate>Fri, 16 Oct 2026 00:03:00 GMT</pubDate>
     <itunes:duration>0:02:48</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/final/03.vtt?v=9ed6e274e4" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>04 · Case 3, part 2: keeping dust out, and bringing the pressure down</title>
@@ -51,6 +54,7 @@
     <guid isPermaLink="false">hs2-podcast-final-04-0b9cbf1767</guid>
     <pubDate>Fri, 16 Oct 2026 00:04:00 GMT</pubDate>
     <itunes:duration>0:03:24</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/final/04.vtt?v=9a9bd54cfc" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>05 · Case 3, part 3: her four lung micrographs</title>
@@ -61,6 +65,7 @@
     <guid isPermaLink="false">hs2-podcast-final-05-69a3a0ab74</guid>
     <pubDate>Fri, 16 Oct 2026 00:05:00 GMT</pubDate>
     <itunes:duration>0:02:17</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/final/05.vtt?v=8889fec3f9" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>06 · Case 4, part 1: Manaia's breathing</title>
@@ -71,6 +76,7 @@
     <guid isPermaLink="false">hs2-podcast-final-06-0216a43ad1</guid>
     <pubDate>Fri, 16 Oct 2026 00:06:00 GMT</pubDate>
     <itunes:duration>0:03:58</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/final/06.vtt?v=7f558c0de2" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>07 · Case 4, part 2: breathing and blood pH</title>
@@ -81,6 +87,7 @@
     <guid isPermaLink="false">hs2-podcast-final-07-45ad48d701</guid>
     <pubDate>Fri, 16 Oct 2026 00:07:00 GMT</pubDate>
     <itunes:duration>0:03:43</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/final/07.vtt?v=9cf01adf68" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>08 · Case 4, part 3: her two acid-base tables</title>
@@ -91,6 +98,7 @@
     <guid isPermaLink="false">hs2-podcast-final-08-bf92a37979</guid>
     <pubDate>Fri, 16 Oct 2026 00:08:00 GMT</pubDate>
     <itunes:duration>0:03:26</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/final/08.vtt?v=aef8376996" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>09 · Case 6, part 1: what insulin does</title>
@@ -101,6 +109,7 @@
     <guid isPermaLink="false">hs2-podcast-final-09-513afedf5f</guid>
     <pubDate>Fri, 16 Oct 2026 00:09:00 GMT</pubDate>
     <itunes:duration>0:04:05</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/final/09.vtt?v=7063702a65" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>10 · Case 6, part 2: glucagon, the day graph, and the tired pancreas</title>
@@ -111,6 +120,7 @@
     <guid isPermaLink="false">hs2-podcast-final-10-2465552de5</guid>
     <pubDate>Fri, 16 Oct 2026 00:10:00 GMT</pubDate>
     <itunes:duration>0:02:55</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/final/10.vtt?v=7e517347b7" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>11 · Case 8, part 1: the joint, A to H</title>
@@ -121,6 +131,7 @@
     <guid isPermaLink="false">hs2-podcast-final-11-1c1b226472</guid>
     <pubDate>Fri, 16 Oct 2026 00:11:00 GMT</pubDate>
     <itunes:duration>0:04:24</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/final/11.vtt?v=de5ed6b6b3" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>12 · Case 8, part 2: rheumatoid arthritis, cortisol, and Shannon</title>
@@ -131,6 +142,7 @@
     <guid isPermaLink="false">hs2-podcast-final-12-c9e99f03a4</guid>
     <pubDate>Fri, 16 Oct 2026 00:12:00 GMT</pubDate>
     <itunes:duration>0:04:13</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/final/12.vtt?v=9e66401c6f" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>13 · Case 9, part 1: neurotransmitters and the synapse</title>
@@ -141,6 +153,7 @@
     <guid isPermaLink="false">hs2-podcast-final-13-25bfc14bf7</guid>
     <pubDate>Fri, 16 Oct 2026 00:13:00 GMT</pubDate>
     <itunes:duration>0:03:22</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/final/13.vtt?v=fbc16751ba" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>14 · Case 9, part 2: label the synapse, and why levodopa</title>
@@ -151,6 +164,7 @@
     <guid isPermaLink="false">hs2-podcast-final-14-c1e535dbae</guid>
     <pubDate>Fri, 16 Oct 2026 00:14:00 GMT</pubDate>
     <itunes:duration>0:02:51</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/final/14.vtt?v=b823ed034a" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>15 · Case 10: stroke, and the map of the brain</title>
@@ -161,6 +175,7 @@
     <guid isPermaLink="false">hs2-podcast-final-15-7cd26f2eb8</guid>
     <pubDate>Fri, 16 Oct 2026 00:15:00 GMT</pubDate>
     <itunes:duration>0:05:39</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/final/15.vtt?v=d9ce89203c" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>16 · Case 13, part 1: the kit, ovulation, and the cycle graph</title>
@@ -171,6 +186,7 @@
     <guid isPermaLink="false">hs2-podcast-final-16-f35479eb2c</guid>
     <pubDate>Fri, 16 Oct 2026 00:16:00 GMT</pubDate>
     <itunes:duration>0:03:01</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/final/16.vtt?v=631400072d" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>17 · Case 13, part 2: contraception, and the three she hasn't answered</title>
@@ -181,6 +197,7 @@
     <guid isPermaLink="false">hs2-podcast-final-17-6a1d41bae5</guid>
     <pubDate>Fri, 16 Oct 2026 00:17:00 GMT</pubDate>
     <itunes:duration>0:05:28</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/final/17.vtt?v=c7f6bb71cd" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>18 · Case 14, part 1: rods, cones, and red-green colour blindness</title>
@@ -191,6 +208,7 @@
     <guid isPermaLink="false">hs2-podcast-final-18-f02b31ba68</guid>
     <pubDate>Fri, 16 Oct 2026 00:18:00 GMT</pubDate>
     <itunes:duration>0:02:25</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/final/18.vtt?v=abe492687c" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>19 · Case 14, part 2: Simon's family</title>
@@ -201,6 +219,7 @@
     <guid isPermaLink="false">hs2-podcast-final-19-17e8f5fcf6</guid>
     <pubDate>Fri, 16 Oct 2026 00:19:00 GMT</pubDate>
     <itunes:duration>0:03:24</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/final/19.vtt?v=d70cd5f63c" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>20 · Case 15: cystic fibrosis, Huntington's, and the two whānau</title>
@@ -211,6 +230,7 @@
     <guid isPermaLink="false">hs2-podcast-final-20-b12695ed70</guid>
     <pubDate>Fri, 16 Oct 2026 00:20:00 GMT</pubDate>
     <itunes:duration>0:04:43</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/final/20.vtt?v=08648bd094" type="text/vtt" language="en"/>
   </item>
   <item>
     <title>21 · Rapid-fire: every case answer, back to back</title>
@@ -221,6 +241,7 @@
     <guid isPermaLink="false">hs2-podcast-final-21-26b086a973</guid>
     <pubDate>Fri, 16 Oct 2026 00:21:00 GMT</pubDate>
     <itunes:duration>0:12:54</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/final/21.vtt?v=cb7b8295f5" type="text/vtt" language="en"/>
   </item>
 </channel>
 </rss>

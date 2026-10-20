@@ -28,7 +28,9 @@
      "scen": "",
      "show": [],
      "marks": null,
-     "ver": "c9fb4486f0"
+     "ver": "c9fb4486f0",
+     "vtt": "audio/t3/01.vtt",
+     "vver": "33da06c172"
     },
     {
      "n": 2,
@@ -80,7 +82,9 @@
       }
      ],
      "marks": 6,
-     "ver": "a0b316d333"
+     "ver": "a0b316d333",
+     "vtt": "audio/t3/02.vtt",
+     "vver": "6e469e0229"
     },
     {
      "n": 3,
@@ -123,7 +127,9 @@
       }
      ],
      "marks": 4,
-     "ver": "e77f1a95fd"
+     "ver": "e77f1a95fd",
+     "vtt": "audio/t3/03.vtt",
+     "vver": "c63c2163f9"
     },
     {
      "n": 4,
@@ -185,7 +191,9 @@
       }
      ],
      "marks": 6,
-     "ver": "15ae33e1ed"
+     "ver": "15ae33e1ed",
+     "vtt": "audio/t3/04.vtt",
+     "vver": "8711ca9cf5"
     },
     {
      "n": 5,
@@ -220,7 +228,9 @@
       }
      ],
      "marks": 5,
-     "ver": "999c7c12d6"
+     "ver": "999c7c12d6",
+     "vtt": "audio/t3/05.vtt",
+     "vver": "92e5b69072"
     },
     {
      "n": 6,
@@ -275,7 +285,9 @@
       }
      ],
      "marks": 5,
-     "ver": "a32a1f493c"
+     "ver": "a32a1f493c",
+     "vtt": "audio/t3/06.vtt",
+     "vver": "8d63c11de9"
     },
     {
      "n": 7,
@@ -325,7 +337,9 @@
       }
      ],
      "marks": 5,
-     "ver": "89a47198d6"
+     "ver": "89a47198d6",
+     "vtt": "audio/t3/07.vtt",
+     "vver": "5ee7996637"
     },
     {
      "n": 8,
@@ -363,7 +377,9 @@
       }
      ],
      "marks": 4,
-     "ver": "9bc37967de"
+     "ver": "9bc37967de",
+     "vtt": "audio/t3/08.vtt",
+     "vver": "ec756c5016"
     },
     {
      "n": 9,
@@ -404,7 +420,9 @@
       }
      ],
      "marks": null,
-     "ver": "d2f8182f2a"
+     "ver": "d2f8182f2a",
+     "vtt": "audio/t3/09.vtt",
+     "vver": "e32b9d329f"
     },
     {
      "n": 10,
@@ -452,7 +470,9 @@
       }
      ],
      "marks": 4,
-     "ver": "12d2ad4385"
+     "ver": "12d2ad4385",
+     "vtt": "audio/t3/10.vtt",
+     "vver": "9363756c0b"
     },
     {
      "n": 11,
@@ -500,7 +520,9 @@
       }
      ],
      "marks": 4,
-     "ver": "599ca68985"
+     "ver": "599ca68985",
+     "vtt": "audio/t3/11.vtt",
+     "vver": "faca19888f"
     },
     {
      "n": 12,
@@ -534,7 +556,9 @@
       }
      ],
      "marks": null,
-     "ver": "2b248bb592"
+     "ver": "2b248bb592",
+     "vtt": "audio/t3/12.vtt",
+     "vver": "8968966add"
     },
     {
      "n": 13,
@@ -568,7 +592,9 @@
       }
      ],
      "marks": null,
-     "ver": "1d2567c5f6"
+     "ver": "1d2567c5f6",
+     "vtt": "audio/t3/13.vtt",
+     "vver": "3627afa3a0"
     },
     {
      "n": 14,
@@ -616,7 +642,9 @@
       }
      ],
      "marks": 4,
-     "ver": "9c51267b17"
+     "ver": "9c51267b17",
+     "vtt": "audio/t3/14.vtt",
+     "vver": "028ad657bd"
     },
     {
      "n": 15,
@@ -659,7 +687,9 @@
       }
      ],
      "marks": 4,
-     "ver": "1943076a3b"
+     "ver": "1943076a3b",
+     "vtt": "audio/t3/15.vtt",
+     "vver": "a119cf1a86"
     },
     {
      "n": 16,
@@ -732,7 +762,9 @@
       }
      ],
      "marks": null,
-     "ver": "e97ff8f8fa"
+     "ver": "e97ff8f8fa",
+     "vtt": "audio/t3/16.vtt",
+     "vver": "642d057259"
     },
     {
      "n": 17,
@@ -776,7 +808,9 @@
       }
      ],
      "marks": 4.5,
-     "ver": "f7b1155247"
+     "ver": "f7b1155247",
+     "vtt": "audio/t3/17.vtt",
+     "vver": "e5790f0267"
     },
     {
      "n": 18,
@@ -824,7 +858,9 @@
       }
      ],
      "marks": 4,
-     "ver": "c2027fdd83"
+     "ver": "c2027fdd83",
+     "vtt": "audio/t3/18.vtt",
+     "vver": "ce3a510d74"
     },
     {
      "n": 19,
@@ -867,7 +903,9 @@
       }
      ],
      "marks": 4,
-     "ver": "cfb03ef43f"
+     "ver": "cfb03ef43f",
+     "vtt": "audio/t3/19.vtt",
+     "vver": "d3fbf59c2f"
     },
     {
      "n": 20,
@@ -911,7 +949,9 @@
       }
      ],
      "marks": 4.5,
-     "ver": "ed59c2d8c1"
+     "ver": "ed59c2d8c1",
+     "vtt": "audio/t3/20.vtt",
+     "vver": "05a0265535"
     },
     {
      "n": 21,
@@ -957,7 +997,9 @@
       }
      ],
      "marks": null,
-     "ver": "582024ab00"
+     "ver": "582024ab00",
+     "vtt": "audio/t3/21.vtt",
+     "vver": "861fba59a7"
     },
     {
      "n": 22,
@@ -993,7 +1035,9 @@
       }
      ],
      "marks": 3,
-     "ver": "11cfabbdbd"
+     "ver": "11cfabbdbd",
+     "vtt": "audio/t3/22.vtt",
+     "vver": "c5bce115cf"
     },
     {
      "n": 23,
@@ -1043,7 +1087,9 @@
       }
      ],
      "marks": 5,
-     "ver": "b7fbf52ac3"
+     "ver": "b7fbf52ac3",
+     "vtt": "audio/t3/23.vtt",
+     "vver": "727b316356"
     },
     {
      "n": 24,
@@ -1087,7 +1133,9 @@
       }
      ],
      "marks": 4,
-     "ver": "61ab25574c"
+     "ver": "61ab25574c",
+     "vtt": "audio/t3/24.vtt",
+     "vver": "42daaa87c1"
     },
     {
      "n": 25,
@@ -1126,7 +1174,9 @@
       }
      ],
      "marks": 5,
-     "ver": "0a3478e8ed"
+     "ver": "0a3478e8ed",
+     "vtt": "audio/t3/25.vtt",
+     "vver": "dbd60c213b"
     },
     {
      "n": 26,
@@ -1166,7 +1216,9 @@
       }
      ],
      "marks": 5,
-     "ver": "bd9d5bdf28"
+     "ver": "bd9d5bdf28",
+     "vtt": "audio/t3/26.vtt",
+     "vver": "fb9b24265d"
     },
     {
      "n": 27,
@@ -1224,7 +1276,9 @@
       }
      ],
      "marks": null,
-     "ver": "054fb85561"
+     "ver": "054fb85561",
+     "vtt": "audio/t3/27.vtt",
+     "vver": "abdbaa9e2b"
     },
     {
      "n": 28,
@@ -1294,7 +1348,9 @@
       }
      ],
      "marks": null,
-     "ver": "591c70b4b8"
+     "ver": "591c70b4b8",
+     "vtt": "audio/t3/28.vtt",
+     "vver": "7c61d0f3ec"
     },
     {
      "n": 29,
@@ -1329,7 +1385,9 @@
       }
      ],
      "marks": 10,
-     "ver": "c653ee0457"
+     "ver": "c653ee0457",
+     "vtt": "audio/t3/29.vtt",
+     "vver": "3e5ac22588"
     },
     {
      "n": 30,
@@ -1377,7 +1435,9 @@
       }
      ],
      "marks": null,
-     "ver": "80839401df"
+     "ver": "80839401df",
+     "vtt": "audio/t3/30.vtt",
+     "vver": "3c2ce3da8b"
     },
     {
      "n": 31,
@@ -1420,7 +1480,9 @@
       }
      ],
      "marks": 4,
-     "ver": "7dab27b4ed"
+     "ver": "7dab27b4ed",
+     "vtt": "audio/t3/31.vtt",
+     "vver": "0e0bd10261"
     },
     {
      "n": 32,
@@ -1453,7 +1515,9 @@
       }
      ],
      "marks": 10,
-     "ver": "5e372ef3df"
+     "ver": "5e372ef3df",
+     "vtt": "audio/t3/32.vtt",
+     "vver": "04f76ebee2"
     },
     {
      "n": 33,
@@ -1494,7 +1558,9 @@
       }
      ],
      "marks": 6,
-     "ver": "d25ec93f21"
+     "ver": "d25ec93f21",
+     "vtt": "audio/t3/33.vtt",
+     "vver": "a7a8f09ad5"
     },
     {
      "n": 34,
@@ -1556,7 +1622,9 @@
       }
      ],
      "marks": 6,
-     "ver": "8fc0a049d2"
+     "ver": "8fc0a049d2",
+     "vtt": "audio/t3/34.vtt",
+     "vver": "33b7bee23b"
     },
     {
      "n": 35,
@@ -1621,7 +1689,9 @@
       }
      ],
      "marks": 5,
-     "ver": "737ed15621"
+     "ver": "737ed15621",
+     "vtt": "audio/t3/35.vtt",
+     "vver": "94f408d915"
     },
     {
      "n": 36,
@@ -1666,7 +1736,9 @@
       }
      ],
      "marks": 5,
-     "ver": "328e799f5c"
+     "ver": "328e799f5c",
+     "vtt": "audio/t3/36.vtt",
+     "vver": "e260d83ef3"
     },
     {
      "n": 37,
@@ -1712,7 +1784,9 @@
       }
      ],
      "marks": null,
-     "ver": "f6e219851f"
+     "ver": "f6e219851f",
+     "vtt": "audio/t3/37.vtt",
+     "vver": "c5e199fcf9"
     },
     {
      "n": 38,
@@ -1782,7 +1856,9 @@
       }
      ],
      "marks": null,
-     "ver": "6df47ac7df"
+     "ver": "6df47ac7df",
+     "vtt": "audio/t3/38.vtt",
+     "vver": "7f1655dbbb"
     },
     {
      "n": 39,
@@ -1862,7 +1938,9 @@
       }
      ],
      "marks": null,
-     "ver": "97659c9ac9"
+     "ver": "97659c9ac9",
+     "vtt": "audio/t3/39.vtt",
+     "vver": "9e4522c847"
     },
     {
      "n": 40,
@@ -1956,7 +2034,9 @@
       }
      ],
      "marks": null,
-     "ver": "68f2f1070b"
+     "ver": "68f2f1070b",
+     "vtt": "audio/t3/40.vtt",
+     "vver": "1ca5f12e08"
     },
     {
      "n": 41,
@@ -1968,7 +2048,9 @@
      "scen": "",
      "show": [],
      "marks": null,
-     "ver": "b94f32bc08"
+     "ver": "b94f32bc08",
+     "vtt": "audio/t3/41.vtt",
+     "vver": "e653a83114"
     }
    ]
   },
@@ -1999,7 +2081,9 @@
      "scen": "",
      "show": [],
      "marks": null,
-     "ver": "c535066fb7"
+     "ver": "c535066fb7",
+     "vtt": "audio/final/01.vtt",
+     "vver": "ca039b12a8"
     },
     {
      "n": 2,
@@ -2093,7 +2177,9 @@
       }
      ],
      "marks": 10,
-     "ver": "24cad82845"
+     "ver": "24cad82845",
+     "vtt": "audio/final/02.vtt",
+     "vver": "936e6238e4"
     },
     {
      "n": 3,
@@ -2186,7 +2272,9 @@
       }
      ],
      "marks": 11,
-     "ver": "7e714b5c10"
+     "ver": "7e714b5c10",
+     "vtt": "audio/final/03.vtt",
+     "vver": "9ed6e274e4"
     },
     {
      "n": 4,
@@ -2283,7 +2371,9 @@
       }
      ],
      "marks": 11,
-     "ver": "0b9cbf1767"
+     "ver": "0b9cbf1767",
+     "vtt": "audio/final/04.vtt",
+     "vver": "9a9bd54cfc"
     },
     {
      "n": 5,
@@ -2338,7 +2428,9 @@
       }
      ],
      "marks": 10,
-     "ver": "69a3a0ab74"
+     "ver": "69a3a0ab74",
+     "vtt": "audio/final/05.vtt",
+     "vver": "8889fec3f9"
     },
     {
      "n": 6,
@@ -2432,7 +2524,9 @@
       }
      ],
      "marks": 13,
-     "ver": "0216a43ad1"
+     "ver": "0216a43ad1",
+     "vtt": "audio/final/06.vtt",
+     "vver": "7f558c0de2"
     },
     {
      "n": 7,
@@ -2517,7 +2611,9 @@
       }
      ],
      "marks": 7,
-     "ver": "45ad48d701"
+     "ver": "45ad48d701",
+     "vtt": "audio/final/07.vtt",
+     "vver": "9cf01adf68"
     },
     {
      "n": 8,
@@ -2594,7 +2690,9 @@
       }
      ],
      "marks": 14,
-     "ver": "bf92a37979"
+     "ver": "bf92a37979",
+     "vtt": "audio/final/08.vtt",
+     "vver": "aef8376996"
     },
     {
      "n": 9,
@@ -2719,7 +2817,9 @@
       }
      ],
      "marks": 18,
-     "ver": "513afedf5f"
+     "ver": "513afedf5f",
+     "vtt": "audio/final/09.vtt",
+     "vver": "7063702a65"
     },
     {
      "n": 10,
@@ -2805,7 +2905,9 @@
       }
      ],
      "marks": 13,
-     "ver": "2465552de5"
+     "ver": "2465552de5",
+     "vtt": "audio/final/10.vtt",
+     "vver": "7e517347b7"
     },
     {
      "n": 11,
@@ -2921,7 +3023,9 @@
       }
      ],
      "marks": 21,
-     "ver": "1c1b226472"
+     "ver": "1c1b226472",
+     "vtt": "audio/final/11.vtt",
+     "vver": "de5ed6b6b3"
     },
     {
      "n": 12,
@@ -3066,7 +3170,9 @@
       }
      ],
      "marks": 19,
-     "ver": "c9e99f03a4"
+     "ver": "c9e99f03a4",
+     "vtt": "audio/final/12.vtt",
+     "vver": "9e66401c6f"
     },
     {
      "n": 13,
@@ -3161,7 +3267,9 @@
       }
      ],
      "marks": 13,
-     "ver": "25bfc14bf7"
+     "ver": "25bfc14bf7",
+     "vtt": "audio/final/13.vtt",
+     "vver": "fbc16751ba"
     },
     {
      "n": 14,
@@ -3231,7 +3339,9 @@
       }
      ],
      "marks": 16,
-     "ver": "c1e535dbae"
+     "ver": "c1e535dbae",
+     "vtt": "audio/final/14.vtt",
+     "vver": "b823ed034a"
     },
     {
      "n": 15,
@@ -3327,7 +3437,9 @@
       }
      ],
      "marks": 35,
-     "ver": "7cd26f2eb8"
+     "ver": "7cd26f2eb8",
+     "vtt": "audio/final/15.vtt",
+     "vver": "d9ce89203c"
     },
     {
      "n": 16,
@@ -3412,7 +3524,9 @@
       }
      ],
      "marks": 10,
-     "ver": "f35479eb2c"
+     "ver": "f35479eb2c",
+     "vtt": "audio/final/16.vtt",
+     "vver": "631400072d"
     },
     {
      "n": 17,
@@ -3514,7 +3628,9 @@
       }
      ],
      "marks": 9,
-     "ver": "6a1d41bae5"
+     "ver": "6a1d41bae5",
+     "vtt": "audio/final/17.vtt",
+     "vver": "c7f6bb71cd"
     },
     {
      "n": 18,
@@ -3556,7 +3672,9 @@
       }
      ],
      "marks": 7,
-     "ver": "f02b31ba68"
+     "ver": "f02b31ba68",
+     "vtt": "audio/final/18.vtt",
+     "vver": "abe492687c"
     },
     {
      "n": 19,
@@ -3656,7 +3774,9 @@
       }
      ],
      "marks": 17,
-     "ver": "17e8f5fcf6"
+     "ver": "17e8f5fcf6",
+     "vtt": "audio/final/19.vtt",
+     "vver": "d70cd5f63c"
     },
     {
      "n": 20,
@@ -3757,7 +3877,9 @@
       }
      ],
      "marks": 6,
-     "ver": "b12695ed70"
+     "ver": "b12695ed70",
+     "vtt": "audio/final/20.vtt",
+     "vver": "08648bd094"
     },
     {
      "n": 21,
@@ -3769,7 +3891,9 @@
      "scen": "",
      "show": [],
      "marks": null,
-     "ver": "26b086a973"
+     "ver": "26b086a973",
+     "vtt": "audio/final/21.vtt",
+     "vver": "cb7b8295f5"
     }
    ]
   }
