@@ -325,3 +325,87 @@ Q: Once more. The response, and the four words.
 [pause 2]
 
 {recap} The female sexual response is like the male's: the clitoris and vaginal mucosa engorge with blood, the vestibular glands lubricate, and orgasm brings muscle tension, a faster pulse, higher blood pressure, and rhythmic contractions of the uterus. Menarche is the first period. Menopause is when the reproductive hormones decline and the cycles stop. Amenorrhoea is no periods. Dysmenorrhoea is painful periods.
+
+# Sperm, eggs and ovulation: the fine print
+@ crit: R3, R9, R10, R11
+@ ask: The sperm cell, her six-blank table. || Head: 23 chromosomes as chromatin, capped by the enzyme-filled acrosome, which penetrates the egg | No acrosome enzymes: healthy, fast sperm still cannot get in | Midpiece: mitochondria turn fructose from the seminal vesicles into ATP for swimming; faulty mitochondria, poor motility | Tail: propels the sperm; short, double or crooked tails cannot | False: sperm carry a lot of food in their heads
+@ ask: The cells, with their chromosome counts. || Spermatogonium (diploid) → mitosis → primary spermatocyte (diploid) → meiosis I → secondary spermatocyte (haploid) → meiosis II → spermatids (haploid) → spermiogenesis → spermatozoa | Inhibin, from the Sertoli cells, slows sperm production when the count is too high | Oogonium (diploid) → mitosis, only before birth → primary oocyte (diploid, waits in prophase I) | Meiosis I → secondary oocyte (haploid) + first polar body; released in metaphase II | Meiosis II completes at fertilisation (telophase II) → ovum + second polar body; polar bodies are haploid and degenerate | False: oogonia are present from menarche to menopause | False: both involve meiosis followed by mitosis
+@ ask: Her six differences, and ovulation. || Duration: continuous, puberty to death / monthly, menarche to menopause | Cytokinesis: equal cytoplasm / unequal: a large oocyte and small polar bodies | Result: four motile sperm / one non-motile ovum | Ovulation: a secondary oocyte; triggered by the LH peak; the ovarian wall ruptures as the Graafian (tertiary) follicle bursts; fluid pushes the oocyte to the fimbriae of the Fallopian tube | FSH: highest in the proliferative phase | Oestrogen: from the developing follicle, peaks just before ovulation, stimulates LH | Progesterone: from the corpus luteum, dominates the secretory phase, develops the endometrial glands | Oestrogen and progesterone both peak in the luteal phase | Her key: LH stimulates progesterone production by the follicle's thecal cells
+@ say: Sperm, eggs and ovulation, fine print
+% 20 Oct: her sperm table 211071 and 211120, her acrosome MCQ 210994, her true or falses 211071, 211054; her cell matching tables
+% 211120 (both), her MCQ 211071, her differences table 211120 and MCQs 210994, 211054; her ovulation drop-down 211050; her hormone
+% tables 211050 and 211054; thecal cells 210994 Q21.
+
+Q: Sperm, eggs and ovulation. The fine print.
+
+The written tracks give you gamete production and the two cycles. Her quizzes ask the same ground in matching tables, cell by cell, with the chromosome counts. This track is those tables.
+
+The hook: head, midpiece, tail. The acrosome breaks in, the mitochondria pay, and the tail swims.
+
+The sperm cell, her six-blank table. The head holds the twenty-three chromosomes, as chromatin, and it's capped by the acrosome, which is full of enzymes to penetrate the egg. Her case: a man whose sperm are healthy, swim straight, and are plentiful, but can't penetrate an egg. The acrosome is short of the enzymes it needs. The midpiece is packed with mitochondria, the engine: they turn the fructose from the seminal vesicles into A T P, the energy for swimming, so faulty mitochondria mean poor motility. And the tail propels the sperm. Short, double or crooked tails can't. Her true or false: sperm carry a lot of food in their heads, for the long journey. False. Their fuel is the fructose in the semen.
+
+[pause 1]
+
+The cells, with their chromosome counts, her matching table. The spermatogonium is the diploid stem cell, and it divides by mitosis into a diploid primary spermatocyte. That's why males make gametes for life. Meiosis one gives haploid secondary spermatocytes, and meiosis two gives haploid spermatids. Spermiogenesis turns the spermatids into spermatozoa. Her multiple choice version: spermatogonium, diploid spermatocyte, haploid spermatocyte, spermatid, spermatozoon. And inhibin, from the Sertoli cells, slows sperm production when the count is too high.
+
+Oogenesis, her diagram. Oogonia are diploid cells that divide by mitosis into diploid primary oocytes, and that only happens in fetal life. Her true or false: oogonia are present in the ovary from menarche to menopause. False. The primary oocytes form before birth, and wait in prophase one. Meiosis one gives a haploid secondary oocyte and the first polar body. The secondary oocyte is released at ovulation, waiting in metaphase two. Meiosis two is completed at fertilisation, in telophase two, giving the ovum and a second polar body. The polar bodies are haploid cells that degenerate.
+
+Her six differences. Duration: spermatogenesis is continuous from puberty to death, and oogenesis is monthly, from menarche to menopause. Cytokinesis: the sperm cells divide with equal cytoplasm, and the oocyte divides unequally, into one large oocyte and small polar bodies. The result: four motile sperm, against one non-motile ovum. And her false statement: both involve meiosis followed by mitosis. False. It's mitosis first, then meiosis.
+
+[pause 1]
+
+Ovulation, her drop-down. A secondary oocyte is released from the ovary. Ovulation is triggered by a peak in LH. The ovarian wall ruptures when the fluid-filled Graafian follicle, which she also calls the tertiary follicle, bursts. And the force of the fluid pushes the oocyte out, toward the fimbriae of the fallopian tube. The fimbriae sweep over the ovary to catch it, and the cilia in the tube move it on toward the uterus.
+
+Her hormone tables. FSH, from the pituitary, is highest during the proliferative phase, and makes the follicles grow. Oestrogen, released by the developing follicle, peaks just before ovulation, and stimulates the secretion of LH. LH, from the pituitary, peaks highest just before ovulation. Progesterone, released by the corpus luteum after ovulation, dominates the secretory phase, and develops the glands of the endometrium. Oestrogen and progesterone both peak in the luteal phase. And one of her keys to learn as written: LH stimulates the production of progesterone by the follicle's thecal cells.
+
+The traps. Oogonia only exist before birth. It's mitosis, then meiosis. The egg is released as a secondary oocyte, in metaphase two. And the acrosome gets the sperm in; the mitochondria make it swim.
+
+Q: Once more. Sperm, eggs and ovulation.
+
+[pause 2]
+
+{recap} The sperm head holds twenty-three chromosomes as chromatin, capped by the acrosome, whose enzymes penetrate the egg. The midpiece mitochondria turn fructose into A T P for swimming, and the tail propels it. Sperm don't carry food in their heads. A diploid spermatogonium divides by mitosis into a diploid primary spermatocyte, then meiosis gives haploid secondary spermatocytes and spermatids, and spermiogenesis makes spermatozoa. Inhibin slows production when the count is high. Oogonia divide by mitosis only before birth. Meiosis one gives a haploid secondary oocyte and a polar body, and meiosis two completes at fertilisation. Polar bodies degenerate.
+
+{recap} Spermatogenesis is continuous from puberty to death, with equal cytoplasm, and gives four motile sperm. Oogenesis is monthly, menarche to menopause, unequal, and gives one non-motile ovum. It's mitosis first, then meiosis. At ovulation, the LH peak bursts the Graafian, or tertiary, follicle, and the secondary oocyte is pushed to the fimbriae. FSH is highest in the proliferative phase. Oestrogen peaks just before ovulation and stimulates LH. Progesterone dominates the secretory phase. Her key: LH stimulates progesterone from the thecal cells.
+
+# Erection, the breast, and her female words: the fine print
+@ crit: R1, R2, R5, R7, R8, R11, R12
+@ ask: Her erection steps, and her male true or falses. || Starts: a thought or action triggers the parasympathetic system | Then: nitric oxide, a vasodilator, is released | The central artery, the arterioles and the spongy erectile tissue widen | More blood flows via the central artery into the erectile tissue | The corpora cavernosa fill, squash the veins, the penis is rigid | Blood is redirected back out; the penis returns to flaccid | Her numbering: II, V, IV, III, I | False: an enlarged testicle makes it hard to urinate (it is the prostate) | True: one opening for urine and semen | True: prostaglandins drive peristalsis in both tracts, helping sperm to the tubes | Semen: the seminal vesicles and the prostate | Males secrete testosterone, FSH and LH | Testosterone ineffective in the developing brain: a female orientation, or ambiguous gender identity
+@ ask: The breast, her lactation case quiz. || Sits directly on the pectoralis major, over the intercostals and ribs; the clavicle is appendicular | Inside: adipose tissue, lobules with alveoli (prolactin: make milk), lactiferous ducts (oxytocin: release milk), opening at the nipple | Areola: sebaceous glands; darkens in pregnancy | Nipple: erectile tissue; hardens by smooth muscle contraction, sympathetic | Oestrogen: primary breast development, puberty; progesterone: further development, pregnancy | False: breast development is a primary sexual characteristic | False: breasts are well supported by strong ligaments and muscles | Oestrogen and progesterone, then prolactin, in a woman who is not pregnant: lactation
+@ ask: Her female words tables. || Ovulation: release of an egg | Fertilisation: fusion of egg and sperm | Contraception: a procedure or device to prevent pregnancy | Menstruation: monthly shedding of the endometrium (the stratum functionalis, after the spiral arteries constrict) | Pregnancy: the 40 weeks a new individual develops in the mother | Abortion: termination of a pregnancy by removal or expulsion of an embryo or foetus | Uterus: hollow, pear-shaped, elastic, muscular | Ovary: a gland making oestrogen and oocytes | Placenta: takes oxygen and nutrients from the mother's blood to the foetus via the umbilical cord | Oestrogen: enlarges the external genitalia (a secondary sexual characteristic)
+@ say: Erection, the breast, and her female words
+% 20 Oct: her erection order 211120; her male true or falses 211071, 211120; semen and male hormones 210994 Q6, Q11, Q12; her
+% breast tables 211084 (two) and true or falses 211084; lactation 210994 Q26; her female words tables 211054 (two); oestrogen
+% 210994 Q23. The reasons given for two false statements (the prostate; breasts have no muscle of their own) are the podcast's.
+
+Q: Erection, the breast, and her female words. The fine print.
+
+The last of the fine print: her erection steps, which she asks as put-them-in-order, the breast, from her lactation case quiz, and her two big matching tables of female words.
+
+The hook: nitric oxide, widen, flow, fill, and drain. The breast sits on the pectoralis major. And pregnancy is forty weeks.
+
+Her erection steps, in order. It starts with a thought or an action triggering the parasympathetic nervous system. Then nitric oxide, a vasodilator, is released. The central artery, the other arterioles, and the mesh of spongy erectile tissue widen. More blood flows through the central artery into the spongy tissue. The corpora cavernosa fill with blood and press against their outer walls, squashing the veins, so blood can't flow back out, and the penis is rigid. Last, the blood is redirected back out into the body, and the penis returns to its flaccid state. In her numbering: two, five, four, three, one.
+
+Her male true or falses. An enlarged testicle can make it hard to urinate: false. It's an enlarged prostate that does that, because the prostate wraps around the urethra. Men have only one opening for urine and semen: true. The prostaglandins from the seminal vesicles bring on involuntary peristalsis of smooth muscle in both the male and the female tracts, helping sperm reach the fallopian tubes: true. Semen is produced by the seminal vesicles and the prostate, both. Males secrete testosterone, FSH, and LH: all three. And if testosterone doesn't work during the development of a male's brain, the brain might have a female orientation, or gender identity may be ambiguous. Both are possible.
+
+[pause 1]
+
+The breast, her lactation case quiz. The breast sits directly on the pectoralis major muscle, over the intercostal muscles and the ribs, and her diagram adds the clavicle, part of the appendicular skeleton. Inside are adipose tissue, the lobules with their alveoli, which make milk under prolactin, and the lactiferous ducts, which release it under oxytocin, and open at the nipple. The areola, the dark area round the nipple, contains sebaceous glands, and darkens in pregnancy. The nipple contains erectile tissue, and hardens by smooth muscle contraction, in response to sympathetic stimuli.
+
+Oestrogen is responsible for primary breast development, at puberty. Progesterone is responsible for further breast development, in pregnancy. Her true or false: breast development is a primary sexual characteristic. False: it's a secondary one. Another: breasts are well supported by strong ligaments and muscles. False. The breast has no muscle of its own: it hangs from its suspensory ligaments. That reason is the podcast's, but the false is her key. And her case: a woman who isn't pregnant takes high doses of oestrogen and progesterone, and then prolactin. Her mammary glands begin lactating.
+
+[pause 1]
+
+Her female words, two big matching tables. Ovulation: the release of an egg from the ovary. Fertilisation: the fusion of an egg and a sperm. Contraception: a procedure or device to prevent pregnancy. Menstruation: the shedding of the endometrium each month. It's the stratum functionalis that's shed, after the spiral arteries constrict and cut off its blood. Pregnancy: the forty weeks during which a new individual develops in the mother. And abortion: the termination of a pregnancy by the removal or expulsion of an embryo or foetus.
+
+The organs, her way. The uterus is a hollow, pear-shaped, elastic, muscular structure where a fertilised ovum can grow to a full-term baby. The ovary is a gland that makes oestrogen and oocytes. The placenta forms on the inside of the uterus, and takes oxygen and nutrients from the mother's blood to the foetus, through the umbilical cord. And one secondary sexual characteristic promoted by oestrogen, from her quiz: enlargement of the external genitalia.
+
+The traps. The steps of an erection end with blood draining back out. An enlarged prostate, not a testicle, makes it hard to urinate. Breast development is secondary, not primary. And pregnancy is forty weeks.
+
+Q: Once more. Erection, the breast, and her female words.
+
+[pause 2]
+
+{recap} A parasympathetic trigger, then nitric oxide is released, the central artery, arterioles and spongy tissue widen, more blood flows in, the corpora cavernosa fill and squash the veins, and last the blood drains back out: two, five, four, three, one. An enlarged prostate, not a testicle, makes it hard to urinate. Prostaglandins drive peristalsis in both tracts. Males secrete testosterone, FSH and LH. The breast sits on the pectoralis major. The alveoli make milk under prolactin, and the lactiferous ducts release it under oxytocin. The areola has sebaceous glands and darkens in pregnancy, and the nipple hardens under sympathetic stimuli.
+
+{recap} Oestrogen gives primary breast development at puberty, and progesterone further development in pregnancy. Breast development is a secondary sexual characteristic, and the breast has no strong muscles supporting it. Ovulation releases an egg, fertilisation fuses egg and sperm, menstruation sheds the stratum functionalis, and pregnancy is forty weeks. Abortion is the termination of a pregnancy by removal or expulsion of an embryo or foetus. The uterus is hollow and pear-shaped, the ovary makes oestrogen and oocytes, and the placenta feeds the foetus through the umbilical cord. Oestrogen enlarges the external genitalia.

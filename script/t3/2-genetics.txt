@@ -238,3 +238,65 @@ Q: Once more. Detecting and treating genetic disease.
 [pause 2]
 
 {recap} Genetic testing reads a person's DNA, often from a blood sample: a karyotype, or a CGH array for missing or extra DNA. Chorionic villus sampling takes placenta at eight to twelve weeks. Amniocentesis takes amniotic fluid at fourteen to twenty weeks. Both check the fetal cells. Genetic engineering is the deliberate alteration of DNA, like bacteria altered to make insulin. Gene therapy treats a genetic disease by inserting genetic material into the patient's cells.
+
+# Genetics: the fine print
+@ crit: G1, G2, G3, G4, G5, G6, G7, G8
+@ ask: Pedigree symbols, Y-linked genes, and her notation. || A line through a symbol: deceased | A horizontal line joining a man and a woman: a couple that reproduces | The children hang from one line: siblings | Generations in Roman numerals down the side; people numbered left to right (II-1 = generation two, person one) | Y-linked: only males, in every generation, father to every son | Queen Victoria: a carrier; her son Leopold had haemophilia (XhY) | A star on an allele marks the affected one: X*Y is an affected male
+@ ask: Her one-mark words. || Trait: a characteristic determined by genes | Mutagen: an agent bringing about a change in the DNA code | Haploid 23 (a gamete); diploid 46 (a body cell) | Chromosome pair 23: the sex chromosomes; X and Y decide sex (sex determination) | Karyotype: a complete diploid complement display of homologous chromosome pairs | Mitochondrial DNA: part of the genome, not of the nuclear DNA; extrachromosomal | Most human traits are determined by multiple alleles (her key, two quizzes) | Huntington's: CAG repeats make a toxic protein with a glutamine stretch (polyQ) that breaks down brain cells
+@ ask: The crosses she asks in one line. || A cross of one trait: monohybrid (every cross in her bank) | Outside the Punnett square: possible gametes; inside: possible zygotes | Test cross: the unknown dominant × homozygous recessive; one recessive offspring proves heterozygous | Incomplete dominance: red × white → pink; curly × straight → wavy | Codominance: red × white → red and white parts | Sickle cell: Aa × Aa → 25% lethal aa; Aa × AA → 0% | Polygenic: continuous variation, many genes, each with a small effect | Freckles (dominant), neither parent freckled: 0%; a dominant allele cannot hide | Fetal testing: most common is amniocentesis; her table's most reliable is CVS
+@ say: The genetics fine print
+% 20 Oct: every line is a quiz key of hers in hs2-test3/bank-dump.json that no other track said. Pedigree symbols and counting
+% 211014, 211086, 211135; Y-linked 211120; Queen Victoria 211053; words 211114, 211017, 211029, 211041; mitochondrial 211062,
+% 211120, 211054; Huntington's polyQ 211087; monohybrid 211114; gametes and zygotes 211087; the deaf-dog test cross 211062;
+% flowers 211062, 211114; the Leos 211062; sickle cell her deck slide 23; polygenic 211041, 211091; freckles 211041, 211087,
+% 211091; widow's peak 211062; PKU 211086; PTC 211062; CVS 211054.
+
+Q: Genetics, the fine print. The one-mark facts her quiz keys ask that no written answer covers.
+
+Genetics is the biggest pile of marks in her Module 3 quizzes, and most of it is closed: one-mark multiple choice, drop-downs, and matching tables. The written tracks give you the ideas. This one gives you the small facts, in the words her keys use, so nothing in a closed question catches you cold.
+
+The hook: a line through means they've died. Y-linked is fathers to sons. Outside the square, gametes; inside, zygotes. And one trait is monohybrid.
+
+Reading her charts. Beyond squares, circles and shading, three more symbols. A line through a symbol means the person has died. A horizontal line joining a man and a woman is a couple that reproduces. And their children hang from one line below them, which marks them as siblings. The generations are numbered down the side in Roman numerals, one, two, three, and the people in each generation are numbered from left to right. So two, one means generation two, person one. Many of her pedigree questions are just counting off the chart: how many females, how many have died, how many children a couple had.
+
+One pattern the written tracks don't name: Y-linked. The gene sits on the Y chromosome, so only males have it, it shows in every generation, and a father passes it to all of his sons. Her drop-down: this condition is Y-linked, since it occurs in males in every generation, and sex-linked, since it affects only males.
+
+Her haemophilia genogram is Queen Victoria's family. Haemophilia is X-linked recessive. Victoria was a carrier, and her son Leopold had haemophilia: X little h, Y. And when her charts put a star on an allele, the star marks the affected one. X star, Y, is an affected male.
+
+[pause 1]
+
+Her one-mark words. A trait: a characteristic determined by genes. A mutagen: an agent that brings about a change in the DNA code. Haploid is the chromosome number of a gamete, twenty-three. Diploid is the number in a body cell, forty-six. Chromosome pair twenty-three is the sex chromosomes, and the X and Y chromosomes decide the sex: that's sex determination. Her karyotype wording, word for word: a complete diploid complement display of homologous chromosome pairs. On her normal male karyotype, you call it male because it has a Y.
+
+Mitochondrial DNA, her way. It's part of the genome, but not part of the nuclear DNA: it's extrachromosomal. Mitochondria divide on their own in the cell, and the egg's mitochondria pass from a mother to all of her children. So on her chart of an affected mother, the grandchildren who escape it are the ones whose mothers didn't have the defect. And genes passed from the mother only: mitochondrial.
+
+Two of her keys to learn as written. Most human traits are determined by multiple alleles: that's her key, in two quizzes, so pick it. And her Huntington's true or false: the extra C A G repeats make a toxic protein with a long run of the amino acid glutamine, a glutamine stretch called poly Q, which progressively breaks down nerve cells in the brain. True.
+
+[pause 1]
+
+The crosses. A cross of one trait is a monohybrid cross, and every cross in her bank is monohybrid. Dihybrid only ever turns up as a wrong option. On a Punnett square, the letters outside are the possible gametes, and the letters inside are the possible zygotes.
+
+Her deaf-dog problem is a test cross. A dog that can hear is big D big D or big D little d, and you can't tell by looking. So you cross him with a deaf female, little d little d. If he's big D big D, every puppy is big D little d and hears. If he's big D little d, half the puppies are big D little d and hear, and half are little d little d, and deaf. So a single deaf puppy proves he's big D little d.
+
+Her flowers. Red crossed with white gives pink: incomplete dominance, a blend. Red crossed with white gives flowers with red and white parts: codominance, both show. Her wavy-haired child, from a curly allele and a straight allele: incomplete dominance. And sickle cell, her incomplete dominance example. Two parents who are both big A little a have a twenty-five per cent chance of a child with the lethal form, little a little a. If one parent is big A little a and the other is big A big A, the chance is zero.
+
+Her polygenic drop-down: polygenic, or multifactorial, inheritance shows continuous variation in a population, and a trait like height or skin colour is determined by many genes, each with a small effect on its own.
+
+[pause 1]
+
+Her word problems, and the catch in each. Freckles are dominant, and neither parent has freckles. So both are little f little f, and the chance of a freckled child is zero. Her false statement: because the freckle allele is dominant, it can easily hide. A dominant allele can't hide. If either parent carried it, they'd have freckles.
+
+Two parents with widow's peaks have a child without one. That's not infidelity. Both parents are heterozygous, each passes on the recessive allele, and that's a twenty-five per cent chance. The same goes for a carrier father whose son has P K U: the mother must be a carrier too.
+
+Her P T C question. About eighty per cent of people can taste the chemical P T C. Her key says true: the higher frequency suggests the tasting allele is dominant.
+
+And her two fetal tests. The most common form of fetal testing is amniocentesis. But in her matching table, the most reliable test for genetic abnormalities is chorionic villus sampling. Read which one she's asking for: common, or reliable.
+
+The traps. Y-linked is males only, father to every son. Polygenic is many genes; multiple alleles is one gene with more than two versions. And outside the square is gametes, inside is zygotes.
+
+Q: Once more. The genetics fine print.
+
+[pause 2]
+
+{recap} A line through a symbol: deceased. A horizontal line: a couple. Their children hang from one line as siblings. Generations are Roman numerals, people numbered left to right. Y-linked: only males, every generation, father to every son. Victoria was a carrier, and Leopold had haemophilia. A trait is a characteristic determined by genes, and a mutagen changes the DNA code. Haploid is twenty-three, diploid forty-six, and pair twenty-three is the sex chromosomes. Mitochondrial DNA is part of the genome, but not the nuclear DNA. Her key: most human traits are determined by multiple alleles.
+
+{recap} A one-trait cross is monohybrid. Outside the Punnett square, gametes; inside, zygotes. A test cross uses a homozygous recessive partner, and one recessive offspring proves the parent is heterozygous. Red and white giving pink is incomplete dominance; red and white parts is codominance. Two sickle cell carriers have a twenty-five per cent chance of the lethal form. Polygenic: many genes, each with a small effect. Two non-freckled parents can't have a freckled child. The most common fetal test is amniocentesis; her most reliable is chorionic villus sampling.

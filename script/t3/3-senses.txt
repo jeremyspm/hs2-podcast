@@ -333,3 +333,105 @@ Q: Once more. Smell.
 [pause 2]
 
 {recap} The olfactory epithelium is in the roof of the nasal cavity, which is why you sniff. It has olfactory receptor neurons with cilia, supporting cells, and basal cells that replace the neurons. Odourants dissolve in the mucus and bind the receptors. The axons pass through the cribriform plate as cranial nerve one, and synapse in the olfactory bulb, under the frontal lobe. The primary olfactory cortex in the temporal lobe identifies the smell; the amygdala adds emotion, and the hippocampus memory. Total loss is anosmia; partial loss is hyposmia.
+
+# The eye, part by part
+@ crit: SS1, SS2, SS3, SS4
+@ ask: Her eye worksheets and her 20-mark matching table: every part from its description. || Conjunctiva: mucous membrane over the front of the eye and lining the eyelids; protects the cornea from friction; infected in pinkeye | Cornea: clear window, continuous with the sclera; light first bent here, 80% of refraction; can be transplanted | Anterior chamber: holds the aqueous humour, a clear watery fluid; drained by the canal of Schlemm, a circular canal where the sclera meets the cornea | Iris: circular muscle inside, radial outside; blue eyes make less brown pigment | Pupil: the hole in the iris; constricts in bright light, dilates in dim, under autonomic control | Ciliary body: suspensory ligaments hold the lens; secretes aqueous humour; involuntary ciliary muscles change the lens shape | Lens: transparent, flexible, biconvex; 20% of refraction | Vitreous humour: transparent jelly behind the lens; keeps the eyeball's shape, provides nutrients; the hyaloid canal runs through it from the optic disc to the lens | Retina: the sensory layer, rods and cones; the image forms here | Macula lutea: an oval yellow spot at the centre; fovea centralis: a pit in line with the pupil, only cones | Optic disc (blind spot): the exit of the ganglion cell axons; no rods or cones, no image | Choroid: black layer between retina and sclera; pigment stops reflection, vessels feed the retina | Sclera: tough, white, non-elastic; keeps the eye round, anchors its muscles | Optic nerve: to the occipital lobe
+@ ask: Her one-mark eye facts. || Vision has most of the body's sensory receptors | Strabismus: cannot align both eyes at once | Retinal detachment: the retina tears and detaches (laser) | Myopia: lens too strong or too bulgy, or eye too long; light over-focused in front of the retina; biconcave lens | Hyperopia: lens too weak or too flat, or eye too short; focus behind the retina; biconvex lens | Afterimage: persists after you close your eyes; photoreceptors blocked by a vivid stimulus | Inverted image: upside down (her lens drop-down); opposite colours (her SAQ answer)
+@ say: The eye, part by part
+% 20 Oct: her 20-mark table 211011, her eye worksheet (ws-senses, five tables), 211120's lettered match, 211121's conditions, and
+% her one-liners in 211100 (vision, blue eyes, sensory layer), 211123 (afterimage, inverted images) and 211121 (afterimage blank).
+
+Q: The eye, part by part. Her worksheets and her matching tables.
+
+Her eye labelling and matching questions carry a lot of marks: one matching table alone is twenty marks, and her worksheets add about fifty more. The three layers track gives you the structure. This one walks through the eye from front to back, the way her worksheet describes each part, so you can name any part from its description.
+
+The hook, front to back: conjunctiva, cornea, aqueous, iris and pupil, lens, vitreous, retina, choroid, sclera, and out through the blind spot.
+
+The front. The conjunctiva is the thin mucous membrane that covers the front of the eye and lines the inside of the eyelids. It's a protective layer of epithelial cells, guarding the cornea against friction, and tears from the lacrimal glands keep it moist. It's what's infected in pinkeye. The cornea is the clear, curved window at the front, continuous with the sclera. Light is first bent here, and it does about eighty per cent of the refraction. Her worksheet adds that a cornea can be transplanted.
+
+Behind the cornea is the anterior chamber, holding the aqueous humour, a clear, watery fluid that keeps the front of the eye in shape. It's drained by the canal of Schlemm, a circular canal where the sclera meets the cornea.
+
+The iris is the coloured part: a pigmented muscular ring, with an inner ring of circular muscle, and an outer layer of radial muscle. It controls how much light gets in: enough to form an image, but not so much that it damages the retina. Her key on eye colour: people with blue eyes make lesser amounts of brown pigment in the iris. The pupil is the hole in the middle of the iris. It constricts in bright light, and dilates in dim light, under autonomic control.
+
+[pause 1]
+
+The middle. The ciliary body holds the lens in place with its suspensory ligaments, secretes the aqueous humour, and contains the ciliary muscles, which are involuntary, and change the shape of the lens for near and far. That's accommodation. The lens itself is transparent, flexible and biconvex, and does the other twenty per cent of the refraction.
+
+Behind the lens is the vitreous humour: a transparent, jelly-like, protein-rich mass. It maintains the shape of the eyeball, the back part, and her worksheet says it provides nutrients. A small, transparent canal runs through it, from the optic disc to the lens: the hyaloid canal.
+
+[pause 1]
+
+The back. The retina is the sensory layer, and her key says the sensory layer is the one responsible for vision. Its rods and cones turn light into electrical impulses, and the image forms here. Cones for colour vision, rods for poor light. At its centre is the macula lutea, an oval yellow spot. In the middle of that is the fovea centralis, a small pit directly in line with the pupil, with only cones: sharp colour vision in good light.
+
+The optic disc, the blind spot, is the exit point for the ganglion cell axons, where they leave as the optic nerve. It has no rods or cones, so no image forms there. The optic nerve carries the impulses to the occipital lobe, which controls vision.
+
+The choroid is the black layer between the retina and the sclera. Its dark pigment stops light reflecting around inside the eyeball, and its network of blood vessels feeds the retina and removes waste. And the sclera is the tough, white, non-elastic outer coat. It protects the eye, keeps it round with the pressure of the fluid inside, and anchors the muscles that move it.
+
+[pause 1]
+
+Her one-mark eye facts. Of all the senses, vision has the majority of the body's sensory receptors. Strabismus is when a person can't align both eyes at the same time. Retinal detachment is when the retina tears and comes away, and it's treated with laser. Myopia, in her tables: the lens is too strong, or too bulgy, or the eye is too long, so the light is over-focused, in front of the retina, and a biconcave lens scatters it back. Hyperopia: the lens is too weak, or too flat, or the eye is too short, so the light focuses behind the retina, and a biconvex lens boosts it.
+
+Two words from her short questions. An afterimage is an image that persists after you close your eyes. Her key says it's thought to be due to a vivid stimulus blocking the photoreceptors, so they can't fire again straight away. And an inverted image has two meanings in her quizzes. In her lens drop-down, inverted means upside down: the biconvex lens makes a real, inverted image, and the brain turns it upright. In her short-answer quiz, her model answer means an image in opposite colours: stare at it, look away, and the afterimage shows the true colours.
+
+The traps. The aqueous humour is at the front, the vitreous humour is behind the lens. The optic disc is the blind spot; the fovea is the sharpest spot. And the choroid is black on purpose: it stops light bouncing around inside the eye.
+
+Q: Once more. The eye, part by part.
+
+[pause 2]
+
+{recap} The conjunctiva covers the front of the eye and lines the eyelids, and it's infected in pinkeye. The cornea is the clear window where light is first bent: eighty per cent of the refraction, and it can be transplanted. The aqueous humour fills the anterior chamber and drains through the canal of Schlemm. The iris has circular and radial muscle, and blue eyes have less brown pigment. The ciliary body holds the lens, makes aqueous humour, and its involuntary muscles change the lens shape. The lens is biconvex: twenty per cent of the refraction. The vitreous humour is the jelly behind the lens, with the hyaloid canal through it.
+
+{recap} The retina is the sensory layer, where the image forms. The macula lutea is the yellow spot, and the fovea, in line with the pupil, has only cones. The optic disc, the blind spot, is where the axons leave as the optic nerve, to the occipital lobe. The choroid is black, to stop reflection, and feeds the retina. The sclera is tough and white, and keeps the eye round. Vision has most of the body's receptors. Strabismus: the eyes can't align. Myopia: too bulgy a lens, biconcave fix. Hyperopia: too flat, biconvex fix.
+
+# The ear and sound: the fine print
+@ crit: SS5, SS6, SS7, SS8, SS10, SS11, SS12
+@ ask: Her ear worksheet and her 10-mark ear table. || Outer ear: pinna (cartilage, ear lobe), external auditory meatus; ceruminous glands make cerumen; packed wax causes conduction deafness | Tympanic membrane: large, tough; turns vibrations in air into vibrations in bone | Middle ear cavity, in the temporal bone; ossicles act as levers; the stapes is the smallest bone in the body | Oval window: vibrations in bone become vibrations in fluid; the round window moves the opposite way | Air in the outer ear, bone in the middle, fluid in the inner | Semicircular canals: fluid-filled, at right angles to each other | Vestibular nerve (balance) + cochlear or auditory nerve (hearing) = nerve VIII, to the temporal lobes
+@ ask: Her organ of Corti sheet. || Perilymph: scala vestibuli and scala tympani; LOW potassium | Endolymph: scala media; HIGH potassium | Potassium and calcium flow into the hair cell; it releases glutamate; an impulse goes to the auditory cortex | Her order: oval window, perilymph, basilar membrane, endolymph, the hairs bend as the tectorial membrane moves, cochlear nerve, auditory cortex | Low pitch: longer, floppier fibres, at the apex; high pitch: shorter, stiffer hair cells, at the base
+@ ask: Her light-and-sound table. || Sound: mechanical waves; cannot cross a vacuum | Light: electromagnetic waves; can | Photons: light particles, packages of light | Light amplitude = intensity (brightness, lux); sound amplitude = loudness (dB) | Light frequency and wavelength = colour: red lowest, violet highest | Sound frequency = pitch | All light travels at the same speed, about 300 000 km per second | Refraction: part of the wave slows or speeds up, so it bends; e.g. an object in water seems moved | Taste and smell: chemoreception; balance: mechanoreception; taste is 80% smell
+@ say: The ear and sound, fine print
+% 20 Oct: her ear worksheet and organ of Corti sheet (ws-senses), her 10-mark ear table 211011, her orders 211011, 211022,
+% 211120, her receptors table 211123, her light-and-sound tables 211022 and 211121, her wave table 211123, refraction 211121 and
+% 211123, chemoreception and mechanoreception 211100.
+
+Q: The ear and sound, the fine print. Her worksheets, her tables, and her orders.
+
+The written tracks walk you through the ear and through waves. Her worksheets and matching tables ask for more of the small parts, and for things in a particular order. This track is those.
+
+The hook: air, bone, fluid. The oval window pushes, the round window gives. Low potassium outside, high potassium inside, and glutamate fires the nerve.
+
+The outer ear. The pinna is made of cartilage, with the ear lobe at the bottom. It picks up sound waves and channels them down the ear canal, which her worksheet calls the external auditory meatus. The ceruminous glands in the canal make cerumen, a yellow-brown wax. If it packs the canal, the person struggles to hear: conduction deafness.
+
+The middle ear. The middle ear cavity sits in the temporal bone. The tympanic membrane, the eardrum, is a relatively large, tough membrane that turns vibrations in air into vibrations in bone. The ossicles act as levers, to amplify the vibrations, and the stapes is the smallest bone in the human body. The Eustachian tube connects the middle ear to the throat, and equalises the pressure on the eardrum.
+
+Her true or false: in the outer ear, sound travels through air; in the middle ear, through bone; and in the inner ear, through fluid. True. The oval window is where vibrations in bone become vibrations in fluid. And the round window: the oval window and the round window vibrate in opposite directions. As the stapes pushes the oval window in, the round window bulges out, so the fluid has room to move. Her order of the membranes: the tympanic membrane, the oval window, the basilar membrane, then the round window.
+
+The inner ear. The cochlea is a fluid-filled, coiled tube, lined with the sensory cells of the organ of Corti, which turn vibrations in fluid into electrical impulses. The semicircular canals are fluid-filled, and set at right angles to each other, so they pick up movement in every direction. Two nerves leave the inner ear: the vestibular nerve, for balance, and the cochlear, or auditory, nerve, for hearing, which carries the impulses as action potentials to the temporal lobes.
+
+[pause 1]
+
+Her organ of Corti sheet. Perilymph fills the scala vestibuli and the scala tympani, and it's low in potassium. Endolymph fills the scala media, and it's high in potassium. When the hairs bend, potassium and calcium flow into the top of the hair cell, and it releases the neurotransmitter glutamate, which sends an impulse on to the auditory cortex. Her other wording: the stereocilia bend against the tectorial membrane, excitatory neurotransmitter is released at the synapse with the sensory neurons, and action potentials travel to the central nervous system. Mechanical in, electrical out.
+
+Her orders. Her worksheet's seven steps: movement of the oval window, movement of the perilymph in the scala tympani, movement of the basilar membrane, movement of the endolymph in the scala media, bending of the sensory hairs as the gel-like tectorial membrane moves, impulses along the cochlear nerve, and the auditory cortex in the temporal lobe. Notice that her orders put the basilar membrane before the endolymph. In her arrange-the-steps questions, use her order.
+
+Pitch along the cochlea. Low sounds move the longer, floppier fibres, at the apex of the cochlear duct, furthest from the oval window. High-pitched sounds move the shorter, stiffer hair cells, at the base. Her receptors table says the same: high pitch, hair cells at the base of the cochlear duct; low pitch, hair cells at the apex.
+
+[pause 1]
+
+Her light-and-sound table, ten marks, in two quizzes. Sound waves are mechanical waves: vibrations of particles, so they can't travel through a vacuum. Light waves are electromagnetic waves, so they can. Photons are light particles, or packages of light. The amplitude of light gives its intensity, how bright it is, measured in lux. The amplitude of sound gives its loudness, measured in decibels. The frequency and wavelength of light give its colour: red light has the lowest frequency, and violet the highest. Of sound, its pitch: a higher frequency is a higher pitch. And all light waves travel at the same speed, about three hundred thousand kilometres per second.
+
+Her wave table's definitions. Wavelength: the distance between the crests of the waves, measured in nanometres for light. Frequency: how often a wave passes a point each second. Amplitude: the maximum displacement, or height, of the wave from its resting point.
+
+Two more refraction wordings. A wave bends because one part of it slows down, or speeds up, relative to another part. Refraction goes into the new medium, but changes direction; reflection returns to the same medium. Her example of refraction: an object in water looks as if it's in a different position, like a straw that looks bent. Her example of reflection: a mirror image.
+
+And three of her sense words. Static and dynamic equilibrium both work by mechanoreception. Taste and smell are both chemoreception, and her key says taste is eighty per cent smell.
+
+The traps. The round window moves the opposite way to the oval window. Endolymph is high in potassium, perilymph is low. Low pitch is at the apex, high pitch at the base. And loud sound is amplitude, measured in decibels; bright light is amplitude too, measured in lux.
+
+Q: Once more. The ear and sound, fine print.
+
+[pause 2]
+
+{recap} The pinna is cartilage, with the ear lobe, and channels sound down the external auditory meatus, where ceruminous glands make wax that can cause conduction deafness. The eardrum turns air vibrations into bone vibrations, and the ossicles act as levers; the stapes is the smallest bone in the body. Air in the outer ear, bone in the middle, fluid in the inner. The oval window turns bone vibrations into fluid vibrations, and the round window moves the opposite way. The semicircular canals sit at right angles. The vestibular nerve is balance; the cochlear nerve is hearing.
+
+{recap} Perilymph, in the scala vestibuli and tympani, is low in potassium. Endolymph, in the scala media, is high. Potassium and calcium flow into the hair cell, and it releases glutamate. Low pitch is at the apex, high pitch at the base. Sound is mechanical and can't cross a vacuum; light is electromagnetic, made of photons. Light's amplitude is its intensity, in lux; sound's is loudness, in decibels. Red light has the lowest frequency, violet the highest. Refraction bends a wave as part of it slows, like an object in water. Taste and smell are chemoreception, balance is mechanoreception, and taste is eighty per cent smell.

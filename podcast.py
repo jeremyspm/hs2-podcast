@@ -58,8 +58,8 @@ EPISODES = {
         blurb='Every short-answer question Test 3 can ask. She posts no question list (her words: "there is no such list"); her '
               'Module 3 learning checklist limits what she may ask, so every point on it has a track: her two named cases, the '
               'pedigree charts she says will be tested, her help-board topics, every question on her student-marked SAQ quiz, and '
-              'the rest of the checklist. Then one track for the closed questions: the one-line facts her quiz keys ask that '
-              'no written answer covers.',
+              'the rest of the checklist. Each section ends with its fine print, and one more track before Rapid-fire holds '
+              'the rest of the closed questions: every one-line fact her quiz keys ask that no written answer covers.',
         when='Test 3 closes Mon 26 Oct · 37 questions · 65 min · about 30% of the marks written',
         rapid='Rapid-fire: every answer, back to back',
         rapid_intro='This is the rapid-fire track: every answer in this episode, back to back, one breath each. No teaching, '
@@ -148,6 +148,10 @@ IPA = {
     # ── 16 Oct, third audit: the closed-questions track (drug names and the egg's layers) ─────────────────────────
     'chloramphenicol': 'klˌɔːɹæmfˈɛnɪkˌɑːl', 'furosemide': 'fjʊɹˈoʊsəmˌaɪd', 'gentamicin': 'dʒˌɛntəmˈaɪsɪn',
     'aminoglycoside': 'ɐmˌiːnoʊɡlˈaɪkəsˌaɪd', 'pellucida': 'pəlˈuːsɪdə', 'diuretics': 'dˌaɪjʊɹˈɛɾɪks',
+    # ── 20 Oct, fourth audit: the five fine-print tracks (her quiz keys no written answer said) ──────────────────────
+    'extrachromosomal': 'ˌɛkstɹəkɹˌoʊməsˈoʊməl', 'meatus': 'miˈeɪɾəs', 'mechanoreception': 'mˌɛkənoʊɹɪsˈɛpʃən',
+    'pectoralis': 'pˌɛktəɹˈælɪs', 'spermatozoon': 'spˌɜːmɐɾəzˈoʊɑːn', 'thecal': 'θˈiːkəl',
+    'vasodilator': 'vˌeɪzoʊdaɪlˈeɪɾɚ', 'adipose': 'ˈædɪpˌoʊs',
 }
 
 # ── PORT: scripts/hs2-podcast/podcast.py (estate branch claude/hs2-test3-podcast-509210) ─────────────────────

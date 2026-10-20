@@ -1,34 +1,34 @@
 {
- "built": "2026-10-16",
+ "built": "2026-10-20",
  "episodes": [
   {
    "id": "t3",
    "title": "HS2 Test 3 — Every SAQ",
    "short": "Test 3",
    "kicker": "Module 3 · genetics, the senses, reproduction",
-   "blurb": "Every short-answer question Test 3 can ask. She posts no question list (her words: \"there is no such list\"); her Module 3 learning checklist limits what she may ask, so every point on it has a track: her two named cases, the pedigree charts she says will be tested, her help-board topics, every question on her student-marked SAQ quiz, and the rest of the checklist. Then one track for the closed questions: the one-line facts her quiz keys ask that no written answer covers.",
+   "blurb": "Every short-answer question Test 3 can ask. She posts no question list (her words: \"there is no such list\"); her Module 3 learning checklist limits what she may ask, so every point on it has a track: her two named cases, the pedigree charts she says will be tested, her help-board topics, every question on her student-marked SAQ quiz, and the rest of the checklist. Each section ends with its fine print, and one more track before Rapid-fire holds the rest of the closed questions: every one-line fact her quiz keys ask that no written answer covers.",
    "when": "Test 3 closes Mon 26 Oct · 37 questions · 65 min · about 30% of the marks written",
    "zip": "HS2-Test3-Every-SAQ",
-   "dur": 7788,
+   "dur": 10109,
    "cover": "audio/cover-t3.png",
    "feed": "feed-t3.xml",
    "full": {
     "file": "audio/HS2-Test3-Every-SAQ.mp3",
-    "bytes": 62385776,
-    "ver": "4cfeb947cb"
+    "bytes": 80954947,
+    "ver": "875a5a76b6"
    },
    "chapters": [
     {
      "n": 1,
      "title": "Start here: Test 3, and how this episode works",
      "file": "audio/t3/01.mp3",
-     "dur": 175.1,
-     "bytes": 1457784,
+     "dur": 179.6,
+     "bytes": 1493304,
      "rapid": false,
      "scen": "",
      "show": [],
      "marks": null,
-     "ver": "aa380cff1f"
+     "ver": "c9fb4486f0"
     },
     {
      "n": 2,
@@ -80,7 +80,7 @@
       }
      ],
      "marks": 6,
-     "ver": "3a2f2a7caf"
+     "ver": "a0b316d333"
     },
     {
      "n": 3,
@@ -123,7 +123,7 @@
       }
      ],
      "marks": 4,
-     "ver": "a3f8defee1"
+     "ver": "e77f1a95fd"
     },
     {
      "n": 4,
@@ -185,7 +185,7 @@
       }
      ],
      "marks": 6,
-     "ver": "9192ada56d"
+     "ver": "15ae33e1ed"
     },
     {
      "n": 5,
@@ -220,14 +220,14 @@
       }
      ],
      "marks": 5,
-     "ver": "48dbcee3ff"
+     "ver": "999c7c12d6"
     },
     {
      "n": 6,
      "title": "Pedigree charts: she says they will be tested",
      "file": "audio/t3/06.mp3",
-     "dur": 206.5,
-     "bytes": 1708342,
+     "dur": 215.1,
+     "bytes": 1777270,
      "rapid": false,
      "scen": "",
      "show": [
@@ -275,7 +275,7 @@
       }
      ],
      "marks": 5,
-     "ver": "c63dfc6b0d"
+     "ver": "a32a1f493c"
     },
     {
      "n": 7,
@@ -325,7 +325,7 @@
       }
      ],
      "marks": 5,
-     "ver": "abbd49272e"
+     "ver": "89a47198d6"
     },
     {
      "n": 8,
@@ -363,7 +363,7 @@
       }
      ],
      "marks": 4,
-     "ver": "11acb9c220"
+     "ver": "9bc37967de"
     },
     {
      "n": 9,
@@ -404,7 +404,7 @@
       }
      ],
      "marks": null,
-     "ver": "9f4a722167"
+     "ver": "d2f8182f2a"
     },
     {
      "n": 10,
@@ -452,7 +452,7 @@
       }
      ],
      "marks": 4,
-     "ver": "59c1578443"
+     "ver": "12d2ad4385"
     },
     {
      "n": 11,
@@ -500,7 +500,7 @@
       }
      ],
      "marks": 4,
-     "ver": "13bba08977"
+     "ver": "599ca68985"
     },
     {
      "n": 12,
@@ -534,7 +534,7 @@
       }
      ],
      "marks": null,
-     "ver": "64bc1f8b27"
+     "ver": "2b248bb592"
     },
     {
      "n": 13,
@@ -568,7 +568,7 @@
       }
      ],
      "marks": null,
-     "ver": "c5eb234920"
+     "ver": "1d2567c5f6"
     },
     {
      "n": 14,
@@ -616,7 +616,7 @@
       }
      ],
      "marks": 4,
-     "ver": "ec10be190a"
+     "ver": "9c51267b17"
     },
     {
      "n": 15,
@@ -659,12 +659,85 @@
       }
      ],
      "marks": 4,
-     "ver": "eb0a4c53d4"
+     "ver": "1943076a3b"
     },
     {
      "n": 16,
-     "title": "The three regions of the ear",
+     "title": "Genetics: the fine print",
      "file": "audio/t3/16.mp3",
+     "dur": 443.4,
+     "bytes": 3604109,
+     "rapid": false,
+     "scen": "",
+     "show": [
+      {
+       "ask": "Pedigree symbols, Y-linked genes, and her notation.",
+       "marks": null,
+       "hook": "",
+       "groups": [
+        {
+         "h": "",
+         "t": [
+          "A line through a symbol: deceased",
+          "A horizontal line joining a man and a woman: a couple that reproduces",
+          "The children hang from one line: siblings",
+          "Generations in Roman numerals down the side; people numbered left to right (II-1 = generation two, person one)",
+          "Y-linked: only males, in every generation, father to every son",
+          "Queen Victoria: a carrier; her son Leopold had haemophilia (XhY)",
+          "A star on an allele marks the affected one: X*Y is an affected male"
+         ]
+        }
+       ]
+      },
+      {
+       "ask": "Her one-mark words.",
+       "marks": null,
+       "hook": "",
+       "groups": [
+        {
+         "h": "",
+         "t": [
+          "Trait: a characteristic determined by genes",
+          "Mutagen: an agent bringing about a change in the DNA code",
+          "Haploid 23 (a gamete); diploid 46 (a body cell)",
+          "Chromosome pair 23: the sex chromosomes; X and Y decide sex (sex determination)",
+          "Karyotype: a complete diploid complement display of homologous chromosome pairs",
+          "Mitochondrial DNA: part of the genome, not of the nuclear DNA; extrachromosomal",
+          "Most human traits are determined by multiple alleles (her key, two quizzes)",
+          "Huntington's: CAG repeats make a toxic protein with a glutamine stretch (polyQ) that breaks down brain cells"
+         ]
+        }
+       ]
+      },
+      {
+       "ask": "The crosses she asks in one line.",
+       "marks": null,
+       "hook": "",
+       "groups": [
+        {
+         "h": "",
+         "t": [
+          "A cross of one trait: monohybrid (every cross in her bank)",
+          "Outside the Punnett square: possible gametes; inside: possible zygotes",
+          "Test cross: the unknown dominant × homozygous recessive; one recessive offspring proves heterozygous",
+          "Incomplete dominance: red × white → pink; curly × straight → wavy",
+          "Codominance: red × white → red and white parts",
+          "Sickle cell: Aa × Aa → 25% lethal aa; Aa × AA → 0%",
+          "Polygenic: continuous variation, many genes, each with a small effect",
+          "Freckles (dominant), neither parent freckled: 0%; a dominant allele cannot hide",
+          "Fetal testing: most common is amniocentesis; her table's most reliable is CVS"
+         ]
+        }
+       ]
+      }
+     ],
+     "marks": null,
+     "ver": "e97ff8f8fa"
+    },
+    {
+     "n": 17,
+     "title": "The three regions of the ear",
+     "file": "audio/t3/17.mp3",
      "dur": 154.2,
      "bytes": 1289941,
      "rapid": false,
@@ -703,12 +776,12 @@
       }
      ],
      "marks": 4.5,
-     "ver": "7f465dcaed"
+     "ver": "f7b1155247"
     },
     {
-     "n": 17,
+     "n": 18,
      "title": "How hearing happens",
-     "file": "audio/t3/17.mp3",
+     "file": "audio/t3/18.mp3",
      "dur": 132.6,
      "bytes": 1117123,
      "rapid": false,
@@ -751,12 +824,12 @@
       }
      ],
      "marks": 4,
-     "ver": "0ed6a1c286"
+     "ver": "c2027fdd83"
     },
     {
-     "n": 18,
+     "n": 19,
      "title": "Static and dynamic equilibrium",
-     "file": "audio/t3/18.mp3",
+     "file": "audio/t3/19.mp3",
      "dur": 152.2,
      "bytes": 1274585,
      "rapid": false,
@@ -794,12 +867,12 @@
       }
      ],
      "marks": 4,
-     "ver": "5df30309e1"
+     "ver": "cfb03ef43f"
     },
     {
-     "n": 19,
+     "n": 20,
      "title": "The three layers of the eye",
-     "file": "audio/t3/19.mp3",
+     "file": "audio/t3/20.mp3",
      "dur": 137.0,
      "bytes": 1152851,
      "rapid": false,
@@ -838,12 +911,12 @@
       }
      ],
      "marks": 4.5,
-     "ver": "66aea07b5e"
+     "ver": "ed59c2d8c1"
     },
     {
-     "n": 20,
+     "n": 21,
      "title": "The retina: rods, cones and colour blindness",
-     "file": "audio/t3/20.mp3",
+     "file": "audio/t3/21.mp3",
      "dur": 183.4,
      "bytes": 1523637,
      "rapid": false,
@@ -884,12 +957,12 @@
       }
      ],
      "marks": null,
-     "ver": "a5d632d61b"
+     "ver": "582024ab00"
     },
     {
-     "n": 21,
+     "n": 22,
      "title": "Near vision: the three changes",
-     "file": "audio/t3/21.mp3",
+     "file": "audio/t3/22.mp3",
      "dur": 120.2,
      "bytes": 1018649,
      "rapid": false,
@@ -920,12 +993,12 @@
       }
      ],
      "marks": 3,
-     "ver": "8d92892fc8"
+     "ver": "11cfabbdbd"
     },
     {
-     "n": 22,
+     "n": 23,
      "title": "Myopia, hyperopia and astigmatism",
-     "file": "audio/t3/22.mp3",
+     "file": "audio/t3/23.mp3",
      "dur": 143.9,
      "bytes": 1207967,
      "rapid": false,
@@ -970,12 +1043,12 @@
       }
      ],
      "marks": 5,
-     "ver": "776e7a031c"
+     "ver": "b7fbf52ac3"
     },
     {
-     "n": 23,
+     "n": 24,
      "title": "Waves: light and sound",
-     "file": "audio/t3/23.mp3",
+     "file": "audio/t3/24.mp3",
      "dur": 180.4,
      "bytes": 1499593,
      "rapid": false,
@@ -1014,12 +1087,12 @@
       }
      ],
      "marks": 4,
-     "ver": "0c63e762bd"
+     "ver": "61ab25574c"
     },
     {
-     "n": 24,
+     "n": 25,
      "title": "Taste: the taste buds",
-     "file": "audio/t3/24.mp3",
+     "file": "audio/t3/25.mp3",
      "dur": 155.1,
      "bytes": 1297607,
      "rapid": false,
@@ -1053,12 +1126,12 @@
       }
      ],
      "marks": 5,
-     "ver": "61c0f39418"
+     "ver": "0a3478e8ed"
     },
     {
-     "n": 25,
+     "n": 26,
      "title": "Smell: the olfactory epithelium",
-     "file": "audio/t3/25.mp3",
+     "file": "audio/t3/26.mp3",
      "dur": 145.3,
      "bytes": 1219483,
      "rapid": false,
@@ -1093,12 +1166,140 @@
       }
      ],
      "marks": 5,
-     "ver": "5dc0d041a8"
+     "ver": "bd9d5bdf28"
     },
     {
-     "n": 26,
+     "n": 27,
+     "title": "The eye, part by part",
+     "file": "audio/t3/27.mp3",
+     "dur": 371.0,
+     "bytes": 3024455,
+     "rapid": false,
+     "scen": "",
+     "show": [
+      {
+       "ask": "Her eye worksheets and her 20-mark matching table: every part from its description.",
+       "marks": null,
+       "hook": "",
+       "groups": [
+        {
+         "h": "",
+         "t": [
+          "Conjunctiva: mucous membrane over the front of the eye and lining the eyelids; protects the cornea from friction; infected in pinkeye",
+          "Cornea: clear window, continuous with the sclera; light first bent here, 80% of refraction; can be transplanted",
+          "Anterior chamber: holds the aqueous humour, a clear watery fluid; drained by the canal of Schlemm, a circular canal where the sclera meets the cornea",
+          "Iris: circular muscle inside, radial outside; blue eyes make less brown pigment",
+          "Pupil: the hole in the iris; constricts in bright light, dilates in dim, under autonomic control",
+          "Ciliary body: suspensory ligaments hold the lens; secretes aqueous humour; involuntary ciliary muscles change the lens shape",
+          "Lens: transparent, flexible, biconvex; 20% of refraction",
+          "Vitreous humour: transparent jelly behind the lens; keeps the eyeball's shape, provides nutrients; the hyaloid canal runs through it from the optic disc to the lens",
+          "Retina: the sensory layer, rods and cones; the image forms here",
+          "Macula lutea: an oval yellow spot at the centre; fovea centralis: a pit in line with the pupil, only cones",
+          "Optic disc (blind spot): the exit of the ganglion cell axons; no rods or cones, no image",
+          "Choroid: black layer between retina and sclera; pigment stops reflection, vessels feed the retina",
+          "Sclera: tough, white, non-elastic; keeps the eye round, anchors its muscles",
+          "Optic nerve: to the occipital lobe"
+         ]
+        }
+       ]
+      },
+      {
+       "ask": "Her one-mark eye facts.",
+       "marks": null,
+       "hook": "",
+       "groups": [
+        {
+         "h": "",
+         "t": [
+          "Vision has most of the body's sensory receptors",
+          "Strabismus: cannot align both eyes at once",
+          "Retinal detachment: the retina tears and detaches (laser)",
+          "Myopia: lens too strong or too bulgy, or eye too long; light over-focused in front of the retina; biconcave lens",
+          "Hyperopia: lens too weak or too flat, or eye too short; focus behind the retina; biconvex lens",
+          "Afterimage: persists after you close your eyes; photoreceptors blocked by a vivid stimulus",
+          "Inverted image: upside down (her lens drop-down); opposite colours (her SAQ answer)"
+         ]
+        }
+       ]
+      }
+     ],
+     "marks": null,
+     "ver": "054fb85561"
+    },
+    {
+     "n": 28,
+     "title": "The ear and sound: the fine print",
+     "file": "audio/t3/28.mp3",
+     "dur": 413.8,
+     "bytes": 3366623,
+     "rapid": false,
+     "scen": "",
+     "show": [
+      {
+       "ask": "Her ear worksheet and her 10-mark ear table.",
+       "marks": null,
+       "hook": "",
+       "groups": [
+        {
+         "h": "",
+         "t": [
+          "Outer ear: pinna (cartilage, ear lobe), external auditory meatus; ceruminous glands make cerumen; packed wax causes conduction deafness",
+          "Tympanic membrane: large, tough; turns vibrations in air into vibrations in bone",
+          "Middle ear cavity, in the temporal bone; ossicles act as levers; the stapes is the smallest bone in the body",
+          "Oval window: vibrations in bone become vibrations in fluid; the round window moves the opposite way",
+          "Air in the outer ear, bone in the middle, fluid in the inner",
+          "Semicircular canals: fluid-filled, at right angles to each other",
+          "Vestibular nerve (balance) + cochlear or auditory nerve (hearing) = nerve VIII, to the temporal lobes"
+         ]
+        }
+       ]
+      },
+      {
+       "ask": "Her organ of Corti sheet.",
+       "marks": null,
+       "hook": "",
+       "groups": [
+        {
+         "h": "",
+         "t": [
+          "Perilymph: scala vestibuli and scala tympani; LOW potassium",
+          "Endolymph: scala media; HIGH potassium",
+          "Potassium and calcium flow into the hair cell; it releases glutamate; an impulse goes to the auditory cortex",
+          "Her order: oval window, perilymph, basilar membrane, endolymph, the hairs bend as the tectorial membrane moves, cochlear nerve, auditory cortex",
+          "Low pitch: longer, floppier fibres, at the apex; high pitch: shorter, stiffer hair cells, at the base"
+         ]
+        }
+       ]
+      },
+      {
+       "ask": "Her light-and-sound table.",
+       "marks": null,
+       "hook": "",
+       "groups": [
+        {
+         "h": "",
+         "t": [
+          "Sound: mechanical waves; cannot cross a vacuum",
+          "Light: electromagnetic waves; can",
+          "Photons: light particles, packages of light",
+          "Light amplitude = intensity (brightness, lux); sound amplitude = loudness (dB)",
+          "Light frequency and wavelength = colour: red lowest, violet highest",
+          "Sound frequency = pitch",
+          "All light travels at the same speed, about 300 000 km per second",
+          "Refraction: part of the wave slows or speeds up, so it bends; e.g. an object in water seems moved",
+          "Taste and smell: chemoreception; balance: mechanoreception; taste is 80% smell"
+         ]
+        }
+       ]
+      }
+     ],
+     "marks": null,
+     "ver": "591c70b4b8"
+    },
+    {
+     "n": 29,
      "title": "The male reproductive system: every structure and its job",
-     "file": "audio/t3/26.mp3",
+     "file": "audio/t3/29.mp3",
      "dur": 277.1,
      "bytes": 2273423,
      "rapid": false,
@@ -1128,12 +1329,12 @@
       }
      ],
      "marks": 10,
-     "ver": "69804a67ca"
+     "ver": "c653ee0457"
     },
     {
-     "n": 27,
+     "n": 30,
      "title": "Semen, sperm count, erection and ejaculation",
-     "file": "audio/t3/27.mp3",
+     "file": "audio/t3/30.mp3",
      "dur": 211.8,
      "bytes": 1750773,
      "rapid": false,
@@ -1176,12 +1377,12 @@
       }
      ],
      "marks": null,
-     "ver": "2551927cb1"
+     "ver": "80839401df"
     },
     {
-     "n": 28,
+     "n": 31,
      "title": "Making sperm and eggs",
-     "file": "audio/t3/28.mp3",
+     "file": "audio/t3/31.mp3",
      "dur": 148.1,
      "bytes": 1241735,
      "rapid": false,
@@ -1219,12 +1420,12 @@
       }
      ],
      "marks": 4,
-     "ver": "5f84091664"
+     "ver": "7dab27b4ed"
     },
     {
-     "n": 29,
+     "n": 32,
      "title": "The female reproductive system: every structure and its job",
-     "file": "audio/t3/29.mp3",
+     "file": "audio/t3/32.mp3",
      "dur": 271.4,
      "bytes": 2227539,
      "rapid": false,
@@ -1252,12 +1453,12 @@
       }
      ],
      "marks": 10,
-     "ver": "89eecdc899"
+     "ver": "5e372ef3df"
     },
     {
-     "n": 30,
+     "n": 33,
      "title": "The ovarian and uterine cycles",
-     "file": "audio/t3/30.mp3",
+     "file": "audio/t3/33.mp3",
      "dur": 189.5,
      "bytes": 1572185,
      "rapid": false,
@@ -1293,12 +1494,12 @@
       }
      ],
      "marks": 6,
-     "ver": "0ec4bcab93"
+     "ver": "d25ec93f21"
     },
     {
-     "n": 31,
+     "n": 34,
      "title": "Male versus female: the comparison table",
-     "file": "audio/t3/31.mp3",
+     "file": "audio/t3/34.mp3",
      "dur": 154.8,
      "bytes": 1295149,
      "rapid": false,
@@ -1355,12 +1556,12 @@
       }
      ],
      "marks": 6,
-     "ver": "42ae29d4f9"
+     "ver": "8fc0a049d2"
     },
     {
-     "n": 32,
+     "n": 35,
      "title": "Hormonal control of sperm, and testosterone",
-     "file": "audio/t3/32.mp3",
+     "file": "audio/t3/35.mp3",
      "dur": 191.5,
      "bytes": 1588723,
      "rapid": false,
@@ -1420,12 +1621,12 @@
       }
      ],
      "marks": 5,
-     "ver": "95013aa857"
+     "ver": "737ed15621"
     },
     {
-     "n": 33,
+     "n": 36,
      "title": "Oestrogen, progesterone and the pill",
-     "file": "audio/t3/33.mp3",
+     "file": "audio/t3/36.mp3",
      "dur": 141.7,
      "bytes": 1190117,
      "rapid": false,
@@ -1465,12 +1666,12 @@
       }
      ],
      "marks": 5,
-     "ver": "36fbcd78dc"
+     "ver": "328e799f5c"
     },
     {
-     "n": 34,
+     "n": 37,
      "title": "The female sexual response, and four words",
-     "file": "audio/t3/34.mp3",
+     "file": "audio/t3/37.mp3",
      "dur": 117.1,
      "bytes": 993329,
      "rapid": false,
@@ -1511,14 +1712,164 @@
       }
      ],
      "marks": null,
-     "ver": "15d0912749"
+     "ver": "f6e219851f"
     },
     {
-     "n": 35,
+     "n": 38,
+     "title": "Sperm, eggs and ovulation: the fine print",
+     "file": "audio/t3/38.mp3",
+     "dur": 336.1,
+     "bytes": 2745711,
+     "rapid": false,
+     "scen": "",
+     "show": [
+      {
+       "ask": "The sperm cell, her six-blank table.",
+       "marks": null,
+       "hook": "",
+       "groups": [
+        {
+         "h": "",
+         "t": [
+          "Head: 23 chromosomes as chromatin, capped by the enzyme-filled acrosome, which penetrates the egg",
+          "No acrosome enzymes: healthy, fast sperm still cannot get in",
+          "Midpiece: mitochondria turn fructose from the seminal vesicles into ATP for swimming; faulty mitochondria, poor motility",
+          "Tail: propels the sperm; short, double or crooked tails cannot",
+          "False: sperm carry a lot of food in their heads"
+         ]
+        }
+       ]
+      },
+      {
+       "ask": "The cells, with their chromosome counts.",
+       "marks": null,
+       "hook": "",
+       "groups": [
+        {
+         "h": "",
+         "t": [
+          "Spermatogonium (diploid) → mitosis → primary spermatocyte (diploid) → meiosis I → secondary spermatocyte (haploid) → meiosis II → spermatids (haploid) → spermiogenesis → spermatozoa",
+          "Inhibin, from the Sertoli cells, slows sperm production when the count is too high",
+          "Oogonium (diploid) → mitosis, only before birth → primary oocyte (diploid, waits in prophase I)",
+          "Meiosis I → secondary oocyte (haploid) + first polar body; released in metaphase II",
+          "Meiosis II completes at fertilisation (telophase II) → ovum + second polar body; polar bodies are haploid and degenerate",
+          "False: oogonia are present from menarche to menopause",
+          "False: both involve meiosis followed by mitosis"
+         ]
+        }
+       ]
+      },
+      {
+       "ask": "Her six differences, and ovulation.",
+       "marks": null,
+       "hook": "",
+       "groups": [
+        {
+         "h": "",
+         "t": [
+          "Duration: continuous, puberty to death / monthly, menarche to menopause",
+          "Cytokinesis: equal cytoplasm / unequal: a large oocyte and small polar bodies",
+          "Result: four motile sperm / one non-motile ovum",
+          "Ovulation: a secondary oocyte; triggered by the LH peak; the ovarian wall ruptures as the Graafian (tertiary) follicle bursts; fluid pushes the oocyte to the fimbriae of the Fallopian tube",
+          "FSH: highest in the proliferative phase",
+          "Oestrogen: from the developing follicle, peaks just before ovulation, stimulates LH",
+          "Progesterone: from the corpus luteum, dominates the secretory phase, develops the endometrial glands",
+          "Oestrogen and progesterone both peak in the luteal phase",
+          "Her key: LH stimulates progesterone production by the follicle's thecal cells"
+         ]
+        }
+       ]
+      }
+     ],
+     "marks": null,
+     "ver": "6df47ac7df"
+    },
+    {
+     "n": 39,
+     "title": "Erection, the breast, and her female words: the fine print",
+     "file": "audio/t3/39.mp3",
+     "dur": 346.5,
+     "bytes": 2828497,
+     "rapid": false,
+     "scen": "",
+     "show": [
+      {
+       "ask": "Her erection steps, and her male true or falses.",
+       "marks": null,
+       "hook": "",
+       "groups": [
+        {
+         "h": "",
+         "t": [
+          "Starts: a thought or action triggers the parasympathetic system",
+          "Then: nitric oxide, a vasodilator, is released",
+          "The central artery, the arterioles and the spongy erectile tissue widen",
+          "More blood flows via the central artery into the erectile tissue",
+          "The corpora cavernosa fill, squash the veins, the penis is rigid",
+          "Blood is redirected back out; the penis returns to flaccid",
+          "Her numbering: II, V, IV, III, I",
+          "False: an enlarged testicle makes it hard to urinate (it is the prostate)",
+          "True: one opening for urine and semen",
+          "True: prostaglandins drive peristalsis in both tracts, helping sperm to the tubes",
+          "Semen: the seminal vesicles and the prostate",
+          "Males secrete testosterone, FSH and LH",
+          "Testosterone ineffective in the developing brain: a female orientation, or ambiguous gender identity"
+         ]
+        }
+       ]
+      },
+      {
+       "ask": "The breast, her lactation case quiz.",
+       "marks": null,
+       "hook": "",
+       "groups": [
+        {
+         "h": "",
+         "t": [
+          "Sits directly on the pectoralis major, over the intercostals and ribs; the clavicle is appendicular",
+          "Inside: adipose tissue, lobules with alveoli (prolactin: make milk), lactiferous ducts (oxytocin: release milk), opening at the nipple",
+          "Areola: sebaceous glands; darkens in pregnancy",
+          "Nipple: erectile tissue; hardens by smooth muscle contraction, sympathetic",
+          "Oestrogen: primary breast development, puberty; progesterone: further development, pregnancy",
+          "False: breast development is a primary sexual characteristic",
+          "False: breasts are well supported by strong ligaments and muscles",
+          "Oestrogen and progesterone, then prolactin, in a woman who is not pregnant: lactation"
+         ]
+        }
+       ]
+      },
+      {
+       "ask": "Her female words tables.",
+       "marks": null,
+       "hook": "",
+       "groups": [
+        {
+         "h": "",
+         "t": [
+          "Ovulation: release of an egg",
+          "Fertilisation: fusion of egg and sperm",
+          "Contraception: a procedure or device to prevent pregnancy",
+          "Menstruation: monthly shedding of the endometrium (the stratum functionalis, after the spiral arteries constrict)",
+          "Pregnancy: the 40 weeks a new individual develops in the mother",
+          "Abortion: termination of a pregnancy by removal or expulsion of an embryo or foetus",
+          "Uterus: hollow, pear-shaped, elastic, muscular",
+          "Ovary: a gland making oestrogen and oocytes",
+          "Placenta: takes oxygen and nutrients from the mother's blood to the foetus via the umbilical cord",
+          "Oestrogen: enlarges the external genitalia (a secondary sexual characteristic)"
+         ]
+        }
+       ]
+      }
+     ],
+     "marks": null,
+     "ver": "97659c9ac9"
+    },
+    {
+     "n": 40,
      "title": "The closed questions: facts no other track covers",
-     "file": "audio/t3/35.mp3",
-     "dur": 593.6,
-     "bytes": 4805887,
+     "file": "audio/t3/40.mp3",
+     "dur": 595.6,
+     "bytes": 4821247,
      "rapid": false,
      "scen": "",
      "show": [
@@ -1605,19 +1956,19 @@
       }
      ],
      "marks": null,
-     "ver": "83955e614a"
+     "ver": "68f2f1070b"
     },
     {
-     "n": 36,
+     "n": 41,
      "title": "Rapid-fire: every answer, back to back",
-     "file": "audio/t3/36.mp3",
-     "dur": 1318.4,
-     "bytes": 10603689,
+     "file": "audio/t3/41.mp3",
+     "dur": 1713.4,
+     "bytes": 13763817,
      "rapid": true,
      "scen": "",
      "show": [],
      "marks": null,
-     "ver": "e0f5689aae"
+     "ver": "b94f32bc08"
     }
    ]
   },

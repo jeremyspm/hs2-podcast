@@ -7,7 +7,7 @@
 
 Q: Health Science 2. Test 3. Every short-answer question.
 
-Hey. This is the Test 3 episode of the SAQ podcast for Health Science 2. It has one job: every written question Test 3 can ask you, answered the way she marks them. One topic per track.
+Hey. This is the Test 3 episode of the SAQ podcast for Health Science 2. It has one job: every written question Test 3 can ask you, answered the way she marks them, and the one-mark facts her quiz keys ask. One topic per track.
 
 Where the questions come from. She doesn't post a list of test questions. In her own words, there is no such list. The closest thing, she says, is the module's learning checklist, because it limits what she may ask. So every point on her Module 3 checklist has a track here. It starts with her own signals. The two case studies she names for Test 3: Case 11, Pania's milk coming in, and Case L, Jack's hearing loss. Pedigree charts, because in her own words, printed on six of her quiz questions, pedigree charts will be tested in Test 3. And the topics on her help board: glaucoma and cataracts, conduction versus sensorineural deafness, and Huntington's. After that comes every question on her student-marked SAQ quiz, and the rest of her checklist. The answers are hers wherever she has posted one: her model answers, her decks, her quiz keys. Where her feedback and her own slides disagree, you'll hear which one to write, and where an answer isn't hers, you'll hear that too.
 
@@ -21,7 +21,7 @@ How every track works. First you'll hear the question in a second voice, the way
 
 How to use it. The first time through, just let it play. Don't take notes. The second time, when the examiner asks for it once more at the end of a track, say your answer before I say mine. And when one feels shaky, loop that track. The player page can loop one track, or play each one twice before it moves on.
 
-The order: the two cases first, then pedigrees, Huntington's, and glaucoma, because those are her own signals. Then the rest of genetics, the senses, and reproduction. And just before Rapid-fire, one track for the closed questions: the one-line facts her quiz keys ask that no written answer covers. Let's go.
+The order: the two cases first, then pedigrees, Huntington's, and glaucoma, because those are her own signals. Then the rest of genetics, the senses, and reproduction, each ending with its fine print: the one-mark facts, in her quiz keys' own words, that no written answer covers. And just before Rapid-fire, one more track of closed questions. Let's go.
 
 # Case L: Jack's noise-induced hearing loss
 @ crit: SS7
@@ -170,7 +170,7 @@ In her own words, printed on six of her quiz questions: pedigree charts will be 
 
 The hook is three questions, from Emma's slides. One: does it skip a generation? Two: is there a difference between the sexes? Three: who are the homozygous recessives? Then a Punnett square.
 
-Step one, read the chart. Squares are males. Circles are females. Shaded means affected. Half shaded, or a dot, means a carrier. And when you check the generations, leave out the people who married in.
+Step one, read the chart. Squares are males. Circles are females. Shaded means affected. Half shaded, or a dot, means a carrier. A line through a symbol means the person has died. The generations are Roman numerals down the side, and the people are numbered from left to right. And when you check the generations, leave out the people who married in.
 
 Step two, dominant or recessive? If the trait appears in every generation and never skips, it's dominant. If it skips a generation, it's recessive. The giveaway for recessive is an affected child with two unaffected parents.
 
