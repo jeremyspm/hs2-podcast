@@ -144,6 +144,10 @@ button{font-family:inherit;cursor:pointer;border:none;color:inherit;background:n
 /* subtitles: the line being said, above the title */
 .cap{min-height:2.7em;margin:0 0 6px;font-size:15px;line-height:1.35;font-weight:600;color:var(--tx);display:flex;align-items:flex-end;gap:7px}
 .cap[hidden]{display:none}
+.pt{align-items:center}
+.subbtn{flex:none;margin-left:auto;display:inline-flex;align-items:center;gap:5px;font-size:13px;font-weight:800;padding:7px 12px;border-radius:999px;
+  background:var(--acc2);color:#fff;border:1.5px solid var(--acc2);box-shadow:0 2px 10px -3px color-mix(in srgb,var(--acc2) 70%,transparent)}
+.subbtn:not(.on){background:transparent;color:var(--acc);border-color:var(--acc);box-shadow:none}
 .cap .who{flex:none;font-size:10.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--acc);border:1px solid color-mix(in srgb,var(--acc) 45%,transparent);border-radius:6px;padding:1px 5px;margin-bottom:3px}
 .cap.q span:last-child{color:var(--acc);font-style:italic}
 .cap.idle span{color:var(--tx3);font-weight:500}
@@ -186,7 +190,7 @@ button{font-family:inherit;cursor:pointer;border:none;color:inherit;background:n
     <div class="opt"><b>Download the MP3s</b><p>Two ways. The whole episode as one MP3, to play start to finish anywhere (apps that read chapters will show every question). Or one MP3 per question, zipped: put the folder in any music or files app, and use its own “repeat one” on the question you’re repping.</p>
       <a class="btn" id="dlFull2" href="#">⤓ The whole episode</a><button class="btn ghost" id="zip">⤓ One per question <span id="zipn"></span></button>
       <p class="tiny" id="zipmsg">Or use the ⤓ beside any one question.</p></div>
-    <div class="opt"><b>Subtitles</b><p>Every track has them, line by line, timed to the voice. Here they run above the player: tap CC to hide them. The zip from this page puts a subtitle file (.vtt) beside each MP3, and podcast apps that show transcripts, like Pocket Casts and AntennaPod, get them from the podcast link.</p></div>
+    <div class="opt"><b>Subtitles</b><p>Every track has them, line by line, timed to the voice. Here they run above the player: tap the Subtitles button to turn them off or on. The zip from this page puts a subtitle file (.vtt) beside each MP3, and podcast apps that show transcripts, like Pocket Casts and AntennaPod, get them from the podcast link.</p></div>
     <div class="opt"><b>In a podcast app</b><p>Each question shows up as its own episode, downloads for offline, and remembers where you stopped. In Apple Podcasts: Library, ⋯, Follow a Show by URL. Pocket Casts and AntennaPod: search, then paste the link.</p>
       <button class="btn ghost" id="feed">Copy the podcast link</button><p class="tiny" id="feedurl"></p></div>
   </section>
@@ -196,10 +200,10 @@ button{font-family:inherit;cursor:pointer;border:none;color:inherit;background:n
 <div class="player" id="player" hidden>
   <div class="pin">
     <div class="cap idle" id="cap"><span></span></div>
-    <div class="pt"><span id="pNum"></span><b id="pTitle"></b></div>
+    <div class="pt"><span id="pNum"></span><b id="pTitle"></b><button class="subbtn on" id="cc" title="Subtitles on or off" aria-pressed="true"></button></div>
     <div class="seek"><span id="tCur">0:00</span><input type="range" id="seekr" min="0" max="1000" value="0" aria-label="Position in this question"/><span id="tDur">0:00</span></div>
     <div class="ctrls">
-      <div class="side"><button class="chip" id="spd" title="Playback speed">1×</button><button class="chip on" id="cc" title="Subtitles on or off" aria-pressed="true">CC</button></div>
+      <div class="side"><button class="chip" id="spd" title="Playback speed">1×</button></div>
       <button class="cb" id="prev" title="Previous question" aria-label="Previous question">⏮</button>
       <button class="cb" id="back" title="Back 15 seconds" aria-label="Back 15 seconds">↺<small>15</small></button>
       <button class="cb big" id="pp" title="Play or pause" aria-label="Play">▶</button>
@@ -415,7 +419,8 @@ $('fwd').onclick = () => seekTo(au.currentTime + 15);
 const spdLabel = () => $('spd').textContent = (S.speed === 1 ? '1' : String(S.speed)) + '×';
 $('spd').onclick = () => { S.speed = SPEEDS[(SPEEDS.indexOf(S.speed) + 1) % SPEEDS.length] || 1; au.playbackRate = S.speed; spdLabel(); save(); };
 au.addEventListener('seeked', showCap);
-const ccLabel = () => { $('cc').classList.toggle('on', S.cc); $('cc').setAttribute('aria-pressed', String(S.cc)); };
+const ccLabel = () => { $('cc').classList.toggle('on', S.cc); $('cc').setAttribute('aria-pressed', String(S.cc));
+  $('cc').textContent = S.cc ? '💬 Subtitles on' : '💬 Subtitles off'; };
 $('cc').onclick = () => { S.cc = !S.cc; ccLabel(); capAt = -1; showCap(); save(); toast(S.cc ? 'Subtitles on' : 'Subtitles off'); };
 const repLabel = () => { const r = REPS.find(r => r[0] === S.rep) || REPS[0]; $('rep').textContent = r[1]; $('rep').classList.toggle('on', S.rep !== 'off'); };
 $('rep').onclick = () => { const i = REPS.findIndex(r => r[0] === S.rep); S.rep = REPS[(i + 1) % REPS.length][0]; plays = 0; repLabel(); save();
