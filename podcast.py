@@ -511,6 +511,90 @@ def vtt(cues):
     return '\n'.join(out)
 
 
+# ── 21 Oct: the words as a video, and the script as a PDF. A classmate opened a .vtt from the zip ("text but no sound") and could
+# not find a subtitle button: no phone does anything useful with a .vtt. An MP4 with the words drawn on plays, with sound, in any
+# gallery or files app (but stops when the phone locks: the MP3 stays the one to listen to). The .vtt stays for the feeds and this
+# page's player, and leaves the zips.
+VDIR = os.path.join(WORK, 'video')                      # rendered MP4s by hash of their inputs: a build re-renders only what changed
+VIDEO = ['-c:v', 'libx264', '-preset', 'veryfast', '-tune', 'stillimage', '-crf', '30', '-pix_fmt', 'yuv420p',
+         '-c:a', 'aac', '-b:a', '64k', '-ac', '1', '-movflags', '+faststart']
+
+
+def ass(cues, title, foot, end):
+    """Portrait 720×1280: the title on top; the line being said big and bright (the examiner's in amber), two before it and one
+    after it dim. The line being said keeps its top edge still, so the eye stays in one place."""
+    def ts(s):
+        cs = int(round(s * 100))
+        return f'{cs // 360000}:{cs // 6000 % 60:02d}:{cs // 100 % 60:02d}.{cs % 100:02d}'
+    esc = lambda t: t.replace('\\', '\\\\').replace('{', '(').replace('}', ')')
+    def line(j, now):
+        if not 0 <= j < len(cues):
+            return ''
+        col = ('&H4FC8FF&' if cues[j][2] == 'q' else '&HFFFFFF&') if now else '&H8A8A8A&'   # BGR
+        return f'{{\\c{col}\\fs{54 if now else 40}}}{esc(cues[j][3])}'
+    ev = [f'Dialogue: 0,{ts(0)},{ts(end)},Title,,0,0,0,,{esc(title)}', f'Dialogue: 0,{ts(0)},{ts(end)},Foot,,0,0,0,,{esc(foot)}']
+    for i, (a, b, _, _) in enumerate(cues):
+        z = ts(cues[i + 1][0] if i + 1 < len(cues) else end)
+        before = '\\N\\N'.join(p for p in (line(i - 2, 0), line(i - 1, 0)) if p)
+        if before:
+            ev.append(f'Dialogue: 1,{ts(a)},{z},Body,,0,0,0,,{{\\an2\\pos(360,590)}}{before}')
+        ev.append(f'Dialogue: 1,{ts(a)},{z},Body,,0,0,0,,{{\\an8\\pos(360,630)}}' + '\\N\\N'.join(p for p in (line(i, 1), line(i + 1, 0)) if p))
+    return '\n'.join([
+        '[Script Info]', 'ScriptType: v4.00+', 'PlayResX: 720', 'PlayResY: 1280', 'WrapStyle: 0', '', '[V4+ Styles]',
+        'Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, '
+        'ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding',
+        'Style: Title,Arial,34,&H00B0B0B0,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,8,50,50,70,1',
+        'Style: Foot,Arial,24,&H00707070,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,50,50,50,1',
+        'Style: Body,Arial,54,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,5,50,50,0,1',
+        '', '[Events]', 'Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text'] + ev) + '\n'
+
+
+def video(cues, title, foot, mp3, dur, mp4):
+    a = ass(cues, title, foot, dur)
+    key = hashlib.sha1((a + json.dumps(VIDEO) + hashlib.sha1(open(mp3, 'rb').read()).hexdigest()).encode('utf-8')).hexdigest()[:16]
+    done = os.path.join(VDIR, key + '.mp4')
+    if not os.path.exists(done):
+        os.makedirs(VDIR, exist_ok=True)
+        open(os.path.join(VDIR, key + '.ass'), 'w', encoding='utf-8').write(a)
+        # cwd = VDIR so the ass filter gets a bare file name: a Windows path's "C:" breaks the filter's own syntax
+        subprocess.run([FFMPEG, '-y', '-loglevel', 'error', '-f', 'lavfi', '-i', 'color=c=0x15171c:s=720x1280:r=4', '-i', mp3,
+                        '-map', '0:v', '-map', '1:a', '-t', f'{dur:.3f}', '-vf', f'ass={key}.ass', *VIDEO, key + '.part.mp4'],
+                       cwd=VDIR, check=True)
+        os.replace(os.path.join(VDIR, key + '.part.mp4'), done)
+        os.remove(os.path.join(VDIR, key + '.ass'))
+    shutil.copyfile(done, mp4)
+
+
+def script_pdf(ch, title, foot, pdf):
+    """The chapter's script as written, one paragraph per paragraph, the examiner's in bold. Byte-identical between builds."""
+    from reportlab import rl_config
+    rl_config.invariant = 1
+    from reportlab.lib.colors import HexColor
+    from reportlab.lib.pagesizes import A4
+    from reportlab.lib.styles import ParagraphStyle
+    from reportlab.lib.units import mm
+    from reportlab.pdfbase import pdfmetrics
+    from reportlab.pdfbase.ttfonts import TTFont
+    from reportlab.platypus import Paragraph, SimpleDocTemplate, Spacer
+    if 'Arial' not in pdfmetrics.getRegisteredFontNames():
+        pdfmetrics.registerFont(TTFont('Arial', 'C:/Windows/Fonts/arial.ttf'))
+        pdfmetrics.registerFont(TTFont('Arial-Bold', 'C:/Windows/Fonts/arialbd.ttf'))
+    body = ParagraphStyle('b', fontName='Arial', fontSize=11.5, leading=16.5, spaceAfter=8, textColor=HexColor('#1d1f24'))
+    q = ParagraphStyle('q', parent=body, fontName='Arial-Bold', textColor=HexColor('#8a4b00'))
+    esc = lambda t: t.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
+    story = [Paragraph(esc(foot), ParagraphStyle('f', parent=body, fontSize=9, textColor=HexColor('#777777'), spaceAfter=2)),
+             Paragraph(esc(title), ParagraphStyle('h', parent=body, fontName='Arial-Bold', fontSize=17, leading=21, spaceAfter=12)),
+             Paragraph('The words of this track, as it says them. <font color="#8a4b00"><b>Bold brown</b></font> is the examiner.',
+                       ParagraphStyle('n', parent=body, fontSize=9, textColor=HexColor('#777777'), spaceAfter=10))]
+    for p in ch['paras']:
+        text = ' '.join(re.sub(r'\[pause(?: \d+(?:\.\d+)?)?\]', ' ', p['text']).split())
+        if text:
+            story.append(Paragraph(esc(text), q if p['who'] == 'q' else body))
+    SimpleDocTemplate(pdf + '.part', pagesize=A4, title=title, author='HS2 SAQ Podcast', leftMargin=20 * mm,
+                      rightMargin=20 * mm, topMargin=18 * mm, bottomMargin=18 * mm).build(story)
+    os.replace(pdf + '.part', pdf)
+
+
 # ── what the player shows under each chapter: her question and the short answer, from the Paper Sims ──────────
 def plain(s):
     return re.sub(r'\s+', ' ', s.replace('**', '')).strip()
@@ -646,15 +730,16 @@ def build(ep, chs, banks):
     os.makedirs(outdir, exist_ok=True)
     art = cover(ep)
     named = os.path.join(WORK, E['zip'])
-    shutil.rmtree(named, ignore_errors=True)
-    os.makedirs(named)
+    namedv = os.path.join(WORK, E['zip'] + '-Videos-and-scripts')
+    for d in (named, namedv):
+        shutil.rmtree(d, ignore_errors=True)
+        os.makedirs(d)
     rows, total = [], 0.0
     for ch in chs:
         a, cues = chapter_audio(ch)
         dur = len(a) / SR
         sub = vtt(cues)                      # 20 Oct: subtitles, timed by the build itself (no speech recognition)
         open(os.path.join(outdir, f'{ch["n"]:02d}.vtt'), 'w', encoding='utf-8', newline='\n').write(sub)
-        open(os.path.join(named, f'{ch["n"]:02d} {slug(ch["title"])}.vtt'), 'w', encoding='utf-8', newline='\n').write(sub)
         wav = os.path.join(WORK, f'{ep}-{ch["n"]:02d}.wav')
         sf.write(wav, a, SR, subtype='PCM_16')
         mp3 = os.path.join(outdir, f'{ch["n"]:02d}.mp3')
@@ -663,12 +748,22 @@ def build(ep, chs, banks):
                           'track': f'{ch["n"]}/{len(chs)}', 'genre': 'Podcast', 'date': '2026',
                           'comment': 'Health Science 2, 722.541. Read by Kokoro.'}, art)
         os.remove(wav)
-        shutil.copyfile(mp3, os.path.join(named, f'{ch["n"]:02d} {slug(ch["title"])}.mp3'))
+        base = f'{ch["n"]:02d} {slug(ch["title"])}'
+        shutil.copyfile(mp3, os.path.join(named, base + '.mp3'))
+        mp4, pdf = os.path.join(outdir, f'{ch["n"]:02d}.mp4'), os.path.join(outdir, f'{ch["n"]:02d}.pdf')
+        video(cues, title, f'{E["title"]} · track {ch["n"]} of {len(chs)}', mp3, dur, mp4)
+        script_pdf(ch, title, f'{E["title"]} · track {ch["n"]} of {len(chs)}', pdf)
+        shutil.copyfile(mp4, os.path.join(namedv, base + '.mp4'))
+        shutil.copyfile(pdf, os.path.join(namedv, base + '.pdf'))
         items, scen = show_for(ep, ch, banks)
         rows.append({'n': ch['n'], 'title': ch['title'], 'file': f'audio/{ep}/{ch["n"]:02d}.mp3', 'dur': round(dur, 1),
                      'bytes': os.path.getsize(mp3), 'rapid': bool(ch['meta'].get('rapid')), 'scen': scen, 'show': items,
                      'marks': sum(i['marks'] or 0 for i in items) or None, 'ver': hashlib.sha1(open(mp3, 'rb').read()).hexdigest()[:10],
-                     'vtt': f'audio/{ep}/{ch["n"]:02d}.vtt', 'vver': hashlib.sha1(sub.encode('utf-8')).hexdigest()[:10]})
+                     'vtt': f'audio/{ep}/{ch["n"]:02d}.vtt', 'vver': hashlib.sha1(sub.encode('utf-8')).hexdigest()[:10],
+                     'mp4': f'audio/{ep}/{ch["n"]:02d}.mp4', 'mver': hashlib.sha1(open(mp4, 'rb').read()).hexdigest()[:10],
+                     'mbytes': os.path.getsize(mp4),
+                     'pdf': f'audio/{ep}/{ch["n"]:02d}.pdf', 'pver': hashlib.sha1(open(pdf, 'rb').read()).hexdigest()[:10],
+                     'pbytes': os.path.getsize(pdf)})
         total += dur
         print(f"  {ep} {ch['n']:02d}  {int(dur//60):2d}:{int(dur%60):02d}  {ch['title']}", flush=True)
     # the whole episode as ONE MP3 too (asked 16 Oct: "give them the option to download the mp3"), for anyone who wants a single
@@ -689,12 +784,14 @@ def build(ep, chs, banks):
     os.replace(whole + '.part.mp3', whole)
     shutil.copyfile(whole, os.path.join(WORK, os.path.basename(whole)))
     full = {'file': f'audio/{E["zip"]}.mp3', 'bytes': os.path.getsize(whole), 'ver': hashlib.sha1(open(whole, 'rb').read()).hexdigest()[:10]}
-    zpath = os.path.join(WORK, E['zip'] + '.zip')
-    with zipfile.ZipFile(zpath + '.part', 'w', zipfile.ZIP_STORED) as z:
-        for f in sorted(os.listdir(named)):
-            z.write(os.path.join(named, f), f'{E["zip"]}/{f}')
-    os.replace(zpath + '.part', zpath)
-    print(f"{ep}: {len(chs)} chapters, {total/60:.0f} min, {sum(r['bytes'] for r in rows)/1e6:.0f} MB · {zpath}", flush=True)
+    for d in (named, namedv):
+        zpath = d + '.zip'
+        with zipfile.ZipFile(zpath + '.part', 'w', zipfile.ZIP_STORED) as z:
+            for f in sorted(os.listdir(d)):
+                z.write(os.path.join(d, f), f'{os.path.basename(d)}/{f}')
+        os.replace(zpath + '.part', zpath)
+    print(f"{ep}: {len(chs)} chapters, {total/60:.0f} min, {sum(r['bytes'] for r in rows)/1e6:.0f} MB of MP3s, "
+          f"{sum(r['mbytes'] for r in rows)/1e6:.0f} MB of videos · {named}.zip, {namedv}.zip", flush=True)
     return {'id': ep, **{k: E[k] for k in ('title', 'short', 'kicker', 'blurb', 'when', 'zip')}, 'dur': round(total),
             'cover': f'audio/cover-{ep}.png', 'feed': f'feed-{ep}.xml', 'full': full, 'chapters': rows}
 

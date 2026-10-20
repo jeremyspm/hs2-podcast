@@ -21,9 +21,18 @@ podcast app shows numbered tracks and can repeat one. Three ways in, all from th
 **Subtitles** (20 Oct): every chapter has `audio/<ep>/NN.vtt`, timed by the build itself, not by speech recognition. `chapter_audio`
 knows where each spoken paragraph starts and ends to the sample; the lines inside a paragraph (sentences, long ones cut again at
 their commas) share its span by length. The text is the script as written (`shown()`), not the respelling the voice reads, and
-the examiner's lines carry `<v Examiner>`. The player shows the current line above the title (CC toggles it); the browser zip and
-the local zips put each `.vtt` beside its MP3; the feeds carry `podcast:transcript` for apps that show transcripts. A paragraph
+the examiner's lines carry `<v Examiner>`. The player shows the current line above the title (CC toggles it); the `.vtt` files are not in
+any zip (below); the feeds carry `podcast:transcript` for apps that show transcripts. A paragraph
 whose written and spoken pieces don't line up fails `--dry`.
+
+**Videos and scripts** (21 Oct): a classmate unzipped the episode, opened a `.vtt` ("a file only playing text but no sound") and
+could not find a subtitle button. No phone does anything with a `.vtt`, so every chapter also has `audio/<ep>/NN.mp4`: the same
+audio with the words drawn on (portrait 720×1280, the line being said big and bright, the examiner's in amber, the lines around it
+dim; `ass()` writes the subtitles, libass draws them), which plays in any gallery or files app. And `audio/<ep>/NN.pdf`, the script
+as written, the examiner's paragraphs in bold (`script_pdf()`, byte-identical between builds). Videos stop when a phone locks, so
+the MP3 stays the one to listen to. Rendered MP4s are kept in `D:/hs2-audio/podcast/video` by hash of their subtitles and MP3,
+so a build renders only the chapters that changed. The player has 🎬 / 📄 under the playing track and a zip of every video and
+script; the local zips are `<zip>.zip` (MP3s) and `<zip>-Videos-and-scripts.zip`.
 
 ## Build
 
