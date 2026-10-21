@@ -5,10 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
 <meta name="theme-color" content="#0e1420"/>
 <meta name="robots" content="noindex"/>
-<title>HS2 SAQ Podcast</title>
+<title>SAQ Podcast · HS2 and Pharm</title>
 <link rel="icon" type="image/png" href="audio/cover-t3.png"/>
 <link rel="alternate" type="application/rss+xml" title="HS2 Test 3 — Every SAQ" href="feed-t3.xml"/>
 <link rel="alternate" type="application/rss+xml" title="HS2 Final — Every case SAQ" href="feed-final.xml"/>
+<link rel="alternate" type="application/rss+xml" title="Pharm Module 9 — Licit &amp; illicit drugs, toxicology" href="feed-pm9.xml"/>
 <style>
 /* built by podcast.py from template.html: edit this file, never index.html. Same paper colour and bars as the HS2 pages. */
 :root{
@@ -168,8 +169,8 @@ button{font-family:inherit;cursor:pointer;border:none;color:inherit;background:n
     <a class="back" href="https://jeremyspm.github.io/" title="All the BN2 study tools">‹ All tools</a>
     <button class="iconbtn" id="btnTheme" title="Light or dark" aria-label="Switch light or dark">◐</button>
   </div>
-  <div class="idcard"><span class="idic" aria-hidden="true">🎧</span><small>Health Science 2 · 722.541</small><h1>SAQ Podcast</h1>
-    <p>Every written question for Test 3 and the final, read aloud. One track per question: tap one, loop it until it sticks, move on.</p></div>
+  <div class="idcard"><span class="idic" aria-hidden="true">🎧</span><small>BN2 · Health Science 2 and Pharmacology</small><h1>SAQ Podcast</h1>
+    <p>Every written question for HS2 Test 3 and the HS2 final, and Pharm Module 9, read aloud. One track per question: tap one, loop it until it sticks, move on.</p></div>
 
   <div class="seg" role="tablist" id="seg"></div>
   <p class="when" id="when"></p>
@@ -231,7 +232,7 @@ const save = (now) => { clearTimeout(saveT); const w = () => { try { localStorag
 
 const EP = id => DATA.episodes.find(e => e.id === id) || DATA.episodes[0];
 const au = $('au');
-/* #t3 or #final (the hub's links) opens that episode */
+/* #t3, #final or #pm9 (the hub's links) opens that episode */
 { const h = location.hash.slice(1); if (DATA.episodes.some(e => e.id === h)) S.ep = h; }
 let ep = EP(S.ep), cur = null, plays = 0, shown = {};
 
@@ -252,7 +253,7 @@ function rowBody(c) {
   if (c.scen) h += `<details class="scen"><summary>The case, as she wrote it</summary><p>${esc(c.scen.replace(/^[^—]*—\s*/, ''))}</p></details>`;
   if (c.rapid) return h + `<p class="scen">Every one-breath answer from this episode, back to back: the night-before track.</p>`;
   if (!c.show.length) return h + `<p class="scen">Listen first: this track sets up the episode.</p>`;
-  h += '<h4>What she asks</h4>';
+  h += `<h4>${esc(ep.asks || 'What she asks')}</h4>`;
   for (const it of c.show) {
     h += `<div class="item"><p class="ask">${esc(it.ask)} ${it.marks ? `<span class="mk">${it.marks} mark${it.marks === 1 ? '' : 's'}</span>` : ''}</p>`;
     if (it.held) h += `<span class="held">her answer isn’t posted yet: these lines are the podcast’s</span>`;
@@ -361,7 +362,7 @@ function showCap() {
 function meta() {
   if (!('mediaSession' in navigator) || !cur) return;
   try {
-    navigator.mediaSession.metadata = new MediaMetadata({title: cur.title, artist: 'HS2 SAQ Podcast', album: ep.title,
+    navigator.mediaSession.metadata = new MediaMetadata({title: cur.title, artist: ep.artist || 'HS2 SAQ Podcast', album: ep.title,
       artwork: [{src: new URL(ep.cover, location.href).href, sizes: '1400x1400', type: 'image/png'}]});
   } catch (e) {}
 }

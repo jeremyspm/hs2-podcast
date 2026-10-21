@@ -78,7 +78,26 @@ EPISODES = {
         rapid='Rapid-fire: every case answer, back to back',
         rapid_intro='This is the rapid-fire track: every case answer in this episode, back to back, one breath each, in booklet '
                     'order. It is made for the morning of the exam. If one of these sounds unfamiliar, go back to its own track.'),
+    # 21 Oct: Pharm Module 9, the self-directed session the strike made (its deck dropped on Canvas that afternoon). Not an HS2
+    # episode, so it carries its own name, cover and gate: every learning outcome on the deck's slide 2 has a track ('@ crit:').
+    'pm9': dict(
+        title='Pharm Module 9 — Licit & illicit drugs, toxicology', short='Pharm M9', zip='Pharm-M9-Licit-Illicit-Toxicology',
+        kicker='Introduction to Pharmacology · the self-directed session, 21 Oct',
+        blurb='Her announcement: "Note key words and definitions eg addiction, dependence, as the L/O for this session will be tested '
+              'in the Exam." Nobody lectured it, so this is her 41-slide deck as the answers you would write: the seven terms, '
+              'stimulants and depressants, risk factors, interactions, where to refer, poisoning and antidotes, then her own four '
+              'formative questions on it. Her rule for the deck holds: a slide with Pusheen the cat is the concept only, never '
+              "its statistics or details. The questions are the tool's, in her format (a definition plus an example).",
+        when='The Pharm final: Thu 5 Nov, on campus · 80 min · 41 questions · 50 marks',
+        rapid='Rapid-fire: every Module 9 answer, back to back',
+        rapid_intro='This is the rapid-fire track: every answer in this episode, back to back, one breath each. Made for the night '
+                    'before the Pharm final. If one of these sounds unfamiliar, go back to its own track.',
+        artist='Pharm SAQ Podcast', comment='Introduction to Pharmacology, 722.544. Read by Kokoro.',
+        asks="The question (the tool's, in her format)",
+        cover=('INTRODUCTION TO PHARMACOLOGY', 'MOD 9', 'LICIT, ILLICIT, TOX', ((16, 122, 98), (8, 52, 46))),
+        crit=['LO1', 'LO2', 'LO3', 'LO4', 'LO5']),
 }
+ARTIST = 'HS2 SAQ Podcast'                    # an episode's own 'artist' wins (pm9 is not HS2)
 
 # ── pronunciation: whole words → phonemes (Kokoro's symbols; checked 2026-10-16 against what espeak said instead) ─────
 IPA = {
@@ -156,13 +175,22 @@ IPA = {
     'extrachromosomal': 'ˌɛkstɹəkɹˌoʊməsˈoʊməl', 'meatus': 'miˈeɪɾəs', 'mechanoreception': 'mˌɛkənoʊɹɪsˈɛpʃən',
     'pectoralis': 'pˌɛktəɹˈælɪs', 'spermatozoon': 'spˌɜːmɐɾəzˈoʊɑːn', 'thecal': 'θˈiːkəl',
     'vasodilator': 'vˌeɪzoʊdaɪlˈeɪɾɚ', 'adipose': 'ˈædɪpˌoʊs',
+    # ── 21 Oct, the Pharm Module 9 audit: drug names, te reo Māori and the deck's cat (none of these is in an HS2 script) ──
+    'naloxone': 'nəlˈɑːksoʊn', 'acetylcysteine': 'əsˌiːtaɪlsˈɪstiːn', 'paracetamol': 'pˌæɹəsˈiːtəmɑːl',
+    'benzodiazepine': 'bˌɛnzoʊdaɪˈæzəpˌiːn', 'benzodiazepines': 'bˌɛnzoʊdaɪˈæzəpˌiːnz', 'lorazepam': 'lɔːɹˈæzəpæm',
+    'atorvastatin': 'ətˌɔːɹvəstˈætɪn', 'colecalciferol': 'kˌoʊlkælsˈɪfɚɹˌɑːl', 'metoprolol': 'mɪtˈoʊpɹəlˌɑːl',
+    'omeprazole': 'oʊmˈɛpɹəzˌoʊl', 'candesartan': 'kˌændɪsˈɑːɹtən', 'pseudoephedrine': 'sˌuːdoʊɪfˈɛdɹiːn',
+    'cannabinoids': 'kənˈæbɪnˌɔɪdz', 'codeine': 'kˈoʊdiːn', 'paranoia': 'pˌæɹənˈɔɪə',
+    'aotearoa': 'ˌɑːoʊtɛɑːɹˈoʊɑː', 'māori': 'mˈɑːoʊɹi', 'pasifika': 'pˌæsɪfˈiːkə', 'te': 'tɛ',
+    'ātea': 'ˈɑːtɛɑː', 'marinō': 'mˈɑːɾinɔː', 'tupu': 'tˈuːpuː', 'katipō': 'kˈɑːtipɔː', 'sione': 'siˈoʊnɛ',
+    'pusheen': 'pʊʃˈiːn',
 }
 
 # ── PORT: scripts/hs2-podcast/podcast.py (estate branch claude/hs2-test3-podcast-509210) ─────────────────────
 # The LETTER A is read as the article "uh" anywhere but the start of a chain ("A O" -> "uh oh"), so every 2-6 letter all-caps
 # word is spelled with A said "eigh"; "big A", "type A", "little a" and "an A" say "eigh"; and a capital A that does not start a
 # sentence is a letter, so it says "eigh" too (the scripts only use the article "A" at the start of a sentence).
-SAY_AS_WORD = {'GABA', 'RAAS', 'FAST', 'NAD', 'AIDS', 'HIV', 'COVID', 'MRI', 'GLUT'}
+SAY_AS_WORD = {'GABA', 'RAAS', 'FAST', 'NAD', 'AIDS', 'HIV', 'COVID', 'MRI', 'GLUT', 'CADS'}
 LETTER_A = [(r'\bGnRH\b', 'G N R H'), (r'\b(big|little|type|an) [Aa]\b', r'\1 eigh'),
             (r"(?<![.!?]\s)(?<!^)\bA\b(?![-'])", 'eigh')]
 
@@ -567,7 +595,7 @@ def video(cues, title, foot, mp3, dur, mp4):
     shutil.copyfile(done, mp4)
 
 
-def script_pdf(chs, title, foot, pdf):
+def script_pdf(chs, title, foot, pdf, author=ARTIST):
     """The script as written, one paragraph per paragraph, the examiner's in bold. One chapter: that track's page(s). Several:
     the whole episode, a contents page first and each track from a new page. Byte-identical between builds."""
     from reportlab import rl_config
@@ -598,7 +626,7 @@ def script_pdf(chs, title, foot, pdf):
             text = ' '.join(re.sub(r'\[pause(?: \d+(?:\.\d+)?)?\]', ' ', p['text']).split())
             if text:
                 story.append(Paragraph(esc(text), q if p['who'] == 'q' else body))
-    SimpleDocTemplate(pdf + '.part', pagesize=A4, title=title, author='HS2 SAQ Podcast', leftMargin=20 * mm,
+    SimpleDocTemplate(pdf + '.part', pagesize=A4, title=title, author=author, leftMargin=20 * mm,
                       rightMargin=20 * mm, topMargin=18 * mm, bottomMargin=18 * mm).build(story)
     os.replace(pdf + '.part', pdf)
 
@@ -647,7 +675,9 @@ def asked(line):
 
 def show_for(ep, ch, banks):
     items, scen = [], ''
-    if ep == 't3':
+    if ep == 'pm9':                    # no question bank: every question it shows is an '@ ask:' line
+        items = [asked(a) for a in ch['meta'].get('ask', [])]
+    elif ep == 't3':
         for i in ch['meta'].get('saq', []):
             x = banks['t3'][i]
             items.append(show_item(re.sub(r'\s*\(\d+(\.\d+)? marks?\)\s*$', '', x['ask']), x['marks'], x['short']))
@@ -672,6 +702,8 @@ def show_for(ep, ch, banks):
 
 def coverage(ep, chs, banks):
     """Every SAQ in the bank is in some chapter, and every id a chapter names exists."""
+    if ep not in banks:                # pm9 has no bank: its questions are its own '@ ask:' lines
+        return sum(len(ch['meta'].get('ask', [])) for ch in chs)
     named = [i for ch in chs for i in (ch['meta'].get('saq', []) if ep == 't3' else ' '.join(ch['meta'].get('q', [])).split())]
     bank = banks[ep]
     unknown = [i for i in named if i not in bank]
@@ -683,14 +715,15 @@ def coverage(ep, chs, banks):
 
 
 CHECKLIST = ([f'G{i}' for i in range(1, 10)] + [f'SS{i}' for i in range(1, 14)] + [f'R{i}' for i in range(1, 15)])
-def checklist(chs):
+def checklist(chs, ep='t3'):
     """Test 3: every point of her Module 3 Learning Checklist (Genetics 1-9, Special senses 1-13, Reproductive 1-14) has a
     track. Her words (10 Aug): there is no list of test questions; the checklist "limits what I may ask". Tag tracks '@ crit:'."""
+    want = EPISODES[ep].get('crit', CHECKLIST)
     got = {c.strip() for ch in chs for line in ch['meta'].get('crit', []) for c in line.split(',') if c.strip()}
-    bad = sorted(got - set(CHECKLIST))
-    missing = [c for c in CHECKLIST if c not in got]
+    bad = sorted(got - set(want))
+    missing = [c for c in want if c not in got]
     if missing or bad:
-        raise SystemExit(f"t3: checklist gate failed\n  no track for: {missing}\n  unknown codes: {bad}")
+        raise SystemExit(f"{ep}: checklist gate failed\n  no track for: {missing}\n  unknown codes: {bad}")
     return len(got)
 
 
@@ -705,15 +738,16 @@ def cover(ep):
     S = 1400
     img = Image.new('RGB', (S, S))
     d = ImageDraw.Draw(img)
-    a, b = (37, 99, 235), (12, 30, 80)
+    top, big, sub, (a, b) = EPISODES[ep].get('cover') or ('HEALTH SCIENCE 2', 'TEST 3' if ep == 't3' else 'FINAL',
+                                                          'EVERY SAQ' if ep == 't3' else 'EVERY CASE SAQ', ((37, 99, 235), (12, 30, 80)))
     for y in range(S):
         t = y / S
         d.line([(0, y), (S, y)], fill=tuple(int(a[i] * (1 - t) + b[i] * t) for i in range(3)))
     bold = lambda n: ImageFont.truetype('C:/Windows/Fonts/seguibl.ttf', n)
     reg = lambda n: ImageFont.truetype('C:/Windows/Fonts/segoeuib.ttf', n)
-    d.text((110, 120), 'HEALTH SCIENCE 2', font=reg(64), fill=(220, 230, 255))
-    d.text((100, 330), 'TEST 3' if ep == 't3' else 'FINAL', font=bold(300), fill=(255, 255, 255))
-    d.text((110, 700), 'EVERY SAQ' if ep == 't3' else 'EVERY CASE SAQ', font=bold(120), fill=(255, 255, 255))
+    d.text((110, 120), top, font=reg(64), fill=(220, 230, 255))
+    d.text((100, 330), big, font=bold(300), fill=(255, 255, 255))
+    d.text((110, 700), sub, font=bold(120), fill=(255, 255, 255))
     d.text((110, 1150), 'the SAQ podcast', font=reg(70), fill=(200, 215, 250))
     d.ellipse((1060, 1040, 1300, 1280), outline=(255, 255, 255), width=14)
     d.polygon([(1150, 1100), (1150, 1220), (1250, 1160)], fill=(255, 255, 255))
@@ -734,6 +768,7 @@ def encode(wav, mp3, tags, art):
 
 def build(ep, chs, banks):
     E = EPISODES[ep]
+    who = E.get('artist', ARTIST)
     outdir = os.path.join(HERE, 'audio', ep)
     os.makedirs(outdir, exist_ok=True)
     art = cover(ep)
@@ -754,16 +789,16 @@ def build(ep, chs, banks):
         sf.write(wav, a, SR, subtype='PCM_16')
         mp3 = os.path.join(outdir, f'{ch["n"]:02d}.mp3')
         title = f'{ch["n"]:02d} · {ch["title"]}'
-        encode(wav, mp3, {'title': title, 'album': E['title'], 'artist': 'HS2 SAQ Podcast', 'album_artist': 'HS2 SAQ Podcast',
+        encode(wav, mp3, {'title': title, 'album': E['title'], 'artist': who, 'album_artist': who,
                           'track': f'{ch["n"]}/{len(chs)}', 'genre': 'Podcast', 'date': '2026',
-                          'comment': 'Health Science 2, 722.541. Read by Kokoro.'}, art)
+                          'comment': E.get('comment', 'Health Science 2, 722.541. Read by Kokoro.')}, art)
         os.remove(wav)
         base = f'{ch["n"]:02d} {slug(ch["title"])}'
         one = os.path.join(each_dir, base)
         os.makedirs(one)
         shutil.copyfile(mp3, os.path.join(one, base + '.mp3'))
         video(cues, title, f'{E["title"]} · track {ch["n"]} of {len(chs)}', mp3, dur, os.path.join(one, base + '.mp4'))
-        script_pdf([ch], title, f'{E["title"]} · track {ch["n"]} of {len(chs)}', os.path.join(one, base + ' (script).pdf'))
+        script_pdf([ch], title, f'{E["title"]} · track {ch["n"]} of {len(chs)}', os.path.join(one, base + ' (script).pdf'), who)
         mp4s.append(os.path.join(one, base + '.mp4'))
         items, scen = show_for(ep, ch, banks)
         rows.append({'n': ch['n'], 'title': ch['title'], 'file': f'audio/{ep}/{ch["n"]:02d}.mp3', 'dur': round(dur, 1),
@@ -774,7 +809,7 @@ def build(ep, chs, banks):
         print(f"  {ep} {ch['n']:02d}  {int(dur//60):2d}:{int(dur%60):02d}  {ch['title']}", flush=True)
     # the whole episode as ONE MP3 and ONE video (asked 16 Oct: "give them the option to download the mp3"; 21 Oct: the video
     # and the script too). The chapter files are joined frame for frame (no second encode), with the chapters embedded.
-    ffm, t = [';FFMETADATA1', f'title={E["title"]}', f'album={E["title"]}', 'artist=HS2 SAQ Podcast', 'genre=Podcast'], 0.0
+    ffm, t = [';FFMETADATA1', f'title={E["title"]}', f'album={E["title"]}', f'artist={who}', 'genre=Podcast'], 0.0
     for r in rows:
         ffm += ['[CHAPTER]', 'TIMEBASE=1/1000', f'START={int(t * 1000)}', f'END={int((t + r["dur"]) * 1000)}', f'title={r["n"]:02d} · {r["title"]}']
         t += r['dur']
@@ -791,7 +826,7 @@ def build(ep, chs, banks):
     join([os.path.join(outdir, os.path.basename(r['file'])) for r in rows], whole,
          ['-i', art, '-map', '0:a', '-map', '2:v', '-disposition:v', 'attached_pic', '-id3v2_version', '3'])
     join(mp4s, os.path.join(whole_dir, E['zip'] + '.mp4'), ['-map', '0', '-movflags', '+faststart'])
-    script_pdf(chs, E['title'], f'HS2 SAQ Podcast · {len(chs)} tracks · {round(total / 60)} min', os.path.join(whole_dir, E['zip'] + ' (script).pdf'))
+    script_pdf(chs, E['title'], f'{who} · {len(chs)} tracks · {round(total / 60)} min', os.path.join(whole_dir, E['zip'] + ' (script).pdf'), who)
     dl = {}
     for kind, d in (('whole', whole_dir), ('each', each_dir)):
         name = E['zip'] + ('-Whole-episode.zip' if kind == 'whole' else '-Each-question.zip')
@@ -805,6 +840,7 @@ def build(ep, chs, banks):
         dl[kind] = {'file': name, 'url': RELEASE + name, 'bytes': os.path.getsize(zpath)}
     print(f"{ep}: {len(chs)} chapters, {total/60:.0f} min · {', '.join(f'{v['file']} {v['bytes']/1e6:.0f} MB' for v in dl.values())}", flush=True)
     return {'id': ep, **{k: E[k] for k in ('title', 'short', 'kicker', 'blurb', 'when', 'zip')}, 'dur': round(total),
+            'artist': who, 'asks': E.get('asks', 'What she asks'),
             'cover': f'audio/cover-{ep}.png', 'feed': f'feed-{ep}.xml', 'dl': dl, 'chapters': rows}
 
 
@@ -834,7 +870,7 @@ def feed(e):
   <atom:link href="{BASE_URL}{e['feed']}" rel="self" type="application/rss+xml"/>
   <language>en-nz</language>
   <description>{escape(e['blurb'] + ' ' + e['when'] + '.')}</description>
-  <itunes:author>HS2 SAQ Podcast</itunes:author>
+  <itunes:author>{escape(e.get('artist', ARTIST))}</itunes:author>
   <itunes:type>serial</itunes:type>
   <itunes:explicit>false</itunes:explicit>
   <itunes:block>Yes</itunes:block>
@@ -925,8 +961,8 @@ if __name__ == '__main__':
     for ep in eps:
         check(chs[ep], ep)
         coverage(ep, chs[ep], banks)
-        if ep == 't3':
-            checklist(chs[ep])
+        if ep == 't3' or EPISODES[ep].get('crit'):
+            checklist(chs[ep], ep)
     if '--dry' in argv:
         for ep in eps:
             dry(ep, chs[ep], banks)

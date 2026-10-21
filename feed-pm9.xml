@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+<channel>
+  <title>Pharm Module 9 — Licit &amp; illicit drugs, toxicology</title>
+  <link>https://jeremyspm.github.io/hs2-podcast/</link>
+  <atom:link href="https://jeremyspm.github.io/hs2-podcast/feed-pm9.xml" rel="self" type="application/rss+xml"/>
+  <language>en-nz</language>
+  <description>Her announcement: "Note key words and definitions eg addiction, dependence, as the L/O for this session will be tested in the Exam." Nobody lectured it, so this is her 41-slide deck as the answers you would write: the seven terms, stimulants and depressants, risk factors, interactions, where to refer, poisoning and antidotes, then her own four formative questions on it. Her rule for the deck holds: a slide with Pusheen the cat is the concept only, never its statistics or details. The questions are the tool's, in her format (a definition plus an example). The Pharm final: Thu 5 Nov, on campus · 80 min · 41 questions · 50 marks.</description>
+  <itunes:author>Pharm SAQ Podcast</itunes:author>
+  <itunes:type>serial</itunes:type>
+  <itunes:explicit>false</itunes:explicit>
+  <itunes:block>Yes</itunes:block>
+  <itunes:image href="https://jeremyspm.github.io/hs2-podcast/audio/cover-pm9.png"/>
+  <itunes:category text="Education"/>
+  <item>
+    <title>01 · Start here: Module 9, and how she will test it</title>
+    <itunes:episode>1</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Her announcement: "Note key words and definitions eg addiction, dependence, as the L/O for this session will be tested in the Exam." Nobody lectured it, so this is her 41-slide deck as the answers you would write: the seven terms, stimulants and depressants, risk factors, interactions, where to refer, poisoning and antidotes, then her own four formative questions on it. Her rule for the deck holds: a slide with Pusheen the cat is the concept only, never its statistics or details. The questions are the tool's, in her format (a definition plus an example).</description>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/pm9/01.mp3?v=2e88e70c94" length="1337868" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-pm9-01-2e88e70c94</guid>
+    <pubDate>Fri, 16 Oct 2026 00:01:00 GMT</pubDate>
+    <itunes:duration>0:02:38</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/pm9/01.vtt?v=fcc231eeca" type="text/vtt" language="en"/>
+  </item>
+  <item>
+    <title>02 · Licit and illicit drugs</title>
+    <itunes:episode>2</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Define a licit drug and an illicit drug, with an example of each.</description>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/pm9/02.mp3?v=7a17b47665" length="1222046" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-pm9-02-7a17b47665</guid>
+    <pubDate>Fri, 16 Oct 2026 00:02:00 GMT</pubDate>
+    <itunes:duration>0:02:24</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/pm9/02.vtt?v=0d2d1eb890" type="text/vtt" language="en"/>
+  </item>
+  <item>
+    <title>03 · Drug misuse and drug abuse</title>
+    <itunes:episode>3</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Define drug misuse and give an example. Define drug abuse and give an example. How is it different from misuse?</description>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/pm9/03.mp3?v=73099f2ebc" length="1072868" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-pm9-03-73099f2ebc</guid>
+    <pubDate>Fri, 16 Oct 2026 00:03:00 GMT</pubDate>
+    <itunes:duration>0:02:05</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/pm9/03.vtt?v=42a93511eb" type="text/vtt" language="en"/>
+  </item>
+  <item>
+    <title>04 · Drug dependence, and her correction</title>
+    <itunes:episode>4</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Define drug dependence. What is the difference between psychological and physical dependence? Give an example.</description>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/pm9/04.mp3?v=c6fc672ad2" length="1440182" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-pm9-04-c6fc672ad2</guid>
+    <pubDate>Fri, 16 Oct 2026 00:04:00 GMT</pubDate>
+    <itunes:duration>0:02:51</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/pm9/04.vtt?v=b62fb427f8" type="text/vtt" language="en"/>
+  </item>
+  <item>
+    <title>05 · Drug addiction, and how it differs from dependence</title>
+    <itunes:episode>5</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Define drug addiction and give an example. How is addiction different from dependence?</description>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/pm9/05.mp3?v=9a6d2e3ec2" length="1001876" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-pm9-05-9a6d2e3ec2</guid>
+    <pubDate>Fri, 16 Oct 2026 00:05:00 GMT</pubDate>
+    <itunes:duration>0:01:56</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/pm9/05.vtt?v=7ece4af244" type="text/vtt" language="en"/>
+  </item>
+  <item>
+    <title>06 · Tolerance, withdrawal, and substance use disorder</title>
+    <itunes:episode>6</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Define drug tolerance and give an example. What is withdrawal? Give an example of its symptoms. What is a substance use disorder, and how is it diagnosed?</description>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/pm9/06.mp3?v=c3e924cd34" length="1315602" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-pm9-06-c3e924cd34</guid>
+    <pubDate>Fri, 16 Oct 2026 00:06:00 GMT</pubDate>
+    <itunes:duration>0:02:36</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/pm9/06.vtt?v=bcc44278a5" type="text/vtt" language="en"/>
+  </item>
+  <item>
+    <title>07 · Stimulants and depressants</title>
+    <itunes:episode>7</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Is it a stimulant, a depressant, or both? (concept)</description>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/pm9/07.mp3?v=be26ab6e1e" length="900836" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-pm9-07-be26ab6e1e</guid>
+    <pubDate>Fri, 16 Oct 2026 00:07:00 GMT</pubDate>
+    <itunes:duration>0:01:44</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/pm9/07.vtt?v=ab6fd44d3a" type="text/vtt" language="en"/>
+  </item>
+  <item>
+    <title>08 · Who uses, and why: risk factors and drug use in Aotearoa</title>
+    <itunes:episode>8</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Name the four groups of risk factors for substance abuse in young adults, and give an example of one.</description>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/pm9/08.mp3?v=3d2449b35c" length="1068896" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-pm9-08-3d2449b35c</guid>
+    <pubDate>Fri, 16 Oct 2026 00:08:00 GMT</pubDate>
+    <itunes:duration>0:02:05</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/pm9/08.vtt?v=ccdb1656f3" type="text/vtt" language="en"/>
+  </item>
+  <item>
+    <title>09 · Interactions: the New Zealand Formulary and dangerous combinations</title>
+    <itunes:episode>9</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>What is a medication-drug interaction, and how can a nurse check for one? Give an example.</description>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/pm9/09.mp3?v=f18fac2db2" length="1134580" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-pm9-09-f18fac2db2</guid>
+    <pubDate>Fri, 16 Oct 2026 00:09:00 GMT</pubDate>
+    <itunes:duration>0:02:13</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/pm9/09.vtt?v=21644b807d" type="text/vtt" language="en"/>
+  </item>
+  <item>
+    <title>10 · The nurse's role, where to refer, and harm reduction</title>
+    <itunes:episode>10</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>What is the nurse's role with a person whose substance use is a concern? Give an example of where a nurse can refer them. What is harm reduction? Give an example from Aotearoa New Zealand.</description>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/pm9/10.mp3?v=ca70f02e44" length="1072153" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-pm9-10-ca70f02e44</guid>
+    <pubDate>Fri, 16 Oct 2026 00:10:00 GMT</pubDate>
+    <itunes:duration>0:02:05</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/pm9/10.vtt?v=3beaffbb07" type="text/vtt" language="en"/>
+  </item>
+  <item>
+    <title>11 · Poisoning, poisonous or venomous, and the Poisons Centre</title>
+    <itunes:episode>11</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Define poisoning. What is the difference between acute and chronic poisoning? Give an example. What is the difference between poisonous and venomous? Give an example of each. What is the National Poisons Centre, and when should someone call it?</description>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/pm9/11.mp3?v=561827a9d3" length="1421409" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-pm9-11-561827a9d3</guid>
+    <pubDate>Fri, 16 Oct 2026 00:11:00 GMT</pubDate>
+    <itunes:duration>0:02:49</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/pm9/11.vtt?v=2602d6fd51" type="text/vtt" language="en"/>
+  </item>
+  <item>
+    <title>12 · Antidotes: naloxone and N-acetylcysteine</title>
+    <itunes:episode>12</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Define an antidote and give an example.</description>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/pm9/12.mp3?v=951f504550" length="945601" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-pm9-12-951f504550</guid>
+    <pubDate>Fri, 16 Oct 2026 00:12:00 GMT</pubDate>
+    <itunes:duration>0:01:49</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/pm9/12.vtt?v=80a8bfe97d" type="text/vtt" language="en"/>
+  </item>
+  <item>
+    <title>13 · Her formative questions on Module 9</title>
+    <itunes:episode>13</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Her mini-exam 1, Q4: which description is accurate for dependence? Her test three, Q5: what is the definition of drug addiction? Her mini-exam 2, Q11: which statement is the most accurate about controlled drugs? Her mini-exam 3, Q4: after a half dose of an antibiotic by mistake, which step is NOT appropriate?</description>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/pm9/13.mp3?v=feee98ba19" length="1047735" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-pm9-13-feee98ba19</guid>
+    <pubDate>Fri, 16 Oct 2026 00:13:00 GMT</pubDate>
+    <itunes:duration>0:02:02</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/pm9/13.vtt?v=2d49d81c13" type="text/vtt" language="en"/>
+  </item>
+  <item>
+    <title>14 · Rapid-fire: every Module 9 answer, back to back</title>
+    <itunes:episode>14</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <description>Her announcement: "Note key words and definitions eg addiction, dependence, as the L/O for this session will be tested in the Exam." Nobody lectured it, so this is her 41-slide deck as the answers you would write: the seven terms, stimulants and depressants, risk factors, interactions, where to refer, poisoning and antidotes, then her own four formative questions on it. Her rule for the deck holds: a slide with Pusheen the cat is the concept only, never its statistics or details. The questions are the tool's, in her format (a definition plus an example).</description>
+    <enclosure url="https://jeremyspm.github.io/hs2-podcast/audio/pm9/14.mp3?v=d62dbf9137" length="2908815" type="audio/mpeg"/>
+    <guid isPermaLink="false">hs2-podcast-pm9-14-d62dbf9137</guid>
+    <pubDate>Fri, 16 Oct 2026 00:14:00 GMT</pubDate>
+    <itunes:duration>0:05:55</itunes:duration>
+    <podcast:transcript url="https://jeremyspm.github.io/hs2-podcast/audio/pm9/14.vtt?v=cbeb3bcac4" type="text/vtt" language="en"/>
+  </item>
+</channel>
+</rss>
